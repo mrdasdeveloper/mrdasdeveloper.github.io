@@ -220,29 +220,6 @@ Explore comprehensive technical documentation covering architecture, implementat
 
 ---
 
-## 🤝 Let's Connect
-
-<div align="center">
-
-I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
-
-</div>
-
-<table style="border-collapse: separate; border-spacing: 15px; width: 100%; margin: 20px 0;">
-<tr>
-<td width="50%" align="center" style="background: linear-gradient(135deg, #ffffff 0%, #f9fafb 100%); border: 1px solid #e5e7eb; border-radius: 12px; padding: 20px;">
-
-### 📧 Contact
-
-[![Email](https://img.shields.io/badge/Email-mrdasdeveloper@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mrdasdeveloper@gmail.com)
-
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-+977%209700864900-green?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/9779700864900)
-
-[![Telegram](https://img.shields.io/badge/Telegram-@mrdasdeveloper-blue?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/+9779700864900)
-
-</td>
-<td width="50%" align="center" style="background: linear-gradient(135deg, #ffffff 0%, #f9fafb 100%); border: 1px solid #e5e7eb; border-radius: 12px; padding: 20px;">
-
 ### 🌐 Social
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-mrdas--developer-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mrdas-developer/)
