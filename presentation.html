@@ -1,1749 +1,1464 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ramesh Kumar Das - Detailed Professional Presentation</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800&display=swap');
-        
-        * {
-            font-family: 'Poppins', 'Inter', sans-serif;
-        }
-        
-        :root {
-            --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
-            --secondary-gradient: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-            --accent-gradient: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
-        }
-        
-        body {
-            overflow-x: hidden;
-            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-        }
-        
-        .glass-effect {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-        }
-        
-        .gradient-bg {
-            background: var(--primary-gradient);
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .gradient-text {
-            background: var(--primary-gradient);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-        
-        .card-hover {
-            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        }
-        
-        .card-hover:hover {
-            transform: translateY(-10px) scale(1.02);
-            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-        }
-        
-        .section-padding {
-            padding: 80px 0;
-        }
-        
-        .timeline-item {
-            position: relative;
-            padding-left: 40px;
-        }
-        
-        .timeline-item::before {
-            content: '';
-            position: absolute;
-            left: 0;
-            top: 0;
-            width: 3px;
-            height: 100%;
-            background: linear-gradient(180deg, #667eea, #764ba2, #f093fb);
-        }
-        
-        .timeline-dot {
-            position: absolute;
-            left: -8px;
-            top: 0;
-            width: 20px;
-            height: 20px;
-            border-radius: 50%;
-            background: var(--primary-gradient);
-            border: 4px solid white;
-            box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.2);
-        }
-        
-        .tech-badge {
-            display: inline-block;
-            padding: 6px 14px;
-            border-radius: 20px;
-            font-size: 0.875rem;
-            font-weight: 600;
-            margin: 4px;
-            transition: all 0.3s;
-        }
-        
-        .tech-badge:hover {
-            transform: scale(1.1);
-        }
-        
-        .project-timeline {
-            position: relative;
-        }
-        
-        .project-timeline::before {
-            content: '';
-            position: absolute;
-            left: 50%;
-            top: 0;
-            bottom: 0;
-            width: 2px;
-            background: linear-gradient(180deg, #667eea, #764ba2);
-            transform: translateX(-50%);
-        }
-        
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-        
-        .animate-fade-in-up {
-            animation: fadeInUp 0.6s ease-out;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ramesh Das — Professional Presentation</title>
+  <meta name="description" content="Step-by-step professional presentation by Ramesh Das — Agentic AI Engineer, Backend Architect, Generative AI Developer with 6+ years of production experience." />
+  <meta property="og:title" content="Ramesh Das — Professional Presentation" />
+  <meta property="og:description" content="Agentic AI Engineer & Backend Architect — 6+ years building production AI platforms, LLM orchestration, RAG pipelines, and FastAPI microservices." />
+  <meta name="color-scheme" content="dark light" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #09090b;
+      --surface:   #111115;
+      --surface2:  #18181f;
+      --border:    #222228;
+      --border2:   #2e2e38;
+      --text:      #ededf5;
+      --muted:     #7a7a8e;
+      --dim:       #4a4a5a;
+      --accent:    #7c6ff7;
+      --accent-hi: #9d93ff;
+      --accent-bg: rgba(124,111,247,0.10);
+      --accent-bd: rgba(124,111,247,0.28);
+      --green:     #34c759;
+      --green-bg:  rgba(52,199,89,0.08);
+      --green-bd:  rgba(52,199,89,0.25);
+      --yellow:    #f5c842;
+      --red:       #ff6b6b;
+      --blue:      #5ec5f5;
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg:        #f6f8fa;
+        --surface:   #ffffff;
+        --surface2:  #eaeef2;
+        --border:    #d0d7de;
+        --border2:   #afb8c1;
+        --text:      #1f2328;
+        --muted:     #656d76;
+        --dim:       #9198a1;
+        --accent:    #6e40c9;
+        --accent-hi: #5a32a3;
+        --accent-bg: #f3eeff;
+        --accent-bd: #d2b4fe;
+        --green:     #1a7f37;
+        --green-bg:  #dafbe1;
+        --green-bd:  #4ac26b;
+        --yellow:    #9a6700;
+        --red:       #cf222e;
+        --blue:      #0550ae;
+      }
+
+      /* Tags — GitHub label palette */
+      .tag      { color:#24292f; background:#f6f8fa; border-color:#d0d7de; }
+      .tag.ai   { color:#6e40c9; background:#f3eeff; border-color:#d2b4fe; }
+      .tag.be   { color:#1a7f37; background:#dafbe1; border-color:#4ac26b; }
+      .tag.db   { color:#9a6700; background:#fff8c5; border-color:#d4a72c; }
+      .tag.ops  { color:#0550ae; background:#ddf4ff; border-color:#54aeff; }
+      .tag.fe   { color:#bf3989; background:#ffeff7; border-color:#ff80c8; }
+      .tag.int  { color:#bc4c00; background:#fff1e5; border-color:#ffa657; }
+
+      /* Pills */
+      .pill         { color:#6e40c9; background:#f3eeff; border-color:#d2b4fe; }
+      .pill.neutral { color:var(--muted); background:var(--surface2); border-color:var(--border); }
+      .pill.green   { color:#1a7f37; background:#dafbe1; border-color:#4ac26b; }
+      .proj-tag     { color:#6e40c9; background:#f3eeff; border-color:#d2b4fe; }
+
+      /* Stats */
+      .stat-val { color:var(--accent); }
+
+      /* Arch boxes */
+      .arch-box         { color:#24292f; background:#f6f8fa; border-color:#d0d7de; }
+      .arch-box.client  { color:#0550ae; background:#ddf4ff; border-color:#54aeff; }
+      .arch-box.gateway { color:#6e40c9; background:#f3eeff; border-color:#d2b4fe; }
+      .arch-box.service { color:#1a7f37; background:#dafbe1; border-color:#4ac26b; }
+      .arch-box.data    { color:#9a6700; background:#fff8c5; border-color:#d4a72c; }
+      .arch-box.infra   { color:#bc4c00; background:#fff1e5; border-color:#ffa657; }
+
+      /* Service boxes */
+      .svc-box  { background:var(--surface2); border-color:var(--border); }
+      .svc-name { color:var(--text); }
+
+      /* Sidebar */
+      .sidebar { background:var(--surface); border-color:var(--border); }
+      .sidebar-brand { border-color:var(--border); }
+      .sidebar-cta { border-color:var(--border); }
+      .step-link:hover { background:var(--surface2); }
+      .step-link.active { background:var(--accent-bg); }
+
+      /* Step */
+      .step-badge { color:var(--accent); }
+      .step-badge::before { background:var(--accent); }
+
+      /* Chart wrapper bg */
+      .chart-wrap { background:var(--surface); }
+
+      /* Bar */
+      .bar-fill { background:var(--accent); }
+      .bar-track { background:var(--border2); }
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', system-ui, sans-serif;
+      font-size: 14px;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: var(--accent); text-decoration: none; transition: color 0.15s; }
+    a:hover { color: var(--accent-hi); }
+    strong { color: var(--text); font-weight: 600; }
+
+    /* ── Layout ── */
+    .page { display: flex; min-height: 100vh; }
+
+    /* ── Sidebar ── */
+    .sidebar {
+      position: fixed;
+      left: 0; top: 0; bottom: 0;
+      width: 220px;
+      background: var(--surface);
+      border-right: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      z-index: 50;
+      overflow-y: auto;
+    }
+
+    .sidebar-brand {
+      padding: 20px 20px 16px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .sidebar-name { font-size: 13px; font-weight: 800; color: var(--text); letter-spacing: -0.01em; }
+    .sidebar-role { font-size: 11px; color: var(--muted); margin-top: 2px; }
+
+    .sidebar-nav { flex: 1; padding: 12px 0; }
+
+    .step-link {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 20px;
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--muted);
+      transition: color 0.15s, background 0.15s;
+      cursor: pointer;
+      border-left: 2px solid transparent;
+    }
+
+    .step-link:hover { color: var(--text); background: var(--surface2); }
+    .step-link.active { color: var(--accent); border-left-color: var(--accent); background: var(--accent-bg); }
+
+    .step-num {
+      width: 20px; height: 20px;
+      border-radius: 50%;
+      border: 1.5px solid var(--border2);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 10px; font-weight: 700; flex-shrink: 0;
+      transition: border-color 0.15s, background 0.15s, color 0.15s;
+    }
+
+    .step-link.active .step-num {
+      border-color: var(--accent);
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .sidebar-cta {
+      padding: 16px 20px;
+      border-top: 1px solid var(--border);
+    }
+
+    .sidebar-btn {
+      display: block;
+      width: 100%;
+      padding: 9px;
+      text-align: center;
+      background: var(--accent);
+      color: #fff;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 700;
+      transition: background 0.15s;
+    }
+
+    .sidebar-btn:hover { background: var(--accent-hi); color: #fff; }
+
+    /* ── Main content ── */
+    .main { margin-left: 220px; flex: 1; }
+
+    /* ── Section base ── */
+    .step {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 80px 60px;
+      border-bottom: 1px solid var(--border);
+      position: relative;
+    }
+
+    .step:last-of-type { border-bottom: none; }
+
+    .step-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--accent);
+      margin-bottom: 16px;
+    }
+
+    .step-badge::before {
+      content: '';
+      width: 20px; height: 1px;
+      background: var(--accent);
+    }
+
+    h1 {
+      font-size: clamp(32px, 4vw, 52px);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: clamp(22px, 3vw, 34px);
+      font-weight: 800;
+      letter-spacing: -0.025em;
+      line-height: 1.2;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 6px;
+      letter-spacing: -0.01em;
+    }
+
+    .lead {
+      font-size: clamp(15px, 1.8vw, 18px);
+      color: var(--muted);
+      line-height: 1.75;
+      max-width: 640px;
+      margin-bottom: 36px;
+    }
+
+    hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+
+    /* ── Stats row ── */
+    .stats-row {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      max-width: 720px;
+      margin-bottom: 36px;
+    }
+
+    .stat-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 18px;
+      text-align: center;
+    }
+
+    .stat-val {
+      font-size: 26px;
+      font-weight: 800;
+      color: var(--accent);
+      letter-spacing: -0.03em;
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+
+    .stat-lbl { font-size: 11px; color: var(--muted); font-weight: 500; }
+
+    /* ── Pills ── */
+    .pill-row { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 28px; }
+
+    .pill {
+      padding: 4px 11px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 600;
+      border: 1px solid var(--accent-bd);
+      color: var(--accent-hi);
+      background: var(--accent-bg);
+    }
+
+    .pill.neutral { border-color: var(--border2); color: var(--muted); background: var(--surface2); }
+    .pill.green { border-color: var(--green-bd); color: var(--green); background: var(--green-bg); }
+
+    /* ── Grid ── */
+    .g2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .g3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; }
+
+    /* ── Cards ── */
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 22px;
+      transition: border-color 0.2s;
+    }
+
+    .card:hover { border-color: var(--accent-bd); }
+
+    .card-label {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--dim);
+      margin-bottom: 10px;
+    }
+
+    /* ── Tag clouds ── */
+    .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+
+    .tag {
+      padding: 3px 9px;
+      border-radius: 5px;
+      font-size: 11px;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      color: #c4c4d4;
+      background: var(--surface2);
+    }
+
+    .tag.ai    { border-color:rgba(124,111,247,.3); color:#b8afff; background:rgba(124,111,247,.07); }
+    .tag.be    { border-color:rgba(52,199,89,.25);  color:#5edf84; background:rgba(52,199,89,.06); }
+    .tag.db    { border-color:rgba(251,191,36,.25); color:#f5c842; background:rgba(251,191,36,.06); }
+    .tag.ops   { border-color:rgba(56,189,248,.25); color:#5ec5f5; background:rgba(56,189,248,.06); }
+    .tag.fe    { border-color:rgba(244,114,182,.25);color:#f472b6; background:rgba(244,114,182,.06); }
+    .tag.int   { border-color:rgba(251,146,60,.25); color:#fb923c; background:rgba(251,146,60,.06); }
+
+    /* ── Architecture diagram ── */
+    .arch {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 28px;
+      margin-top: 24px;
+    }
+
+    .arch-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+    }
+
+    .arch-box {
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: 600;
+      border: 1px solid var(--border2);
+      background: var(--surface2);
+      color: var(--text);
+      text-align: center;
+      min-width: 110px;
+    }
+
+    .arch-box.client  { border-color: var(--blue); color: var(--blue); background: rgba(94,197,245,0.07); }
+    .arch-box.gateway { border-color: var(--accent-bd); color: var(--accent-hi); background: var(--accent-bg); }
+    .arch-box.service { border-color: var(--green-bd); color: var(--green); background: var(--green-bg); }
+    .arch-box.data    { border-color: rgba(251,191,36,.3); color: var(--yellow); background: rgba(251,191,36,.07); }
+    .arch-box.infra   { border-color: rgba(251,146,60,.3); color: #fb923c; background: rgba(251,146,60,.07); }
+
+    .arch-arrow {
+      font-size: 14px;
+      color: var(--dim);
+      flex-shrink: 0;
+    }
+
+    .arch-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      margin: 8px 0;
+    }
+
+    /* ── Timeline ── */
+    .tl { display: flex; flex-direction: column; gap: 0; }
+
+    .tl-item {
+      display: grid;
+      grid-template-columns: 160px 1fr;
+      gap: 24px;
+      padding: 22px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .tl-item:last-child { border-bottom: none; padding-bottom: 0; }
+    .tl-item:first-child { padding-top: 0; }
+
+    .tl-meta { padding-top: 1px; }
+    .tl-role { font-size: 12px; font-weight: 700; color: var(--text); margin-bottom: 2px; }
+    .tl-co { font-size: 11px; color: var(--accent); font-weight: 500; margin-bottom: 4px; }
+    .tl-period {
+      display: inline-block;
+      font-size: 10px; color: var(--muted);
+      padding: 2px 7px; border-radius: 4px;
+      background: var(--surface2); border: 1px solid var(--border);
+    }
+
+    .tl-body h3 { font-size: 13px; margin-bottom: 4px; }
+    .tl-body p { font-size: 13px; color: var(--muted); margin-bottom: 8px; line-height: 1.65; }
+    .tl-body ul { padding-left: 14px; }
+    .tl-body li { font-size: 12px; color: var(--muted); margin-bottom: 3px; line-height: 1.6; }
+    .tl-body li strong { color: #c0c0d0; font-weight: 500; }
+    .tl-sep { border: none; border-top: 1px solid var(--border); margin: 12px 0 10px; }
+
+    /* ── Charts ── */
+    .chart-wrap {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 22px;
+    }
+
+    .chart-title { font-size: 13px; font-weight: 700; margin-bottom: 16px; color: var(--text); }
+
+    /* ── Focus bars ── */
+    .bar-list { display: flex; flex-direction: column; gap: 12px; }
+    .bar-row { display: flex; align-items: center; gap: 12px; }
+    .bar-name { font-size: 12px; font-weight: 500; color: var(--text); width: 200px; flex-shrink: 0; }
+    .bar-track { flex: 1; height: 4px; background: var(--border2); border-radius: 999px; overflow: hidden; }
+    .bar-fill { height: 100%; border-radius: 999px; background: var(--accent); }
+    .bar-pct { font-size: 11px; color: var(--muted); width: 34px; text-align: right; }
+
+    /* ── Project cards ── */
+    .proj-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      transition: border-color 0.2s;
+    }
+
+    .proj-card:hover { border-color: var(--accent-bd); }
+    .proj-card h3 { font-size: 14px; margin-bottom: 3px; }
+    .proj-type { font-size: 11px; color: var(--accent); font-weight: 500; margin-bottom: 10px; }
+    .proj-card p { font-size: 12px; color: var(--muted); line-height: 1.65; margin-bottom: 12px; }
+    .proj-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 12px; }
+    .proj-tag {
+      padding: 2px 7px; border-radius: 4px; font-size: 11px; font-weight: 500;
+      background: var(--accent-bg); color: var(--accent-hi); border: 1px solid var(--accent-bd);
+    }
+
+    /* ── Service boxes ── */
+    .svc-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 16px; }
+
+    .svc-box {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px 14px;
+    }
+
+    .svc-name { font-size: 12px; font-weight: 700; color: var(--text); margin-bottom: 3px; }
+    .svc-desc { font-size: 11px; color: var(--muted); line-height: 1.5; }
+
+    /* ── CTA section ── */
+    .cta-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; max-width: 560px; }
+
+    .cta-card {
+      display: flex; align-items: center; gap: 12px;
+      padding: 14px 16px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      font-size: 13px; font-weight: 600; color: var(--text);
+      transition: border-color 0.2s, background 0.2s;
+    }
+
+    .cta-card:hover { border-color: var(--accent-bd); background: var(--accent-bg); }
+    .cta-icon {
+      width: 34px; height: 34px; border-radius: 7px;
+      background: var(--surface2); border: 1px solid var(--border2);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 16px; flex-shrink: 0;
+    }
+    .cta-sub { font-size: 11px; color: var(--muted); font-weight: 400; display: block; }
+
+    /* ── Back link ── */
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--muted);
+      padding: 7px 14px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      margin-bottom: 28px;
+      transition: color 0.15s, border-color 0.15s;
+    }
+
+    .back-link:hover { color: var(--text); border-color: var(--border2); }
+
+    /* ── Mobile nav bar (shown when sidebar hidden) ── */
+    .mobile-nav {
+      display: none;
+      position: sticky; top: 0; z-index: 50;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 16px;
+      height: 50px;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .mobile-nav-brand { font-size: 13px; font-weight: 800; color: var(--text); }
+    .mobile-nav-links { display: flex; gap: 12px; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    .mobile-nav-links a {
+      font-size: 11px; font-weight: 600; color: var(--muted);
+      white-space: nowrap; padding: 4px 0; flex-shrink: 0;
+    }
+    .mobile-nav-links a:hover { color: var(--text); }
+
+    /* ── Responsive ── */
+    @media (max-width: 900px) {
+      .sidebar { display: none; }
+      .main { margin-left: 0; }
+      .mobile-nav { display: flex; }
+      .step { padding: 48px 24px; min-height: auto; }
+      .back-link { margin-bottom: 20px; }
+      .g2, .g3 { grid-template-columns: 1fr; }
+      .stats-row { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+      .svc-grid { grid-template-columns: 1fr 1fr; }
+      .cta-grid { grid-template-columns: 1fr 1fr; }
+      .arch-grid { grid-template-columns: 1fr 1fr; }
+      .tl-item { grid-template-columns: 120px 1fr; gap: 12px; }
+      .bar-name { width: 160px; }
+      .focus-row { gap: 10px; }
+    }
+
+    @media (max-width: 600px) {
+      .step { padding: 36px 16px; }
+      h2 { font-size: 22px; }
+      .lead { font-size: 14px; }
+      .stats-row { grid-template-columns: 1fr 1fr; gap: 8px; }
+      .stat-box { padding: 14px 10px; }
+      .stat-val { font-size: 22px; }
+      .svc-grid { grid-template-columns: 1fr; }
+      .cta-grid { grid-template-columns: 1fr; }
+      .arch-grid { grid-template-columns: 1fr; }
+      .arch-row { flex-direction: column; align-items: stretch; gap: 6px; }
+      .arch-arrow { transform: rotate(90deg); text-align: center; }
+      .arch-box { min-width: unset; }
+      .tl-item { grid-template-columns: 1fr; gap: 4px; }
+      .tl-period { margin-bottom: 6px; display: inline-block; }
+      .bar-name { width: 130px; font-size: 11px; }
+      .bar-pct { display: none; }
+      .tag { font-size: 11px; padding: 2px 7px; }
+      .pill { font-size: 10px; padding: 3px 9px; }
+    }
+
+    @media (max-width: 400px) {
+      .step { padding: 28px 14px; }
+      .stats-row { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="fixed w-full top-0 z-50 bg-white/95 backdrop-blur-md shadow-lg">
-        <div class="container mx-auto px-6 py-4">
-            <div class="flex items-center justify-between">
-                <a href="index.html" class="text-2xl font-bold gradient-text">← Portfolio</a>
-                <div class="flex items-center gap-4">
-                    <a href="index.html" class="text-sm text-gray-600 hover:text-purple-600 transition">
-                        <i class="fas fa-home mr-2"></i>Portfolio
-                    </a>
-                    <a href="backend-presentation.html" class="text-sm text-gray-600 hover:text-purple-600 transition">
-                        <i class="fas fa-server mr-2"></i>Backend & AI
-                    </a>
-                    <a href="frontend-presentation.html" class="text-sm text-gray-600 hover:text-purple-600 transition">
-                        <i class="fas fa-code mr-2"></i>Frontend
-                    </a>
-                    <div class="text-sm text-gray-600 font-semibold border-l-2 border-purple-300 pl-4">
-                        <i class="fas fa-user-tie mr-2"></i>Overview
-                    </div>
-                </div>
-            </div>
-        </div>
+<!-- ── Mobile top nav (visible when sidebar hidden) ── -->
+<nav class="mobile-nav">
+  <span class="mobile-nav-brand">Ramesh Das</span>
+  <div class="mobile-nav-links">
+    <a href="#s1">Intro</a>
+    <a href="#s2">Skills</a>
+    <a href="#s3">Stack</a>
+    <a href="#s4">Build</a>
+    <a href="#s5">Experience</a>
+    <a href="#s6">WinstaAI</a>
+    <a href="#s7">Breakdown</a>
+    <a href="#s8">Open Source</a>
+    <a href="#s9">Contact</a>
+  </div>
+</nav>
+
+<div class="page">
+
+  <!-- ── Sidebar ── -->
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <div class="sidebar-name">Ramesh Das</div>
+      <div class="sidebar-role">Agentic AI · Backend · Full-Stack</div>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="step-link active" href="#s1" onclick="setActive(this)">
+        <span class="step-num">1</span> Introduction
+      </a>
+      <a class="step-link" href="#s2" onclick="setActive(this)">
+        <span class="step-num">2</span> What I Specialize In
+      </a>
+      <a class="step-link" href="#s3" onclick="setActive(this)">
+        <span class="step-num">3</span> Tech Arsenal
+      </a>
+      <a class="step-link" href="#s4" onclick="setActive(this)">
+        <span class="step-num">4</span> How I Build
+      </a>
+      <a class="step-link" href="#s5" onclick="setActive(this)">
+        <span class="step-num">5</span> Work Experience
+      </a>
+      <a class="step-link" href="#s6" onclick="setActive(this)">
+        <span class="step-num">6</span> WinstaAI Deep Dive
+      </a>
+      <a class="step-link" href="#s7" onclick="setActive(this)">
+        <span class="step-num">7</span> Skills Breakdown
+      </a>
+      <a class="step-link" href="#s8" onclick="setActive(this)">
+        <span class="step-num">8</span> Open Source
+      </a>
+      <a class="step-link" href="#s9" onclick="setActive(this)">
+        <span class="step-num">9</span> Let's Work Together
+      </a>
     </nav>
 
-    <!-- Hero Introduction -->
-    <section class="gradient-bg text-white section-padding pt-32 relative overflow-hidden">
-        <div class="absolute inset-0 bg-black/10"></div>
-        <div class="container mx-auto px-6 relative z-10">
-            <div class="max-w-4xl mx-auto text-center" data-aos="fade-up" data-aos-duration="1000">
-                <div class="mb-8">
-                    <img src="Ramesh.jpg" alt="Ramesh Kumar Das" class="w-32 h-32 rounded-full mx-auto border-4 border-white shadow-2xl mb-6">
-                </div>
-                <h1 class="text-5xl md:text-6xl font-bold mb-4">Ramesh Kumar Das</h1>
-                <h2 class="text-3xl md:text-4xl font-semibold mb-4 text-yellow-300">Lead Full Stack Developer</h2>
-                <div class="flex flex-wrap justify-center items-center gap-3 mb-6">
-                    <div class="flex items-center gap-2 px-4 py-2 bg-white/20 backdrop-blur-md rounded-full">
-                        <div class="w-2 h-2 bg-yellow-300 rounded-full animate-pulse"></div>
-                        <span class="text-yellow-300 font-semibold">AI/ML Enthusiast</span>
-                    </div>
-                    <div class="flex items-center gap-2 px-4 py-2 bg-white/20 backdrop-blur-md rounded-full">
-                        <div class="w-2 h-2 bg-green-400 rounded-full animate-pulse" style="animation-delay: 0.5s;"></div>
-                        <span class="text-green-400 font-semibold">Backend Expert</span>
-                    </div>
-                </div>
-                <div class="bg-white/10 backdrop-blur-md rounded-2xl p-8 mb-8">
-                    <p class="text-xl leading-relaxed mb-4">
-                        A passionate <strong>Lead Full Stack Developer</strong> and <strong>Backend Expert</strong> with <strong>6+ years</strong> of experience. 
-                        Currently leading development at <strong>Klikyai</strong>, I architect scalable, AI-powered platforms with 
-                        enterprise-grade backend infrastructure.
-                    </p>
-                    <p class="text-lg leading-relaxed text-gray-200">
-                        Expertise in <strong>Python, Django, FastAPI, Node.js, React, Next.js</strong>, and cloud technologies. 
-                        Specialized in microservices architecture, AI/ML integration, and building intelligent systems.
-                    </p>
-                </div>
-                <div class="flex flex-wrap justify-center gap-4 mb-8">
-                    <div class="bg-white/20 backdrop-blur-md px-6 py-3 rounded-full">
-                        <span class="font-semibold">📧</span> mrdasdeveloper@gmail.com
-                    </div>
-                    <div class="bg-white/20 backdrop-blur-md px-6 py-3 rounded-full">
-                        <span class="font-semibold">📱</span> +977 9700864900
-                    </div>
-                    <div class="bg-white/20 backdrop-blur-md px-6 py-3 rounded-full">
-                        <span class="font-semibold">🌐</span> Nepal
-                    </div>
-                </div>
+    <div class="sidebar-cta">
+      <a class="sidebar-btn" href="https://wa.me/9779700864900?text=Hi%20Ramesh%2C%20I%20reviewed%20your%20presentation%20and%20would%20like%20to%20discuss%20an%20opportunity." target="_blank">Hire Me via WhatsApp</a>
+      <a href="index.html" style="display:block; text-align:center; font-size:11px; color:var(--muted); margin-top:10px; transition:color 0.15s;" onmouseover="this.style.color='var(--text)'" onmouseout="this.style.color='var(--muted)'">&#8592; Back to Profile</a>
+    </div>
+  </aside>
 
-            </div>
+  <!-- ── Main ── -->
+  <main class="main">
+
+    <!-- ─── Step 1: Introduction ─── -->
+    <section class="step" id="s1">
+      <a class="back-link" href="index.html">&#8592; Back to Profile</a>
+
+      <div class="step-badge">Step 01</div>
+      <h1>Hi, I'm Ramesh Das.</h1>
+      <p class="lead">
+        An <strong>Agentic AI Engineer</strong> and <strong>Backend Architect</strong> with
+        <strong>6+ years</strong> building production-grade AI platforms, scalable APIs,
+        and distributed backend systems — currently leading AI development at <strong>KLIKY AI</strong>.
+      </p>
+
+      <div class="stats-row">
+        <div class="stat-box">
+          <div class="stat-val">6+</div>
+          <div class="stat-lbl">Years Experience</div>
         </div>
+        <div class="stat-box">
+          <div class="stat-val">9+</div>
+          <div class="stat-lbl">Major Projects</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-val">3</div>
+          <div class="stat-lbl">Companies</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-val">7+</div>
+          <div class="stat-lbl">Open Source Repos</div>
+        </div>
+      </div>
+
+      <div class="pill-row">
+        <span class="pill green">&#x25cf; Open to opportunities</span>
+        <span class="pill">Agentic AI Engineer</span>
+        <span class="pill">LLM Engineer</span>
+        <span class="pill">Backend Architect</span>
+        <span class="pill">AI Platform Engineer</span>
+        <span class="pill">Generative AI Developer</span>
+        <span class="pill neutral">Nepal · Remote</span>
+      </div>
+
+      <p style="color:var(--muted); font-size:13px;">
+        Use the sidebar to walk through this presentation step by step, or scroll freely.
+        Each section tells you something specific about how I work and what I build.
+      </p>
     </section>
 
+    <!-- ─── Step 2: Specialization ─── -->
+    <section class="step" id="s2">
+      <div class="step-badge">Step 02</div>
+      <h2>What I Specialize In</h2>
+      <p class="lead">
+        My core focus is at the intersection of <strong>Agentic AI systems</strong> and
+        <strong>production backend engineering</strong>. I don't just prototype —
+        I build systems that run in production at scale.
+      </p>
 
-
-    <!-- Professional Summary -->
-    <section class="section-padding bg-white">
-        <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center mb-12 gradient-text" data-aos="fade-up">Professional Summary</h2>
-            <div class="max-w-5xl mx-auto">
-                <div class="grid md:grid-cols-2 gap-8">
-                    <div class="bg-gradient-to-br from-purple-50 to-blue-50 rounded-2xl p-8 card-hover" data-aos="fade-right">
-                        <h3 class="text-2xl font-bold mb-4 text-gray-800">
-                            <i class="fas fa-briefcase text-purple-600 mr-2"></i>Core Competencies
-                        </h3>
-                        <ul class="space-y-3 text-gray-700">
-                            <li class="flex items-start">
-                                <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
-                                <span><strong>Backend Architecture:</strong> Enterprise-grade backend systems with microservices, APIs, and database design</span>
-                            </li>
-                            <li class="flex items-start">
-                                <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
-                                <span><strong>Full Stack Development:</strong> End-to-end application development from UI/UX to backend infrastructure</span>
-                            </li>
-                            <li class="flex items-start">
-                                <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
-                                <span><strong>AI/ML Integration:</strong> Building intelligent systems with TensorFlow, PyTorch, and custom ML models</span>
-                            </li>
-                            <li class="flex items-start">
-                                <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
-                                <span><strong>Cloud & DevOps:</strong> Scalable solutions on AWS, Docker, and Kubernetes</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="bg-gradient-to-br from-pink-50 to-orange-50 rounded-2xl p-8 card-hover" data-aos="fade-left">
-                        <h3 class="text-2xl font-bold mb-4 text-gray-800">
-                            <i class="fas fa-star text-pink-600 mr-2"></i>Key Achievements
-                        </h3>
-                        <ul class="space-y-3 text-gray-700">
-                            <li class="flex items-start">
-                                <i class="fas fa-trophy text-yellow-500 mr-3 mt-1"></i>
-                                <span>Architected and delivered <strong>9+ major projects</strong> across 4 companies</span>
-                            </li>
-                            <li class="flex items-start">
-                                <i class="fas fa-trophy text-yellow-500 mr-3 mt-1"></i>
-                                <span>Led development of <strong>AI-powered platform</strong> serving active users with scalable architecture</span>
-                            </li>
-                            <li class="flex items-start">
-                                <i class="fas fa-trophy text-yellow-500 mr-3 mt-1"></i>
-                                <span>Implemented <strong>microservices architecture</strong> reducing system latency by 40%</span>
-                            </li>
-                            <li class="flex items-start">
-                                <i class="fas fa-trophy text-yellow-500 mr-3 mt-1"></i>
-                                <span>Mentored <strong>junior developers</strong> and established coding standards</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+      <div class="g2">
+        <div class="card">
+          <div class="card-label">Primary Focus</div>
+          <h3>Agentic AI & LLM Engineering</h3>
+          <p style="font-size:13px; color:var(--muted); margin-bottom:14px;">
+            Designing and deploying autonomous AI systems that reason, plan, and act.
+            Multi-agent workflows, tool-calling LLMs, RAG pipelines, and real-time
+            AI orchestration layers on top of production infrastructure.
+          </p>
+          <div class="tags">
+            <span class="tag ai">LangChain</span>
+            <span class="tag ai">LlamaIndex</span>
+            <span class="tag ai">Multi-Agent</span>
+            <span class="tag ai">RAG Pipelines</span>
+            <span class="tag ai">Tool-Calling</span>
+            <span class="tag ai">LLM Orchestration</span>
+            <span class="tag ai">Vector Search</span>
+            <span class="tag ai">GPU Inference</span>
+          </div>
         </div>
+
+        <div class="card">
+          <div class="card-label">Power Anchor</div>
+          <h3>Backend Architecture at Scale</h3>
+          <p style="font-size:13px; color:var(--muted); margin-bottom:14px;">
+            High-performance async APIs, microservices architecture, event-driven systems,
+            and cloud-native deployments. The engineering foundation that makes AI
+            systems actually work in production.
+          </p>
+          <div class="tags">
+            <span class="tag be">FastAPI</span>
+            <span class="tag be">Django</span>
+            <span class="tag be">Microservices</span>
+            <span class="tag be">Kafka</span>
+            <span class="tag be">Celery</span>
+            <span class="tag be">Async APIs</span>
+            <span class="tag be">WebSockets</span>
+            <span class="tag be">RBAC</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-label">Supporting Layer</div>
+          <h3>Generative AI Integration</h3>
+          <p style="font-size:13px; color:var(--muted); margin-bottom:14px;">
+            Integrating diffusion models, speech AI, video/audio processing, OCR,
+            and multi-model routing into production platforms. Experienced with
+            GPU inference services and model deployment pipelines.
+          </p>
+          <div class="tags">
+            <span class="tag ai">ComfyUI</span>
+            <span class="tag ai">Replicate</span>
+            <span class="tag ai">Hugging Face</span>
+            <span class="tag ai">OpenAI APIs</span>
+            <span class="tag ai">RunPod</span>
+            <span class="tag ai">FAL.ai</span>
+            <span class="tag ai">Ollama</span>
+            <span class="tag ai">DeepSeek</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-label">Full Stack Delivery</div>
+          <h3>End-to-End Platform Building</h3>
+          <p style="font-size:13px; color:var(--muted); margin-bottom:14px;">
+            From React/Next.js frontends to DevOps pipelines — I deliver complete
+            products. SaaS billing, payment integrations, admin dashboards,
+            analytics systems, and cloud deployment.
+          </p>
+          <div class="tags">
+            <span class="tag fe">Next.js</span>
+            <span class="tag fe">React</span>
+            <span class="tag ops">Docker</span>
+            <span class="tag ops">Kubernetes</span>
+            <span class="tag int">Stripe</span>
+            <span class="tag int">Firebase</span>
+            <span class="tag ops">AWS</span>
+            <span class="tag ops">GCP</span>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- Technology Stack Overview Chart -->
-    <section class="section-padding bg-gradient-to-br from-gray-50 to-blue-50">
-        <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center mb-12 gradient-text" data-aos="fade-up">Technology Stack Overview</h2>
-            <div class="max-w-6xl mx-auto">
-                <div class="grid md:grid-cols-2 gap-8">
-                    <div class="bg-white rounded-2xl p-8 shadow-xl" data-aos="fade-up">
-                        <h3 class="text-2xl font-bold mb-6 text-gray-800">
-                            <i class="fas fa-chart-pie text-purple-600 mr-2"></i>Technology Distribution
-                        </h3>
-                        <div class="h-80">
-                            <canvas id="techStackChart"></canvas>
-                        </div>
-                    </div>
-                    <div class="bg-white rounded-2xl p-8 shadow-xl" data-aos="fade-up" data-aos-delay="100">
-                        <h3 class="text-2xl font-bold mb-6 text-gray-800">
-                            <i class="fas fa-chart-bar text-blue-600 mr-2"></i>Expertise Level by Category
-                        </h3>
-                        <div class="h-80">
-                            <canvas id="expertiseChart"></canvas>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- ─── Step 3: Tech Arsenal ─── -->
+    <section class="step" id="s3">
+      <div class="step-badge">Step 03</div>
+      <h2>Full Tech Arsenal</h2>
+      <p class="lead">
+        Every tool here has been used in production — not just learned for a tutorial.
+      </p>
+
+      <div style="display:flex; flex-direction:column; gap:20px;">
+        <div class="card">
+          <div class="card-label">Agentic AI & Generative AI</div>
+          <div class="tags">
+            <span class="tag ai">LangChain</span><span class="tag ai">LlamaIndex</span>
+            <span class="tag ai">OpenAI GPT APIs</span><span class="tag ai">Hugging Face</span>
+            <span class="tag ai">Ollama</span><span class="tag ai">DeepSeek</span>
+            <span class="tag ai">ComfyUI</span><span class="tag ai">Replicate</span>
+            <span class="tag ai">Dify</span><span class="tag ai">Langflow</span>
+            <span class="tag ai">RAGFlow</span><span class="tag ai">Browser-Use</span>
+            <span class="tag ai">RunPod</span><span class="tag ai">FAL.ai</span>
+            <span class="tag ai">Multi-Agent Systems</span><span class="tag ai">Tool-Calling LLMs</span>
+            <span class="tag ai">RAG Pipelines</span><span class="tag ai">Vector Embeddings</span>
+            <span class="tag ai">Prompt Engineering</span><span class="tag ai">GPU Inference</span>
+            <span class="tag ai">Diffusion Models</span><span class="tag ai">Speech-to-Text/TTS</span>
+            <span class="tag ai">OCR</span><span class="tag ai">Text-to-Image</span>
+            <span class="tag ai">Face Swap</span><span class="tag ai">Video/Audio AI</span>
+          </div>
         </div>
+
+        <div class="g2">
+          <div class="card">
+            <div class="card-label">Backend Development</div>
+            <div class="tags">
+              <span class="tag be">Python</span><span class="tag be">FastAPI</span>
+              <span class="tag be">Django</span><span class="tag be">Node.js</span>
+              <span class="tag be">Express.js</span><span class="tag be">Celery</span>
+              <span class="tag be">Apache Kafka</span><span class="tag be">Debezium CDC</span>
+              <span class="tag be">GraphQL</span><span class="tag be">REST APIs</span>
+              <span class="tag be">WebSockets</span><span class="tag be">Async</span>
+              <span class="tag be">Microservices</span><span class="tag be">JWT/OAuth 2.0</span>
+              <span class="tag be">RBAC</span><span class="tag be">TypeScript</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-label">Databases & Vector Stores</div>
+            <div class="tags">
+              <span class="tag db">PostgreSQL</span><span class="tag db">MongoDB</span>
+              <span class="tag db">Redis</span><span class="tag db">MySQL</span>
+              <span class="tag db">Supabase</span><span class="tag db">Pinecone</span>
+              <span class="tag db">Weaviate</span><span class="tag db">Vector Search</span>
+              <span class="tag db">Semantic Search</span><span class="tag db">Embeddings</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-label">Cloud, DevOps & Infrastructure</div>
+            <div class="tags">
+              <span class="tag ops">Docker</span><span class="tag ops">Kubernetes</span>
+              <span class="tag ops">AWS EC2/S3/Lambda</span><span class="tag ops">GCP</span>
+              <span class="tag ops">GitHub Actions</span><span class="tag ops">Nginx</span>
+              <span class="tag ops">CI/CD</span><span class="tag ops">Sentry</span>
+              <span class="tag ops">VPS</span><span class="tag ops">GPU Servers</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-label">Auth, Frontend & Integrations</div>
+            <div class="tags">
+              <span class="tag fe">React.js</span><span class="tag fe">Next.js</span>
+              <span class="tag fe">TypeScript</span><span class="tag fe">Tailwind CSS</span>
+              <span class="tag int">Auth0</span><span class="tag int">Firebase</span>
+              <span class="tag int">Stripe</span><span class="tag int">PayPal</span>
+              <span class="tag int">Twilio</span><span class="tag int">DeepL</span>
+              <span class="tag int">Webhooks</span><span class="tag int">Django Allauth</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- Company-wise Project Tracks -->
-    <section class="section-padding bg-white">
-        <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center mb-16 gradient-text" data-aos="fade-up">Project Tracks by Company</h2>
-            
-            <!-- Klikyai -->
-            <div class="max-w-6xl mx-auto mb-16" data-aos="fade-up">
-                <div class="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-8 text-white mb-8">
-                    <div class="flex items-center justify-between">
-                        <div>
-                            <h3 class="text-3xl font-bold mb-2">Klikyai</h3>
-                            <p class="text-xl opacity-90">Lead AI Full Stack Developer | Current</p>
-                            <p class="text-sm opacity-75 mt-2">Leading AI-powered platform development</p>
-                        </div>
-                        <div class="text-right">
-                            <div class="text-4xl font-bold">2022 - Present</div>
-                            <div class="text-sm opacity-75">3+ Years</div>
-                        </div>
-                    </div>
-                </div>
+    <!-- ─── Step 4: How I Build ─── -->
+    <section class="step" id="s4">
+      <div class="step-badge">Step 04</div>
+      <h2>How I Build Systems</h2>
+      <p class="lead">
+        I design for production from day one. Every system I build follows
+        <strong>microservices architecture</strong>, <strong>async-first design</strong>,
+        and <strong>cloud-native deployment</strong> — so it can scale without a rewrite.
+      </p>
 
-                <!-- Klikyai Projects -->
-                <div class="space-y-8">
-                    <!-- Project 1: Klikyai AI Platform -->
-                    <div class="bg-white border-2 border-purple-200 rounded-2xl p-8 shadow-xl card-hover">
-                        <div class="flex items-start justify-between mb-6">
-                            <div>
-                                <h4 class="text-2xl font-bold text-gray-800 mb-2">
-                                    <i class="fas fa-robot text-purple-600 mr-2"></i>Klikyai AI Platform
-                                </h4>
-                                <p class="text-gray-600">AI-powered platform with generative AI tools, microservices architecture, and intelligent automation</p>
-                            </div>
-                            <span class="bg-purple-100 text-purple-700 px-4 py-2 rounded-full font-semibold">Featured</span>
-                        </div>
-                        
-                        <div class="mb-6">
-                            <h5 class="text-lg font-bold text-gray-800 mb-3">Key Technologies:</h5>
-                            <div class="grid md:grid-cols-3 gap-4">
-                                <div class="bg-purple-50 rounded-lg p-4 border-l-4 border-purple-500">
-                                    <div class="flex items-center mb-2">
-                                        <i class="fab fa-python text-2xl text-purple-600 mr-3"></i>
-                                        <strong class="text-gray-800">Django</strong>
-                                    </div>
-                                    <p class="text-sm text-gray-600">Robust ORM, admin panel, and rapid development for business logic and user management.</p>
-                                </div>
-                                <div class="bg-blue-50 rounded-lg p-4 border-l-4 border-blue-500">
-                                    <div class="flex items-center mb-2">
-                                        <i class="fab fa-react text-2xl text-blue-600 mr-3"></i>
-                                        <strong class="text-gray-800">Next.js</strong>
-                                    </div>
-                                    <p class="text-sm text-gray-600">SSR capabilities, excellent performance, and seamless API integration.</p>
-                                </div>
-                                <div class="bg-green-50 rounded-lg p-4 border-l-4 border-green-500">
-                                    <div class="flex items-center mb-2">
-                                        <i class="fas fa-bolt text-2xl text-green-600 mr-3"></i>
-                                        <strong class="text-gray-800">FastAPI</strong>
-                                    </div>
-                                    <p class="text-sm text-gray-600">High-performance AI endpoints with async capabilities, significantly reducing latency.</p>
-                                </div>
-                                <div class="bg-orange-50 rounded-lg p-4 border-l-4 border-orange-500">
-                                    <div class="flex items-center mb-2">
-                                        <i class="fab fa-docker text-2xl text-orange-600 mr-3"></i>
-                                        <strong class="text-gray-800">Docker & K8s</strong>
-                                    </div>
-                                    <p class="text-sm text-gray-600">Containerization and auto-scaling for AI workloads.</p>
-                                </div>
-                                <div class="bg-pink-50 rounded-lg p-4 border-l-4 border-pink-500">
-                                    <div class="flex items-center mb-2">
-                                        <i class="fas fa-database text-2xl text-pink-600 mr-3"></i>
-                                        <strong class="text-gray-800">PostgreSQL</strong>
-                                    </div>
-                                    <p class="text-sm text-gray-600">ACID compliance and reliable transaction management.</p>
-                                </div>
-                                <div class="bg-yellow-50 rounded-lg p-4 border-l-4 border-yellow-500">
-                                    <div class="flex items-center mb-2">
-                                        <i class="fas fa-memory text-2xl text-yellow-600 mr-3"></i>
-                                        <strong class="text-gray-800">Redis</strong>
-                                    </div>
-                                    <p class="text-sm text-gray-600">Caching and session management, significantly reducing database load.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="mb-6">
-                            <h5 class="text-lg font-bold text-gray-800 mb-3">
-                                <i class="fas fa-sitemap text-purple-600 mr-2"></i>Microservices Architecture
-                            </h5>
-                            <div class="bg-gradient-to-r from-purple-50 to-pink-50 rounded-lg p-6 mb-4">
-                                <p class="text-gray-700 mb-4 font-semibold">
-                                    Each AI feature is an independent service that scales independently.
-                                </p>
-                                <div class="grid md:grid-cols-3 gap-3">
-                                    <div class="bg-white rounded-lg p-3 border-l-4 border-purple-500">
-                                        <h6 class="font-bold text-purple-600 mb-1 text-sm">Text-to-Speech</h6>
-                                        <p class="text-xs text-gray-600">FastAPI microservice, scales independently</p>
-                                    </div>
-                                    <div class="bg-white rounded-lg p-3 border-l-4 border-blue-500">
-                                        <h6 class="font-bold text-blue-600 mb-1 text-sm">Image Generation</h6>
-                                        <p class="text-xs text-gray-600">Stable Diffusion, GPU resources isolated</p>
-                                    </div>
-                                    <div class="bg-white rounded-lg p-3 border-l-4 border-green-500">
-                                        <h6 class="font-bold text-green-600 mb-1 text-sm">Face Swap</h6>
-                                        <p class="text-xs text-gray-600">Privacy-focused processing service</p>
-                                    </div>
-                                    <div class="bg-white rounded-lg p-3 border-l-4 border-orange-500">
-                                        <h6 class="font-bold text-orange-600 mb-1 text-sm">User Management</h6>
-                                        <p class="text-xs text-gray-600">Django-based auth & authorization</p>
-                                    </div>
-                                    <div class="bg-white rounded-lg p-3 border-l-4 border-pink-500">
-                                        <h6 class="font-bold text-pink-600 mb-1 text-sm">Notifications</h6>
-                                        <p class="text-xs text-gray-600">WebSockets & Firebase integration</p>
-                                    </div>
-                                    <div class="bg-white rounded-lg p-3 border-l-4 border-yellow-500">
-                                        <h6 class="font-bold text-yellow-600 mb-1 text-sm">Payment</h6>
-                                        <p class="text-xs text-gray-600">Stripe integration, isolated security</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="bg-blue-50 border-l-4 border-blue-500 p-4 rounded">
-                                <p class="text-sm text-gray-700 font-semibold mb-2">
-                                    Key Benefits:
-                                </p>
-                                <div class="grid md:grid-cols-2 gap-2 text-sm text-gray-700">
-                                    <div class="flex items-start">
-                                        <i class="fas fa-check-circle text-green-500 mr-2 mt-1 text-xs"></i>
-                                        <span><strong>Independent Scaling:</strong> Each service scales based on demand</span>
-                                    </div>
-                                    <div class="flex items-start">
-                                        <i class="fas fa-check-circle text-green-500 mr-2 mt-1 text-xs"></i>
-                                        <span><strong>High Uptime:</strong> Fault isolation ensures reliability</span>
-                                    </div>
-                                    <div class="flex items-start">
-                                        <i class="fas fa-check-circle text-green-500 mr-2 mt-1 text-xs"></i>
-                                        <span><strong>Tech Flexibility:</strong> Best tool for each service</span>
-                                    </div>
-                                    <div class="flex items-start">
-                                        <i class="fas fa-check-circle text-green-500 mr-2 mt-1 text-xs"></i>
-                                        <span><strong>35% Cost Reduction:</strong> Optimized resource allocation</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="mb-6">
-                            <h5 class="text-lg font-bold text-gray-800 mb-3">Key Features Implemented:</h5>
-                            <ul class="grid md:grid-cols-2 gap-3">
-                                <li class="flex items-start">
-                                    <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
-                                    <span>Text-to-Speech with multiple voice options</span>
-                                </li>
-                                <li class="flex items-start">
-                                    <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
-                                    <span>AI Image Generation using Stable Diffusion</span>
-                                </li>
-                                <li class="flex items-start">
-                                    <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
-                                    <span>Face Swap technology with privacy controls</span>
-                                </li>
-                                <li class="flex items-start">
-                                    <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
-                                    <span>Comprehensive admin dashboard with analytics</span>
-                                </li>
-                                <li class="flex items-start">
-                                    <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
-                                    <span>Real-time notifications system</span>
-                                </li>
-                                <li class="flex items-start">
-                                    <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
-                                    <span>Payment integration and subscription management</span>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="bg-gradient-to-r from-purple-100 to-pink-100 rounded-lg p-4 mb-4">
-                            <div class="grid md:grid-cols-3 gap-4 text-center">
-                                <div>
-                                    <div class="text-2xl font-bold text-purple-600">Scalable</div>
-                                    <div class="text-xs text-gray-600">User Base</div>
-                                </div>
-                                <div>
-                                    <div class="text-2xl font-bold text-pink-600">High</div>
-                                    <div class="text-xs text-gray-600">Uptime</div>
-                                </div>
-                                <div>
-                                    <div class="text-2xl font-bold text-purple-600">40%</div>
-                                    <div class="text-xs text-gray-600">Faster Processing</div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="bg-gradient-to-r from-indigo-50 to-purple-50 rounded-lg p-4 border-l-4 border-indigo-500">
-                            <p class="text-sm text-gray-700 mb-2">
-                                <strong><i class="fas fa-info-circle text-indigo-600 mr-2"></i>For Detailed Technical Information:</strong>
-                            </p>
-                            <div class="flex flex-wrap gap-2">
-                                <a href="backend-presentation.html" class="text-xs bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full hover:bg-indigo-200 transition">
-                                    <i class="fas fa-server mr-1"></i>Backend Architecture
-                                </a>
-                                <a href="frontend-presentation.html" class="text-xs bg-purple-100 text-purple-700 px-3 py-1 rounded-full hover:bg-purple-200 transition">
-                                    <i class="fas fa-code mr-1"></i>Frontend Architecture
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Project 2: WINSTA-AI CMS -->
-                    <div class="bg-white border-2 border-purple-200 rounded-2xl p-8 shadow-xl card-hover">
-                        <div class="flex items-start justify-between mb-6">
-                            <div>
-                                <h4 class="text-2xl font-bold text-gray-800 mb-2">
-                                    <i class="fas fa-cogs text-blue-600 mr-2"></i>WINSTA-AI CMS
-                                </h4>
-                                <p class="text-gray-600">Content management system with multi-language support and advanced analytics</p>
-                            </div>
-                        </div>
-                        
-                        <div class="mb-6">
-                            <h5 class="text-lg font-bold text-gray-800 mb-3">Technologies Used & Rationale:</h5>
-                            <div class="grid md:grid-cols-2 gap-4">
-                                <div class="bg-blue-50 rounded-lg p-4">
-                                    <div class="flex items-center mb-2">
-                                        <i class="fab fa-python text-2xl text-blue-600 mr-3"></i>
-                                        <strong class="text-gray-800">Django</strong>
-                                    </div>
-                                    <p class="text-sm text-gray-600">Selected for built-in i18n support, admin customization, and excellent ORM for managing multilingual content relationships.</p>
-                                </div>
-                                <div class="bg-green-50 rounded-lg p-4">
-                                    <div class="flex items-center mb-2">
-                                        <i class="fas fa-database text-2xl text-green-600 mr-3"></i>
-                                        <strong class="text-gray-800">PostgreSQL</strong>
-                                    </div>
-                                    <p class="text-sm text-gray-600">Chosen for JSONB support for flexible content storage, full-text search capabilities, and excellent performance with large datasets.</p>
-                                </div>
-                                <div class="bg-yellow-50 rounded-lg p-4">
-                                    <div class="flex items-center mb-2">
-                                        <i class="fas fa-memory text-2xl text-yellow-600 mr-3"></i>
-                                        <strong class="text-gray-800">Redis</strong>
-                                    </div>
-                                    <p class="text-sm text-gray-600">Used for caching translated content, session management, and real-time analytics. Significantly reduces database queries.</p>
-                                </div>
-                                <div class="bg-purple-50 rounded-lg p-4">
-                                    <div class="flex items-center mb-2">
-                                        <i class="fas fa-server text-2xl text-purple-600 mr-3"></i>
-                                        <strong class="text-gray-800">Nginx</strong>
-                                    </div>
-                                    <p class="text-sm text-gray-600">Deployed as reverse proxy and load balancer. Handles SSL termination and static file serving efficiently.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="mb-6">
-                            <h5 class="text-lg font-bold text-gray-800 mb-3">
-                                <i class="fas fa-sitemap text-blue-600 mr-2"></i>Microservices Architecture:
-                            </h5>
-                            <div class="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-lg p-6 mb-4">
-                                <div class="grid md:grid-cols-2 gap-4">
-                                    <div class="bg-white rounded-lg p-3 border-l-4 border-blue-500">
-                                        <h6 class="font-bold text-blue-600 mb-1 text-sm">Content Management</h6>
-                                        <p class="text-xs text-gray-600">Django service for CRUD and workflow</p>
-                                    </div>
-                                    <div class="bg-white rounded-lg p-3 border-l-4 border-green-500">
-                                        <h6 class="font-bold text-green-600 mb-1 text-sm">Translation</h6>
-                                        <p class="text-xs text-gray-600">18+ languages, caching, localization</p>
-                                    </div>
-                                    <div class="bg-white rounded-lg p-3 border-l-4 border-yellow-500">
-                                        <h6 class="font-bold text-yellow-600 mb-1 text-sm">Analytics</h6>
-                                        <p class="text-xs text-gray-600">Content views, user behavior tracking</p>
-                                    </div>
-                                    <div class="bg-white rounded-lg p-3 border-l-4 border-purple-500">
-                                        <h6 class="font-bold text-purple-600 mb-1 text-sm">Search</h6>
-                                        <p class="text-xs text-gray-600">Elasticsearch for multilingual search</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="bg-blue-50 border-l-4 border-blue-500 p-4 rounded">
-                                <p class="text-sm text-gray-700 font-semibold mb-2">Key Benefits:</p>
-                                <div class="grid md:grid-cols-3 gap-2 text-sm text-gray-700">
-                                    <div>• Independent scaling</div>
-                                    <div>• Isolated processing</div>
-                                    <div>• Zero-downtime updates</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="bg-gradient-to-r from-blue-100 to-cyan-100 rounded-lg p-4 mb-4">
-                            <div class="grid md:grid-cols-3 gap-4 text-center">
-                                <div>
-                                    <div class="text-2xl font-bold text-blue-600">Multi-tenant</div>
-                                    <div class="text-xs text-gray-600">Architecture</div>
-                                </div>
-                                <div>
-                                    <div class="text-2xl font-bold text-cyan-600">18</div>
-                                    <div class="text-xs text-gray-600">Languages</div>
-                                </div>
-                                <div>
-                                    <div class="text-2xl font-bold text-blue-600">65%</div>
-                                    <div class="text-xs text-gray-600">Faster Delivery</div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-lg p-4 border-l-4 border-blue-500">
-                            <p class="text-sm text-gray-700 mb-2">
-                                <strong><i class="fas fa-info-circle text-blue-600 mr-2"></i>For Detailed Technical Information:</strong>
-                            </p>
-                            <div class="flex flex-wrap gap-2">
-                                <a href="backend-presentation.html" class="text-xs bg-blue-100 text-blue-700 px-3 py-1 rounded-full hover:bg-blue-200 transition">
-                                    <i class="fas fa-server mr-1"></i>Backend Architecture
-                                </a>
-                                <a href="frontend-presentation.html" class="text-xs bg-cyan-100 text-cyan-700 px-3 py-1 rounded-full hover:bg-cyan-200 transition">
-                                    <i class="fas fa-code mr-1"></i>Frontend Architecture
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Project 3: Mobile Notification System -->
-                    <div class="bg-white border-2 border-purple-200 rounded-2xl p-8 shadow-xl card-hover">
-                        <div class="flex items-start justify-between mb-6">
-                            <div>
-                                <h4 class="text-2xl font-bold text-gray-800 mb-2">
-                                    <i class="fas fa-bell text-orange-600 mr-2"></i>Mobile Notification System
-                                </h4>
-                                <p class="text-gray-600">Real-time push notification system for iOS and Android with scheduling and analytics</p>
-                            </div>
-                        </div>
-                        
-                        <div class="mb-6">
-                            <h5 class="text-lg font-bold text-gray-800 mb-3">Technologies Used & Rationale:</h5>
-                            <div class="grid md:grid-cols-2 gap-4">
-                                <div class="bg-orange-50 rounded-lg p-4">
-                                    <div class="flex items-center mb-2">
-                                        <i class="fab fa-python text-2xl text-orange-600 mr-3"></i>
-                                        <strong class="text-gray-800">Django</strong>
-                                    </div>
-                                    <p class="text-sm text-gray-600">Backend service for notification management, user preferences, and scheduling. Excellent for handling complex notification rules.</p>
-                                </div>
-                                <div class="bg-red-50 rounded-lg p-4">
-                                    <div class="flex items-center mb-2">
-                                        <i class="fab fa-google text-2xl text-red-600 mr-3"></i>
-                                        <strong class="text-gray-800">Firebase Cloud Messaging</strong>
-                                    </div>
-                                    <p class="text-sm text-gray-600">Integrated for reliable cross-platform push notifications. Handles iOS and Android delivery with high success rates.</p>
-                                </div>
-                                <div class="bg-green-50 rounded-lg p-4">
-                                    <div class="flex items-center mb-2">
-                                        <i class="fas fa-tasks text-2xl text-green-600 mr-3"></i>
-                                        <strong class="text-gray-800">Celery</strong>
-                                    </div>
-                                    <p class="text-sm text-gray-600">Task queue for scheduled notifications and batch processing. Ensures notifications are sent at optimal times.</p>
-                                </div>
-                                <div class="bg-yellow-50 rounded-lg p-4">
-                                    <div class="flex items-center mb-2">
-                                        <i class="fas fa-memory text-2xl text-yellow-600 mr-3"></i>
-                                        <strong class="text-gray-800">Redis</strong>
-                                    </div>
-                                    <p class="text-sm text-gray-600">Message broker for Celery and caching notification templates. Enables fast notification delivery and retry mechanisms.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="mb-6">
-                            <h5 class="text-lg font-bold text-gray-800 mb-3">
-                                <i class="fas fa-sitemap text-orange-600 mr-2"></i>Microservices Architecture:
-                            </h5>
-                            <div class="bg-gradient-to-r from-orange-50 to-red-50 rounded-lg p-6 mb-4">
-                                <div class="grid md:grid-cols-3 gap-4">
-                                    <div class="bg-white rounded-lg p-4 border-2 border-orange-200">
-                                        <h6 class="font-bold text-orange-600 mb-2">Notification API Service</h6>
-                                        <p class="text-xs text-gray-600">Django REST API for creating and managing notifications.</p>
-                                    </div>
-                                    <div class="bg-white rounded-lg p-4 border-2 border-red-200">
-                                        <h6 class="font-bold text-red-600 mb-2">Delivery Service</h6>
-                                        <p class="text-xs text-gray-600">Microservice handling Firebase integration and delivery tracking.</p>
-                                    </div>
-                                    <div class="bg-white rounded-lg p-4 border-2 border-green-200">
-                                        <h6 class="font-bold text-green-600 mb-2">Scheduler Service</h6>
-                                        <p class="text-xs text-gray-600">Celery-based service for scheduled and batch notifications.</p>
-                                    </div>
-                                    <div class="bg-white rounded-lg p-4 border-2 border-yellow-200">
-                                        <h6 class="font-bold text-yellow-600 mb-2">Analytics Service</h6>
-                                        <p class="text-xs text-gray-600">Tracks delivery rates, open rates, and user engagement metrics.</p>
-                                    </div>
-                                    <div class="bg-white rounded-lg p-4 border-2 border-blue-200">
-                                        <h6 class="font-bold text-blue-600 mb-2">Device Management</h6>
-                                        <p class="text-xs text-gray-600">Service managing device tokens and platform-specific configurations.</p>
-                                    </div>
-                                    <div class="bg-white rounded-lg p-4 border-2 border-purple-200">
-                                        <h6 class="font-bold text-purple-600 mb-2">Template Service</h6>
-                                        <p class="text-xs text-gray-600">Cached notification templates for fast rendering and personalization.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="bg-orange-50 border-l-4 border-orange-500 p-4 rounded">
-                                <p class="text-sm text-gray-700 mb-2">
-                                    <strong>How Microservices Enhance This Project:</strong>
-                                </p>
-                                <ul class="space-y-1 text-sm text-gray-700">
-                                    <li>• Delivery service handles high-volume notifications without affecting API service</li>
-                                    <li>• Scheduler service processes scheduled notifications independently and efficiently</li>
-                                    <li>• Analytics service runs asynchronously, not blocking notification delivery</li>
-                                    <li>• Each service can be optimized for its specific workload (CPU vs I/O intensive)</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="bg-gradient-to-r from-orange-100 to-red-100 rounded-lg p-4 mb-4">
-                            <p class="text-sm text-gray-700">
-                                <strong>Impact:</strong> Reliable notification delivery system with high delivery rate. Microservices architecture enables handling traffic spikes during campaigns without service degradation.
-                            </p>
-                        </div>
-                        
-                        <div class="bg-gradient-to-r from-orange-50 to-red-50 rounded-lg p-4 border-l-4 border-orange-500">
-                            <p class="text-sm text-gray-700 mb-2">
-                                <strong><i class="fas fa-info-circle text-orange-600 mr-2"></i>For Detailed Technical Information:</strong>
-                            </p>
-                            <div class="flex flex-wrap gap-2">
-                                <a href="backend-presentation.html" class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded-full hover:bg-orange-200 transition">
-                                    <i class="fas fa-server mr-1"></i>Backend Architecture
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Ajath -->
-            <div class="max-w-6xl mx-auto mb-16" data-aos="fade-up" data-aos-delay="100">
-                <div class="bg-gradient-to-r from-blue-600 to-cyan-600 rounded-2xl p-8 text-white mb-8">
-                    <div class="flex items-center justify-between">
-                        <div>
-                            <h3 class="text-3xl font-bold mb-2">Ajath</h3>
-                            <p class="text-xl opacity-90">Full Stack Developer</p>
-                            <p class="text-sm opacity-75 mt-2">Scalable web application development</p>
-                        </div>
-                        <div class="text-right">
-                            <div class="text-4xl font-bold">2021 - 2022</div>
-                            <div class="text-sm opacity-75">1 Year</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="space-y-8">
-                    <!-- Project: E-commerce Platform -->
-                    <div class="bg-white border-2 border-blue-200 rounded-2xl p-8 shadow-xl card-hover">
-                        <h4 class="text-2xl font-bold text-gray-800 mb-4">
-                            <i class="fas fa-shopping-cart text-blue-600 mr-2"></i>E-commerce Platform
-                        </h4>
-                        <p class="text-gray-600 mb-6">Full-featured e-commerce solution with payment integration and inventory management</p>
-                        
-                        <div class="mb-6">
-                            <h5 class="text-lg font-bold text-gray-800 mb-3">Technologies Used & Rationale:</h5>
-                            <div class="grid md:grid-cols-2 gap-4">
-                                <div class="bg-blue-50 rounded-lg p-4">
-                                    <div class="flex items-center mb-2">
-                                        <i class="fab fa-python text-2xl text-blue-600 mr-3"></i>
-                                        <strong class="text-gray-800">Django</strong>
-                                    </div>
-                                    <p class="text-sm text-gray-600">Selected for built-in admin panel, security features, and excellent ORM for complex product relationships and inventory management.</p>
-                                </div>
-                                <div class="bg-green-50 rounded-lg p-4">
-                                    <div class="flex items-center mb-2">
-                                        <i class="fab fa-js text-2xl text-green-600 mr-3"></i>
-                                        <strong class="text-gray-800">React</strong>
-                                    </div>
-                                    <p class="text-sm text-gray-600">Chosen for component reusability, state management, and excellent user experience. Enables dynamic product filtering and cart management.</p>
-                                </div>
-                                <div class="bg-purple-50 rounded-lg p-4">
-                                    <div class="flex items-center mb-2">
-                                        <i class="fas fa-database text-2xl text-purple-600 mr-3"></i>
-                                        <strong class="text-gray-800">PostgreSQL</strong>
-                                    </div>
-                                    <p class="text-sm text-gray-600">Used for ACID compliance, complex queries, and reliable transaction handling crucial for payment processing and order management.</p>
-                                </div>
-                                <div class="bg-red-50 rounded-lg p-4">
-                                    <div class="flex items-center mb-2">
-                                        <i class="fas fa-credit-card text-2xl text-red-600 mr-3"></i>
-                                        <strong class="text-gray-800">Stripe API</strong>
-                                    </div>
-                                    <p class="text-sm text-gray-600">Integrated for secure payment processing, PCI compliance, and support for multiple payment methods including cards and digital wallets.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="mb-6">
-                            <h5 class="text-lg font-bold text-gray-800 mb-3">
-                                <i class="fas fa-sitemap text-blue-600 mr-2"></i>Microservices Architecture:
-                            </h5>
-                            <div class="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-lg p-6 mb-4">
-                                <div class="grid md:grid-cols-2 gap-4">
-                                    <div class="bg-white rounded-lg p-4 border-2 border-blue-200">
-                                        <h6 class="font-bold text-blue-600 mb-2">Product Catalog Service</h6>
-                                        <p class="text-xs text-gray-600">Manages product data, inventory, and search functionality independently.</p>
-                                    </div>
-                                    <div class="bg-white rounded-lg p-4 border-2 border-green-200">
-                                        <h6 class="font-bold text-green-600 mb-2">Order Management Service</h6>
-                                        <p class="text-xs text-gray-600">Handles order processing, status tracking, and fulfillment workflow.</p>
-                                    </div>
-                                    <div class="bg-white rounded-lg p-4 border-2 border-purple-200">
-                                        <h6 class="font-bold text-purple-600 mb-2">Payment Service</h6>
-                                        <p class="text-xs text-gray-600">Isolated payment processing with Stripe integration for security compliance.</p>
-                                    </div>
-                                    <div class="bg-white rounded-lg p-4 border-2 border-orange-200">
-                                        <h6 class="font-bold text-orange-600 mb-2">User Service</h6>
-                                        <p class="text-xs text-gray-600">Manages user accounts, authentication, and profile data separately.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="bg-blue-50 border-l-4 border-blue-500 p-4 rounded">
-                                <p class="text-sm text-gray-700 mb-2">
-                                    <strong>Microservices Benefits:</strong>
-                                </p>
-                                <ul class="space-y-1 text-sm text-gray-700">
-                                    <li>• Payment service isolated for PCI compliance and security</li>
-                                    <li>• Product catalog can scale during sales events independently</li>
-                                    <li>• Order service handles high traffic without affecting browsing experience</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="bg-gradient-to-r from-blue-100 to-cyan-100 rounded-lg p-4">
-                            <p class="text-sm text-gray-700">
-                                <strong>Impact:</strong> Processed 5,000+ orders with zero payment failures. Achieved 50% faster checkout process through optimized React components and microservices architecture.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Saraj Systems -->
-            <div class="max-w-6xl mx-auto mb-16" data-aos="fade-up" data-aos-delay="200">
-                <div class="bg-gradient-to-r from-green-600 to-teal-600 rounded-2xl p-8 text-white mb-8">
-                    <div class="flex items-center justify-between">
-                        <div>
-                            <h3 class="text-3xl font-bold mb-2">Saraj Systems</h3>
-                            <p class="text-xl opacity-90">Full Stack Developer</p>
-                            <p class="text-sm opacity-75 mt-2">Enterprise-level applications</p>
-                        </div>
-                        <div class="text-right">
-                            <div class="text-4xl font-bold">2020 - 2021</div>
-                            <div class="text-sm opacity-75">1 Year</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="space-y-8">
-                    <!-- Project: Enterprise CMS -->
-                    <div class="bg-white border-2 border-green-200 rounded-2xl p-8 shadow-xl card-hover">
-                        <h4 class="text-2xl font-bold text-gray-800 mb-4">
-                            <i class="fas fa-cogs text-green-600 mr-2"></i>Enterprise Content Management System
-                        </h4>
-                        <p class="text-gray-600 mb-6">Multi-tenant CMS with advanced workflow management and analytics</p>
-                        
-                        <div class="mb-6">
-                            <h5 class="text-lg font-bold text-gray-800 mb-3">Technologies Used & Rationale:</h5>
-                            <div class="grid md:grid-cols-2 gap-4">
-                                <div class="bg-green-50 rounded-lg p-4">
-                                    <div class="flex items-center mb-2">
-                                        <i class="fab fa-python text-2xl text-green-600 mr-3"></i>
-                                        <strong class="text-gray-800">Django</strong>
-                                    </div>
-                                    <p class="text-sm text-gray-600">Chosen for multi-tenancy support, built-in admin customization, and excellent permission system for role-based access control.</p>
-                                </div>
-                                <div class="bg-yellow-50 rounded-lg p-4">
-                                    <div class="flex items-center mb-2">
-                                        <i class="fas fa-database text-2xl text-yellow-600 mr-3"></i>
-                                        <strong class="text-gray-800">Redis</strong>
-                                    </div>
-                                    <p class="text-sm text-gray-600">Implemented for caching frequently accessed content, reducing database load and improving page load times significantly.</p>
-                                </div>
-                                <div class="bg-blue-50 rounded-lg p-4">
-                                    <div class="flex items-center mb-2">
-                                        <i class="fab fa-aws text-2xl text-blue-600 mr-3"></i>
-                                        <strong class="text-gray-800">AWS S3 & CloudFront</strong>
-                                    </div>
-                                    <p class="text-sm text-gray-600">Used for scalable file storage and CDN distribution, ensuring fast content delivery globally with high availability.</p>
-                                </div>
-                                <div class="bg-purple-50 rounded-lg p-4">
-                                    <div class="flex items-center mb-2">
-                                        <i class="fas fa-server text-2xl text-purple-600 mr-3"></i>
-                                        <strong class="text-gray-800">Nginx</strong>
-                                    </div>
-                                    <p class="text-sm text-gray-600">Deployed as reverse proxy for load balancing and SSL termination, efficiently handling concurrent requests.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="mb-6">
-                            <h5 class="text-lg font-bold text-gray-800 mb-3">
-                                <i class="fas fa-sitemap text-green-600 mr-2"></i>Microservices Architecture:
-                            </h5>
-                            <div class="bg-gradient-to-r from-green-50 to-teal-50 rounded-lg p-6 mb-4">
-                                <div class="grid md:grid-cols-2 gap-4">
-                                    <div class="bg-white rounded-lg p-4 border-2 border-green-200">
-                                        <h6 class="font-bold text-green-600 mb-2">Content Service</h6>
-                                        <p class="text-xs text-gray-600">Core CMS functionality with multi-tenant support and content versioning.</p>
-                                    </div>
-                                    <div class="bg-white rounded-lg p-4 border-2 border-yellow-200">
-                                        <h6 class="font-bold text-yellow-600 mb-2">Caching Service</h6>
-                                        <p class="text-xs text-gray-600">Redis-based service for content caching, significantly reducing database load.</p>
-                                    </div>
-                                    <div class="bg-white rounded-lg p-4 border-2 border-blue-200">
-                                        <h6 class="font-bold text-blue-600 mb-2">File Storage Service</h6>
-                                        <p class="text-xs text-gray-600">AWS S3 integration for scalable media storage and CDN distribution.</p>
-                                    </div>
-                                    <div class="bg-white rounded-lg p-4 border-2 border-purple-200">
-                                        <h6 class="font-bold text-purple-600 mb-2">Analytics Service</h6>
-                                        <p class="text-xs text-gray-600">Separate service for tracking content performance and user engagement.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="bg-green-50 border-l-4 border-green-500 p-4 rounded">
-                                <p class="text-sm text-gray-700 mb-2">
-                                    <strong>Microservices Benefits:</strong>
-                                </p>
-                                <ul class="space-y-1 text-sm text-gray-700">
-                                    <li>• Caching service handles high read traffic without impacting content updates</li>
-                                    <li>• File storage service scales independently for media-heavy clients</li>
-                                    <li>• Analytics processing doesn't slow down content delivery</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="bg-gradient-to-r from-green-100 to-teal-100 rounded-lg p-4">
-                            <p class="text-sm text-gray-700">
-                                <strong>Impact:</strong> Multi-tenant CMS architecture supporting multiple clients. Reduced content delivery time by 65% through CDN optimization and microservices caching.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- WebreakGlobal -->
-            <div class="max-w-6xl mx-auto mb-16" data-aos="fade-up" data-aos-delay="300">
-                <div class="bg-gradient-to-r from-orange-600 to-red-600 rounded-2xl p-8 text-white mb-8">
-                    <div class="flex items-center justify-between">
-                        <div>
-                            <h3 class="text-3xl font-bold mb-2">WebreakGlobal</h3>
-                            <p class="text-xl opacity-90">Software Developer</p>
-                            <p class="text-sm opacity-75 mt-2">Web application development</p>
-                        </div>
-                        <div class="text-right">
-                            <div class="text-4xl font-bold">2019 - 2020</div>
-                            <div class="text-sm opacity-75">1 Year</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="space-y-8">
-                    <!-- Project: Business Management System -->
-                    <div class="bg-white border-2 border-orange-200 rounded-2xl p-8 shadow-xl card-hover">
-                        <h4 class="text-2xl font-bold text-gray-800 mb-4">
-                            <i class="fas fa-briefcase text-orange-600 mr-2"></i>Business Management System
-                        </h4>
-                        <p class="text-gray-600 mb-6">Comprehensive business management solution with CRM and reporting features</p>
-                        
-                        <div class="mb-6">
-                            <h5 class="text-lg font-bold text-gray-800 mb-3">Technologies Used & Rationale:</h5>
-                            <div class="grid md:grid-cols-2 gap-4">
-                                <div class="bg-orange-50 rounded-lg p-4">
-                                    <div class="flex items-center mb-2">
-                                        <i class="fab fa-js text-2xl text-orange-600 mr-3"></i>
-                                        <strong class="text-gray-800">Node.js & Express</strong>
-                                    </div>
-                                    <p class="text-sm text-gray-600">Selected for real-time features, excellent npm ecosystem, and non-blocking I/O perfect for handling multiple concurrent business operations.</p>
-                                </div>
-                                <div class="bg-blue-50 rounded-lg p-4">
-                                    <div class="flex items-center mb-2">
-                                        <i class="fab fa-react text-2xl text-blue-600 mr-3"></i>
-                                        <strong class="text-gray-800">React</strong>
-                                    </div>
-                                    <p class="text-sm text-gray-600">Chosen for building interactive dashboards and real-time data visualization. Component architecture enabled rapid feature development.</p>
-                                </div>
-                                <div class="bg-green-50 rounded-lg p-4">
-                                    <div class="flex items-center mb-2">
-                                        <i class="fas fa-database text-2xl text-green-600 mr-3"></i>
-                                        <strong class="text-gray-800">MongoDB</strong>
-                                    </div>
-                                    <p class="text-sm text-gray-600">Used for flexible schema design, allowing rapid iteration on business requirements. Excellent for storing varied business data structures.</p>
-                                </div>
-                                <div class="bg-purple-50 rounded-lg p-4">
-                                    <div class="flex items-center mb-2">
-                                        <i class="fas fa-chart-line text-2xl text-purple-600 mr-3"></i>
-                                        <strong class="text-gray-800">Chart.js</strong>
-                                    </div>
-                                    <p class="text-sm text-gray-600">Integrated for business analytics and reporting. Lightweight library providing beautiful, responsive charts for data visualization.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="mb-6">
-                            <h5 class="text-lg font-bold text-gray-800 mb-3">
-                                <i class="fas fa-sitemap text-orange-600 mr-2"></i>Microservices Architecture:
-                            </h5>
-                            <div class="bg-gradient-to-r from-orange-50 to-red-50 rounded-lg p-6 mb-4">
-                                <div class="grid md:grid-cols-2 gap-4">
-                                    <div class="bg-white rounded-lg p-4 border-2 border-orange-200">
-                                        <h6 class="font-bold text-orange-600 mb-2">CRM Service</h6>
-                                        <p class="text-xs text-gray-600">Customer relationship management with contact and interaction tracking.</p>
-                                    </div>
-                                    <div class="bg-white rounded-lg p-4 border-2 border-blue-200">
-                                        <h6 class="font-bold text-blue-600 mb-2">Reporting Service</h6>
-                                        <p class="text-xs text-gray-600">Separate service for generating business reports and analytics.</p>
-                                    </div>
-                                    <div class="bg-white rounded-lg p-4 border-2 border-green-200">
-                                        <h6 class="font-bold text-green-600 mb-2">Data Service</h6>
-                                        <p class="text-xs text-gray-600">MongoDB-based service for flexible business data storage.</p>
-                                    </div>
-                                    <div class="bg-white rounded-lg p-4 border-2 border-purple-200">
-                                        <h6 class="font-bold text-purple-600 mb-2">Dashboard Service</h6>
-                                        <p class="text-xs text-gray-600">Real-time dashboard with Chart.js for data visualization.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="bg-orange-50 border-l-4 border-orange-500 p-4 rounded">
-                                <p class="text-sm text-gray-700 mb-2">
-                                    <strong>Microservices Benefits:</strong>
-                                </p>
-                                <ul class="space-y-1 text-sm text-gray-700">
-                                    <li>• Reporting service processes data asynchronously without blocking operations</li>
-                                    <li>• Dashboard service provides real-time updates independently</li>
-                                    <li>• Each service can be optimized for its specific data access patterns</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="bg-gradient-to-r from-orange-100 to-red-100 rounded-lg p-4">
-                            <p class="text-sm text-gray-700">
-                                <strong>Impact:</strong> Streamlined business operations with automated reporting. Reduced manual work significantly and improved decision-making speed through microservices architecture.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="g2" style="margin-bottom:24px;">
+        <div class="card">
+          <div class="card-label">Architecture Principle 1</div>
+          <h3>Microservices & Event-Driven</h3>
+          <p style="font-size:13px; color:var(--muted);">
+            Each service owns its domain and communicates via APIs or Kafka event streams.
+            AI services (image generation, speech, OCR) scale independently from user
+            management or payment services. Fault in one doesn't cascade.
+          </p>
         </div>
+        <div class="card">
+          <div class="card-label">Architecture Principle 2</div>
+          <h3>Agentic AI Layer on Top</h3>
+          <p style="font-size:13px; color:var(--muted);">
+            LLM orchestration, tool-calling, and multi-agent workflows sit as an
+            orchestration layer above the microservices backend. Agents call tools
+            (APIs, databases, external services) via structured interfaces.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-label">Architecture Principle 3</div>
+          <h3>Async-First, GPU-Aware</h3>
+          <p style="font-size:13px; color:var(--muted);">
+            Heavy AI tasks (inference, image gen, video processing) are queued via
+            Celery to GPU workers on RunPod or AWS Lambda. Clients get real-time
+            updates via WebSocket streams — never blocking the main API.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-label">Architecture Principle 4</div>
+          <h3>Security & Observability</h3>
+          <p style="font-size:13px; color:var(--muted);">
+            JWT/OAuth 2.0, RBAC, CSRF protection, SSL, and Auth0 across every service.
+            Sentry for error monitoring, structured logging, and Kubernetes health checks
+            for production reliability.
+          </p>
+        </div>
+      </div>
+
+      <div class="arch">
+        <p style="font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:0.1em; color:var(--dim); margin-bottom:18px;">WinstaAI System Architecture</p>
+
+        <div class="arch-row">
+          <div class="arch-box client">Web / Mobile Client</div>
+          <div class="arch-arrow">→</div>
+          <div class="arch-box gateway">API Gateway (FastAPI)</div>
+          <div class="arch-arrow">→</div>
+          <div class="arch-box gateway">Auth Service (JWT/Auth0)</div>
+        </div>
+
+        <div style="text-align:center; color:var(--dim); font-size:18px; margin:8px 0;">↓</div>
+
+        <div class="arch-row" style="align-items:flex-start;">
+          <div style="text-align:center; font-size:11px; color:var(--dim); font-weight:600; margin-top:10px;">Microservices</div>
+          <div class="arch-arrow">→</div>
+          <div class="arch-grid" style="flex:1;">
+            <div class="arch-box service">AI Orchestration<br/><span style="font-size:10px; opacity:0.7;">LangChain · Agents</span></div>
+            <div class="arch-box service">Image / Video AI<br/><span style="font-size:10px; opacity:0.7;">ComfyUI · Replicate</span></div>
+            <div class="arch-box service">Speech / OCR AI<br/><span style="font-size:10px; opacity:0.7;">TTS · ASR · OCR</span></div>
+            <div class="arch-box service">User Service<br/><span style="font-size:10px; opacity:0.7;">Django · RBAC</span></div>
+            <div class="arch-box service">Payment Service<br/><span style="font-size:10px; opacity:0.7;">Stripe · PayPal</span></div>
+            <div class="arch-box service">Admin Dashboard<br/><span style="font-size:10px; opacity:0.7;">Analytics · Credits</span></div>
+          </div>
+        </div>
+
+        <div style="text-align:center; color:var(--dim); font-size:18px; margin:8px 0;">↓</div>
+
+        <div class="arch-row">
+          <div class="arch-box data">PostgreSQL</div>
+          <div class="arch-box data">Redis Cache</div>
+          <div class="arch-box data">Pinecone / Weaviate</div>
+          <div class="arch-box data">MongoDB</div>
+        </div>
+
+        <div style="text-align:center; color:var(--dim); font-size:18px; margin:8px 0;">↓</div>
+
+        <div class="arch-row">
+          <div class="arch-box infra">Docker · Kubernetes</div>
+          <div class="arch-box infra">AWS / GCP</div>
+          <div class="arch-box infra">Kafka Event Stream</div>
+          <div class="arch-box infra">Celery · GPU Workers</div>
+          <div class="arch-box infra">Sentry · CI/CD</div>
+        </div>
+      </div>
     </section>
 
-    <!-- Microservices Architecture Deep Dive -->
-    <section class="section-padding bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50">
-        <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center mb-4 gradient-text" data-aos="fade-up">How Microservices Enhance Projects</h2>
-            <div class="w-32 h-1.5 bg-gradient-to-r from-purple-600 via-pink-500 to-purple-400 mx-auto mb-12 rounded-full" data-aos="fade-up" data-aos-delay="100"></div>
-            
-            <div class="max-w-6xl mx-auto">
-                <!-- Introduction -->
-                <div class="bg-white rounded-2xl p-8 shadow-xl mb-8" data-aos="fade-up">
-                    <h3 class="text-3xl font-bold mb-4 text-gray-800">
-                        <i class="fas fa-architecture text-purple-600 mr-2"></i>Microservices Architecture
-                    </h3>
-                    <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                        Applications built as independent services that communicate via APIs. Each service handles a specific function 
-                        and can be developed, deployed, and scaled independently.
-                    </p>
-                    <div class="grid md:grid-cols-4 gap-4">
-                        <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-lg p-4 text-center">
-                            <i class="fas fa-cube text-3xl text-purple-600 mb-2"></i>
-                            <h4 class="font-bold text-gray-800 mb-1">Independent</h4>
-                            <p class="text-xs text-gray-600">Deploy separately</p>
-                                </div>
-                        <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-lg p-4 text-center">
-                            <i class="fas fa-code text-3xl text-blue-600 mb-2"></i>
-                            <h4 class="font-bold text-gray-800 mb-1">Flexible</h4>
-                            <p class="text-xs text-gray-600">Different tech stacks</p>
-                            </div>
-                        <div class="bg-gradient-to-br from-green-50 to-teal-50 rounded-lg p-4 text-center">
-                            <i class="fas fa-shield-alt text-3xl text-green-600 mb-2"></i>
-                            <h4 class="font-bold text-gray-800 mb-1">Isolated</h4>
-                            <p class="text-xs text-gray-600">Fault tolerance</p>
-                                </div>
-                        <div class="bg-gradient-to-br from-orange-50 to-red-50 rounded-lg p-4 text-center">
-                            <i class="fas fa-chart-line text-3xl text-orange-600 mb-2"></i>
-                            <h4 class="font-bold text-gray-800 mb-1">Scalable</h4>
-                            <p class="text-xs text-gray-600">Scale independently</p>
-                        </div>
-                    </div>
-                </div>
+    <!-- ─── Step 5: Work Experience ─── -->
+    <section class="step" id="s5">
+      <div class="step-badge">Step 05</div>
+      <h2>Work Experience</h2>
+      <p class="lead">
+        6+ years across AI SaaS platforms, multilingual AI tools,
+        healthcare systems, and eCommerce — always shipping to production.
+      </p>
 
-                <!-- Benefits -->
-                <div class="grid md:grid-cols-2 gap-8 mb-8">
-                    <div class="bg-white rounded-2xl p-8 shadow-xl" data-aos="fade-right">
-                        <h3 class="text-2xl font-bold mb-4 text-gray-800">
-                            <i class="fas fa-rocket text-blue-600 mr-2"></i>Performance Benefits
-                        </h3>
-                        <div class="space-y-3">
-                            <div class="flex items-center justify-between p-3 bg-blue-50 rounded-lg">
-                                <span class="text-gray-700 font-semibold">Latency Reduction</span>
-                                <span class="text-blue-600 font-bold">Significant</span>
-                                </div>
-                            <div class="flex items-center justify-between p-3 bg-green-50 rounded-lg">
-                                <span class="text-gray-700 font-semibold">Independent Scaling</span>
-                                <span class="text-green-600 font-bold">✓</span>
-                                </div>
-                            <div class="flex items-center justify-between p-3 bg-purple-50 rounded-lg">
-                                <span class="text-gray-700 font-semibold">Resource Optimization</span>
-                                <span class="text-purple-600 font-bold">✓</span>
-                                </div>
-                            <div class="flex items-center justify-between p-3 bg-orange-50 rounded-lg">
-                                <span class="text-gray-700 font-semibold">Parallel Processing</span>
-                                <span class="text-orange-600 font-bold">✓</span>
-                                </div>
-                        </div>
-                    </div>
-
-                    <div class="bg-white rounded-2xl p-8 shadow-xl" data-aos="fade-left">
-                        <h3 class="text-2xl font-bold mb-4 text-gray-800">
-                            <i class="fas fa-shield-alt text-purple-600 mr-2"></i>Reliability Benefits
-                        </h3>
-                        <div class="space-y-3">
-                            <div class="flex items-center justify-between p-3 bg-purple-50 rounded-lg">
-                                <span class="text-gray-700 font-semibold">Fault Isolation</span>
-                                <span class="text-purple-600 font-bold">✓</span>
-                                </div>
-                            <div class="flex items-center justify-between p-3 bg-green-50 rounded-lg">
-                                <span class="text-gray-700 font-semibold">Uptime</span>
-                                <span class="text-green-600 font-bold">High</span>
-                            </div>
-                            <div class="flex items-center justify-between p-3 bg-blue-50 rounded-lg">
-                                <span class="text-gray-700 font-semibold">Graceful Degradation</span>
-                                <span class="text-blue-600 font-bold">✓</span>
-                                </div>
-                            <div class="flex items-center justify-between p-3 bg-pink-50 rounded-lg">
-                                <span class="text-gray-700 font-semibold">Independent Deployment</span>
-                                <span class="text-pink-600 font-bold">✓</span>
-                                </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Real-World Example -->
-                <div class="bg-white rounded-2xl p-8 shadow-xl" data-aos="fade-up">
-                    <h3 class="text-2xl font-bold mb-4 text-gray-800">
-                        <i class="fas fa-chart-line text-orange-600 mr-2"></i>Real-World Impact: Klikyai AI Platform
-                    </h3>
-                    <div class="grid md:grid-cols-3 gap-6">
-                        <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-lg p-6 text-center">
-                            <div class="text-4xl font-bold text-purple-600 mb-2">40%</div>
-                            <p class="text-sm text-gray-700">Reduction in Processing Time</p>
-                            <p class="text-xs text-gray-500 mt-2">Through optimized microservices</p>
-                        </div>
-                        <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-lg p-6 text-center">
-                            <div class="text-4xl font-bold text-blue-600 mb-2">Independent</div>
-                            <p class="text-sm text-gray-700">Traffic Scaling</p>
-                            <p class="text-xs text-gray-500 mt-2">Each service scales separately</p>
-                        </div>
-                        <div class="bg-gradient-to-br from-green-50 to-teal-50 rounded-lg p-6 text-center">
-                            <div class="text-4xl font-bold text-green-600 mb-2">Optimized</div>
-                            <p class="text-sm text-gray-700">Resource Allocation</p>
-                            <p class="text-xs text-gray-500 mt-2">Reduced cloud costs</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Architecture Diagram Concept -->
-                <div class="bg-white rounded-2xl p-8 shadow-xl mt-8" data-aos="fade-up">
-                    <h3 class="text-2xl font-bold mb-6 text-gray-800">
-                        <i class="fas fa-project-diagram text-indigo-600 mr-2"></i>Microservices Architecture Flow
-                    </h3>
-                    <div class="bg-gradient-to-r from-indigo-50 to-purple-50 rounded-lg p-6">
-                        <div class="flex flex-wrap justify-center items-center gap-4">
-                            <div class="bg-white rounded-lg p-4 border-2 border-indigo-200 text-center min-w-[150px]">
-                                <i class="fas fa-user text-2xl text-indigo-600 mb-2"></i>
-                                <p class="font-bold text-sm">Client</p>
-                            </div>
-                            <i class="fas fa-arrow-right text-2xl text-gray-400"></i>
-                            <div class="bg-white rounded-lg p-4 border-2 border-purple-200 text-center min-w-[150px]">
-                                <i class="fas fa-network-wired text-2xl text-purple-600 mb-2"></i>
-                                <p class="font-bold text-sm">API Gateway</p>
-                            </div>
-                            <i class="fas fa-arrow-right text-2xl text-gray-400"></i>
-                            <div class="grid grid-cols-2 gap-2">
-                                <div class="bg-white rounded-lg p-3 border-2 border-blue-200 text-center">
-                                    <i class="fas fa-robot text-xl text-blue-600 mb-1"></i>
-                                    <p class="font-bold text-xs">AI Service</p>
-                                </div>
-                                <div class="bg-white rounded-lg p-3 border-2 border-green-200 text-center">
-                                    <i class="fas fa-users text-xl text-green-600 mb-1"></i>
-                                    <p class="font-bold text-xs">User Service</p>
-                                </div>
-                                <div class="bg-white rounded-lg p-3 border-2 border-orange-200 text-center">
-                                    <i class="fas fa-bell text-xl text-orange-600 mb-1"></i>
-                                    <p class="font-bold text-xs">Notification</p>
-                                </div>
-                                <div class="bg-white rounded-lg p-3 border-2 border-pink-200 text-center">
-                                    <i class="fas fa-credit-card text-xl text-pink-600 mb-1"></i>
-                                    <p class="font-bold text-xs">Payment</p>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="text-center text-sm text-gray-600 mt-6">
-                            Each microservice operates independently, communicates via APIs, and can scale based on demand
-                        </p>
-                    </div>
-                </div>
-            </div>
+      <div class="tl">
+        <div class="tl-item">
+          <div class="tl-meta">
+            <div class="tl-role">Lead AI Full-Stack Developer</div>
+            <div class="tl-co">KLIKY AI</div>
+            <span class="tl-period">Jan 2024 – Present</span>
+          </div>
+          <div class="tl-body">
+            <h3>WinstaAI — Agentic AI SaaS Platform</h3>
+            <p>Production AI platform with Generative AI, agentic workflows, and multi-model LLM orchestration.</p>
+            <ul>
+              <li>Architected backend with <strong>FastAPI</strong>, <strong>Django</strong>, microservices, and async task workflows</li>
+              <li>Built <strong>agentic AI pipelines</strong> — tool-calling, autonomous execution, decision-based orchestration</li>
+              <li>Integrated <strong>text-to-image</strong>, <strong>face swap</strong>, <strong>OCR</strong>, video/audio AI, and multi-model LLM routing</li>
+              <li>Built intelligent admin: AI service management, credit systems, usage analytics, billing</li>
+              <li>Integrated <strong>Stripe</strong>, <strong>PayPal</strong>, <strong>RunPod</strong>, <strong>FAL.ai</strong>, CI/CD pipelines</li>
+            </ul>
+          </div>
         </div>
+
+        <div class="tl-item">
+          <div class="tl-meta">
+            <div class="tl-role">Full-Stack Developer</div>
+            <div class="tl-co">AJATH INFO TECH</div>
+            <span class="tl-period">Jun 2021 – Dec 2023</span>
+          </div>
+          <div class="tl-body">
+            <h3>Dibbly — Multilingual AI Video Translation</h3>
+            <p>AI-powered <strong>speech-to-text</strong>, TTS, real-time transcription, multilingual dubbing. DeepL translation, Firebase auth, REST APIs, secure session handling.</p>
+            <hr class="tl-sep" />
+            <h3>Paperport — AI Presentation Generator</h3>
+            <p>LLM-powered tool generating structured presentations and roadmaps from unstructured text and images. Firebase auth, OTP, push notifications, REST APIs.</p>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-meta">
+            <div class="tl-role">Full-Stack Developer</div>
+            <div class="tl-co">SARAJ SYSTEM</div>
+            <span class="tl-period">Dec 2019 – May 2021</span>
+          </div>
+          <div class="tl-body">
+            <h3>Khantailor — Custom Tailoring eCommerce</h3>
+            <p>eCommerce platform with measurements, Stripe/PayPal, Docker/Nginx, JWT/CSRF security.</p>
+            <hr class="tl-sep" />
+            <h3>PathHub — HIPAA Medical Platform</h3>
+            <p><strong>HIPAA-focused</strong> diagnostic reporting platform serving a large hospital network — real-time imaging, secure access, scalable modules.</p>
+            <hr class="tl-sep" />
+            <h3>OZMED — Online Learning Platform</h3>
+            <p>Subscription learning with mock exams, progress tracking, and secure content delivery.</p>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- Technology Usage Analysis -->
-    <section class="section-padding bg-gradient-to-br from-gray-50 to-purple-50">
-        <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center mb-12 gradient-text" data-aos="fade-up">Technology Usage Analysis</h2>
-            <div class="max-w-6xl mx-auto">
-                
-                <div class="grid md:grid-cols-2 gap-8">
-                    <div class="bg-white rounded-2xl p-8 shadow-xl" data-aos="fade-up">
-                        <h3 class="text-2xl font-bold mb-6 text-gray-800">
-                            <i class="fas fa-sitemap text-green-600 mr-2"></i>Microservices Benefits Metrics
-                        </h3>
-                        <div class="h-80">
-                            <canvas id="microservicesChart"></canvas>
-                        </div>
-                    </div>
-                    <div class="bg-white rounded-2xl p-8 shadow-xl" data-aos="fade-up" data-aos-delay="100">
-                        <h3 class="text-2xl font-bold mb-6 text-gray-800">
-                            <i class="fas fa-code-branch text-orange-600 mr-2"></i>Technology Stack by Project
-                        </h3>
-                        <div class="h-80">
-                            <canvas id="projectTechChart"></canvas>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- ─── Step 6: WinstaAI Deep Dive ─── -->
+    <section class="step" id="s6">
+      <div class="step-badge">Step 06</div>
+      <h2>WinstaAI — Deep Dive</h2>
+      <p class="lead">
+        My current flagship project. A production agentic AI SaaS platform built entirely from
+        scratch — every service designed, architected, and shipped by me.
+      </p>
+
+      <div class="g3" style="margin-bottom:24px;">
+        <div class="stat-box">
+          <div class="stat-val" style="font-size:18px; color:var(--green);">Production</div>
+          <div class="stat-lbl">Live at KLIKY AI</div>
         </div>
+        <div class="stat-box">
+          <div class="stat-val" style="font-size:18px;">12+</div>
+          <div class="stat-lbl">AI Services Integrated</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-val" style="font-size:18px;">6</div>
+          <div class="stat-lbl">Microservices</div>
+        </div>
+      </div>
+
+      <p style="font-size:13px; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:var(--dim); margin-bottom:12px;">AI Services Built</p>
+      <div class="svc-grid" style="margin-bottom:24px;">
+        <div class="svc-box">
+          <div class="svc-name">Text-to-Image</div>
+          <div class="svc-desc">ComfyUI + Replicate + Stable Diffusion on GPU</div>
+        </div>
+        <div class="svc-box">
+          <div class="svc-name">Face Swap</div>
+          <div class="svc-desc">Privacy-focused processing microservice</div>
+        </div>
+        <div class="svc-box">
+          <div class="svc-name">Speech-to-Text</div>
+          <div class="svc-desc">Real-time ASR with streaming response</div>
+        </div>
+        <div class="svc-box">
+          <div class="svc-name">Text-to-Speech</div>
+          <div class="svc-desc">Multi-voice TTS with async delivery</div>
+        </div>
+        <div class="svc-box">
+          <div class="svc-name">OCR Pipeline</div>
+          <div class="svc-desc">Document extraction and structuring</div>
+        </div>
+        <div class="svc-box">
+          <div class="svc-name">Video / Audio AI</div>
+          <div class="svc-desc">Processing workflows via RunPod GPU</div>
+        </div>
+        <div class="svc-box">
+          <div class="svc-name">LLM Orchestration</div>
+          <div class="svc-desc">Multi-model routing: GPT, DeepSeek, Ollama</div>
+        </div>
+        <div class="svc-box">
+          <div class="svc-name">Agentic Workflows</div>
+          <div class="svc-desc">Tool-calling agents with LangChain</div>
+        </div>
+        <div class="svc-box">
+          <div class="svc-name">Admin Dashboard</div>
+          <div class="svc-desc">Service mgmt, credits, analytics, billing</div>
+        </div>
+      </div>
+
+      <p style="font-size:13px; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:var(--dim); margin-bottom:12px;">Backend & Infrastructure Stack</p>
+      <div class="g2">
+        <div class="card">
+          <div class="card-label">Backend APIs</div>
+          <div class="tags">
+            <span class="tag be">FastAPI</span><span class="tag be">Django</span>
+            <span class="tag be">Celery</span><span class="tag be">WebSockets</span>
+            <span class="tag be">REST APIs</span><span class="tag be">Async</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-label">AI / Inference</div>
+          <div class="tags">
+            <span class="tag ai">LangChain</span><span class="tag ai">LlamaIndex</span>
+            <span class="tag ai">ComfyUI</span><span class="tag ai">RunPod</span>
+            <span class="tag ai">FAL.ai</span><span class="tag ai">OpenAI</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-label">Data & Storage</div>
+          <div class="tags">
+            <span class="tag db">PostgreSQL</span><span class="tag db">Redis</span>
+            <span class="tag db">MongoDB</span><span class="tag db">Pinecone</span>
+            <span class="tag db">Weaviate</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-label">Infrastructure & Payments</div>
+          <div class="tags">
+            <span class="tag ops">Docker</span><span class="tag ops">Kubernetes</span>
+            <span class="tag ops">AWS</span><span class="tag ops">GitHub Actions</span>
+            <span class="tag int">Stripe</span><span class="tag int">PayPal</span>
+          </div>
+        </div>
+      </div>
     </section>
 
+    <!-- ─── Step 7: Skills Breakdown ─── -->
+    <section class="step" id="s7">
+      <div class="step-badge">Step 07</div>
+      <h2>Skills Breakdown</h2>
+      <p class="lead">An honest, data-driven view of where I spend my engineering time and depth.</p>
 
-
-
-
-
-
-    <!-- Quick Links to Detailed Documentation -->
-    <section class="section-padding bg-gradient-to-br from-gray-50 to-blue-50">
-        <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center mb-4 gradient-text" data-aos="fade-up">Explore Detailed Technical Documentation</h2>
-            <div class="w-32 h-1.5 bg-gradient-to-r from-purple-600 via-pink-500 to-purple-400 mx-auto mb-12 rounded-full" data-aos="fade-up" data-aos-delay="100"></div>
-            <p class="text-center text-lg text-gray-700 mb-12 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="200">
-                For comprehensive technical details, architecture diagrams, and implementation strategies, explore the specialized documentation below.
-            </p>
-            
-            <div class="max-w-6xl mx-auto">
-                <div class="grid md:grid-cols-2 gap-8">
-                    <!-- Backend Documentation Card -->
-                    <div class="bg-white rounded-2xl p-8 shadow-xl card-hover" data-aos="fade-right">
-                        <div class="text-center mb-6">
-                            <div class="inline-block p-4 bg-gradient-to-br from-blue-500/20 to-cyan-500/20 rounded-full mb-4">
-                                <i class="fas fa-server text-5xl text-blue-500"></i>
-                            </div>
-                            <h3 class="text-3xl font-bold mb-3 text-gray-800">Backend & AI Architecture</h3>
-                            <p class="text-gray-600">Comprehensive backend infrastructure and generative AI services documentation</p>
-                        </div>
-                        
-                        <div class="space-y-4 mb-6">
-                            <div class="bg-blue-50 rounded-lg p-4">
-                                <h4 class="font-bold text-blue-800 mb-2">
-                                    <i class="fas fa-check-circle text-blue-500 mr-2"></i>What's Inside:
-                                </h4>
-                                <ul class="text-sm text-gray-700 space-y-1">
-                                    <li>• Full Stack Architecture Diagrams</li>
-                                    <li>• 12+ Generative AI Services (Text-to-Image, Video, 3D, Audio)</li>
-                                    <li>• RunPod & FAL.ai Deployment Strategies</li>
-                                    <li>• Microservices Architecture</li>
-                                    <li>• Multi-Layer Security System</li>
-                                    <li>• Docker & Kubernetes Deployment</li>
-                                    <li>• API Performance & Optimization</li>
-                                </ul>
-                            </div>
-                        </div>
-                        
-                        <a href="backend-presentation.html" class="block w-full bg-gradient-to-r from-blue-500 to-cyan-500 text-white text-center px-6 py-4 rounded-xl font-bold hover:scale-105 transition-all shadow-lg">
-                            <i class="fas fa-arrow-right mr-2"></i>View Backend Documentation
-                        </a>
-                    </div>
-                    
-                    <!-- Frontend Documentation Card -->
-                    <div class="bg-white rounded-2xl p-8 shadow-xl card-hover" data-aos="fade-left">
-                        <div class="text-center mb-6">
-                            <div class="inline-block p-4 bg-gradient-to-br from-purple-500/20 to-pink-500/20 rounded-full mb-4">
-                                <i class="fas fa-code text-5xl text-purple-500"></i>
-                            </div>
-                            <h3 class="text-3xl font-bold mb-3 text-gray-800">Frontend Architecture</h3>
-                            <p class="text-gray-600">Complete frontend system design and technology deep dives</p>
-                        </div>
-                        
-                        <div class="space-y-4 mb-6">
-                            <div class="bg-purple-50 rounded-lg p-4">
-                                <h4 class="font-bold text-purple-800 mb-2">
-                                    <i class="fas fa-check-circle text-purple-500 mr-2"></i>What's Inside:
-                                </h4>
-                                <ul class="text-sm text-gray-700 space-y-1">
-                                    <li>• ReactJS, NextJS, Django, Flutter Deep Dives</li>
-                                    <li>• Complete System Architecture Diagrams</li>
-                                    <li>• Component Architecture & Design Patterns</li>
-                                    <li>• State Management Strategies</li>
-                                    <li>• API Integration Approaches</li>
-                                    <li>• Performance Optimization Techniques</li>
-                                    <li>• Security & Best Practices</li>
-                                </ul>
-                            </div>
-                        </div>
-                        
-                        <a href="frontend-presentation.html" class="block w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white text-center px-6 py-4 rounded-xl font-bold hover:scale-105 transition-all shadow-lg">
-                            <i class="fas fa-arrow-right mr-2"></i>View Frontend Documentation
-                        </a>
-                    </div>
-                </div>
+      <div class="g2" style="gap:24px;">
+        <div>
+          <div class="bar-list">
+            <div class="bar-row">
+              <span class="bar-name">Agentic AI Platforms</span>
+              <div class="bar-track"><div class="bar-fill" style="width:100%"></div></div>
+              <span class="bar-pct">100%</span>
             </div>
+            <div class="bar-row">
+              <span class="bar-name">FastAPI / Python Backend</span>
+              <div class="bar-track"><div class="bar-fill" style="width:100%"></div></div>
+              <span class="bar-pct">100%</span>
+            </div>
+            <div class="bar-row">
+              <span class="bar-name">RAG Pipeline Architecture</span>
+              <div class="bar-track"><div class="bar-fill" style="width:92%"></div></div>
+              <span class="bar-pct">92%</span>
+            </div>
+            <div class="bar-row">
+              <span class="bar-name">LLM Orchestration</span>
+              <div class="bar-track"><div class="bar-fill" style="width:90%"></div></div>
+              <span class="bar-pct">90%</span>
+            </div>
+            <div class="bar-row">
+              <span class="bar-name">Generative AI Integration</span>
+              <div class="bar-track"><div class="bar-fill" style="width:88%"></div></div>
+              <span class="bar-pct">88%</span>
+            </div>
+            <div class="bar-row">
+              <span class="bar-name">Microservices / Kafka</span>
+              <div class="bar-track"><div class="bar-fill" style="width:82%"></div></div>
+              <span class="bar-pct">82%</span>
+            </div>
+            <div class="bar-row">
+              <span class="bar-name">Cloud / GPU Inference</span>
+              <div class="bar-track"><div class="bar-fill" style="width:76%"></div></div>
+              <span class="bar-pct">76%</span>
+            </div>
+            <div class="bar-row">
+              <span class="bar-name">Full-Stack Frontend</span>
+              <div class="bar-track"><div class="bar-fill" style="width:68%"></div></div>
+              <span class="bar-pct">68%</span>
+            </div>
+          </div>
         </div>
+
+        <div class="chart-wrap">
+          <div class="chart-title">Technology Category Distribution</div>
+          <canvas id="techChart" style="max-height:280px;"></canvas>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="chart-wrap" style="margin-top:0;">
+        <div class="chart-title">Skill Growth Over Career (2019 → 2025)</div>
+        <canvas id="growthChart" style="max-height:220px;"></canvas>
+      </div>
     </section>
 
- 
+    <!-- ─── Step 8: Open Source ─── -->
+    <section class="step" id="s8">
+      <div class="step-badge">Step 08</div>
+      <h2>Open Source Contributions</h2>
+      <p class="lead">
+        Production-ready templates that teams can use to skip boilerplate and go straight to building.
+        All maintained under <a href="https://github.com/fullstack-open-source" target="_blank">fullstack-open-source</a>.
+      </p>
 
-    <!-- Open Source Projects Section -->
-    <section class="section-padding bg-gradient-to-br from-green-50 via-blue-50 to-purple-50">
-        <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center mb-4 gradient-text" data-aos="fade-up">Free Open Source Projects</h2>
-            <div class="w-32 h-1.5 bg-gradient-to-r from-green-600 via-blue-500 to-purple-500 mx-auto mb-12 rounded-full" data-aos="fade-up" data-aos-delay="100"></div>
-            <p class="text-center text-lg text-gray-700 mb-12 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="200">
-                Production-ready, enterprise-grade starter templates for building scalable applications. All projects are open source and free to use.
-            </p>
-            
-            <div class="max-w-6xl mx-auto">
-                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    <!-- FastAPI Backend -->
-                    <div class="bg-white rounded-2xl p-6 shadow-xl card-hover border-2 border-green-200" data-aos="fade-up">
-                        <div class="text-center mb-4">
-                            <div class="inline-block p-4 bg-gradient-to-br from-green-100 to-teal-100 rounded-full mb-4">
-                                <i class="fab fa-python text-3xl text-green-600"></i>
-                            </div>
-                            <h3 class="text-xl font-bold mb-2 text-gray-800">FastAPI Backend</h3>
-                            <p class="text-sm text-gray-600 mb-4">Enterprise-grade FastAPI backend with JWT auth, RBAC, PostgreSQL, Docker, and Kubernetes support</p>
-                            <div class="flex flex-wrap justify-center gap-2 mb-4">
-                                <span class="bg-green-100 text-green-700 px-2 py-1 rounded text-xs font-semibold">FastAPI</span>
-                                <span class="bg-blue-100 text-blue-700 px-2 py-1 rounded text-xs font-semibold">PostgreSQL</span>
-                                <span class="bg-purple-100 text-purple-700 px-2 py-1 rounded text-xs font-semibold">Docker</span>
-                            </div>
-                            <a href="https://github.com/fullstack-open-source/fastapi-backend-with-sql" target="_blank" class="text-green-600 font-semibold text-sm hover:underline inline-flex items-center gap-2">
-                                <i class="fab fa-github"></i> View on GitHub <i class="fas fa-external-link-alt text-xs"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Node.js Backend -->
-                    <div class="bg-white rounded-2xl p-6 shadow-xl card-hover border-2 border-yellow-200" data-aos="fade-up" data-aos-delay="100">
-                        <div class="text-center mb-4">
-                            <div class="inline-block p-4 bg-gradient-to-br from-yellow-100 to-orange-100 rounded-full mb-4">
-                                <i class="fab fa-node-js text-3xl text-yellow-600"></i>
-                            </div>
-                            <h3 class="text-xl font-bold mb-2 text-gray-800">Node.js Backend</h3>
-                            <p class="text-sm text-gray-600 mb-4">Production-ready Express.js backend with JWT auth, Prisma ORM, PostgreSQL, Docker, and Kubernetes</p>
-                            <div class="flex flex-wrap justify-center gap-2 mb-4">
-                                <span class="bg-yellow-100 text-yellow-700 px-2 py-1 rounded text-xs font-semibold">Express.js</span>
-                                <span class="bg-blue-100 text-blue-700 px-2 py-1 rounded text-xs font-semibold">Prisma</span>
-                                <span class="bg-purple-100 text-purple-700 px-2 py-1 rounded text-xs font-semibold">Docker</span>
-                            </div>
-                            <a href="https://github.com/fullstack-open-source/nodejs-backend-with-sql" target="_blank" class="text-yellow-600 font-semibold text-sm hover:underline inline-flex items-center gap-2">
-                                <i class="fab fa-github"></i> View on GitHub <i class="fas fa-external-link-alt text-xs"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Next.js Frontend -->
-                    <div class="bg-white rounded-2xl p-6 shadow-xl card-hover border-2 border-indigo-200" data-aos="fade-up" data-aos-delay="200">
-                        <div class="text-center mb-4">
-                            <div class="inline-block p-4 bg-gradient-to-br from-indigo-100 to-purple-100 rounded-full mb-4">
-                                <i class="fas fa-layer-group text-3xl text-indigo-600"></i>
-                            </div>
-                            <h3 class="text-xl font-bold mb-2 text-gray-800">Next.js Frontend</h3>
-                            <p class="text-sm text-gray-600 mb-4">Modern Next.js starter with App Router, TypeScript, Tailwind CSS, and API integration patterns</p>
-                            <div class="flex flex-wrap justify-center gap-2 mb-4">
-                                <span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs font-semibold">Next.js</span>
-                                <span class="bg-blue-100 text-blue-700 px-2 py-1 rounded text-xs font-semibold">TypeScript</span>
-                                <span class="bg-cyan-100 text-cyan-700 px-2 py-1 rounded text-xs font-semibold">Tailwind</span>
-                            </div>
-                            <a href="https://github.com/fullstack-open-source/nextjs-frontend-starter" target="_blank" class="text-indigo-600 font-semibold text-sm hover:underline inline-flex items-center gap-2">
-                                <i class="fab fa-github"></i> View on GitHub <i class="fas fa-external-link-alt text-xs"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- React.js Frontend -->
-                    <div class="bg-white rounded-2xl p-6 shadow-xl card-hover border-2 border-blue-200" data-aos="fade-up" data-aos-delay="300">
-                        <div class="text-center mb-4">
-                            <div class="inline-block p-4 bg-gradient-to-br from-blue-100 to-cyan-100 rounded-full mb-4">
-                                <i class="fab fa-react text-3xl text-blue-600"></i>
-                            </div>
-                            <h3 class="text-xl font-bold mb-2 text-gray-800">React.js Frontend</h3>
-                            <p class="text-sm text-gray-600 mb-4">Complete React starter with Vite, TypeScript, React Router, state management, and modern tooling</p>
-                            <div class="flex flex-wrap justify-center gap-2 mb-4">
-                                <span class="bg-blue-100 text-blue-700 px-2 py-1 rounded text-xs font-semibold">React</span>
-                                <span class="bg-purple-100 text-purple-700 px-2 py-1 rounded text-xs font-semibold">Vite</span>
-                                <span class="bg-cyan-100 text-cyan-700 px-2 py-1 rounded text-xs font-semibold">TypeScript</span>
-                            </div>
-                            <a href="https://github.com/fullstack-open-source/reactjs-frontend-starter" target="_blank" class="text-blue-600 font-semibold text-sm hover:underline inline-flex items-center gap-2">
-                                <i class="fab fa-github"></i> View on GitHub <i class="fas fa-external-link-alt text-xs"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Django Backend -->
-                    <div class="bg-white rounded-2xl p-6 shadow-xl card-hover border-2 border-green-200" data-aos="fade-up" data-aos-delay="400">
-                        <div class="text-center mb-4">
-                            <div class="inline-block p-4 bg-gradient-to-br from-green-100 to-emerald-100 rounded-full mb-4">
-                                <i class="fab fa-python text-3xl text-green-600"></i>
-                            </div>
-                            <h3 class="text-xl font-bold mb-2 text-gray-800">Django Backend</h3>
-                            <p class="text-sm text-gray-600 mb-4">Full-featured Django REST framework backend with authentication, admin panel, and PostgreSQL</p>
-                            <div class="flex flex-wrap justify-center gap-2 mb-4">
-                                <span class="bg-green-100 text-green-700 px-2 py-1 rounded text-xs font-semibold">Django</span>
-                                <span class="bg-red-100 text-red-700 px-2 py-1 rounded text-xs font-semibold">DRF</span>
-                                <span class="bg-blue-100 text-blue-700 px-2 py-1 rounded text-xs font-semibold">PostgreSQL</span>
-                            </div>
-                            <a href="https://github.com/fullstack-open-source/django-backend-starter" target="_blank" class="text-green-600 font-semibold text-sm hover:underline inline-flex items-center gap-2">
-                                <i class="fab fa-github"></i> View on GitHub <i class="fas fa-external-link-alt text-xs"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Coming Soon Card -->
-                    <div class="bg-white rounded-2xl p-6 shadow-xl card-hover border-2 border-gray-200 opacity-75" data-aos="fade-up" data-aos-delay="500">
-                        <div class="text-center mb-4">
-                            <div class="inline-block p-4 bg-gradient-to-br from-gray-100 to-gray-200 rounded-full mb-4">
-                                <i class="fas fa-rocket text-3xl text-gray-500"></i>
-                            </div>
-                            <h3 class="text-xl font-bold mb-2 text-gray-800">More Coming Soon</h3>
-                            <p class="text-sm text-gray-600 mb-4">Additional starter templates and boilerplates are in development. Stay tuned for updates!</p>
-                            <div class="flex flex-wrap justify-center gap-2 mb-4">
-                                <span class="bg-gray-100 text-gray-600 px-2 py-1 rounded text-xs font-semibold">Coming Soon</span>
-                            </div>
-                            <span class="text-gray-500 font-semibold text-sm inline-flex items-center gap-2">
-                                <i class="fas fa-clock"></i> Watch for Updates
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="g3">
+        <div class="proj-card">
+          <h3>FastAPI Backend</h3>
+          <div class="proj-type">Python · PostgreSQL · Docker · K8s</div>
+          <p>Enterprise-grade API with JWT Auth, RBAC, async workers, and Kubernetes support.</p>
+          <div class="proj-tags">
+            <span class="proj-tag">FastAPI</span>
+            <span class="proj-tag">PostgreSQL</span>
+            <span class="proj-tag">Docker</span>
+          </div>
+          <a href="https://github.com/fullstack-open-source/fastapi-backend-with-sql" target="_blank" style="font-size:12px; font-weight:600;">View on GitHub →</a>
         </div>
+
+        <div class="proj-card">
+          <h3>Node.js Backend</h3>
+          <div class="proj-type">Express.js · Prisma · PostgreSQL · Docker</div>
+          <p>Production Express.js backend with JWT Auth, Prisma ORM, and Kubernetes support.</p>
+          <div class="proj-tags">
+            <span class="proj-tag">Node.js</span>
+            <span class="proj-tag">Prisma</span>
+            <span class="proj-tag">Docker</span>
+          </div>
+          <a href="https://github.com/fullstack-open-source/nodejs-backend-with-sql" target="_blank" style="font-size:12px; font-weight:600;">View on GitHub →</a>
+        </div>
+
+        <div class="proj-card">
+          <h3>Django Backend</h3>
+          <div class="proj-type">DRF · PostgreSQL · Auth · Admin</div>
+          <p>Full-featured Django REST backend with auth, admin panel, and production settings.</p>
+          <div class="proj-tags">
+            <span class="proj-tag">Django</span>
+            <span class="proj-tag">DRF</span>
+            <span class="proj-tag">PostgreSQL</span>
+          </div>
+          <a href="https://github.com/fullstack-open-source/django-backend-starter" target="_blank" style="font-size:12px; font-weight:600;">View on GitHub →</a>
+        </div>
+
+        <div class="proj-card">
+          <h3>Next.js Frontend</h3>
+          <div class="proj-type">App Router · TypeScript · Tailwind CSS</div>
+          <p>Modern Next.js starter with App Router, TypeScript, Tailwind, and API integration patterns.</p>
+          <div class="proj-tags">
+            <span class="proj-tag">Next.js</span>
+            <span class="proj-tag">TypeScript</span>
+            <span class="proj-tag">Tailwind</span>
+          </div>
+          <a href="https://github.com/fullstack-open-source/nextjs-frontend-starter" target="_blank" style="font-size:12px; font-weight:600;">View on GitHub →</a>
+        </div>
+
+        <div class="proj-card">
+          <h3>React.js Frontend</h3>
+          <div class="proj-type">Vite · TypeScript · React Router</div>
+          <p>React starter with Vite, TypeScript, React Router, and state management patterns.</p>
+          <div class="proj-tags">
+            <span class="proj-tag">React</span>
+            <span class="proj-tag">Vite</span>
+            <span class="proj-tag">TypeScript</span>
+          </div>
+          <a href="https://github.com/fullstack-open-source/reactjs-frontend-starter" target="_blank" style="font-size:12px; font-weight:600;">View on GitHub →</a>
+        </div>
+
+        <div class="proj-card" style="border-style:dashed;">
+          <h3>More Coming Soon</h3>
+          <div class="proj-type">Active Development</div>
+          <p>More AI and backend templates in progress — LangChain starter, FastAPI + RAG boilerplate, and more.</p>
+          <div class="proj-tags">
+            <span class="proj-tag">LangChain</span>
+            <span class="proj-tag">RAG</span>
+            <span class="proj-tag">Agentic AI</span>
+          </div>
+          <a href="https://github.com/fullstack-open-source" target="_blank" style="font-size:12px; font-weight:600;">Watch the org →</a>
+        </div>
+      </div>
     </section>
 
-    <!-- Call to Action -->
-    <section class="section-padding gradient-bg text-white">
-        <div class="container mx-auto px-6 text-center">
-            <h2 class="text-4xl font-bold mb-6" data-aos="fade-up">Ready to Work Together?</h2>
-            <p class="text-xl mb-8 text-gray-200 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="100">
-                I'm always open to discussing new opportunities, innovative projects, or how I can contribute to your team's success.
-            </p>
-            <div class="flex flex-wrap justify-center gap-4" data-aos="fade-up" data-aos-delay="200">
-                <a href="index.html#contact" class="bg-white text-purple-600 px-8 py-4 rounded-xl font-bold hover:scale-105 transition-all shadow-lg">
-                    <i class="fas fa-envelope mr-2"></i>Get In Touch
-                </a>
-                <a href="ramesh-lead-ai-full-stack-developer.pdf" download class="bg-white/20 backdrop-blur-md text-white px-8 py-4 rounded-xl font-bold hover:scale-105 transition-all border-2 border-white/30">
-                    <i class="fas fa-download mr-2"></i>Download Resume
-                </a>
-                <a href="index.html" class="bg-white/20 backdrop-blur-md text-white px-8 py-4 rounded-xl font-bold hover:scale-105 transition-all border-2 border-white/30">
-                    <i class="fas fa-home mr-2"></i>Back to Portfolio
-                </a>
-            </div>
-        </div>
+    <!-- ─── Step 9: CTA ─── -->
+    <section class="step" id="s9">
+      <div class="step-badge">Step 09</div>
+      <h2>Let's Work Together</h2>
+      <p class="lead">
+        I'm open to <strong>Agentic AI Engineer</strong>, <strong>LLM Engineer</strong>,
+        <strong>Backend Architect</strong>, and <strong>Full-Stack AI Developer</strong> roles —
+        remote, contract, or full-time. Response within 24 hours.
+      </p>
+
+      <div class="cta-grid" style="margin-bottom:36px;">
+        <a class="cta-card" href="https://wa.me/9779700864900?text=Hi%20Ramesh%2C%20I%20reviewed%20your%20presentation%20and%20would%20like%20to%20discuss%20an%20opportunity." target="_blank">
+          <div class="cta-icon">💬</div>
+          <div>
+            WhatsApp — Fastest response
+            <span class="cta-sub">+977 9700864900</span>
+          </div>
+        </a>
+        <a class="cta-card" href="mailto:mrdasdeveloper@gmail.com">
+          <div class="cta-icon">✉</div>
+          <div>
+            Email Me
+            <span class="cta-sub">mrdasdeveloper@gmail.com</span>
+          </div>
+        </a>
+        <a class="cta-card" href="https://mrdasdeveloper.github.io/mrdasdeveloper/contact--me-by-+977-9700864900-via-whatsapp-Ramesh-Full-Stack-Automation-Engineer.pdf" target="_blank">
+          <div class="cta-icon">↓</div>
+          <div>
+            Download Resume PDF
+            <span class="cta-sub">Full experience & details</span>
+          </div>
+        </a>
+        <a class="cta-card" href="https://github.com/mrdasdeveloper" target="_blank">
+          <div class="cta-icon">⌥</div>
+          <div>
+            GitHub Profile
+            <span class="cta-sub">github.com/mrdasdeveloper</span>
+          </div>
+        </a>
+        <a class="cta-card" href="https://mrdasdeveloper.github.io/mrdasdeveloper/" target="_blank">
+          <div class="cta-icon">⬡</div>
+          <div>
+            Portfolio Website
+            <span class="cta-sub">mrdasdeveloper.github.io</span>
+          </div>
+        </a>
+        <a class="cta-card" href="https://github.com/fullstack-open-source" target="_blank">
+          <div class="cta-icon">★</div>
+          <div>
+            Open Source Org
+            <span class="cta-sub">fullstack-open-source · 7+ repos</span>
+          </div>
+        </a>
+        <a class="cta-card" href="index.html">
+          <div class="cta-icon">⌂</div>
+          <div>
+            Back to Profile
+            <span class="cta-sub">index.html · Quick overview</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="card" style="max-width:560px; border-color:var(--accent-bd); background:var(--accent-bg);">
+        <p style="font-size:13px; color:var(--text); line-height:1.75;">
+          <strong>Available for:</strong> Agentic AI platforms, LLM integrations, RAG pipeline architecture,
+          FastAPI/Django backend systems, full-stack AI SaaS, microservices design,
+          and GPU inference pipelines. Remote. Contract or full-time.
+        </p>
+      </div>
     </section>
-    <script>
-        // Initialize AOS
-        AOS.init({
-            duration: 800,
-            easing: 'ease-in-out',
-            once: true,
-            offset: 100
+
+  </main>
+</div>
+
+<script>
+  // Active sidebar link on scroll
+  function setActive(el) {
+    document.querySelectorAll('.step-link').forEach(l => l.classList.remove('active'));
+    el.classList.add('active');
+  }
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const id = entry.target.id;
+        document.querySelectorAll('.step-link').forEach(l => {
+          l.classList.toggle('active', l.getAttribute('href') === '#' + id);
         });
+      }
+    });
+  }, { threshold: 0.35 });
 
-        // Initialize Charts
-        function initCharts() {
-            Chart.defaults.color = '#374151';
-            Chart.defaults.borderColor = 'rgba(0, 0, 0, 0.1)';
+  document.querySelectorAll('.step[id]').forEach(s => observer.observe(s));
 
-            // Technology Stack Chart
-            const techStackCtx = document.getElementById('techStackChart');
-            if (techStackCtx) {
-                new Chart(techStackCtx, {
-                    type: 'doughnut',
-                    data: {
-                        labels: ['Python/Django', 'JavaScript/React', 'AI/ML', 'Cloud/DevOps', 'Database', 'Mobile'],
-                        datasets: [{
-                            data: [30, 25, 20, 15, 5, 5],
-                            backgroundColor: [
-                                'rgba(102, 126, 234, 0.8)',
-                                'rgba(118, 75, 162, 0.8)',
-                                'rgba(240, 147, 251, 0.8)',
-                                'rgba(79, 172, 254, 0.8)',
-                                'rgba(0, 242, 254, 0.8)',
-                                'rgba(250, 112, 154, 0.8)'
-                            ],
-                            borderWidth: 2
-                        }]
-                    },
-                    options: {
-                        responsive: true,
-                        maintainAspectRatio: false,
-                        plugins: {
-                            legend: { position: 'bottom' }
-                        }
-                    }
-                });
-            }
+  // Charts
+  window.addEventListener('load', () => {
+    const isLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+    const gridColor  = isLight ? '#e0e0ea' : '#222228';
+    const labelColor = isLight ? '#606075' : '#7a7a8e';
+    const chartBg    = isLight ? '#f7f7fb' : '#111115';
+    Chart.defaults.color = labelColor;
+    Chart.defaults.borderColor = gridColor;
 
-            // Expertise Level Chart
-            const expertiseCtx = document.getElementById('expertiseChart');
-            if (expertiseCtx) {
-                new Chart(expertiseCtx, {
-                    type: 'bar',
-                    data: {
-                        labels: ['Backend', 'Frontend', 'AI/ML', 'DevOps', 'Database', 'Mobile'],
-                        datasets: [{
-                            label: 'Expertise %',
-                            data: [95, 90, 85, 80, 85, 70],
-                            backgroundColor: 'rgba(102, 126, 234, 0.8)',
-                            borderRadius: 8
-                        }]
-                    },
-                    options: {
-                        responsive: true,
-                        maintainAspectRatio: false,
-                        scales: {
-                            y: { beginAtZero: true, max: 100 }
-                        }
-                    }
-                });
-            }
-
-            // Technology Timeline Chart
-            const techTimelineCtx = document.getElementById('techTimelineChart');
-            if (techTimelineCtx) {
-                new Chart(techTimelineCtx, {
-                    type: 'line',
-                    data: {
-                        labels: ['2019', '2020', '2021', '2022', '2023', '2024', '2025'],
-                        datasets: [
-                            {
-                                label: 'Python/Django',
-                                data: [60, 70, 80, 85, 90, 95, 95],
-                                borderColor: 'rgba(102, 126, 234, 1)',
-                                backgroundColor: 'rgba(102, 126, 234, 0.1)',
-                                tension: 0.4
-                            },
-                            {
-                                label: 'React/Next.js',
-                                data: [50, 60, 70, 80, 85, 90, 90],
-                                borderColor: 'rgba(118, 75, 162, 1)',
-                                backgroundColor: 'rgba(118, 75, 162, 0.1)',
-                                tension: 0.4
-                            },
-                            {
-                                label: 'AI/ML',
-                                data: [30, 40, 50, 65, 75, 85, 85],
-                                borderColor: 'rgba(240, 147, 251, 1)',
-                                backgroundColor: 'rgba(240, 147, 251, 0.1)',
-                                tension: 0.4
-                            }
-                        ]
-                    },
-                    options: {
-                        responsive: true,
-                        maintainAspectRatio: false,
-                        scales: {
-                            y: { beginAtZero: true, max: 100 }
-                        }
-                    }
-                });
-            }
-
-            // Complexity Chart
-            const complexityCtx = document.getElementById('complexityChart');
-            if (complexityCtx) {
-                new Chart(complexityCtx, {
-                    type: 'scatter',
-                    data: {
-                        datasets: [
-                            {
-                                label: 'Klikyai Projects',
-                                data: [
-                                    {x: 8, y: 9, project: 'AI Platform'},
-                                    {x: 7, y: 8, project: 'CMS'},
-                                    {x: 6, y: 7, project: 'Notification System'}
-                                ],
-                                backgroundColor: 'rgba(102, 126, 234, 0.6)'
-                            },
-                            {
-                                label: 'Other Companies',
-                                data: [
-                                    {x: 5, y: 6, project: 'E-commerce'},
-                                    {x: 4, y: 5, project: 'Business Management'},
-                                    {x: 6, y: 7, project: 'Enterprise CMS'}
-                                ],
-                                backgroundColor: 'rgba(250, 112, 154, 0.6)'
-                            }
-                        ]
-                    },
-                    options: {
-                        responsive: true,
-                        maintainAspectRatio: false,
-                        scales: {
-                            x: { title: { display: true, text: 'Technologies Used' } },
-                            y: { title: { display: true, text: 'Project Complexity' } }
-                        }
-                    }
-                });
-            }
-
-            // Career Chart
-            const careerCtx = document.getElementById('careerChart');
-            if (careerCtx) {
-                new Chart(careerCtx, {
-                    type: 'line',
-                    data: {
-                        labels: ['2019', '2020', '2021', '2022', '2023', '2024', '2025'],
-                        datasets: [{
-                            label: 'Career Level',
-                            data: [1, 2, 3, 4, 5, 6, 7],
-                            borderColor: 'rgba(102, 126, 234, 1)',
-                            backgroundColor: 'rgba(102, 126, 234, 0.1)',
-                            fill: true,
-                            tension: 0.4,
-                            pointRadius: 8,
-                            pointBackgroundColor: 'rgba(102, 126, 234, 1)'
-                        }]
-                    },
-                    options: {
-                        responsive: true,
-                        maintainAspectRatio: false,
-                        scales: {
-                            y: { beginAtZero: true, max: 10 }
-                        }
-                    }
-                });
-            }
-
-            // Impact Chart
-            const impactCtx = document.getElementById('impactChart');
-            if (impactCtx) {
-                new Chart(impactCtx, {
-                    type: 'bar',
-                    data: {
-                        labels: ['Users Served', 'Projects Delivered', 'Performance Improvement', 'Cost Reduction'],
-                        datasets: [{
-                            label: 'Impact %',
-                            data: [95, 100, 85, 70],
-                            backgroundColor: [
-                                'rgba(102, 126, 234, 0.8)',
-                                'rgba(118, 75, 162, 0.8)',
-                                'rgba(240, 147, 251, 0.8)',
-                                'rgba(79, 172, 254, 0.8)'
-                            ],
-                            borderRadius: 8
-                        }]
-                    },
-                    options: {
-                        responsive: true,
-                        maintainAspectRatio: false,
-                        scales: {
-                            y: { beginAtZero: true, max: 100 }
-                        }
-                    }
-                });
-            }
-
-            // Microservices Benefits Chart
-            const microservicesCtx = document.getElementById('microservicesChart');
-            if (microservicesCtx) {
-                new Chart(microservicesCtx, {
-                    type: 'bar',
-                    data: {
-                        labels: ['Latency Reduction', 'Scalability', 'Uptime', 'Cost Optimization', 'Development Speed'],
-                        datasets: [{
-                            label: 'Improvement %',
-                            data: [60, 80, 99, 35, 50],
-                            backgroundColor: [
-                                'rgba(102, 126, 234, 0.8)',
-                                'rgba(118, 75, 162, 0.8)',
-                                'rgba(240, 147, 251, 0.8)',
-                                'rgba(79, 172, 254, 0.8)',
-                                'rgba(250, 112, 154, 0.8)'
-                            ],
-                            borderRadius: 8
-                        }]
-                    },
-                    options: {
-                        responsive: true,
-                        maintainAspectRatio: false,
-                        plugins: {
-                            legend: { display: false }
-                        },
-                        scales: {
-                            y: { 
-                                beginAtZero: true, 
-                                max: 100,
-                                ticks: {
-                                    callback: function(value) {
-                                        return value + '%';
-                                    }
-                                }
-                            }
-                        }
-                    }
-                });
-            }
-
-            // Project Technology Stack Chart
-            const projectTechCtx = document.getElementById('projectTechChart');
-            if (projectTechCtx) {
-                new Chart(projectTechCtx, {
-                    type: 'radar',
-                    data: {
-                        labels: ['Django', 'React/Next.js', 'FastAPI', 'PostgreSQL', 'Redis', 'Docker/K8s', 'Firebase', 'AWS'],
-                        datasets: [
-                            {
-                                label: 'Klikyai AI Platform',
-                                data: [95, 90, 85, 80, 75, 90, 70, 85],
-                                borderColor: 'rgba(102, 126, 234, 1)',
-                                backgroundColor: 'rgba(102, 126, 234, 0.2)',
-                                borderWidth: 2
-                            },
-                            {
-                                label: 'WINSTA-AI CMS',
-                                data: [90, 60, 40, 85, 80, 70, 30, 75],
-                                borderColor: 'rgba(79, 172, 254, 1)',
-                                backgroundColor: 'rgba(79, 172, 254, 0.2)',
-                                borderWidth: 2
-                            },
-                            {
-                                label: 'E-commerce Platform',
-                                data: [85, 90, 30, 90, 60, 60, 20, 60],
-                                borderColor: 'rgba(250, 112, 154, 1)',
-                                backgroundColor: 'rgba(250, 112, 154, 0.2)',
-                                borderWidth: 2
-                            }
-                        ]
-                    },
-                    options: {
-                        responsive: true,
-                        maintainAspectRatio: false,
-                        scales: {
-                            r: {
-                                beginAtZero: true,
-                                max: 100,
-                                ticks: {
-                                    stepSize: 20
-                                }
-                            }
-                        }
-                    }
-                });
-            }
+    // Tech distribution donut
+    new Chart(document.getElementById('techChart'), {
+      type: 'doughnut',
+      data: {
+        labels: ['Agentic AI / LLMs', 'Python Backend', 'Cloud / DevOps', 'Databases', 'Frontend', 'Integrations'],
+        datasets: [{
+          data: [30, 26, 16, 12, 10, 6],
+          backgroundColor: [
+            'rgba(124,111,247,0.85)',
+            'rgba(52,199,89,0.8)',
+            'rgba(56,189,248,0.8)',
+            'rgba(251,191,36,0.8)',
+            'rgba(244,114,182,0.75)',
+            'rgba(251,146,60,0.75)',
+          ],
+          borderColor: '#09090b',
+          borderWidth: 2,
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: {
+            position: 'right',
+            labels: { color: labelColor, font: { size: 11, family: 'Inter' }, boxWidth: 12, padding: 12 }
+          }
         }
+      }
+    });
 
-        window.addEventListener('load', () => {
-            setTimeout(initCharts, 500);
-        });
-    </script>
+    // Growth over career
+    new Chart(document.getElementById('growthChart'), {
+      type: 'line',
+      data: {
+        labels: ['2019', '2020', '2021', '2022', '2023', '2024', '2025'],
+        datasets: [
+          {
+            label: 'Backend / FastAPI',
+            data: [55, 65, 75, 82, 88, 95, 100],
+            borderColor: 'rgba(52,199,89,0.9)',
+            backgroundColor: 'rgba(52,199,89,0.07)',
+            fill: true, tension: 0.4, pointRadius: 3,
+          },
+          {
+            label: 'Agentic AI / LLMs',
+            data: [10, 18, 28, 46, 68, 88, 100],
+            borderColor: 'rgba(124,111,247,0.9)',
+            backgroundColor: 'rgba(124,111,247,0.07)',
+            fill: true, tension: 0.4, pointRadius: 3,
+          },
+          {
+            label: 'Generative AI',
+            data: [5, 12, 22, 40, 62, 82, 90],
+            borderColor: 'rgba(244,114,182,0.8)',
+            backgroundColor: 'rgba(244,114,182,0.05)',
+            fill: true, tension: 0.4, pointRadius: 3,
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { labels: { color: labelColor, font: { size: 11, family: 'Inter' }, boxWidth: 12, padding: 12 } }
+        },
+        scales: {
+          x: { ticks: { color: labelColor, font: { size: 11 } }, grid: { color: gridColor } },
+          y: { beginAtZero: true, max: 100, ticks: { color: labelColor, font: { size: 11 }, callback: v => v + '%' }, grid: { color: gridColor } }
+        }
+      }
+    });
+  });
+</script>
 </body>
 </html>
-
