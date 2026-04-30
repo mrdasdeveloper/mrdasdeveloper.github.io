@@ -1,6 +1,6 @@
 <div align="center" style="padding: 40px 20px; background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%); border-radius: 20px; margin-bottom: 40px;">
 
-# 👋 Hi, I'm Ramesh Kumar Das ##Full-Stack | AI Automation Engineer | Generative & Agentic AI | Microservices |  Backend Expert
+# 👋 Hi, I'm Full-Stack | AI Automation Engineer | Generative & Agentic AI | Microservices |  Backend Expert
 
 ![Lead Full Stack Developer](https://img.shields.io/badge/Lead%20Full%20Stack%20Developer-Backend%20Expert-purple?style=for-the-badge&logo=code&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Available%20for%20Opportunities-brightgreen?style=for-the-badge)
@@ -9,9 +9,6 @@
 
 Results-driven Full-Stack and Agentic AI Engineer with 6+ years of experience designing, developing, and deploying production-grade web platforms, AI applications, scalable APIs, and distributed backend systems. Strong expertise in Python, FastAPI, Django, Node.js, Express.js, React.js, Next.js, REST APIs, GraphQL, WebSockets, microservices, and cloud-native deployment. Specialized in Generative AI, Agentic AI workflows, LLM integrations, RAG pipelines, multi-model orchestration, AI automation, and real-time AI-enabled platforms. Experienced in third-party integrations including OpenAI, Replicate, DeepL, Stripe, PayPal, Twilio, Firebase, and webhooks. Skilled in Docker, Kubernetes, CI/CD, AWS, GCP, VPS hosting, GPU servers, and high-performance backend architecture.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-View%20Live-orange?style=for-the-badge&logo=google-chrome&logoColor=white)](https://mrdasdeveloper.github.io/mrdasdeveloper/)
-[![Resume](https://img.shields.io/badge/Resume-Download%20PDF-red?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)](https://mrdasdeveloper.github.io/mrdasdeveloper/ramesh-lead-ai-full-stack-developer.pdf)
-[![Email](https://img.shields.io/badge/Email-Contact%20Me-yellow?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mrdasdeveloper@gmail.com)
 
 ---
 
@@ -19,7 +16,24 @@ Results-driven Full-Stack and Agentic AI Engineer with 6+ years of experience de
 
 ## 🛠️ Core Expertise
 
-### Backend Development
+### 🤖 AI & Agentic Systems (Primary Focus)
+![OpenAI](https://img.shields.io/badge/OpenAI-LLM%20APIs-74AA9C?style=for-the-badge&logo=openai&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-Agent%20Framework-blue?style=for-the-badge)
+![LlamaIndex](https://img.shields.io/badge/LlamaIndex-RAG%20Pipelines-purple?style=for-the-badge)
+![Dify](https://img.shields.io/badge/Dify-Agentic%20Platform-black?style=for-the-badge)
+![Langflow](https://img.shields.io/badge/Langflow-Visual%20LLM%20Builder-blue?style=for-the-badge)
+![RAGFlow](https://img.shields.io/badge/RAGFlow-RAG%20Engine-green?style=for-the-badge)
+![Browser-Use](https://img.shields.io/badge/Browser--Use-Web%20AI%20Automation-orange?style=for-the-badge)
+![OpenCLAW](https://img.shields.io/badge/OpenClaw-AI%20Assistant-red?style=for-the-badge)
+![RunPod](https://img.shields.io/badge/RunPod-GPU%20Cloud-FF6B6B?style=for-the-badge)
+![FAL](https://img.shields.io/badge/FAL.ai-Fast%20Inference-green?style=for-the-badge)
+
+**Expertise:**  
+Agentic AI Systems • Multi-Agent Workflows • Tool-Calling AI • RAG Pipelines • LLM Orchestration • Autonomous Task Execution • AI Automation Systems • Real-Time AI Applications • Vector Search • Prompt Engineering • GPU Inference
+
+---
+
+### ⚙️ Backend Development
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
@@ -27,37 +41,42 @@ Results-driven Full-Stack and Agentic AI Engineer with 6+ years of experience de
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
 ![REST API](https://img.shields.io/badge/REST%20API-FF6B6B?style=for-the-badge&logo=api&logoColor=white)
 
-**Expertise:** Microservices Architecture, API Design, Authentication & Authorization, Caching Strategies, WebSocket/Socket.io
+**Expertise:**  
+Microservices Architecture • High-Performance APIs • Async Systems • JWT/OAuth Authentication • WebSockets • Caching • Scalable Backend Design
 
-### Frontend Development
+---
+
+### 🎨 Frontend Development
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-**Expertise:** Component Architecture, State Management, Server-Side Rendering, Performance Optimization
+**Expertise:**  
+Component Architecture • SSR/SSG • Performance Optimization • State Management • API Integration • Responsive UI
 
-### Database & Infrastructure
+---
+
+### 🗄️ Database & Infrastructure
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![GCP](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 
-**Expertise:** Database Design, Query Optimization, Containerization, Cloud Architecture, Infrastructure as Code
+**Expertise:**  
+Distributed Systems • Database Optimization • Containerization • Cloud Architecture • CI/CD • Infrastructure as Code
 
-### AI & ML
-![OpenAI](https://img.shields.io/badge/OpenAI-API-74AA9C?style=for-the-badge&logo=openai&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-yellow?style=for-the-badge&logo=huggingface&logoColor=white)
+---
+
+### 🧠 AI & ML
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![RunPod](https://img.shields.io/badge/RunPod-GPU%20Cloud-FF6B6B?style=for-the-badge&logo=server&logoColor=white)
-![FAL](https://img.shields.io/badge/FAL.ai-Fast%20Inference-green?style=for-the-badge&logo=lightning&logoColor=white)
 
-**Expertise:** Generative AI, Model Deployment, API Integration, Fine-tuning, Agentic AI, GPU Computing
-
+**Expertise:**  
+Model Deployment • Fine-Tuning • Diffusion Models • NLP Pipelines • AI Service Architecture
 
 ---
 
@@ -169,7 +188,10 @@ Results-driven Full-Stack and Agentic AI Engineer with 6+ years of experience de
 
 <div align="center">
 
-[![Download Resume](https://img.shields.io/badge/Download-Resume%20PDF-red?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)](https://mrdasdeveloper.github.io/mrdasdeveloper/ramesh-lead-ai-full-stack-developer.pdf)
+[![Download Resume](https://img.shields.io/badge/Download-Resume%20PDF-red?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)](https://mrdasdeveloper.github.io/mrdasdeveloper/contact--me-by-+977-9700864900-via-whatsapp-Ramesh-Full-Stack-Automation-Engineer.pdf)
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-View%20Live-orange?style=for-the-badge&logo=google-chrome&logoColor=white)](https://mrdasdeveloper.github.io/mrdasdeveloper/)
+[![Email](https://img.shields.io/badge/Email-Contact%20Me-yellow?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mrdasdeveloper@gmail.com)
 
 </div>
 
