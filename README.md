@@ -7,9 +7,9 @@
 <div align="center">
 
 [![Profile Views](https://komarev.com/ghpvc/?username=mrdasdeveloper&color=6C63FF&style=flat-square&label=Profile+Views)](https://github.com/mrdasdeveloper)
-[![Experience](https://img.shields.io/badge/Experience-6%2B%20Years-6C63FF?style=flat-square)](https://mrdasdeveloper.github.io/mrdasdeveloper/)
+[![Experience](https://img.shields.io/badge/Experience-6%2B%20Years-6C63FF?style=flat-square)](https://mrdasdeveloper.github.io/)
 [![Status](https://img.shields.io/badge/Open%20to%20Roles-Agentic%20AI%20%7C%20Backend%20%7C%20Full--Stack-22c55e?style=flat-square)](mailto:mrdasdeveloper@gmail.com)
-[![Location](https://img.shields.io/badge/Nepal-Remote%20Available-3b82f6?style=flat-square)](https://mrdasdeveloper.github.io/mrdasdeveloper/)
+[![Location](https://img.shields.io/badge/Nepal-Remote%20Available-3b82f6?style=flat-square)](https://mrdasdeveloper.github.io/)
 
 </div>
 
@@ -201,7 +201,7 @@ Production AI platform with **LLM orchestration**, **agentic workflows**, text-t
 
 `FastAPI` `LangChain` `ComfyUI` `RAG` `Stripe` `Docker` `Kubernetes`
 
-[![Portfolio](https://img.shields.io/badge/View-Live%20Platform-6C63FF?style=flat-square)](https://mrdasdeveloper.github.io/mrdasdeveloper/)
+[![Portfolio](https://img.shields.io/badge/View-Live%20Platform-6C63FF?style=flat-square)](https://mrdasdeveloper.github.io/)
 
 </td>
 <td width="50%" valign="top">
@@ -364,8 +364,8 @@ Cloud & GPU Inference        ██████████████░░░
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-View%20Live-F97316?style=for-the-badge&logo=google-chrome&logoColor=white)](https://mrdasdeveloper.github.io/mrdasdeveloper/)
-[![Resume](https://img.shields.io/badge/Resume-Download%20PDF-EF4444?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://mrdasdeveloper.github.io/mrdasdeveloper/contact--me-by-+977-9700864900-via-whatsapp-Ramesh-Full-Stack-Automation-Engineer.pdf)
+[![Portfolio](https://img.shields.io/badge/Portfolio-View%20Live-F97316?style=for-the-badge&logo=google-chrome&logoColor=white)](https://mrdasdeveloper.github.io/)
+[![Resume](https://img.shields.io/badge/Resume-Download%20PDF-EF4444?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://mrdasdeveloper.github.io/contact--me-by-+977-9700864900-via-whatsapp-Ramesh-Full-Stack-Automation-Engineer.pdf)
 [![Email](https://img.shields.io/badge/Email-mrdasdeveloper@gmail.com-FBBF24?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mrdasdeveloper@gmail.com)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B977%209700864900-22C55E?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/9779700864900)
 
