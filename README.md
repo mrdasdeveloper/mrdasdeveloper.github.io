@@ -1,13 +1,13 @@
 <div align="center" style="padding: 40px 20px; background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%); border-radius: 20px; margin-bottom: 40px;">
 
-# 👋 Hi, I'm Ramesh Kumar Das
+# 👋 Hi, I'm Ramesh Kumar Das ##Full-Stack | AI Automation Engineer | Generative & Agentic AI | Microservices |  Backend Expert
 
 ![Lead Full Stack Developer](https://img.shields.io/badge/Lead%20Full%20Stack%20Developer-Backend%20Expert-purple?style=for-the-badge&logo=code&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Available%20for%20Opportunities-brightgreen?style=for-the-badge)
 ![Location](https://img.shields.io/badge/Location-Nepal-blue?style=for-the-badge)
 ![Experience](https://img.shields.io/badge/Experience-6%2B%20Years-orange?style=for-the-badge)
 
-**Lead Full-Stack Developer & Backend Expert** specializing in Python, FastAPI, Django, and Generative AI. Expert in building scalable microservices, RESTful/GraphQL APIs, and enterprise-grade backend architectures. Strong experience in cloud infrastructure, DevOps, and AI/ML integration.
+Results-driven Full-Stack and Agentic AI Engineer with 6+ years of experience designing, developing, and deploying production-grade web platforms, AI applications, scalable APIs, and distributed backend systems. Strong expertise in Python, FastAPI, Django, Node.js, Express.js, React.js, Next.js, REST APIs, GraphQL, WebSockets, microservices, and cloud-native deployment. Specialized in Generative AI, Agentic AI workflows, LLM integrations, RAG pipelines, multi-model orchestration, AI automation, and real-time AI-enabled platforms. Experienced in third-party integrations including OpenAI, Replicate, DeepL, Stripe, PayPal, Twilio, Firebase, and webhooks. Skilled in Docker, Kubernetes, CI/CD, AWS, GCP, VPS hosting, GPU servers, and high-performance backend architecture.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-View%20Live-orange?style=for-the-badge&logo=google-chrome&logoColor=white)](https://mrdasdeveloper.github.io/mrdasdeveloper/)
 [![Resume](https://img.shields.io/badge/Resume-Download%20PDF-red?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)](https://mrdasdeveloper.github.io/mrdasdeveloper/ramesh-lead-ai-full-stack-developer.pdf)
