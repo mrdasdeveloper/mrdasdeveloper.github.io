@@ -120,35 +120,6 @@ Experienced with **OpenAI GPT APIs**, **Hugging Face**, **Replicate**, **ComfyUI
 
 ---
 
-## GitHub Activity
-
-<div align="center">
-
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=mrdasdeveloper&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mrdasdeveloper&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=mrdasdeveloper&theme=tokyonight&hide_border=true" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=mrdasdeveloper&theme=tokyonight&no-frame=true&row=1&column=7" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=mrdasdeveloper&theme=tokyo-night&hide_border=true&area=true" />
-
-</div>
-
----
-
 ## Work Experience
 
 <table>
