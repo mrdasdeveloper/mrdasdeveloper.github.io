@@ -1,0 +1,1666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Backend Architecture &amp; Microservices Guide | FastAPI, Next.js, Node.js | Ramesh Das</title>
+  <meta name="description" content="Client guide: software delivery pipeline, full stack (FastAPI, Node.js, Next.js, React, PostgreSQL, Redis), RBAC admin dashboards, multi-language UI, case study, and microservices — production AI backend architecture by Ramesh Das." />
+  <meta name="keywords" content="AI backend architecture, microservices engineering, FastAPI architect, Next.js admin dashboard, Node.js backend, PostgreSQL, Redis, RAG production, software delivery pipeline, remote backend engineer Nepal, Ramesh Das, client case study, RBAC, i18n" />
+  <meta name="author" content="Ramesh Das" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow" />
+  <meta name="bingbot" content="index, follow" />
+  <link rel="canonical" href="https://mrdasdeveloper.github.io/ai-backend-architecture-microservices-engineering-guide.html" />
+  <link rel="alternate" hreflang="en" href="https://mrdasdeveloper.github.io/ai-backend-architecture-microservices-engineering-guide.html" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Ramesh Das" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:title" content="AI Backend Architecture &amp; Microservices Engineering Guide | Ramesh Das" />
+  <meta property="og:description" content="Full-stack client guide: pipeline, FastAPI &amp; Node.js services, Next.js/React admin with RBAC &amp; i18n, PostgreSQL, Redis, and production AI patterns." />
+  <meta property="og:url" content="https://mrdasdeveloper.github.io/ai-backend-architecture-microservices-engineering-guide.html" />
+  <meta property="og:image" content="https://mrdasdeveloper.github.io/og-cover.png" />
+  <meta property="og:image:secure_url" content="https://mrdasdeveloper.github.io/og-cover.png" />
+  <meta property="og:image:alt" content="Ramesh Das — AI backend architect and microservices engineering" />
+  <meta property="article:author" content="Ramesh Das" />
+  <meta property="article:modified_time" content="2026-05-01" />
+  <meta property="article:published_time" content="2026-05-01" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="AI Backend Architecture &amp; Microservices Guide | Ramesh Das" />
+  <meta name="twitter:description" content="Pipeline, stack (FastAPI, Next.js, Node.js), admin dashboards, case study — how we ship production AI backends." />
+  <meta name="twitter:image" content="https://mrdasdeveloper.github.io/og-cover.png" />
+  <meta name="twitter:image:alt" content="Ramesh Das — AI backend architect" />
+
+  <meta name="color-scheme" content="dark light" />
+  <meta name="theme-color" content="#111115" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://mrdasdeveloper.github.io/#website",
+        "url": "https://mrdasdeveloper.github.io/",
+        "name": "Ramesh Das — Portfolio",
+        "inLanguage": "en",
+        "publisher": { "@id": "https://mrdasdeveloper.github.io/#person" }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://mrdasdeveloper.github.io/#person",
+        "name": "Ramesh Das",
+        "url": "https://mrdasdeveloper.github.io/",
+        "email": "mrdasdeveloper@gmail.com",
+        "sameAs": [
+          "https://github.com/mrdasdeveloper",
+          "https://mrdasdeveloper.github.io/"
+        ],
+        "jobTitle": "Agentic AI Engineer & Backend Architect",
+        "knowsAbout": ["FastAPI", "Microservices", "PostgreSQL", "Next.js", "React", "Node.js", "LLM production systems", "RAG"]
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://mrdasdeveloper.github.io/ai-backend-architecture-microservices-engineering-guide.html#webpage",
+        "url": "https://mrdasdeveloper.github.io/ai-backend-architecture-microservices-engineering-guide.html",
+        "name": "AI Backend Architecture & Microservices Engineering Guide",
+        "description": "Client-facing guide: delivery pipeline, technology stack (FastAPI, Node.js, Next.js, React, PostgreSQL, Redis), admin dashboards with RBAC and i18n, anonymized case study, and microservices guidance.",
+        "inLanguage": "en",
+        "isPartOf": { "@id": "https://mrdasdeveloper.github.io/#website" },
+        "author": { "@id": "https://mrdasdeveloper.github.io/#person" },
+        "datePublished": "2026-05-01",
+        "dateModified": "2026-05-01",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://mrdasdeveloper.github.io/og-cover.png"
+        },
+        "breadcrumb": { "@id": "https://mrdasdeveloper.github.io/ai-backend-architecture-microservices-engineering-guide.html#breadcrumb" }
+      },
+      {
+        "@type": "TechArticle",
+        "headline": "AI Backend Architecture and Microservices — Client Delivery Guide",
+        "description": "Step-by-step delivery pipeline, default technology stack, Next.js/React admin experience, and microservices approach for production AI platforms.",
+        "author": { "@id": "https://mrdasdeveloper.github.io/#person" },
+        "isPartOf": { "@id": "https://mrdasdeveloper.github.io/#website" },
+        "mainEntityOfPage": { "@id": "https://mrdasdeveloper.github.io/ai-backend-architecture-microservices-engineering-guide.html#webpage" },
+        "about": [
+          { "@type": "Thing", "name": "Software architecture" },
+          { "@type": "Thing", "name": "Microservices" },
+          { "@type": "Thing", "name": "Artificial intelligence engineering" },
+          { "@type": "Thing", "name": "FastAPI" },
+          { "@type": "Thing", "name": "Next.js" }
+        ],
+        "inLanguage": "en",
+        "datePublished": "2026-05-01",
+        "dateModified": "2026-05-01"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://mrdasdeveloper.github.io/ai-backend-architecture-microservices-engineering-guide.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://mrdasdeveloper.github.io/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "AI backend architecture guide",
+            "item": "https://mrdasdeveloper.github.io/ai-backend-architecture-microservices-engineering-guide.html"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What should I send first?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "One-pager or Loom: product goal, current stack (if any), must-haves, timeline, and budget band. Rough is fine — honesty beats polished fiction."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you replace my whole team?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No — I integrate with your engineers or lead delivery from your repo. Handover is always designed so your team can own the system."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Fixed price or time\u0026 materials?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Depends on clarity of scope. Well-defined milestones can be fixed; research-heavy AI discovery often starts time-boxed then converts to phased delivery."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Remote\u0026 time zones?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Remote-first (Nepal-based, working with global teams). We set overlapping hours for decisions and async written updates between them."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #09090b;
+      --surface:   #111115;
+      --surface2:  #18181f;
+      --border:    #222228;
+      --border2:   #2e2e38;
+      --text:      #ededf5;
+      --muted:     #7a7a8e;
+      --dim:       #4a4a5a;
+      --accent:    #7c6ff7;
+      --accent-hi: #9d93ff;
+      --accent-bg: rgba(124,111,247,0.10);
+      --accent-bd: rgba(124,111,247,0.28);
+      --green:     #34c759;
+      --green-bg:  rgba(52,199,89,0.08);
+      --green-bd:  rgba(52,199,89,0.25);
+      --yellow:    #f5c842;
+      --red:       #ff6b6b;
+      --blue:      #5ec5f5;
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg:        #f6f8fa;
+        --surface:   #ffffff;
+        --surface2:  #eaeef2;
+        --border:    #d0d7de;
+        --border2:   #afb8c1;
+        --text:      #1f2328;
+        --muted:     #656d76;
+        --dim:       #9198a1;
+        --accent:    #6e40c9;
+        --accent-hi: #5a32a3;
+        --accent-bg: #f3eeff;
+        --accent-bd: #d2b4fe;
+        --green:     #1a7f37;
+        --green-bg:  #dafbe1;
+        --green-bd:  #4ac26b;
+        --yellow:    #9a6700;
+        --red:       #cf222e;
+        --blue:      #0550ae;
+      }
+      .tag      { color:#24292f; background:#f6f8fa; border-color:#d0d7de; }
+      .tag.ai   { color:#6e40c9; background:#f3eeff; border-color:#d2b4fe; }
+      .tag.be   { color:#1a7f37; background:#dafbe1; border-color:#4ac26b; }
+      .tag.db   { color:#9a6700; background:#fff8c5; border-color:#d4a72c; }
+      .tag.ops  { color:#0550ae; background:#ddf4ff; border-color:#54aeff; }
+      .tag.fe   { color:#bf3989; background:#ffeff7; border-color:#ff80c8; }
+      .tag.int  { color:#bc4c00; background:#fff1e5; border-color:#ffa657; }
+      .pill         { color:#6e40c9; background:#f3eeff; border-color:#d2b4fe; }
+      .pill.neutral { color:var(--muted); background:var(--surface2); border-color:var(--border); }
+      .pill.green   { color:#1a7f37; background:#dafbe1; border-color:#4ac26b; }
+      .arch-box         { color:#24292f; background:#f6f8fa; border-color:#d0d7de; }
+      .arch-box.client  { color:#0550ae; background:#ddf4ff; border-color:#54aeff; }
+      .arch-box.gateway { color:#6e40c9; background:#f3eeff; border-color:#d2b4fe; }
+      .arch-box.service { color:#1a7f37; background:#dafbe1; border-color:#4ac26b; }
+      .arch-box.data    { color:#9a6700; background:#fff8c5; border-color:#d4a72c; }
+      .arch-box.infra   { color:#bc4c00; background:#fff1e5; border-color:#ffa657; }
+      .sidebar { background:var(--surface); border-color:var(--border); }
+      .sidebar-brand { border-color:var(--border); }
+      .sidebar-cta { border-color:var(--border); }
+      .step-link:hover { background:var(--surface2); }
+      .step-link.active { background:var(--accent-bg); }
+      .step-badge { color:var(--accent); }
+      .step-badge::before { background:var(--accent); }
+      .bar-fill { background:var(--accent); }
+      .bar-track { background:var(--border2); }
+      .flow-num { background:var(--accent-bg); border-color:var(--accent-bd); color:var(--accent); }
+      .stack-table th { background: #eaeef2; }
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', system-ui, sans-serif;
+      font-size: 14px;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: var(--accent); text-decoration: none; transition: color 0.15s; }
+    a:hover { color: var(--accent-hi); }
+    strong { color: var(--text); font-weight: 600; }
+
+    .page { display: flex; min-height: 100vh; }
+
+    .sidebar {
+      position: fixed;
+      left: 0; top: 0; bottom: 0;
+      width: 248px;
+      background: var(--surface);
+      border-right: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      z-index: 50;
+      overflow-y: auto;
+    }
+
+    .sidebar-brand { padding: 18px 16px 14px; border-bottom: 1px solid var(--border); }
+    .sidebar-name { font-size: 12px; font-weight: 800; color: var(--text); letter-spacing: -0.01em; line-height: 1.35; }
+    .sidebar-role { font-size: 10px; color: var(--muted); margin-top: 4px; line-height: 1.45; }
+
+    .sidebar-nav { flex: 1; padding: 8px 0; }
+
+    .step-link {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 14px;
+      font-size: 11px;
+      font-weight: 500;
+      color: var(--muted);
+      transition: color 0.15s, background 0.15s;
+      cursor: pointer;
+      border-left: 2px solid transparent;
+      line-height: 1.35;
+    }
+
+    .step-link:hover { color: var(--text); background: var(--surface2); }
+    .step-link.active { color: var(--accent); border-left-color: var(--accent); background: var(--accent-bg); }
+
+    .step-num {
+      width: 18px; height: 18px;
+      border-radius: 50%;
+      border: 1.5px solid var(--border2);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 9px; font-weight: 700; flex-shrink: 0;
+      transition: border-color 0.15s, background 0.15s, color 0.15s;
+    }
+
+    .step-link.active .step-num {
+      border-color: var(--accent);
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .sidebar-cta { padding: 14px 16px; border-top: 1px solid var(--border); }
+
+    .sidebar-btn {
+      display: block;
+      width: 100%;
+      padding: 9px;
+      text-align: center;
+      background: var(--accent);
+      color: #fff;
+      border-radius: 6px;
+      font-size: 11px;
+      font-weight: 700;
+      transition: background 0.15s;
+    }
+
+    .sidebar-btn:hover { background: var(--accent-hi); color: #fff; }
+
+    .main { margin-left: 248px; flex: 1; }
+
+    .step {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 64px 40px;
+      border-bottom: 1px solid var(--border);
+      position: relative;
+    }
+
+    .step:last-of-type { border-bottom: none; }
+
+    .step-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--accent);
+      margin-bottom: 12px;
+    }
+
+    .step-badge::before {
+      content: '';
+      width: 20px; height: 1px;
+      background: var(--accent);
+    }
+
+    h1 {
+      font-size: clamp(26px, 3.2vw, 42px);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.12;
+      margin-bottom: 14px;
+      max-width: 800px;
+    }
+
+    h2 {
+      font-size: clamp(20px, 2.5vw, 30px);
+      font-weight: 800;
+      letter-spacing: -0.025em;
+      line-height: 1.22;
+      margin-bottom: 12px;
+      max-width: 800px;
+    }
+
+    h3 {
+      font-size: 15px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      letter-spacing: -0.01em;
+    }
+
+    .lead {
+      font-size: clamp(15px, 1.7vw, 17px);
+      color: var(--muted);
+      line-height: 1.78;
+      max-width: 720px;
+      margin-bottom: 22px;
+    }
+
+    .body-tight {
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.72;
+      max-width: 720px;
+      margin-bottom: 12px;
+    }
+
+    hr { border: none; border-top: 1px solid var(--border); margin: 22px 0; }
+
+    .pill-row { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 18px; }
+
+    .pill {
+      padding: 4px 11px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 600;
+      border: 1px solid var(--accent-bd);
+      color: var(--accent-hi);
+      background: var(--accent-bg);
+    }
+
+    .pill.neutral { border-color: var(--border2); color: var(--muted); background: var(--surface2); }
+    .pill.green { border-color: var(--green-bd); color: var(--green); background: var(--green-bg); }
+
+    .g2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .g3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px;
+      transition: border-color 0.2s;
+    }
+
+    .card:hover { border-color: var(--accent-bd); }
+
+    .card-label {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--dim);
+      margin-bottom: 6px;
+    }
+
+    .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+
+    .tag {
+      padding: 3px 9px;
+      border-radius: 5px;
+      font-size: 11px;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      color: #c4c4d4;
+      background: var(--surface2);
+    }
+
+    .tag.ai    { border-color:rgba(124,111,247,.3); color:#b8afff; background:rgba(124,111,247,.07); }
+    .tag.be    { border-color:rgba(52,199,89,.25);  color:#5edf84; background:rgba(52,199,89,.06); }
+    .tag.db    { border-color:rgba(251,191,36,.25); color:#f5c842; background:rgba(251,191,36,.06); }
+    .tag.ops   { border-color:rgba(56,189,248,.25); color:#5ec5f5; background:rgba(56,189,248,.06); }
+    .tag.fe    { border-color:rgba(244,114,182,.25);color:#f472b6; background:rgba(244,114,182,.06); }
+    .tag.int   { border-color:rgba(251,146,60,.25); color:#fb923c; background:rgba(251,146,60,.06); }
+
+    .callout {
+      border-left: 3px solid var(--accent);
+      padding: 14px 18px;
+      background: var(--surface2);
+      border-radius: 0 10px 10px 0;
+      margin: 18px 0;
+      max-width: 720px;
+      font-size: 13px;
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    .callout strong { color: var(--text); }
+
+    .stack-wrap {
+      overflow-x: auto;
+      margin-top: 16px;
+      max-width: min(100%, 920px);
+      width: 100%;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+    }
+
+    .stack-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12px;
+    }
+
+    .stack-table th,
+    .stack-table td {
+      padding: 11px 14px;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+    }
+
+    .stack-table tr:last-child td { border-bottom: none; }
+
+    .stack-table th {
+      background: var(--surface2);
+      font-weight: 700;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text);
+    }
+
+    .stack-table td:first-child {
+      font-weight: 600;
+      color: var(--text);
+      white-space: nowrap;
+      width: 1%;
+    }
+
+    /* Readable data tables (case study, goals, comparisons) */
+    .data-table-wrap {
+      width: 100%;
+      max-width: min(100%, 920px);
+      margin-top: 12px;
+      overflow-x: auto;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .data-table {
+      width: 100%;
+      min-width: 640px;
+      border-collapse: collapse;
+      font-size: 12px;
+    }
+
+    .data-table caption {
+      caption-side: top;
+      text-align: left;
+      padding: 12px 14px 10px;
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--muted);
+      border-bottom: 1px solid var(--border);
+      background: var(--surface);
+    }
+
+    .data-table th,
+    .data-table td {
+      padding: 12px 14px;
+      text-align: left;
+      vertical-align: top;
+      border-bottom: 1px solid var(--border);
+      line-height: 1.55;
+    }
+
+    .data-table thead th {
+      background: var(--surface2);
+      font-weight: 700;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--text);
+    }
+
+    .data-table tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    .data-table tbody tr:hover td {
+      background: rgba(124, 111, 247, 0.04);
+    }
+
+    .data-table tbody tr:hover td.col-focus {
+      background: var(--surface2);
+    }
+
+    @media (prefers-color-scheme: light) {
+      .data-table tbody tr:hover td {
+        background: #f3eeff;
+      }
+      .data-table tbody tr:hover td.col-focus {
+        background: #eaeef2;
+      }
+    }
+
+    .data-table .col-focus {
+      font-weight: 700;
+      color: var(--text);
+      width: 17%;
+      min-width: 108px;
+      background: var(--surface);
+      border-right: 1px solid var(--border);
+    }
+
+    .data-table td strong {
+      color: var(--text);
+    }
+
+    .data-table .muted-cell {
+      color: var(--muted);
+    }
+
+    .data-table.two-col {
+      min-width: 520px;
+    }
+
+    .data-table.two-col .col-focus {
+      width: 28%;
+      min-width: 140px;
+    }
+
+    .phase-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      max-width: 760px;
+      margin-top: 8px;
+    }
+
+    .phase-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px 18px;
+      border-left: 4px solid var(--accent);
+    }
+
+    .phase-top {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 8px;
+    }
+
+    .phase-num {
+      font-size: 11px;
+      font-weight: 800;
+      color: var(--accent-hi);
+      letter-spacing: 0.04em;
+    }
+
+    .phase-title { font-size: 15px; font-weight: 700; color: var(--text); }
+
+    .phase-sub {
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.65;
+      margin-bottom: 8px;
+    }
+
+    .phase-you {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--green);
+      margin-top: 10px;
+      margin-bottom: 4px;
+    }
+
+    .phase-you-list {
+      font-size: 12px;
+      color: var(--muted);
+      padding-left: 18px;
+      margin: 0;
+      line-height: 1.55;
+    }
+
+    .phase-you-list li { margin-bottom: 4px; }
+
+    .arch {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 22px;
+      margin-top: 16px;
+    }
+
+    .arch-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+    }
+
+    .arch-box {
+      padding: 8px 12px;
+      border-radius: 8px;
+      font-size: 11px;
+      font-weight: 600;
+      border: 1px solid var(--border2);
+      background: var(--surface2);
+      color: var(--text);
+      text-align: center;
+      min-width: 88px;
+    }
+
+    .arch-box.client  { border-color: var(--blue); color: var(--blue); background: rgba(94,197,245,0.07); }
+    .arch-box.gateway { border-color: var(--accent-bd); color: var(--accent-hi); background: var(--accent-bg); }
+    .arch-box.service { border-color: var(--green-bd); color: var(--green); background: var(--green-bg); }
+    .arch-box.data    { border-color: rgba(251,191,36,.3); color: var(--yellow); background: rgba(251,191,36,.07); }
+    .arch-box.infra   { border-color: rgba(251,146,60,.3); color: #fb923c; background: rgba(251,146,60,.07); }
+
+    .arch-arrow { font-size: 13px; color: var(--dim); flex-shrink: 0; }
+
+    .arch-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 10px 0; }
+
+    .svc-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 12px; }
+
+    .svc-box {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px 14px;
+    }
+
+    .svc-name { font-size: 12px; font-weight: 700; color: var(--text); margin-bottom: 4px; }
+    .svc-desc { font-size: 11px; color: var(--muted); line-height: 1.55; }
+
+    .checklist { list-style: none; padding: 0; margin: 12px 0 0; max-width: 720px; }
+    .checklist li {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      font-size: 13px;
+      color: var(--muted);
+      margin-bottom: 9px;
+      line-height: 1.55;
+    }
+
+    .checklist li::before {
+      content: '✓';
+      flex-shrink: 0;
+      width: 20px; height: 20px;
+      border-radius: 6px;
+      background: var(--green-bg);
+      border: 1px solid var(--green-bd);
+      color: var(--green);
+      font-size: 11px;
+      font-weight: 800;
+      display: flex; align-items: center; justify-content: center;
+      margin-top: 1px;
+    }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--muted);
+      padding: 7px 14px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      margin-bottom: 20px;
+      transition: color 0.15s, border-color 0.15s;
+    }
+
+    .back-link:hover { color: var(--text); border-color: var(--border2); }
+
+    .cta-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; max-width: 580px; }
+
+    .cta-card {
+      display: flex; align-items: center; gap: 12px;
+      padding: 14px 16px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      font-size: 13px; font-weight: 600; color: var(--text);
+      transition: border-color 0.2s, background 0.2s;
+    }
+
+    .cta-card:hover { border-color: var(--accent-bd); background: var(--accent-bg); }
+    .cta-icon {
+      width: 34px; height: 34px; border-radius: 7px;
+      background: var(--surface2); border: 1px solid var(--border2);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 16px; flex-shrink: 0;
+    }
+    .cta-sub { font-size: 11px; color: var(--muted); font-weight: 400; display: block; }
+
+    .mobile-nav {
+      display: none;
+      position: sticky; top: 0; z-index: 50;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 12px;
+      height: 48px;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .mobile-nav-brand { font-size: 11px; font-weight: 800; color: var(--text); }
+    .mobile-nav-links { display: flex; gap: 8px; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    .mobile-nav-links a {
+      font-size: 10px; font-weight: 600; color: var(--muted);
+      white-space: nowrap; padding: 4px 0; flex-shrink: 0;
+    }
+    .mobile-nav-links a:hover { color: var(--text); }
+
+    .case-stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      max-width: 720px;
+      margin: 16px 0 20px;
+    }
+
+    .case-stats .card {
+      text-align: center;
+      padding: 16px 12px;
+    }
+
+    .case-stat-val {
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--accent);
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+    }
+
+    .case-stat-lbl {
+      font-size: 10px;
+      color: var(--muted);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-top: 6px;
+      line-height: 1.35;
+    }
+
+    .case-solve {
+      border-left: 4px solid var(--green);
+    }
+
+    .seo-breadcrumb {
+      font-size: 11px;
+      color: var(--muted);
+      margin-bottom: 14px;
+      max-width: 720px;
+    }
+
+    .seo-breadcrumb a {
+      font-weight: 500;
+    }
+
+    .seo-breadcrumb-current {
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    @media (max-width: 1020px) {
+      .sidebar { display: none; }
+      .main { margin-left: 0; }
+      .mobile-nav { display: flex; }
+      .step { padding: 40px 18px; min-height: auto; }
+      .g2, .g3 { grid-template-columns: 1fr; }
+      .svc-grid { grid-template-columns: 1fr; }
+      .cta-grid { grid-template-columns: 1fr; }
+      .arch-grid { grid-template-columns: 1fr 1fr; }
+      .stack-table td:first-child { white-space: normal; }
+      .case-stats { grid-template-columns: 1fr; }
+      .data-table .col-focus { white-space: normal; }
+    }
+
+    @media (max-width: 600px) {
+      .step { padding: 28px 14px; }
+      .arch-row { flex-direction: column; }
+      .arch-arrow { transform: rotate(90deg); }
+      .arch-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="mobile-nav">
+  <span class="mobile-nav-brand">Delivery guide</span>
+  <div class="mobile-nav-links">
+    <a href="#p1">Intro</a>
+    <a href="#p2">Case study</a>
+    <a href="#p3">Pipeline</a>
+    <a href="#p4">Stack</a>
+    <a href="#p5">Services</a>
+    <a href="#p6">Fit</a>
+    <a href="#p7">Diagram</a>
+    <a href="#p8">AI</a>
+    <a href="#p9">FAQ</a>
+  </div>
+</nav>
+
+<div class="page">
+
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <div class="sidebar-name">Client delivery — pipeline &amp; stack</div>
+      <div class="sidebar-role">Ramesh Das · AI backends &amp; microservices · How we ship your requirements</div>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="step-link active" href="#p1" onclick="setActive(this)"><span class="step-num">1</span> Who this is for</a>
+      <a class="step-link" href="#p2" onclick="setActive(this)"><span class="step-num">2</span> Case study</a>
+      <a class="step-link" href="#p3" onclick="setActive(this)"><span class="step-num">3</span> Delivery pipeline</a>
+      <a class="step-link" href="#p4" onclick="setActive(this)"><span class="step-num">4</span> Default tech stack</a>
+      <a class="step-link" href="#p5" onclick="setActive(this)"><span class="step-num">5</span> Microservices</a>
+      <a class="step-link" href="#p6" onclick="setActive(this)"><span class="step-num">6</span> Requirements fit</a>
+      <a class="step-link" href="#p7" onclick="setActive(this)"><span class="step-num">7</span> System layout</a>
+      <a class="step-link" href="#p8" onclick="setActive(this)"><span class="step-num">8</span> AI in the pipeline</a>
+      <a class="step-link" href="#p9" onclick="setActive(this)"><span class="step-num">9</span> FAQ &amp; contact</a>
+    </nav>
+
+    <div class="sidebar-cta">
+      <a class="sidebar-btn" href="presentation.html">Portfolio presentation</a>
+      <a href="index.html" style="display:block; text-align:center; font-size:10px; color:var(--muted); margin-top:8px;">← Profile home</a>
+    </div>
+  </aside>
+
+  <main id="main-content" class="main">
+
+    <section class="step" id="p1">
+      <a class="back-link" href="index.html">← Back to profile</a>
+      <nav class="seo-breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <span aria-hidden="true"> · </span>
+        <a href="presentation.html">Presentation</a>
+        <span aria-hidden="true"> · </span>
+        <span class="seo-breadcrumb-current">AI backend architecture guide</span>
+      </nav>
+      <div class="step-badge">For clients · 01</div>
+      <h1>If we work together, this is how your requirements become production software.</h1>
+      <p class="lead">
+        This page is for <strong>you</strong> — founder, product owner, or engineering lead — before we write a long proposal.
+        It explains in <strong>plain language</strong>: the <strong>pipeline</strong> we follow from first conversation to live system,
+        the <strong>full technology stack</strong> (APIs, data, AI, and a <strong>polished admin experience</strong> in Next.js / React with
+        <strong>role-based access</strong>, <strong>multi-language</strong> UI, and <strong>dark / light</strong> themes), and how
+        <strong>microservices</strong> are used only when they genuinely help your roadmap — not because they sound impressive.
+      </p>
+
+      <div class="pill-row">
+        <span class="pill green">Requirements → working software</span>
+        <span class="pill">Written milestones</span>
+        <span class="pill">FastAPI · Node.js · Next.js · React</span>
+        <span class="pill">Admin · RBAC · i18n · themes</span>
+        <span class="pill">PostgreSQL · Redis</span>
+        <span class="pill neutral">Plain language in intro, case study &amp; pipeline</span>
+      </div>
+
+      <p class="body-tight">
+        My goal is simple: <strong>you should never wonder where we are in the project</strong> or whether your must-haves are
+        tracked. Every phase below ends with something you can <strong>see or sign</strong> — a document, a demo, or a deployed slice —
+        so we stay aligned and you can plan launches and budgets with confidence.
+      </p>
+
+      <p class="body-tight" style="margin-top:8px;">
+        Next: a <strong><a href="#p2">case study</a></strong> (composite, no client names) shows how we connect <strong>ambitious goals</strong> to a
+        <strong>real architecture</strong> and milestone plan — the same discipline we apply to your engagement.
+      </p>
+
+      <div class="callout">
+        <strong>Three promises:</strong> (1) Your priorities are written down as acceptance criteria before heavy build-out.
+        (2) We ship in <strong>small slices</strong> so you get early software, not a black box until the deadline.
+        (3) The stack is <strong>boring where it matters</strong> (data, auth, APIs) so your product — including AI — stays maintainable.
+      </div>
+    </section>
+
+    <section class="step" id="p2">
+      <div class="step-badge">For clients · 02</div>
+      <h2>Case study — AI growth &amp; operations automation (how we align engineering with your real goals).</h2>
+      <p class="lead">
+        This is a <strong>composite example</strong> based on a real class of projects: a global consumer-tech company that wanted one
+        <strong>governed system</strong> instead of dozens of disconnected tools and manual handoffs — covering marketing analytics,
+        partner outreach, investor pipeline, day-to-day email and calendar, and <strong>money movement with human approval</strong>.
+        Names and brands are omitted; the <strong>pattern</strong> is what you can expect when you work with us.
+      </p>
+
+      <div class="case-stats">
+        <div class="card">
+          <div class="case-stat-val">1</div>
+          <div class="case-stat-lbl">Product surface<br />Mobile web + voice</div>
+        </div>
+        <div class="card">
+          <div class="case-stat-val">12+</div>
+          <div class="case-stat-lbl">Integration domains<br />Ads, email, calendar, payouts</div>
+        </div>
+        <div class="card">
+          <div class="case-stat-val">100%</div>
+          <div class="case-stat-lbl">Owner-controlled<br />Infra &amp; source code</div>
+        </div>
+      </div>
+
+      <h3>What the client needed to achieve (in business terms)</h3>
+      <p class="body-tight" style="margin-top:4px;">
+        Read across each row: <strong>goal</strong> → <strong>outcome you can recognize</strong> → <strong>how oversight stays with people</strong> (not hidden in code).
+      </p>
+
+      <div class="data-table-wrap">
+        <table class="data-table">
+          <caption>Business goals at a glance (composite case study)</caption>
+          <thead>
+            <tr>
+              <th scope="col">Goal area</th>
+              <th scope="col">What success looks like</th>
+              <th scope="col">Oversight &amp; trust</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-focus">One face to the outside world</td>
+              <td class="muted-cell">Consistent, <strong>multilingual</strong> communication with partners, creators, and investors — tone that adapts to context (<strong>formal vs friendly</strong>) without sounding robotic or unsafe.</td>
+              <td class="muted-cell">Strict agent <strong>policies</strong>, <strong>whitelisted tools</strong> (CRM, email, calendar), message templates, and <strong>reviewable logs</strong>. Optional explicit “AI disclosure” if your legal or brand rules require it.</td>
+            </tr>
+            <tr>
+              <td class="col-focus">Operational leverage</td>
+              <td class="muted-cell"><strong>Automated</strong> reporting from ad platforms, <strong>structured outreach</strong> with follow-ups, and <strong>pipeline tracking</strong> for programs and investors — less manual tab switching.</td>
+              <td class="muted-cell"><strong>Owner checkpoints</strong> on sensitive sends; weekly or on-demand summaries to the owner inbox; clear queues in the <strong>admin dashboard</strong> so nothing “auto-happens” in silence.</td>
+            </tr>
+            <tr>
+              <td class="col-focus">Trust on money</td>
+              <td class="muted-cell">Every outbound transfer <strong>prepared by automation</strong> but <strong>released only after an explicit owner action</strong>; receipts and confirmations stored in an organized way.</td>
+              <td class="muted-cell"><strong>Immutable audit log</strong> in the database, webhook or API <strong>receipt capture</strong>, and a screen where finance can reconcile “prepared vs sent” in seconds.</td>
+            </tr>
+            <tr>
+              <td class="col-focus">Multi-user reality</td>
+              <td class="muted-cell">Owner sees the <strong>full picture</strong>; delegated roles see <strong>only their workspace</strong> — not each other’s private tasks or conversations.</td>
+              <td class="muted-cell">Same <strong>RBAC rules in the API and the database</strong> — not a cosmetic UI hide. Separate sessions, scoped queries, and admin views that match those guarantees.</td>
+            </tr>
+            <tr>
+              <td class="col-focus">Operator-grade admin</td>
+              <td class="muted-cell">A <strong>Next.js / React</strong> control plane with <strong>RBAC</strong>, <strong>multi-language</strong> screens, and <strong>dark / light</strong> themes — leadership and staff monitor integrations, approvals, and health <strong>without SQL</strong>.</td>
+              <td class="muted-cell">Role-aware navigation, <strong>exports</strong> for audits, empty and error states that explain what to do next — so ops is not dependent on engineering for day-to-day answers.</td>
+            </tr>
+            <tr>
+              <td class="col-focus">Speed to mobile users</td>
+              <td class="muted-cell">Full experience in the <strong>mobile browser</strong> (no mandatory native app), including <strong>voice in and voice out</strong> where the product requires it.</td>
+              <td class="muted-cell">Same <strong>authenticated session</strong> model as desktop, <strong>rate limits</strong> and timeouts on voice and AI routes, and responsive layouts tested on real phone sizes.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <hr />
+
+      <h3>Where projects like this usually fail — and how we avoided it</h3>
+      <div class="g2">
+        <div class="card">
+          <div class="card-label">Typical pitfall</div>
+          <h3>“AI first, plumbing later”</h3>
+          <p class="body-tight" style="margin-bottom:0;">
+            Pretty demos collapse when auth, roles, webhooks, and idempotency are rushed. We <strong>sequence</strong> work so the boring
+            backbone (identity, RBAC, audit logs, secrets) is real before we scale creative automation.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-label">Our counter-move</div>
+          <h3>Goal-risk mapping, then milestones</h3>
+          <p class="body-tight" style="margin-bottom:0;">
+            Each business goal gets a <strong>failure mode</strong> (“what hurts if this breaks?”). Payouts and private data get the hardest
+            gates; marketing summaries get fast iteration. That keeps budget and attention where <strong>your</strong> risk lives.
+          </p>
+        </div>
+      </div>
+
+      <hr />
+
+      <h3>How we translated goals into a concrete system design</h3>
+      <p class="body-tight" style="margin-top:4px;">
+        Same three-column idea: <strong>which goal</strong>, <strong>what we engineered</strong>, <strong>what you can verify in a demo or audit</strong>.
+      </p>
+
+      <div class="data-table-wrap">
+        <table class="data-table">
+          <caption>From business goal to engineering response</caption>
+          <thead>
+            <tr>
+              <th scope="col">Goal focus</th>
+              <th scope="col">What we build</th>
+              <th scope="col">What you can verify</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-focus">Trusted external comms</td>
+              <td class="muted-cell">A governed <strong>agent layer</strong> (frontier LLM with tool calling + strict system policy) and templates for outbound messages. Tools are <strong>whitelisted</strong> (CRM, email send, calendar hold) — no open-ended browsing unless you explicitly accept that risk.</td>
+              <td class="muted-cell">Prompt/version history, blocked-action logs, and sample conversations in <strong>staging</strong> before anything touches production accounts.</td>
+            </tr>
+            <tr>
+              <td class="col-focus">Many integrations</td>
+              <td class="muted-cell">A <strong>workflow automation layer</strong> (visual iPaaS-style connectors or first-party workers — chosen for your ops maturity) for retries, schedules, and third-party quirks. <strong>Core domain APIs</strong> stay small and testable.</td>
+              <td class="muted-cell">Webhook replay tests, failure alerts visible in the admin, and a diagram of <strong>which system owns which credential</strong>.</td>
+            </tr>
+            <tr>
+              <td class="col-focus">Voice on mobile web</td>
+              <td class="muted-cell">Speech-to-text and text-to-speech on the <strong>same authenticated session</strong> as the dashboard, with <strong>timeouts and rate limits</strong> on AI and voice routes.</td>
+              <td class="muted-cell">Load test results for concurrent mobile sessions and a <strong>cost dashboard</strong> slice for voice + model usage.</td>
+            </tr>
+            <tr>
+              <td class="col-focus">Payouts you can defend</td>
+              <td class="muted-cell">Automation prepares batches and evidence; <strong>one-click owner approval</strong> triggers the payment provider; webhooks and receipts land in <strong>structured storage</strong> plus a <strong>database audit log</strong>.</td>
+              <td class="muted-cell">End-to-end demo: draft → approve → provider confirmation → row in audit table → file in the correct folder — reproducible by your finance lead.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="phase-card case-solve" style="margin-top:18px;">
+        <div class="phase-top">
+          <span class="phase-num">HOW WE SHIPPED IT</span>
+          <span class="phase-title">Milestones that proved progress (not slides)</span>
+        </div>
+        <p class="phase-sub">
+          The client saw <strong>running software after each milestone</strong> — the same rule as in the delivery pipeline section. Early milestones were deliberately
+          “unsexy”: sign-in, roles, audit, and a single end-to-end path (e.g. draft payout → owner approve → recorded receipt).
+          Only then did we widen to ads reporting, outreach queues, and richer agent behaviors — because the foundation could
+          carry the load.
+        </p>
+        <div class="phase-you">What you can take away as a buyer</div>
+        <ul class="phase-you-list">
+          <li>Your <strong>goals stay visible</strong> in acceptance criteria — not buried in a developer’s head.</li>
+          <li>Complex AI is <strong>bounded by contracts</strong> (APIs, tools, roles) so it stays maintainable.</li>
+          <li>You get <strong>evidence</strong>: logs, docs, and demos that match how production will actually run.</li>
+        </ul>
+      </div>
+
+      <div class="callout" style="margin-top:18px;">
+        <strong>Impress bar:</strong> If your requirement doc reads like “automate everything, everywhere, instantly,” we respond with a
+        <strong>phased map</strong> that still aims at the full vision — but ships the parts that protect <strong>money, reputation, and data</strong> first.
+        That is how ambitious scope turns into something you can run in the real world — not a science fair.
+      </div>
+    </section>
+
+    <section class="step" id="p3">
+      <div class="step-badge">For clients · 03</div>
+      <h2>The delivery pipeline — seven steps from idea to production.</h2>
+      <p class="lead">
+        The same pipeline applies whether we are building a new AI product or extending an existing backend. Steps can be
+        shorter or longer per project, but <strong>the order rarely changes</strong>: understand first, design the shape of the system,
+        then build, prove, deploy, and improve with real usage.
+      </p>
+
+      <div class="phase-list">
+        <div class="phase-card">
+          <div class="phase-top">
+            <span class="phase-num">STEP 1</span>
+            <span class="phase-title">Listen &amp; capture requirements</span>
+          </div>
+          <p class="phase-sub">
+            We turn goals into a short list: users, must-have features, integrations (payments, email, models), compliance,
+            traffic expectations, and deadlines. Ambiguity is normal here — we note open questions instead of guessing.
+          </p>
+          <div class="phase-you">You receive</div>
+          <ul class="phase-you-list">
+            <li>A written summary of goals and constraints in your language.</li>
+            <li>A list of clarified questions (if any) before we size the work.</li>
+          </ul>
+        </div>
+
+        <div class="phase-card">
+          <div class="phase-top">
+            <span class="phase-num">STEP 2</span>
+            <span class="phase-title">Scope &amp; milestone plan</span>
+          </div>
+          <p class="phase-sub">
+            We agree on <strong>milestones</strong> (usually vertical slices of the product), order of delivery, and what “done” means
+            for each slice. If something is out of scope for the first release, we say so explicitly — no hidden surprises later.
+          </p>
+          <div class="phase-you">You receive</div>
+          <ul class="phase-you-list">
+            <li>Milestone list with dates or ranges and dependencies.</li>
+            <li>Per-milestone acceptance checklist (what you will test or approve).</li>
+          </ul>
+        </div>
+
+        <div class="phase-card">
+          <div class="phase-top">
+            <span class="phase-num">STEP 3</span>
+            <span class="phase-title">Architecture &amp; API shape (lightweight)</span>
+          </div>
+          <p class="phase-sub">
+            Before a wall of code, we fix the <strong>shape</strong> of the system: main services (or modules), who owns which data,
+            how clients talk to the backend (REST paths, webhooks, jobs). This is where microservices vs modular monolith is decided.
+          </p>
+          <div class="phase-you">You receive</div>
+          <ul class="phase-you-list">
+            <li>Simple diagram + short written rationale (1–3 pages, not a shelf of PDFs).</li>
+            <li>Stable API outline your mobile/web team can start against.</li>
+          </ul>
+        </div>
+
+        <div class="phase-card">
+          <div class="phase-top">
+            <span class="phase-num">STEP 4</span>
+            <span class="phase-title">Build in slices + demos</span>
+          </div>
+          <p class="phase-sub">
+            Each milestone produces <strong>runnable software</strong> in staging: APIs, database migrations, background jobs as needed.
+            You see demos on a rhythm we agree on (often weekly or bi-weekly). Feedback goes into the next slice — not into a pile
+            of “Phase 2” wishful thinking.
+          </p>
+          <div class="phase-you">You receive</div>
+          <ul class="phase-you-list">
+            <li>Demo link or recording + brief release notes per milestone.</li>
+            <li>Updated docs (how to run locally, env vars, main endpoints).</li>
+          </ul>
+        </div>
+
+        <div class="phase-card">
+          <div class="phase-top">
+            <span class="phase-num">STEP 5</span>
+            <span class="phase-title">Harden: reliability, security, cost</span>
+          </div>
+          <p class="phase-sub">
+            We add what production needs: logging, health checks, rate limits on expensive routes, backups strategy for data,
+            LLM/token budgets if applicable. This step is sized to <strong>your risk</strong> — payments and auth get the strictest bar.
+          </p>
+          <div class="phase-you">You receive</div>
+          <ul class="phase-you-list">
+            <li>Runbook notes: what to check when errors or latency spike.</li>
+            <li>Basic monitoring hooks (what metrics/alerts mean for your team).</li>
+          </ul>
+        </div>
+
+        <div class="phase-card">
+          <div class="phase-top">
+            <span class="phase-num">STEP 6</span>
+            <span class="phase-title">Deploy &amp; handover</span>
+          </div>
+          <p class="phase-sub">
+            We deploy to your hosting (Docker, cloud VM, Kubernetes — whatever matches your stage). Then we do a structured
+            handover: walkthrough, repository access, backlog of optional improvements with honest priority labels.
+          </p>
+          <div class="phase-you">You receive</div>
+          <ul class="phase-you-list">
+            <li>Production deployment + tagged release in source control.</li>
+            <li>Handover session(s) and written “how to operate this” summary.</li>
+          </ul>
+        </div>
+
+        <div class="phase-card">
+          <div class="phase-top">
+            <span class="phase-num">STEP 7</span>
+            <span class="phase-title">Measure &amp; iterate</span>
+          </div>
+          <p class="phase-sub">
+            After launch, real users tell the truth. We use metrics and support feedback to tune performance, costs, and UX.
+            New requirements go through the same pipeline from Step 1 — so growth stays controlled.
+          </p>
+          <div class="phase-you">You receive</div>
+          <ul class="phase-you-list">
+            <li>A clear way to request changes (scope, impact, rough order of effort).</li>
+            <li>Optional ongoing support retainer if you want a named owner for incidents.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="step" id="p4">
+      <div class="step-badge">For clients · 04</div>
+      <h2>Default technology stack — APIs, data, AI, and an admin your team will actually want to use.</h2>
+      <p class="lead">
+        Clients rarely want “only a backend.” They want <strong>visibility and control</strong>: an <strong>admin dashboard</strong> where the right roles
+        see queues, approvals, integrations, and health — in <strong>their language</strong>, in <strong>dark or light</strong> mode, with a
+        <strong>modern UI</strong>. Below is the full frame: Python services where they shine, <strong>Node.js</strong> where your org or ecosystem fits
+        JavaScript better, and <strong>Next.js + React</strong> for the product and operator surfaces. Everything stays <strong>well documented</strong>,
+        hireable, and aligned to the same delivery pipeline.
+      </p>
+
+      <div class="stack-wrap">
+        <table class="stack-table">
+          <thead>
+            <tr>
+              <th>Layer</th>
+              <th>What we use</th>
+              <th>Why it matters for you</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>API &amp; services</td>
+              <td><strong>Python 3.11+</strong>, <strong>FastAPI</strong>, async I/O, Pydantic for request/response validation</td>
+              <td>Fast iteration, clear APIs, automatic OpenAPI docs — your frontend team integrates faster with fewer misunderstandings.</td>
+            </tr>
+            <tr>
+              <td>Node.js services</td>
+              <td><strong>Node.js</strong> (e.g. <strong>NestJS</strong>, Express, or Fastify) for BFFs, webhooks, or services that fit the JS ecosystem</td>
+              <td>When your team or third-party stack is already Node-first, we do not force a rewrite: same auth model, OpenAPI or typed contracts, tests, and deployment patterns as the Python side.</td>
+            </tr>
+            <tr>
+              <td>Admin &amp; web app</td>
+              <td><strong>Next.js</strong> (App Router) + <strong>React</strong> + TypeScript; <strong>Tailwind CSS</strong> and a small design-token layer for a crisp, consistent look</td>
+              <td>One credible surface for operators and customers: fast loads, accessible components, SEO where needed, and a codebase your front-end hires already know.</td>
+            </tr>
+            <tr>
+              <td>Dashboard control plane</td>
+              <td><strong>Role-based UI</strong> (owner vs manager vs support) driven by the same RBAC claims as the API; audit-friendly lists, filters, exports</td>
+              <td>People see <strong>only what their role allows</strong> — not a fake “hide button” in the DOM. Owners get global health, queues, and approvals; scoped roles get their workspace only.</td>
+            </tr>
+            <tr>
+              <td>Languages &amp; theme</td>
+              <td><strong>next-intl</strong> or <strong>react-i18next</strong>; <strong>next-themes</strong> (or CSS variables) for <strong>dark / light</strong> + system preference</td>
+              <td>Operators work in <strong>multiple languages</strong> without maintaining duplicate apps; theme toggle and accessible contrast reduce fatigue and look professional to partners.</td>
+            </tr>
+            <tr>
+              <td>Gateway</td>
+              <td><strong>Nginx</strong> (or cloud load balancer) for routing, TLS, size limits</td>
+              <td>One front door for web/mobile; path prefixes route to the right service (/ai/, /auth/, etc.) without chaos in app code.</td>
+            </tr>
+            <tr>
+              <td>Primary database</td>
+              <td><strong>PostgreSQL</strong> (often via Supabase or managed Postgres)</td>
+              <td>Single source of truth for users, billing, posts, job state — ACID transactions where money and identity matter.</td>
+            </tr>
+            <tr>
+              <td>Cache &amp; speed</td>
+              <td><strong>Redis</strong></td>
+              <td>Sessions, rate limits, hot reads, job queues — keeps APIs fast and costs predictable under traffic spikes.</td>
+            </tr>
+            <tr>
+              <td>Files &amp; media</td>
+              <td><strong>S3-compatible</strong> or <strong>Google Cloud Storage</strong></td>
+              <td>Images, video, exports — not stored in the database as blobs, so backups and scaling stay sane.</td>
+            </tr>
+            <tr>
+              <td>Containers</td>
+              <td><strong>Docker</strong>, <strong>Docker Compose</strong> for local + staging parity</td>
+              <td>“Works on my machine” disappears; new developers and CI run the same environment.</td>
+            </tr>
+            <tr>
+              <td>Events (when needed)</td>
+              <td><strong>Kafka</strong> + <strong>CDC</strong> patterns for fan-out (e.g. many consumers of the same business event)</td>
+              <td>Only when your scale or decoupling needs justify it — otherwise we keep eventing simple to avoid ops overload.</td>
+            </tr>
+            <tr>
+              <td>AI / LLM</td>
+              <td>Provider APIs (OpenAI, Google, etc.) + <strong>vector search</strong> where RAG is required; optional GPU workers for heavy generation</td>
+              <td>Clear separation: cheap routing/classification vs expensive generation; queues for long jobs so users are not stuck on spinners.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="body-tight" style="margin-top:16px;">
+        <strong>Flexibility:</strong> If you already use Django, a different Node framework, or a specific cloud, we map this table to your reality. The
+        delivery pipeline (step 3) does not change — only the boxes in the stack table do.
+      </p>
+
+      <h3 style="margin-top:28px;">What “admin done right” means for you</h3>
+      <p class="body-tight">
+        The dashboard is not an afterthought — it is how you <strong>trust the system</strong>. We invest in layout, typography, empty states,
+        and loading patterns so day-two operations feel as intentional as day-one launch.
+      </p>
+
+      <div class="g3" style="margin-top:14px;">
+        <div class="card">
+          <div class="card-label">Visibility</div>
+          <h3>Everything important in one frame</h3>
+          <p class="body-tight" style="margin-bottom:0;">
+            Jobs, webhooks, integration health, payout batches, user activity — surfaced with <strong>filters, search, and exports</strong>
+            so owners and ops leads do not need database access to understand reality.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-label">Access</div>
+          <h3>RBAC end-to-end</h3>
+          <p class="body-tight" style="margin-bottom:0;">
+            Routes and components respect the same <strong>permissions model</strong> as the API. Separate workspaces for delegated roles;
+            owners retain full oversight without leaking private owner-only data across tenants.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-label">Experience</div>
+          <h3>i18n + dark / light</h3>
+          <p class="body-tight" style="margin-bottom:0;">
+            <strong>Multi-language</strong> strings live in translation files for clean translator handoff. <strong>Dark and light</strong> modes
+            (including system sync) keep long sessions comfortable and match your brand guidelines.
+          </p>
+        </div>
+      </div>
+
+      <div class="tags">
+        <span class="tag be">FastAPI</span>
+        <span class="tag fe">Next.js</span>
+        <span class="tag fe">React</span>
+        <span class="tag be">Node.js</span>
+        <span class="tag db">PostgreSQL</span>
+        <span class="tag ops">Docker / Nginx</span>
+        <span class="tag ai">LLM + RAG</span>
+        <span class="tag int">OpenAPI</span>
+        <span class="tag int">RBAC</span>
+        <span class="tag fe">i18n</span>
+        <span class="tag fe">Dark / light UI</span>
+      </div>
+    </section>
+
+    <section class="step" id="p5">
+      <div class="step-badge">For clients · 05</div>
+      <h2>Microservices — when we split systems, and when we keep one codebase.</h2>
+      <p class="lead">
+        “Microservices” is not a badge of honor — it is a <strong>tool</strong>. Too many tiny services too early creates deployment and
+        debugging pain. I use multiple services when your roadmap <strong>genuinely</strong> needs independent scaling, releases, or team boundaries.
+      </p>
+
+      <div class="g2">
+        <div class="card">
+          <div class="card-label">We split services when…</div>
+          <h3>Clear win for you</h3>
+          <ul class="checklist" style="margin-top:4px;">
+            <li>AI generation needs different scaling (GPU, long jobs) than login or wallet APIs.</li>
+            <li>Teams must ship on different schedules with minimal risk of breaking each other.</li>
+            <li>Heavy traffic on one feature (e.g. feeds) must not starve critical paths (e.g. payments).</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="card-label">We keep a modular monolith when…</div>
+          <h3>Team is small or early stage</h3>
+          <ul class="checklist" style="margin-top:4px;">
+            <li>One product team, one release train — clean <strong>modules inside one repo</strong> ship faster with less ops overhead.</li>
+            <li>Transactions span features tightly — splitting prematurely causes data bugs.</li>
+            <li>You are pre–product-market fit and need maximum learning speed per engineer.</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="body-tight" style="margin-top:16px;">
+        In both cases, the <strong>rules are the same</strong>: clear ownership of data, explicit APIs between parts, and no “mystery shared
+        database” between teams. We can start modular and <strong>split services later</strong> when metrics prove the need — that path is
+        intentional, not a failure.
+      </p>
+    </section>
+
+    <section class="step" id="p6">
+      <div class="step-badge">For clients · 06</div>
+      <h2>How we make sure your requirements are fully covered — nothing important “lost in Slack.”</h2>
+      <p class="lead">
+        Misalignment is almost never malice — it is missing structure. Here is how we tie <strong>your requirements</strong> to
+        <strong>what ships</strong> so you can sign off with confidence.
+      </p>
+
+      <div class="data-table-wrap">
+        <table class="data-table">
+          <caption>How requirements stay tied to what ships</caption>
+          <thead>
+            <tr>
+              <th scope="col">Mechanism</th>
+              <th scope="col">What we do together</th>
+              <th scope="col">What you get out of it</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-focus">Requirement list</td>
+              <td class="muted-cell">Every must-have becomes a line item with a <strong>single owner</strong> (you for product intent, me for technical feasibility). Nice-to-haves are <strong>labeled</strong> so they do not block launch.</td>
+              <td class="muted-cell">A single checklist you can reread in six months and still understand what was in scope.</td>
+            </tr>
+            <tr>
+              <td class="col-focus">Acceptance criteria</td>
+              <td class="muted-cell">Per milestone we agree on <strong>testable</strong> outcomes: “User can X”, “System rejects Y”, “Admin can Z”, “P95 under N ms on this path” — matched to <strong>your</strong> risk level.</td>
+              <td class="muted-cell">Clear pass/fail for demos — no arguments over whether a milestone is “basically done.”</td>
+            </tr>
+            <tr>
+              <td class="col-focus">Traceability</td>
+              <td class="muted-cell">Critical requirements map to <strong>API routes</strong>, <strong>database entities</strong>, or <strong>jobs</strong>. If it is not in the contract or ticket, it is not promised for that milestone.</td>
+              <td class="muted-cell">Fewer “surprise” gaps between what sales promised and what engineering built.</td>
+            </tr>
+            <tr>
+              <td class="col-focus">Change requests</td>
+              <td class="muted-cell">New ideas mid-flight are welcome: we assess <strong>impact</strong> (time, risk, dependencies) and either swap into a milestone or schedule a follow-up slice — always <strong>in writing</strong>.</td>
+              <td class="muted-cell">Agility without chaos: priorities change, but the written record of trade-offs stays honest.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="callout" style="margin-top:18px;">
+        <strong>For your developers:</strong> you get OpenAPI (or equivalent), migration notes, and a runnable local environment.
+        For <strong>non-developers</strong>: you get demos, acceptance lists, and <strong>admin UI walkthroughs</strong> (including role switching and language toggle) — you never need to read code to know if a milestone is met.
+      </div>
+    </section>
+
+    <section class="step" id="p7">
+      <div class="step-badge">For clients · 07</div>
+      <h2>Typical system layout — how pieces connect in a healthy AI backend.</h2>
+      <p class="lead">
+        Think of this diagram as a <strong>reference map</strong>. Your exact service names may differ, but the <strong>layers</strong> stay: clients →
+        gateway → application services → data stores → optional event bus when fan-out is required. Customer and
+        <strong>admin experiences</strong> are usually <strong>Next.js + React</strong> apps talking to the same APIs and RBAC rules described in the stack section.
+      </p>
+
+      <div class="arch">
+        <div class="arch-row">
+          <span class="arch-box client">Next.js / React (customer + admin)</span>
+          <span class="arch-arrow">→</span>
+          <span class="arch-box client">CDN / security edge</span>
+          <span class="arch-arrow">→</span>
+          <span class="arch-box gateway">Gateway (Nginx)</span>
+        </div>
+        <div class="arch-row"><span class="arch-arrow">↓</span></div>
+        <div class="arch-grid">
+          <span class="arch-box service">Core / wallet API</span>
+          <span class="arch-box service">AI generation</span>
+          <span class="arch-box service">Auth &amp; profiles</span>
+          <span class="arch-box service">Posts / feeds</span>
+          <span class="arch-box service">Notifications</span>
+          <span class="arch-box service">Background workers</span>
+        </div>
+        <div class="arch-row" style="margin-top:10px;"><span class="arch-arrow">↓</span></div>
+        <div class="arch-row">
+          <span class="arch-box data">PostgreSQL</span>
+          <span class="arch-box data">Redis</span>
+          <span class="arch-box data">Object storage</span>
+          <span class="arch-box infra">Kafka + CDC (if needed)</span>
+        </div>
+      </div>
+
+      <div class="svc-grid">
+        <div class="svc-box">
+          <div class="svc-name">Why a gateway?</div>
+          <div class="svc-desc">One place for TLS, routing, and global limits. Your app services stay smaller and easier to test.</div>
+        </div>
+        <div class="svc-box">
+          <div class="svc-name">Why separate AI service?</div>
+          <div class="svc-desc">Long-running jobs, GPU, and model dependencies do not slow down login or payments — different scaling rules.</div>
+        </div>
+        <div class="svc-box">
+          <div class="svc-name">Where is “the truth”?</div>
+          <div class="svc-desc">PostgreSQL for durable business state; object storage for large binaries; Redis for speed — each tool does one job well.</div>
+        </div>
+      </div>
+
+      <p class="body-tight" style="margin-top:16px;">
+        The <strong>admin dashboard</strong> is a first-class client of your APIs: server-side rendering or secure client calls with short-lived tokens,
+        live tables for queues, and role-aware navigation — so operators get a <strong>premium</strong> experience, not a generic template bolted on at the end.
+      </p>
+    </section>
+
+    <section class="step" id="p8">
+      <div class="step-badge">For clients · 08</div>
+      <h2>AI features use the same pipeline — chat, RAG, images, or agents.</h2>
+      <p class="lead">
+        AI is not a separate universe. It still needs <strong>auth, quotas, logs, and cost controls</strong>. Under the hood we plug models
+        and vector search into the same milestone and acceptance pattern as any other feature — so your stakeholders stay sane.
+      </p>
+
+      <div class="g2">
+        <div class="card">
+          <div class="card-label">Discovery &amp; scope</div>
+          <h3>Define success for “smart” behavior</h3>
+          <p class="body-tight" style="margin-bottom:0;">
+            We capture example inputs/outputs, languages, latency expectations, and cost ceiling per user or per org. “Good
+            enough” is defined so we are not chasing infinite perfection.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-label">RAG &amp; knowledge</div>
+          <h3>Ground answers in your data</h3>
+          <p class="body-tight" style="margin-bottom:0;">
+            Documents are chunked and indexed; retrieval quality is tested on <strong>your</strong> files — not generic demos. When evidence
+            is weak, the product responds honestly instead of inventing facts.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-label">Agents &amp; tools</div>
+          <h3>Bounded actions</h3>
+          <p class="body-tight" style="margin-bottom:0;">
+            Tools (search, send email, charge card) have strict schemas and limits. Dangerous actions require confirmation or
+            idempotent server-side design so retries do not double-charge.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-label">Production hardening</div>
+          <h3>Cost &amp; safety</h3>
+          <p class="body-tight" style="margin-bottom:0;">
+            Token budgets, caching, model routing, and evaluation sets for regressions — so upgrades to models or prompts do
+            not silently break your product overnight.
+          </p>
+        </div>
+      </div>
+
+      <p class="body-tight" style="margin-top:16px;">
+        Every delivery includes a root <strong>README</strong>, <strong>OpenAPI</strong> (or equivalent), and a <strong>/docs</strong> folder for architecture and runbooks so your engineers can go deep without guessing.
+      </p>
+    </section>
+
+    <section class="step" id="p9">
+      <div class="step-badge">For clients · 09</div>
+      <h2>FAQ &amp; how to start — so the first conversation is productive.</h2>
+      <p class="lead">
+        If this pipeline and stack match how you want to build, the next step is a short call or email with your context.
+        The <a href="presentation.html">presentation</a> covers projects and timeline in more detail; this page is the “how we work together” contract in plain English.
+      </p>
+
+      <div class="data-table-wrap">
+        <table class="data-table two-col">
+          <caption>Quick answers before you reach out</caption>
+          <thead>
+            <tr>
+              <th scope="col">Question</th>
+              <th scope="col">Answer</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-focus">What should I send first?</td>
+              <td class="muted-cell">One-pager or Loom: product goal, current stack (if any), must-haves, timeline, and budget band. Rough is fine — honesty beats polished fiction.</td>
+            </tr>
+            <tr>
+              <td class="col-focus">Do you replace my whole team?</td>
+              <td class="muted-cell">No — I integrate with your engineers or lead delivery from your repo. Handover is always designed so <strong>your</strong> team can own the system.</td>
+            </tr>
+            <tr>
+              <td class="col-focus">Fixed price or time &amp; materials?</td>
+              <td class="muted-cell">Depends on clarity of scope. Well-defined milestones can be fixed; research-heavy AI discovery often starts time-boxed then converts to phased delivery.</td>
+            </tr>
+            <tr>
+              <td class="col-focus">Remote &amp; time zones?</td>
+              <td class="muted-cell">Remote-first (Nepal-based, working with global teams). We set overlapping hours for decisions and async written updates between them.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="cta-grid" style="margin-top:22px;">
+        <a class="cta-card" href="mailto:mrdasdeveloper@gmail.com">
+          <div class="cta-icon">✉</div>
+          <div>
+            Email
+            <span class="cta-sub">mrdasdeveloper@gmail.com</span>
+          </div>
+        </a>
+        <a class="cta-card" href="https://wa.me/9779700864900?text=Hi%20Ramesh%2C%20I%20read%20your%20architecture%20guide%20and%20would%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer">
+          <div class="cta-icon">💬</div>
+          <div>
+            WhatsApp
+            <span class="cta-sub">Fastest reply</span>
+          </div>
+        </a>
+        <a class="cta-card" href="presentation.html">
+          <div class="cta-icon">▤</div>
+          <div>
+            Full presentation
+            <span class="cta-sub">Projects &amp; depth</span>
+          </div>
+        </a>
+        <a class="cta-card" href="index.html">
+          <div class="cta-icon">⌂</div>
+          <div>
+            Profile home
+            <span class="cta-sub">index.html</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<script>
+  function setActive(el) {
+    document.querySelectorAll('.step-link').forEach(l => l.classList.remove('active'));
+    el.classList.add('active');
+  }
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const id = entry.target.id;
+        document.querySelectorAll('.step-link').forEach(l => {
+          l.classList.toggle('active', l.getAttribute('href') === '#' + id);
+        });
+      }
+    });
+  }, { threshold: 0.32 });
+
+  document.querySelectorAll('.step[id]').forEach(s => observer.observe(s));
+</script>
+</body>
+</html>
