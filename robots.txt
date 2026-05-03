@@ -1,42 +1,10 @@
-# robots.txt for Ramesh Kumar Das Portfolio Website
-# Last Updated: 2025-01-30
-
-# Allow all search engines to crawl the main website
 User-agent: *
 Allow: /
 
-# Disallow private/sensitive directories
-Disallow: /0-info/
-Disallow: /1-Certificate/
-Disallow: /2-WebreakGlobal/
-Disallow: /3-Saraj Systems/
-Disallow: /4. Ajath/
-Disallow: /5. klikyai/
-Disallow: /.git/
-Disallow: /.github/
-
-# Allow main HTML pages
+# Important pages
 Allow: /index.html
+Allow: /ai-backend-architecture-microservices-engineering-guide.html
 Allow: /presentation.html
-Allow: /backend-presentation.html
-Allow: /frontend-presentation.html
-
-# Allow public assets
-Allow: /*.jpg$
-Allow: /*.png$
-Allow: /*.pdf$
-Allow: /*.css$
-Allow: /*.js$
-
-# Disallow common files that shouldn't be indexed
-Disallow: /*.json$
-Disallow: /*.log$
-Disallow: /*.md$
-Disallow: /README.md
 
 # Sitemap location
-Sitemap: https://mrdas.winsta.ai/sitemap.xml
-
-# Crawl delay (optional - remove if not needed)
-# Crawl-delay: 1
-
+Sitemap: https://mrdasdeveloper.github.io/sitemap.xml
