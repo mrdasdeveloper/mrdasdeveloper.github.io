@@ -751,6 +751,69 @@
 
         /* Mobile */
         @media (max-width: 540px) {
+        /* Unified shell: nav + hero share depth, purple accent thread, one glass language */
+        nav {
+            background: rgba(10, 8, 22, 0.92);
+            border-bottom-color: rgba(124, 111, 247, 0.2);
+            backdrop-filter: blur(18px);
+            -webkit-backdrop-filter: blur(18px);
+        }
+        .nav-brand {
+            color: #f4f2ff;
+        }
+        .nav-brand:hover {
+            color: #fff;
+        }
+        .nav-burger {
+            border-color: rgba(255, 255, 255, 0.14);
+            background: rgba(255, 255, 255, 0.06);
+        }
+        .nav-burger:hover {
+            border-color: rgba(174, 162, 255, 0.45);
+            background: rgba(124, 111, 247, 0.14);
+        }
+        .nav-burger span {
+            background: rgba(255, 255, 255, 0.92);
+            box-shadow: 0 -6px 0 rgba(255, 255, 255, 0.92), 0 6px 0 rgba(255, 255, 255, 0.92);
+        }
+        #nav-toggle:checked ~ .nav-burger {
+            border-color: rgba(174, 162, 255, 0.45);
+            background: rgba(124, 111, 247, 0.18);
+        }
+        #nav-toggle:checked ~ .nav-burger span::before,
+        #nav-toggle:checked ~ .nav-burger span::after {
+            background: rgba(255, 255, 255, 0.96);
+        }
+        .nav-cta {
+            box-shadow: 0 2px 16px rgba(110, 64, 201, 0.38);
+        }
+        .nav-menu-mobile {
+            border-top-color: rgba(255, 255, 255, 0.1);
+        }
+        .nav-menu-mobile a {
+            color: rgba(255, 255, 255, 0.92);
+            border-bottom-color: rgba(255, 255, 255, 0.08);
+        }
+        .nav-menu-mobile a:hover {
+            background: rgba(124, 111, 247, 0.14);
+            color: #fff;
+        }
+        .nav-menu-mobile a.nav-muted {
+            color: rgba(255, 255, 255, 0.52);
+        }
+        .nav-drawer-heading {
+            color: rgba(198, 188, 255, 0.55);
+        }
+        .nav-drawer-heading.is-separated {
+            border-top-color: rgba(255, 255, 255, 0.1);
+        }
+        #nav-toggle:checked ~ .nav-menu-mobile {
+            border-top-color: rgba(255, 255, 255, 0.12);
+            background: rgba(8, 6, 18, 0.55);
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
+        }
+
         /* Full-bleed banner hero (photo + dim overlay + text) */
         .hero {
             margin-left: -16px;
@@ -762,14 +825,17 @@
             isolation: isolate;
             overflow: hidden;
             border-radius: 0 0 22px 22px;
-            box-shadow: 0 20px 50px rgba(18, 12, 40, 0.14);
+            box-shadow:
+                0 28px 64px rgba(6, 4, 18, 0.22),
+                0 0 0 1px rgba(124, 111, 247, 0.14);
         }
         .hero-intro {
             display: block;
             position: relative;
             width: 100%;
-            min-height: clamp(268px, 50vh, 460px);
-            padding-top: 38px;
+            min-height: clamp(288px, 52vh, 480px);
+            /* Pill stays at top; headline/bio spaced down via .available-pill margin */
+            padding-top: max(14px, env(safe-area-inset-top, 0px));
             padding-bottom: 30px;
             padding-left: max(16px, env(safe-area-inset-left, 0px));
             padding-right: max(16px, env(safe-area-inset-right, 0px));
@@ -781,11 +847,13 @@
             inset: 0;
             z-index: 1;
             pointer-events: none;
+            /* Lighter at top so the face reads; still dark enough lower for headline/bio */
             background: linear-gradient(
                 180deg,
-                rgba(5, 4, 14, 0.72) 0%,
-                rgba(10, 8, 26, 0.84) 42%,
-                rgba(12, 10, 30, 0.9) 100%
+                rgba(6, 5, 16, 0.55) 0%,
+                rgba(10, 8, 22, 0.68) 24%,
+                rgba(14, 10, 32, 0.8) 46%,
+                rgba(12, 10, 28, 0.92) 100%
             );
         }
         .hero-intro-body {
@@ -811,6 +879,21 @@
             border-radius: 0;
             background: none;
             box-shadow: none;
+            position: relative;
+        }
+        /* Very light radial: only softens sunglass hotspots without swallowing the face */
+        .hero-profile-frame::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            z-index: 1;
+            pointer-events: none;
+            background: radial-gradient(
+                ellipse 88% 38% at 50% 13%,
+                rgba(8, 6, 20, 0.22) 0%,
+                rgba(10, 8, 22, 0.08) 40%,
+                transparent 62%
+            );
         }
         .hero-profile-img {
             width: 100%;
@@ -819,9 +902,11 @@
             border-radius: 0;
             border: none;
             object-fit: cover;
-            object-position: center 18%;
-            opacity: 0.44;
+            /* Anchor on upper body / face (not chest-up crop that hides the face) */
+            object-position: center 8%;
+            opacity: 0.4;
             display: block;
+            filter: brightness(0.94) contrast(0.97);
         }
         .hero h1 {
             color: #fff;
@@ -840,14 +925,16 @@
             color: #fff;
         }
         .available-pill {
-            background: rgba(255, 255, 255, 0.12);
-            border-color: rgba(255, 255, 255, 0.28);
-            color: #dff7e6;
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(124, 111, 247, 0.38);
+            color: #e6fff0;
             backdrop-filter: blur(12px);
             -webkit-backdrop-filter: blur(12px);
+            margin-bottom: clamp(72px, 26vh, 148px);
         }
         .available-pill .pulse {
-            background: #5fe08a;
+            background: #6ee7a8;
+            box-shadow: 0 0 0 2px rgba(110, 231, 168, 0.25);
         }
         .hero .chip {
             background: rgba(255, 255, 255, 0.1);
@@ -873,11 +960,17 @@
             background: var(--accent);
             border-color: var(--accent);
             color: #fff;
+            box-shadow: 0 2px 16px rgba(110, 64, 201, 0.35);
         }
         .hero .btn.primary:hover {
             background: var(--accent-hi);
             border-color: var(--accent-hi);
             color: #fff;
+        }
+
+        .wa-float {
+            box-shadow: 0 10px 36px rgba(0, 0, 0, 0.32), 0 0 0 1px rgba(255, 255, 255, 0.12);
+            background: linear-gradient(145deg, #2acb6a 0%, #20b858 44%, #0d9488 100%);
         }
 
         .section { padding: 32px 0; }
@@ -951,9 +1044,12 @@
         .stats-row { grid-template-columns: 1fr 1fr; }
         h1 { font-size: 22px; }
         .hero-intro {
-            min-height: clamp(240px, 46vh, 400px);
-            padding-top: 32px;
+            min-height: clamp(252px, 48vh, 400px);
+            padding-top: max(12px, env(safe-area-inset-top, 0px));
             padding-bottom: 26px;
+        }
+        .available-pill {
+            margin-bottom: clamp(60px, 24vh, 128px);
         }
         }
     </style>
