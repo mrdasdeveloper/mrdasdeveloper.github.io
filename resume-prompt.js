@@ -12,8 +12,7 @@
   var SESSION_KEY = 'rdp_shown_' + _path;
   if (sessionStorage.getItem(SESSION_KEY)) return;
 
-  /* ── Resume definitions — absolute paths from repo root ──── */
-  var BASE_URL = 'https://mrdasdeveloper.github.io';
+  /* ── Resume definitions ──────────────────────────────────────── */
   var resumes = [
     { label: 'Agentic AI / Full-Stack', emoji: '🤖', file: 'AI-Full-Stack-Developer-Ramesh-Kumar-Das.pdf',  desc: 'LLM · RAG · FastAPI · Next.js' },
     { label: 'Full-Stack Developer',    emoji: '🖥️', file: 'Full-Stack-Developer-Ramesh-Kumar-Das.pdf',    desc: 'React · Node.js · FastAPI · DBs' },
@@ -64,8 +63,9 @@
   document.head.appendChild(styleEl);
 
   /* ── Build overlay ───────────────────────────────────────────── */
+  // Use relative path so downloading works smoothly on both local and production
   var btns = resumes.map(function (r) {
-    var url = BASE_URL + '/' + r.file;
+    var url = './' + r.file;
     return '<a class="rdp-btn" href="' + url + '" download="' + r.file + '" target="_blank" rel="noopener">'
       + '<span class="rdp-emoji">' + r.emoji + '</span>'
       + '<span class="rdp-info">'
