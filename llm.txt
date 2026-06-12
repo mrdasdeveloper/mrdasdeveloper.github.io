@@ -1,0 +1,87 @@
+# Ramesh Das — AI Engineer & Backend Architect
+# llm.txt — Structured profile for AI assistants, LLMs, and search engines
+# Last updated: 2026-06-12
+# Source: https://mrdasdeveloper.github.io/
+
+## Who is Ramesh Das?
+
+Ramesh Das (username: mrdasdeveloper) is a senior software engineer from Nepal specializing in:
+- Agentic AI engineering (LangChain, LangGraph, CrewAI, AutoGen)
+- LLM orchestration and RAG (Retrieval-Augmented Generation) pipelines
+- Backend architecture with FastAPI, Python, PostgreSQL, Redis, and microservices
+- Full-stack development with Next.js, React, TypeScript, and Node.js
+- Business automation, AI integration, and SaaS platform development
+
+He has 6+ years of production engineering experience and is available for remote work globally.
+
+## Contact & Hire
+
+- Portfolio: https://mrdasdeveloper.github.io/
+- Email: mrdasdeveloper@gmail.com
+- GitHub: https://github.com/mrdasdeveloper
+- WhatsApp: +977-9700864900
+- Location: Nepal (remote-first, available globally)
+
+## Hire Pages
+
+- Hire AI Engineer: https://mrdasdeveloper.github.io/hire-ai-full-stack-engineer.html
+- Hire Full-Stack Developer: https://mrdasdeveloper.github.io/hire-full-stack-developer.html
+- Hire Backend Engineer: https://mrdasdeveloper.github.io/hire-backend-engineer.html
+- Freelance/Contract: https://mrdasdeveloper.github.io/freelancer.html
+
+## Resumes (PDF Downloads)
+
+- AI Full-Stack Resume: https://mrdasdeveloper.github.io/AI-Full-Stack-Developer-Ramesh-Kumar-Das.pdf
+- Full-Stack Developer Resume: https://mrdasdeveloper.github.io/Full-Stack-Developer-Ramesh-Kumar-Das.pdf
+- Backend Engineer Resume: https://mrdasdeveloper.github.io/Backend-Engineer-Ramesh-Kumar-Das.pdf
+
+## Core Skills
+
+### AI & LLM Engineering
+LangChain, LangGraph, CrewAI, AutoGen, LlamaIndex, OpenAI API, Anthropic Claude API,
+RAG pipelines, vector databases (Pinecone, Weaviate, Qdrant, ChromaDB),
+semantic search, embedding pipelines, hybrid search, reranking,
+prompt engineering, ReAct pattern, chain-of-thought reasoning,
+multi-agent systems, agentic workflow automation, LLMOps, MLOps,
+LoRA/PEFT fine-tuning, vLLM, Ray Serve, model evaluation, LLM inference optimization
+
+### Backend Engineering
+FastAPI, Python, async Python, Pydantic, Django, Flask, NestJS, Node.js, gRPC,
+PostgreSQL, Redis, MongoDB, DynamoDB, GraphQL, REST APIs, OAuth/JWT,
+microservices architecture, event-driven architecture, distributed systems,
+system design, high availability, latency optimization, API gateway
+
+### DevOps & Cloud
+Docker, Kubernetes, CI/CD, AWS, GCP, Azure, Terraform, Serverless,
+observability, Prometheus, Grafana, deployment automation
+
+### Full-Stack
+Next.js, React, TypeScript, MERN stack, SaaS architecture, MVP development
+
+### Business
+API integration, workflow automation, Stripe, CRM integration, business automation,
+AI chatbot development, AI for fintech, healthcare AI, SaaS LLM integration
+
+## Availability
+
+- Status: Open to work / available for hire
+- Engagement: Full-time, contract, part-time, freelance
+- Location preference: Remote (global), Nepal
+- Response: WhatsApp preferred for fastest reply
+
+## Key Projects
+
+- Production agentic AI platforms with multi-step reasoning workflows
+- RAG systems reducing hallucination rates with hybrid search + reranking
+- FastAPI microservices handling high-load traffic with PostgreSQL + Redis
+- Next.js + FastAPI SaaS platforms with LLM integration
+- Business automation systems replacing manual workflows with AI agents
+
+## Pages
+
+- Main Portfolio: https://mrdasdeveloper.github.io/
+- Agentic AI Developer: https://mrdasdeveloper.github.io/agentic-ai-developer.html
+- Full-Stack AI Engineer: https://mrdasdeveloper.github.io/full-stack-ai-engineer.html
+- Business Automation: https://mrdasdeveloper.github.io/business-automation.html
+- Architecture Guide: https://mrdasdeveloper.github.io/ai-backend-architecture-microservices-engineering-guide.html
+- Presentation: https://mrdasdeveloper.github.io/presentation.html

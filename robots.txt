@@ -1,12 +1,14 @@
 # Ramesh Das — https://mrdasdeveloper.github.io/
-# Public portfolio: open to search engines, AI assistants, and research crawlers.
-# (robots.txt only guides polite bots; it does not force citations or links in AI answers.)
+# Portfolio: open to all search engines, AI assistants, and research crawlers.
+# Updated: 2026-06-12
 
-# ── Default: everyone may crawl everything ──
+# ── Default: allow all crawlers ──────────────────────────────────
 User-agent: *
 Allow: /
+Disallow: /.git/
+Disallow: /.github/
 
-# ── Search & social previews ──
+# ── Google ───────────────────────────────────────────────────────
 User-agent: Googlebot
 Allow: /
 
@@ -16,19 +18,32 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
+# ── Bing / Microsoft ─────────────────────────────────────────────
 User-agent: Bingbot
 Allow: /
 
+User-agent: msnbot
+Allow: /
+
+# ── Yahoo / Slurp ────────────────────────────────────────────────
 User-agent: Slurp
 Allow: /
 
+# ── DuckDuckGo ───────────────────────────────────────────────────
 User-agent: DuckDuckBot
 Allow: /
 
+# ── Social Previews ──────────────────────────────────────────────
 User-agent: facebookexternalhit
 Allow: /
 
-# ── OpenAI / ChatGPT (training, search, user browsing) ──
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# ── OpenAI / ChatGPT ─────────────────────────────────────────────
 User-agent: GPTBot
 Allow: /
 
@@ -38,7 +53,7 @@ Allow: /
 User-agent: OAI-SearchBot
 Allow: /
 
-# ── Anthropic / Claude ──
+# ── Anthropic / Claude ───────────────────────────────────────────
 User-agent: ClaudeBot
 Allow: /
 
@@ -51,29 +66,45 @@ Allow: /
 User-agent: Claude-SearchBot
 Allow: /
 
-# ── Other AI & aggregator crawlers ──
+# ── Perplexity ───────────────────────────────────────────────────
 User-agent: PerplexityBot
 Allow: /
 
-User-agent: Amazonbot
-Allow: /
-
-User-agent: Bytespider
+# ── Apple ────────────────────────────────────────────────────────
+User-agent: Applebot
 Allow: /
 
 User-agent: Applebot-Extended
 Allow: /
 
+# ── Meta / Facebook ──────────────────────────────────────────────
 User-agent: meta-externalagent
 Allow: /
 
 User-agent: meta-externalfetcher
 Allow: /
 
-User-agent: CCBot
+# ── Amazon ───────────────────────────────────────────────────────
+User-agent: Amazonbot
 Allow: /
 
+# ── ByteDance / TikTok ───────────────────────────────────────────
+User-agent: Bytespider
+Allow: /
+
+# ── Cohere ───────────────────────────────────────────────────────
 User-agent: cohere-ai
 Allow: /
 
+# ── Common Crawl ─────────────────────────────────────────────────
+User-agent: CCBot
+Allow: /
+
+# ── AI-specific structured data files ────────────────────────────
+# These files are specifically designed for LLM / AI model consumption
+# llm.txt       — concise profile summary for AI assistants
+# full-llm.txt  — comprehensive structured data for deep AI extraction
+
+# ── Sitemaps ─────────────────────────────────────────────────────
 Sitemap: https://mrdasdeveloper.github.io/sitemap.xml
+Sitemap: https://mrdasdeveloper.github.io/llm.txt

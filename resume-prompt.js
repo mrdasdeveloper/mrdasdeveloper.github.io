@@ -1,0 +1,140 @@
+/**
+ * Resume Download Prompt
+ * Shows after 3 seconds — once per browser session per page.
+ * Self-contained: injects its own CSS and HTML, no dependencies.
+ */
+(function () {
+  'use strict';
+
+  /* ── Already shown this session? Skip. ─────────────────────── */
+  // Normalize pathname so /index.html and / share one key
+  var _path = location.pathname.replace(/\/index\.html$/, '/');
+  var SESSION_KEY = 'rdp_shown_' + _path;
+  if (sessionStorage.getItem(SESSION_KEY)) return;
+
+  /* ── Resume definitions — absolute paths from repo root ──── */
+  var BASE_URL = 'https://mrdasdeveloper.github.io';
+  var resumes = [
+    { label: 'Agentic AI / Full-Stack', emoji: '🤖', file: 'AI-Full-Stack-Developer-Ramesh-Kumar-Das.pdf',  desc: 'LLM · RAG · FastAPI · Next.js' },
+    { label: 'Full-Stack Developer',    emoji: '🖥️', file: 'Full-Stack-Developer-Ramesh-Kumar-Das.pdf',    desc: 'React · Node.js · FastAPI · DBs' },
+    { label: 'Backend Engineer',        emoji: '⚙️', file: 'Backend-Engineer-Ramesh-Kumar-Das.pdf',        desc: 'Microservices · PostgreSQL · Docker' },
+  ];
+
+  /* ── CSS ─────────────────────────────────────────────────────── */
+  var css = [
+    '#rdp-overlay{position:fixed;inset:0;z-index:99999;display:flex;align-items:center;justify-content:center;padding:16px;background:rgba(0,0,0,0.62);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);animation:rdpFadeIn 0.3s ease forwards;}',
+    '@keyframes rdpFadeIn{from{opacity:0}to{opacity:1}}',
+    '#rdp-modal{position:relative;width:100%;max-width:440px;background:linear-gradient(160deg,#111115 0%,#0d0d18 100%);border:1px solid rgba(124,111,247,0.35);border-radius:18px;padding:32px 26px 24px;box-shadow:0 32px 80px rgba(0,0,0,0.7),0 0 0 1px rgba(255,255,255,0.05);animation:rdpSlideUp 0.4s cubic-bezier(0.16,1,0.3,1) forwards;}',
+    '@keyframes rdpSlideUp{from{transform:translateY(30px);opacity:0}to{transform:translateY(0);opacity:1}}',
+    '#rdp-close{position:absolute;top:14px;right:14px;width:30px;height:30px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.12);border-radius:8px;color:rgba(255,255,255,0.5);font-size:15px;cursor:pointer;line-height:1;transition:background 0.15s,color 0.15s;font-family:inherit;}',
+    '#rdp-close:hover{background:rgba(124,111,247,0.25);color:#fff;}',
+    '#rdp-modal h2{margin:0 0 5px;font-size:17px;font-weight:700;color:#ededf5;letter-spacing:-0.02em;}',
+    '#rdp-modal .rdp-sub{font-size:13px;color:#7a7a8e;margin:0 0 20px;line-height:1.5;}',
+    '.rdp-btn{display:flex;align-items:center;gap:12px;width:100%;padding:13px 14px;margin-bottom:8px;background:rgba(255,255,255,0.04);border:1px solid rgba(124,111,247,0.22);border-radius:11px;color:#ededf5;text-decoration:none;transition:background 0.18s,border-color 0.18s,transform 0.15s;cursor:pointer;box-sizing:border-box;}',
+    '.rdp-btn:last-of-type{margin-bottom:0;}',
+    '.rdp-btn:hover{background:rgba(124,111,247,0.15);border-color:rgba(124,111,247,0.6);transform:translateX(3px);color:#fff;}',
+    '.rdp-emoji{font-size:22px;line-height:1;flex-shrink:0;}',
+    '.rdp-info{flex:1;text-align:left;min-width:0;}',
+    '.rdp-label{display:block;font-size:13px;font-weight:600;color:#d4d4e8;line-height:1.3;}',
+    '.rdp-desc{display:block;font-size:11px;color:#6a6a7e;margin-top:2px;}',
+    '.rdp-dl{font-size:13px;color:#7c6ff7;flex-shrink:0;}',
+    '#rdp-skip{display:block;width:100%;text-align:center;margin-top:16px;font-size:12px;color:#4a4a5a;cursor:pointer;border:none;background:none;font-family:inherit;transition:color 0.15s;}',
+    '#rdp-skip:hover{color:#7a7a8e;}',
+    '#rdp-progress{position:absolute;bottom:0;left:0;right:0;height:3px;background:rgba(255,255,255,0.05);border-radius:0 0 18px 18px;overflow:hidden;}',
+    '#rdp-progress-fill{height:100%;background:linear-gradient(90deg,#7c6ff7,#9d93ff);width:100%;transition:width 3s linear;}',
+    '@media(prefers-color-scheme:light){',
+      '#rdp-modal{background:linear-gradient(160deg,#fff 0%,#f5f0ff 100%);border-color:rgba(110,64,201,0.25);box-shadow:0 24px 72px rgba(31,35,40,0.2);}',
+      '#rdp-modal h2{color:#1f2328;}',
+      '#rdp-modal .rdp-sub{color:#656d76;}',
+      '.rdp-btn{background:#f6f8fa;border-color:rgba(110,64,201,0.2);color:#1f2328;}',
+      '.rdp-btn:hover{background:#ede8ff;border-color:rgba(110,64,201,0.5);color:#1f2328;}',
+      '.rdp-label{color:#24292f;}.rdp-desc{color:#8c959f;}.rdp-dl{color:#6e40c9;}',
+      '#rdp-close{background:rgba(0,0,0,0.05);border-color:rgba(0,0,0,0.1);color:#656d76;}',
+      '#rdp-close:hover{background:rgba(110,64,201,0.1);color:#6e40c9;}',
+      '#rdp-skip{color:#c0c8d0;}#rdp-skip:hover{color:#656d76;}',
+      '#rdp-progress{background:rgba(0,0,0,0.05);}',
+      '#rdp-progress-fill{background:linear-gradient(90deg,#6e40c9,#9d93ff);}',
+    '}',
+    '@media(max-width:480px){#rdp-modal{padding:26px 18px 20px;}}',
+  ].join('');
+
+  /* ── Inject styles ───────────────────────────────────────────── */
+  var styleEl = document.createElement('style');
+  styleEl.textContent = css;
+  document.head.appendChild(styleEl);
+
+  /* ── Build overlay ───────────────────────────────────────────── */
+  var btns = resumes.map(function (r) {
+    var url = BASE_URL + '/' + r.file;
+    return '<a class="rdp-btn" href="' + url + '" download="' + r.file + '" target="_blank" rel="noopener">'
+      + '<span class="rdp-emoji">' + r.emoji + '</span>'
+      + '<span class="rdp-info">'
+      +   '<span class="rdp-label">' + r.label + '</span>'
+      +   '<span class="rdp-desc">' + r.desc + '</span>'
+      + '</span>'
+      + '<span class="rdp-dl">⬇</span>'
+      + '</a>';
+  }).join('');
+
+  // Use page title for context or default
+  var pageTitle = document.title.split('|')[0].trim() || 'my site';
+  var overlay = document.createElement('div');
+  overlay.id = 'rdp-overlay';
+  overlay.setAttribute('role', 'dialog');
+  overlay.setAttribute('aria-modal', 'true');
+  overlay.setAttribute('aria-labelledby', 'rdp-title');
+  overlay.innerHTML =
+    '<div id="rdp-modal">'
+    + '<button id="rdp-close" aria-label="Close dialog">✕</button>'
+    + '<h2 id="rdp-title">📄 Resume from ' + pageTitle + '</h2>'
+    + '<p class="rdp-sub">Pick the version that matches your role — all are up-to-date.</p>'
+    + btns
+    + '<button id="rdp-skip">Maybe later</button>'
+    + '<div id="rdp-progress"><div id="rdp-progress-fill"></div></div>'
+    + '</div>';
+
+  /* ── Close helper ────────────────────────────────────────────── */
+  function closeModal() {
+    sessionStorage.setItem(SESSION_KEY, '1');
+    overlay.style.animation = 'none';
+    overlay.style.opacity = '0';
+    overlay.style.transition = 'opacity 0.28s ease';
+    setTimeout(function () {
+      if (overlay.parentNode) overlay.parentNode.removeChild(overlay);
+      if (styleEl.parentNode) styleEl.parentNode.removeChild(styleEl);
+    }, 300);
+  }
+
+  /* ── Dismiss on backdrop click ───────────────────────────────── */
+  overlay.addEventListener('click', function (e) {
+    if (e.target === overlay) closeModal();
+  });
+
+  /* ── Mount & start progress bar ─────────────────────────────── */
+  function mount() {
+    // Safety: don't double-mount
+    if (document.getElementById('rdp-overlay')) return;
+    document.body.appendChild(overlay);
+
+    document.getElementById('rdp-close').addEventListener('click', closeModal);
+    document.getElementById('rdp-skip').addEventListener('click', closeModal);
+
+    // Escape key
+    function onKey(e) {
+      if (e.key === 'Escape') { closeModal(); document.removeEventListener('keydown', onKey); }
+    }
+    document.addEventListener('keydown', onKey);
+
+    // Animate progress bar to 0 (starts right after mount so timing is accurate)
+    requestAnimationFrame(function () {
+      requestAnimationFrame(function () {
+        var fill = document.getElementById('rdp-progress-fill');
+        if (fill) fill.style.width = '0%';
+      });
+    });
+  }
+
+  /* ── Trigger after 3 seconds ─────────────────────────────────── */
+  setTimeout(mount, 3000);
+
+})();
