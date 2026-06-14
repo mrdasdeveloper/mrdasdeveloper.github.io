@@ -362,6 +362,61 @@ Cloud & GPU Inference        ██████████████░░░
 
 ---
 
+## 🌍 Global Tech Hiring Hubs & Core Services
+
+Explore my specialized engineering services across different regions and technologies. 
+
+### 🎯 Core Engineering Services
+<div align="center">
+
+[![Agentic AI](https://img.shields.io/badge/Hire-Agentic%20AI%20Developer-6C63FF?style=for-the-badge)](https://mrdasdeveloper.github.io/hire-agentic-ai-developer.html)
+[![Backend Architect](https://img.shields.io/badge/Hire-Backend%20Architect-0F172A?style=for-the-badge)](https://mrdasdeveloper.github.io/hire-backend-architect.html)
+[![Full-Stack](https://img.shields.io/badge/Hire-Full--Stack%20Developer-3B82F6?style=for-the-badge)](https://mrdasdeveloper.github.io/hire-full-stack-developer.html)
+[![RAG Developer](https://img.shields.io/badge/Hire-RAG%20Developer-10B981?style=for-the-badge)](https://mrdasdeveloper.github.io/hire-rag-developer.html)
+[![LLM Engineer](https://img.shields.io/badge/Hire-LLM%20Engineer-F59E0B?style=for-the-badge)](https://mrdasdeveloper.github.io/hire-llm-engineer.html)
+[![FastAPI](https://img.shields.io/badge/Hire-FastAPI%20Developer-009688?style=for-the-badge)](https://mrdasdeveloper.github.io/hire-fastapi-developer.html)
+
+</div>
+
+### 🌐 Regional Hubs
+Find localized tech hiring guides and services for your specific region.
+
+<table>
+<tr>
+<td width="33%" align="center">
+<b>🇺🇸 North America</b><br><br>
+<a href="https://mrdasdeveloper.github.io/hire-developers-usa.html">United States</a><br>
+<a href="https://mrdasdeveloper.github.io/hire-developers-canada.html">Canada</a>
+</td>
+<td width="33%" align="center">
+<b>🇪🇺 Europe & UK</b><br><br>
+<a href="https://mrdasdeveloper.github.io/hire-developers-uk.html">United Kingdom</a><br>
+<a href="https://mrdasdeveloper.github.io/hire-developers-germany.html">Germany</a>
+</td>
+<td width="33%" align="center">
+<b>🌏 Asia-Pacific</b><br><br>
+<a href="https://mrdasdeveloper.github.io/hire-developers-japan.html">Japan</a><br>
+<a href="https://mrdasdeveloper.github.io/hire-developers-singapore.html">Singapore</a><br>
+<a href="https://mrdasdeveloper.github.io/hire-developers-australia.html">Australia</a>
+</td>
+</tr>
+<tr>
+<td colspan="3" align="center">
+<b>🕋 Middle East (MENA)</b><br><br>
+<a href="https://mrdasdeveloper.github.io/hire-developers-saudi-arabia.html">Saudi Arabia</a> • 
+<a href="https://mrdasdeveloper.github.io/hire-developers-middle-east.html">UAE, Qatar & Full MENA</a>
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+[![Global Sitemap](https://img.shields.io/badge/🗺️-View%20Full%20Global%20Sitemap-A855F7?style=for-the-badge)](https://mrdasdeveloper.github.io/sitemap.html)
+
+</div>
+
+---
+
 <div align="center">
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-View%20Live-F97316?style=for-the-badge&logo=google-chrome&logoColor=white)](https://mrdasdeveloper.github.io/)
