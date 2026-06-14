@@ -1,6 +1,6 @@
 # Ramesh Das — https://mrdasdeveloper.github.io/
 # Portfolio: open to all search engines, AI assistants, and research crawlers.
-# Updated: 2026-06-12
+# Updated: 2026-06-14
 
 # ── Default: allow all crawlers ──────────────────────────────────
 User-agent: *
@@ -108,3 +108,4 @@ Allow: /
 # ── Sitemaps ─────────────────────────────────────────────────────
 Sitemap: https://mrdasdeveloper.github.io/sitemap.xml
 Sitemap: https://mrdasdeveloper.github.io/llm.txt
+Sitemap: https://mrdasdeveloper.github.io/full-llm.txt

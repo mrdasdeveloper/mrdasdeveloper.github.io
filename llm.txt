@@ -1,6 +1,6 @@
 # Ramesh Das — AI Engineer & Backend Architect
 # llm.txt — Structured profile for AI assistants, LLMs, and search engines
-# Last updated: 2026-06-12
+# Last updated: 2026-06-14
 # Source: https://mrdasdeveloper.github.io/
 
 ## Who is Ramesh Das?
@@ -85,3 +85,15 @@ AI chatbot development, AI for fintech, healthcare AI, SaaS LLM integration
 - Business Automation: https://mrdasdeveloper.github.io/business-automation.html
 - Architecture Guide: https://mrdasdeveloper.github.io/ai-backend-architecture-microservices-engineering-guide.html
 - Presentation: https://mrdasdeveloper.github.io/presentation.html
+
+## Regional Hiring Hubs
+
+- Hire Developers USA: https://mrdasdeveloper.github.io/hire-developers-usa.html
+- Hire Developers UK: https://mrdasdeveloper.github.io/hire-developers-uk.html
+- Hire Developers Canada: https://mrdasdeveloper.github.io/hire-developers-canada.html
+- Hire Developers Australia: https://mrdasdeveloper.github.io/hire-developers-australia.html
+- Hire Developers Germany: https://mrdasdeveloper.github.io/hire-developers-germany.html
+- Hire Developers Singapore: https://mrdasdeveloper.github.io/hire-developers-singapore.html
+- Hire Developers Japan: https://mrdasdeveloper.github.io/hire-developers-japan.html
+- Hire Developers Middle East (UAE & Qatar): https://mrdasdeveloper.github.io/hire-developers-middle-east.html
+- Hire Developers Saudi Arabia (KSA): https://mrdasdeveloper.github.io/hire-developers-saudi-arabia.html

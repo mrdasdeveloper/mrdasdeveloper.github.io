@@ -90,7 +90,6 @@ templates = [
         "slug_prefix": "hire-full-stack-developer-",
         "role": "Full-Stack Developer",
         "hero_original": "Senior Full-Stack<br>Developer for Hire",
-        "title_original": "Hire Ramesh Kumar Das — Senior Full-Stack Developer | React, Next.js, Node.js, FastAPI",
         "kw_prefix": "full-stack developer"
     },
     {
@@ -98,7 +97,6 @@ templates = [
         "slug_prefix": "hire-ai-full-stack-engineer-",
         "role": "AI Full-Stack Engineer",
         "hero_original": "AI Full-Stack<br>Engineer for Hire",
-        "title_original": "Hire Ramesh — AI Full-Stack Engineer | Generative AI, LLMs, RAG, FastAPI, Next.js",
         "kw_prefix": "AI engineer"
     },
     {
@@ -106,8 +104,42 @@ templates = [
         "slug_prefix": "hire-backend-engineer-",
         "role": "Backend Engineer",
         "hero_original": "Senior Backend<br>Engineer for Hire",
-        "title_original": "Hire Ramesh Kumar Das — Senior Backend Engineer | Node.js, FastAPI, Django, PostgreSQL",
         "kw_prefix": "backend engineer"
+    },
+    {
+        "file": "hire-ai-full-stack-engineer.html",
+        "slug_prefix": "hire-agentic-ai-engineer-",
+        "role": "Agentic AI Engineer",
+        "hero_original": "AI Full-Stack<br>Engineer for Hire",
+        "kw_prefix": "agentic AI engineer"
+    },
+    {
+        "file": "hire-backend-engineer.html",
+        "slug_prefix": "hire-fastapi-developer-",
+        "role": "FastAPI Developer",
+        "hero_original": "Senior Backend<br>Engineer for Hire",
+        "kw_prefix": "FastAPI developer"
+    },
+    {
+        "file": "hire-ai-full-stack-engineer.html",
+        "slug_prefix": "hire-llm-engineer-",
+        "role": "LLM Engineer",
+        "hero_original": "AI Full-Stack<br>Engineer for Hire",
+        "kw_prefix": "LLM engineer"
+    },
+    {
+        "file": "hire-ai-full-stack-engineer.html",
+        "slug_prefix": "hire-rag-developer-",
+        "role": "RAG Developer",
+        "hero_original": "AI Full-Stack<br>Engineer for Hire",
+        "kw_prefix": "RAG developer"
+    },
+    {
+        "file": "hire-backend-engineer.html",
+        "slug_prefix": "hire-backend-architect-",
+        "role": "Backend Architect",
+        "hero_original": "Senior Backend<br>Engineer for Hire",
+        "kw_prefix": "backend architect"
     }
 ]
 
@@ -116,28 +148,28 @@ keyword_section_template = """
     <section class="section" id="high-value-searches" style="padding-top: 20px; padding-bottom: 20px;">
       <div class="ps-inner" style="max-width: 1000px; margin: 0 auto; padding: 0 20px;">
         <div class="section-header">
-          <h2>🔥 Popular Tech Hiring Searches in {City}</h2>
-          <p>Businesses and founders in {City} frequently search for these specialized development services:</p>
+          <h2>🔥 Top Tech Hiring Searches in {City}</h2>
+          <p>Companies and founders in {City} frequently search for these specialized development services:</p>
         </div>
         <div class="svc-grid" style="grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));">
           <div class="svc-card" style="padding: 16px;">
-            <h3 style="color: var(--accent-hi);">📈 SaaS & Enterprise</h3>
+            <h3 style="color: var(--accent-hi);">🤖 AI & Agentic Systems</h3>
             <ul style="list-style:none;padding:0;font-size:13px;color:var(--muted);line-height:1.8;margin-top:8px;">
-              <li>• SaaS MVP developer cost in {City}</li>
-              <li>• Build scalable software {City}</li>
-              <li>• Enterprise software developer {City}</li>
-              <li>• Business portal developer Japan</li>
-              <li>• Custom CRM developer Japan</li>
+              <li>• Hire Agentic AI Engineer {City}</li>
+              <li>• LLM Engineer {City}</li>
+              <li>• RAG Developer {City}</li>
+              <li>• Generative AI Developer {City}</li>
+              <li>• Multi-Agent Systems Developer</li>
             </ul>
           </div>
           <div class="svc-card" style="padding: 16px;">
-            <h3 style="color: var(--accent-hi);">⚙️ Backend & AI</h3>
+            <h3 style="color: var(--accent-hi);">⚙️ Backend & Architecture</h3>
             <ul style="list-style:none;padding:0;font-size:13px;color:var(--muted);line-height:1.8;margin-top:8px;">
-              <li>• Hire AI developer {City}</li>
-              <li>• Python FastAPI specialist {City}</li>
-              <li>• LLM integration expert Japan</li>
+              <li>• Hire FastAPI Developer {City}</li>
+              <li>• Backend Architect {City}</li>
+              <li>• Python Microservices Expert</li>
               <li>• Secure API engineer {City}</li>
-              <li>• Node.js microservices {City}</li>
+              <li>• Node.js Backend Developer</li>
             </ul>
           </div>
           <div class="svc-card" style="padding: 16px;">
@@ -146,17 +178,17 @@ keyword_section_template = """
               <li>• Hire React and Next.js developer</li>
               <li>• Freelance full-stack engineer {City}</li>
               <li>• Remote software engineer {City}</li>
-              <li>• Best web app developer Japan</li>
-              <li>• MERN stack developer {City}</li>
+              <li>• Best web app developer {City}</li>
+              <li>• Vue.js / Tailwind expert {City}</li>
             </ul>
           </div>
           <div class="svc-card" style="padding: 16px;">
-            <h3 style="color: var(--accent-hi);">💰 Hiring & Cost</h3>
+            <h3 style="color: var(--accent-hi);">📈 SaaS & Hiring</h3>
             <ul style="list-style:none;padding:0;font-size:13px;color:var(--muted);line-height:1.8;margin-top:8px;">
-              <li>• Cost to hire app developer {City}</li>
-              <li>• Freelance web developer rates</li>
-              <li>• Remote software developer salary Japan</li>
-              <li>• Tech co-founder for hire Japan</li>
+              <li>• AI Automation Consultant {City}</li>
+              <li>• SaaS MVP developer cost {City}</li>
+              <li>• Enterprise software developer {City}</li>
+              <li>• Tech co-founder for hire {City}</li>
               <li>• Cheaper alternative to {PricingMarket}</li>
             </ul>
           </div>
