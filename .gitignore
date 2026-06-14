@@ -61,3 +61,12 @@ Thumbs.db
 *.tar.gz
 *.rar
 *.7z
+
+# Python / API Keys
+ramesh-portfolio-499406-2f223aed9f17.json
+indexing_progress.json
+indexing_progress_v2.json
+__pycache__/
+*.py[cod]
+.venv/
+venv/
