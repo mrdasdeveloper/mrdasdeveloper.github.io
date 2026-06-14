@@ -1,103 +1,103 @@
-# Deploy static GitHub Pages site (HTML + assets at repo root only).
-# Excludes admin/, backend scripts, and private files so the artifact stays small and secure.
-name: Deploy static content to Pages
+# # Deploy static GitHub Pages site (HTML + assets at repo root only).
+# # Excludes admin/, backend scripts, and private files so the artifact stays small and secure.
+# name: Deploy static content to Pages
 
-on:
-  push:
-    branches: [main, master]
-    paths:
-      - "*.html"
-      - "*.xml"
-      - "*.xsd"
-      - "*.txt"
-      - "*.ico"
-      - "*.png"
-      - "*.jpg"
-      - "*.jpeg"
-      - "*.webp"
-      - "*.pdf"
-      - "*.css"
-      - "*.js"
-      - ".github/workflows/static.yml"
-  workflow_dispatch:
+# on:
+#   push:
+#     branches: [main, master]
+#     paths:
+#       - "*.html"
+#       - "*.xml"
+#       - "*.xsd"
+#       - "*.txt"
+#       - "*.ico"
+#       - "*.png"
+#       - "*.jpg"
+#       - "*.jpeg"
+#       - "*.webp"
+#       - "*.pdf"
+#       - "*.css"
+#       - "*.js"
+#       - ".github/workflows/static.yml"
+#   workflow_dispatch:
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+# permissions:
+#   contents: read
+#   pages: write
+#   id-token: write
 
-concurrency:
-  group: "pages"
-  cancel-in-progress: true # Automatically cancel older redundant builds to speed up deployment
+# concurrency:
+#   group: "pages"
+#   cancel-in-progress: true # Automatically cancel older redundant builds to speed up deployment
 
-jobs:
-  deploy:
-    name: Build and Deploy
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
+# jobs:
+#   deploy:
+#     name: Build and Deploy
+#     runs-on: ubuntu-latest
+#     timeout-minutes: 10
+#     environment:
+#       name: github-pages
+#       url: ${{ steps.deployment.outputs.page_url }}
+#     steps:
+#       - name: Checkout Repository
+#         uses: actions/checkout@v4
+#         with:
+#           fetch-depth: 1
 
-      - name: Assemble Site Payload
-        run: |
-          set -euo pipefail
-          echo "⚙️  Building site payload..."
+#       - name: Assemble Site Payload
+#         run: |
+#           set -euo pipefail
+#           echo "⚙️  Building site payload..."
           
-          mkdir -p _site
+#           mkdir -p _site
           
-          # Securely find and copy ONLY specific safe extensions from the root directory.
-          # This prevents Python scripts (.py), JSON keys (.json), and Markdown (.md) from leaking.
-          find . -maxdepth 1 -type f \( \
-            -name "*.html" -o \
-            -name "*.xml" -o \
-            -name "*.xsd" -o \
-            -name "*.txt" -o \
-            -name "*.ico" -o \
-            -name "*.png" -o \
-            -name "*.jpg" -o \
-            -name "*.jpeg" -o \
-            -name "*.webp" -o \
-            -name "*.pdf" -o \
-            -name "*.css" -o \
-            -name "*.js" \
-          \) -exec cp -p {} _site/ \;
+#           # Securely find and copy ONLY specific safe extensions from the root directory.
+#           # This prevents Python scripts (.py), JSON keys (.json), and Markdown (.md) from leaking.
+#           find . -maxdepth 1 -type f \( \
+#             -name "*.html" -o \
+#             -name "*.xml" -o \
+#             -name "*.xsd" -o \
+#             -name "*.txt" -o \
+#             -name "*.ico" -o \
+#             -name "*.png" -o \
+#             -name "*.jpg" -o \
+#             -name "*.jpeg" -o \
+#             -name "*.webp" -o \
+#             -name "*.pdf" -o \
+#             -name "*.css" -o \
+#             -name "*.js" \
+#           \) -exec cp -p {} _site/ \;
 
-          # 🚀 Generate Universal Plain Text Sitemap (urllist.txt)
-          # This exports a clean list of every public URL, which can be easily 
-          # accessed anywhere or submitted directly to Google Search Console.
-          echo "📝 Generating urllist.txt export..."
-          for file in _site/*.html; do
-            filename=$(basename "$file")
-            if [ "$filename" = "index.html" ]; then
-              echo "https://mrdasdeveloper.github.io/" >> _site/urllist.txt
-            else
-              echo "https://mrdasdeveloper.github.io/$filename" >> _site/urllist.txt
-            fi
-          done
+#           # 🚀 Generate Universal Plain Text Sitemap (urllist.txt)
+#           # This exports a clean list of every public URL, which can be easily 
+#           # accessed anywhere or submitted directly to Google Search Console.
+#           echo "📝 Generating urllist.txt export..."
+#           for file in _site/*.html; do
+#             filename=$(basename "$file")
+#             if [ "$filename" = "index.html" ]; then
+#               echo "https://mrdasdeveloper.github.io/" >> _site/urllist.txt
+#             else
+#               echo "https://mrdasdeveloper.github.io/$filename" >> _site/urllist.txt
+#             fi
+#           done
 
-          # Safety Check
-          if [[ ! -f _site/index.html ]]; then
-            echo "::error::Critical failure: _site/index.html is missing. Deployment aborted."
-            exit 1
-          fi
+#           # Safety Check
+#           if [[ ! -f _site/index.html ]]; then
+#             echo "::error::Critical failure: _site/index.html is missing. Deployment aborted."
+#             exit 1
+#           fi
 
-          echo "✅ Payload successfully assembled. Included files:"
-          ls -lh _site
+#           echo "✅ Payload successfully assembled. Included files:"
+#           ls -lh _site
 
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
+#       - name: Configure GitHub Pages
+#         uses: actions/configure-pages@v5
 
-      - name: Upload Artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
+#       - name: Upload Artifact
+#         uses: actions/upload-pages-artifact@v3
+#         with:
+#           path: _site
 
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+#       - name: Deploy to GitHub Pages
+#         id: deployment
+#         uses: actions/deploy-pages@v4
