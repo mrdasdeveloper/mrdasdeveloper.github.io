@@ -107,5 +107,3 @@ Allow: /
 
 # ── Sitemaps ─────────────────────────────────────────────────────
 Sitemap: https://mrdasdeveloper.github.io/sitemap.xml
-Sitemap: https://mrdasdeveloper.github.io/llm.txt
-Sitemap: https://mrdasdeveloper.github.io/full-llm.txt
