@@ -6,7 +6,7 @@ html_files = [f for f in os.listdir(directory) if f.endswith('.html') and f not 
 
 today = datetime.now().strftime("%Y-%m-%d")
 
-# Define groupings
+# ── Priority map for main / core pages ────────────────────────────────────────
 main_pages = {
     'index.html': 1.0,
     'hire-ai-full-stack-engineer.html': 0.95,
@@ -18,8 +18,10 @@ main_pages = {
     'business-automation.html': 0.88,
     'freelancer.html': 0.85,
     'presentation.html': 0.85,
+    'sitemap.html': 0.70,
 }
 
+# ── Country / city slug mappings ──────────────────────────────────────────────
 country_slugs = {
     "usa": ["san-francisco", "new-york", "seattle", "austin", "boston"],
     "uk": ["london", "manchester", "cambridge"],
@@ -33,7 +35,6 @@ country_slugs = {
     "qatar": ["doha", "al-rayyan", "lusail", "al-wakrah", "umm-salal", "al-khor", "al-daayen", "mesaieed", "dukhan", "madinat-ash-shamal"]
 }
 
-# Add hub pages to their respective country
 hubs_mapping = {
     "usa": "hire-developers-usa.html",
     "uk": "hire-developers-uk.html",
@@ -43,110 +44,76 @@ hubs_mapping = {
     "japan": "hire-developers-japan.html",
     "singapore": "hire-developers-singapore.html",
     "saudi-arabia": "hire-developers-saudi-arabia.html",
-    "middle-east": "hire-developers-middle-east.html" # We'll put this in main or UAE/Qatar
+    "middle-east": "hire-developers-middle-east.html"
 }
 
-# Initialize data structures for each sitemap
-sitemaps_data = {
-    "main": [],
-    "usa": [],
-    "uk": [],
-    "canada": [],
-    "australia": [],
-    "germany": [],
-    "japan": [],
-    "singapore": [],
-    "saudi-arabia": [],
-    "uae": [],
-    "qatar": [],
-    "middle-east": []
-}
+def make_url(loc, changefreq, priority):
+    """Return a fully-formed <url> element string."""
+    return (
+        f"  <url>\n"
+        f"    <loc>https://mrdasdeveloper.github.io/{loc}</loc>\n"
+        f"    <lastmod>{today}</lastmod>\n"
+        f"    <changefreq>{changefreq}</changefreq>\n"
+        f"    <priority>{priority}</priority>\n"
+        f"  </url>"
+    )
 
-def generate_url_xml(loc, lastmod, changefreq, priority):
-    return f"""  <url>
-    <loc>https://mrdasdeveloper.github.io/{loc}</loc>
-    <lastmod>{lastmod}</lastmod>
-    <changefreq>{changefreq}</changefreq>
-    <priority>{priority}</priority>
-  </url>"""
+# ── Collect ALL URLs in priority order ────────────────────────────────────────
+all_urls = []
+processed = set()
 
-# 1. Main Pages
+# 1. High-priority main / core pages
 for page, priority in main_pages.items():
     if page in html_files:
-        path = "" if page == "index.html" else page
-        sitemaps_data["main"].append(generate_url_xml(path, today, "weekly", priority))
-        html_files.remove(page)
+        loc = "" if page == "index.html" else page
+        all_urls.append(make_url(loc, "weekly", priority))
+        processed.add(page)
 
-# 2. Text files to main
-sitemaps_data["main"].append(generate_url_xml("llm.txt", today, "monthly", "0.70"))
-sitemaps_data["main"].append(generate_url_xml("full-llm.txt", today, "monthly", "0.70"))
+# 2. LLM knowledge files
+all_urls.append(make_url("llm.txt",      "monthly", "0.70"))
+all_urls.append(make_url("full-llm.txt", "monthly", "0.70"))
 
-# 3. Process the remaining html files
+# 3. Country hub pages (priority 0.90)
+for country, hub_file in hubs_mapping.items():
+    if hub_file in html_files and hub_file not in processed:
+        all_urls.append(make_url(hub_file, "weekly", "0.90"))
+        processed.add(hub_file)
+
+# 4. City-specific pages grouped by country (priority 0.85)
+for country, slugs in country_slugs.items():
+    for slug in slugs:
+        for f in sorted(html_files):
+            if f.endswith(f"-{slug}.html") and f not in processed:
+                all_urls.append(make_url(f, "weekly", "0.85"))
+                processed.add(f)
+
+# 5. Any remaining HTML files not yet categorised
 for f in sorted(html_files):
-    assigned = False
-    
-    # Check if it's a hub page
-    if f.startswith('hire-developers-'):
-        country = f.replace('hire-developers-', '').replace('.html', '')
-        if country in sitemaps_data:
-            sitemaps_data[country].append(generate_url_xml(f, today, "weekly", "0.90"))
-            assigned = True
-    
-    # Check if it's a city page
-    if not assigned:
-        for country, slugs in country_slugs.items():
-            for slug in slugs:
-                if f.endswith(f"-{slug}.html"):
-                    sitemaps_data[country].append(generate_url_xml(f, today, "weekly", "0.85"))
-                    assigned = True
-                    break
-            if assigned:
-                break
-                
-    # If not assigned to any specific country, put in main
-    if not assigned:
-        sitemaps_data["main"].append(generate_url_xml(f, today, "weekly", "0.80"))
+    if f not in processed:
+        all_urls.append(make_url(f, "weekly", "0.80"))
+        processed.add(f)
 
-# 4. Generate the XML files
-urlset_header = '''<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-          http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-'''
-urlset_footer = '\n</urlset>'
+# ── Build the single flat <urlset> sitemap ────────────────────────────────────
+# WHY FLAT?  Google Search Console requires a sitemapindex to successfully
+# fetch *every* child sitemap before it marks the index as "Success".
+# On GitHub Pages a single CDN cache miss on any sub-sitemap causes
+# "Sitemap could not be read".  A single <urlset> file (like winsta.ai)
+# removes that dependency and always works correctly.
+sitemap_xml = (
+    '<?xml version="1.0" encoding="UTF-8"?>\n'
+    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n'
+    '        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"\n'
+    '        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9'
+    ' http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">\n'
+    + "\n".join(all_urls)
+    + '\n</urlset>\n'
+)
 
-generated_sitemaps = []
+out_path = os.path.join(directory, "sitemap.xml")
+with open(out_path, "w", encoding="utf-8") as fh:
+    fh.write(sitemap_xml)
 
-for sitemap_name, urls in sitemaps_data.items():
-    if not urls:
-        continue
-    
-    filename = f"sitemap-{sitemap_name}.xml"
-    content = urlset_header + "\n".join(urls) + urlset_footer
-    
-    with open(os.path.join(directory, filename), "w") as f:
-        f.write(content)
-        
-    generated_sitemaps.append(filename)
-    print(f"Generated {filename} with {len(urls)} entries.")
-
-# 5. Generate the Sitemap Index
-sitemapindex_header = '''<?xml version="1.0" encoding="UTF-8"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-'''
-sitemapindex_footer = '\n</sitemapindex>'
-
-index_urls = []
-for s in generated_sitemaps:
-    index_urls.append(f"""  <sitemap>
-    <loc>https://mrdasdeveloper.github.io/{s}</loc>
-    <lastmod>{today}</lastmod>
-  </sitemap>""")
-
-sitemap_index_content = sitemapindex_header + "\n".join(index_urls) + sitemapindex_footer
-
-with open(os.path.join(directory, "sitemap.xml"), "w") as f:
-    f.write(sitemap_index_content)
-    
-print(f"Generated Sitemap Index (sitemap.xml) pointing to {len(generated_sitemaps)} sub-sitemaps.")
+size_kb = len(sitemap_xml.encode("utf-8")) / 1024
+print(f"✅  sitemap.xml — single flat <urlset> — {len(all_urls)} URLs — {size_kb:.1f} KB")
+print(f"    Google's 50 000-URL / 50 MB limit: {'OK' if len(all_urls) < 50000 and size_kb < 51200 else 'EXCEEDED'}")
+print(f"    Same structure as winsta.ai/sitemap.xml  →  GSC compatible ✔")
