@@ -68,6 +68,19 @@ jobs:
             -name "*.js" \
           \) -exec cp -p {} _site/ \;
 
+          # 🚀 Generate Universal Plain Text Sitemap (urllist.txt)
+          # This exports a clean list of every public URL, which can be easily 
+          # accessed anywhere or submitted directly to Google Search Console.
+          echo "📝 Generating urllist.txt export..."
+          for file in _site/*.html; do
+            filename=$(basename "$file")
+            if [ "$filename" = "index.html" ]; then
+              echo "https://mrdasdeveloper.github.io/" >> _site/urllist.txt
+            else
+              echo "https://mrdasdeveloper.github.io/$filename" >> _site/urllist.txt
+            fi
+          done
+
           # Safety Check
           if [[ ! -f _site/index.html ]]; then
             echo "::error::Critical failure: _site/index.html is missing. Deployment aborted."
