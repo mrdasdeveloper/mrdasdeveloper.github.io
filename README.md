@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,50:A855F7,100:EC4899&height=220&section=header&text=Ramesh%20Das&fontSize=54&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Agentic%20AI%20Engineer%20%7C%20Backend%20Architect%20%7C%20Generative%20AI%20%7C%20Full-Stack&descAlignY=56&descSize=16&descColor=ffffffcc" />
+<h1 align="center">Hire Ramesh Das | Freelance Agentic AI Engineer & Backend Architect</h1>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,50:A855F7,100:EC4899&height=220&section=header&text=Ramesh%20Das&fontSize=54&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Agentic%20AI%20Engineer%20%7C%20Backend%20Architect%20%7C%20Generative%20AI%20%7C%20Full-Stack&descAlignY=56&descSize=16&descColor=ffffffcc" alt="Hire Ramesh Das - Freelance Agentic AI Developer and Senior Backend Architect" />
 
 </div>
 
@@ -15,9 +17,13 @@
 
 ---
 
-## Agentic AI Engineer · Backend Architect · Generative AI Developer
+## Top Freelance Agentic AI Engineer & Senior Backend Architect
 
-Results-driven **Agentic AI Engineer and Full-Stack Backend Architect** with **6+ years** designing, building, and shipping production-grade AI platforms, scalable APIs, and distributed backend systems. Specialized in **Generative AI**, **Agentic AI workflows**, **LLM orchestration**, **RAG pipeline architecture**, and **multi-agent systems**. Deep expertise in **Python**, **FastAPI**, **Django**, **LangChain**, **LlamaIndex**, and **microservices** — from autonomous task execution engines to real-time AI-enabled SaaS platforms.
+Results-driven **Agentic AI Engineer** and **Full-Stack Backend Architect** with **6+ years** of professional experience designing, building, and shipping production-grade AI platforms, scalable APIs, and distributed backend systems. 
+
+I specialize in **Generative AI integration**, **Agentic AI workflows**, **LLM orchestration**, **RAG (Retrieval-Augmented Generation) pipeline architecture**, and **multi-agent automation systems**. Providing elite remote software engineering services to startups and enterprises across the **USA, UK, Europe, MENA (Saudi Arabia, UAE, Qatar), and Asia-Pacific**.
+
+Deep expertise in **Python**, **FastAPI**, **Django**, **LangChain**, **LlamaIndex**, and **cloud microservices** — from autonomous task execution engines to real-time AI-enabled SaaS platforms.
 
 Experienced with **OpenAI GPT APIs**, **Hugging Face**, **Replicate**, **ComfyUI**, **Ollama**, **DeepSeek**, and **GPU inference** services. Skilled in end-to-end delivery: AI service design, backend API development, event-driven architecture, cloud deployment, and third-party integrations (Stripe, Twilio, Firebase, DeepL, PayPal).
 
@@ -350,6 +356,12 @@ Event-Driven Systems         ████████████████░
 Real-Time AI Applications    ████████████████░░░░  WebSocket streaming, live AI responses
 Cloud & GPU Inference        ██████████████░░░░░░  RunPod, FAL.ai, AWS Lambda, GCP model deployment
 ```
+
+### 🚀 Technical SEO & Core Services
+- **Agentic AI & Autonomous Workflows**: Designing multi-agent systems with tool-calling capabilities using LangChain, AutoGen, and advanced Python automation.
+- **Enterprise Backend Architecture**: Architecting high-throughput, low-latency APIs and microservices using FastAPI, Node.js, PostgreSQL, and Redis.
+- **RAG & Generative AI Solutions**: Integrating state-of-the-art LLMs (OpenAI, LlamaIndex, DeepSeek) with vector databases (Pinecone, Weaviate) for production semantic search.
+- **Cloud & DevOps Engineering**: Deploying scalable, fault-tolerant infrastructure via Docker, Kubernetes, AWS, RunPod (GPU inference), and CI/CD automation.
 
 ---
 
