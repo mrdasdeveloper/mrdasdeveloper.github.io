@@ -62,14 +62,43 @@ Thumbs.db
 *.rar
 *.7z
 
-# Python / API Keys
+# ============================================================
+# API Keys, Service Accounts & Credentials (NEVER commit)
+# ============================================================
 ramesh-portfolio-499406-2f223aed9f17.json
+*service-account*.json
+*service_account*.json
+*-credentials*.json
+*credentials*.json
+*.pem
+*.key
+*.p12
+secrets/
+.secrets
+
+# ============================================================
+# Indexing Tool — private state, logs & reports
+# ============================================================
 indexing_progress.json
 indexing_progress_v2.json
+indexing_state_v3.json
+indexing_runs.log
+indexing_runs_history.jsonl
+*_sitemap_output.txt
+
+# ============================================================
+# Python
+# ============================================================
+*.py
 __pycache__/
 *.py[cod]
+*$py.class
+*.pyc
 .venv/
 venv/
-
-
-*.py
+env/
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/

@@ -1,0 +1,14 @@
+# Run the indexer (submits up to 200 pending URLs today)
+python3 smart_indexer.py
+# Just see the report, no API calls
+python3 smart_indexer.py --report
+# Preview what WOULD be submitted (safe dry run)
+python3 smart_indexer.py --dry-run
+# Submit only 50 this run (instead of full 200 quota)
+python3 smart_indexer.py --limit 50
+# Reset one specific URL back to pending to re-submit it
+python3 smart_indexer.py --reset-url https://www.rameshdas.dev/tokyo.html
+# Reset ALL URLs back to pending (start fresh)
+python3 smart_indexer.py --reset
+# Force re-submit even already-submitted URLs
+python3 smart_indexer.py --force
