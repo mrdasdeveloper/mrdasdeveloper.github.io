@@ -14,7 +14,7 @@ cities = [
     {"name": "Dibba Al-Fujairah", "slug": "dibba-al-fujairah", "pricing_market": "UAE Agency"}
 ]
 
-output_dir = "/home/mrdas/WINSTA-AI/WINSTA-AI-V3/mrdasdeveloper.github.io/"
+output_dir = "/home/mrdas/WINSTA-AI/WINSTA-AI-V3/www.rameshdas.dev/"
 
 keyword_section_template = """
     <!-- ── High-Value Keywords Section ── -->

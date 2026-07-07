@@ -1,7 +1,7 @@
 import os
 import glob
 
-output_dir = "/home/mrdas/WINSTA-AI/WINSTA-AI-V3/mrdasdeveloper.github.io/"
+output_dir = "/home/mrdas/WINSTA-AI/WINSTA-AI-V3/www.rameshdas.dev/"
 generator_files = glob.glob(os.path.join(output_dir, "generate_*_pages.py")) + glob.glob(os.path.join(output_dir, "generate_*_pages_v2.py")) + [os.path.join(output_dir, "generate_mena_hubs_fix.py")]
 
 for filepath in generator_files:

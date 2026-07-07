@@ -1,6 +1,6 @@
 import os
 
-output_dir = "/home/mrdas/WINSTA-AI/WINSTA-AI-V3/mrdasdeveloper.github.io/"
+output_dir = "/home/mrdas/WINSTA-AI/WINSTA-AI-V3/www.rameshdas.dev/"
 
 # We will read index.html to steal the CSS/Header/Footer for consistency, then inject custom Hub Body.
 with open(os.path.join(output_dir, "hire-full-stack-developer.html"), "r") as f:

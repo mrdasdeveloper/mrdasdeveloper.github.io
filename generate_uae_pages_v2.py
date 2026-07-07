@@ -198,7 +198,7 @@ keyword_section_template = """
 
 """
 
-output_dir = "/home/mrdas/WINSTA-AI/WINSTA-AI-V3/mrdasdeveloper.github.io/"
+output_dir = "/home/mrdas/WINSTA-AI/WINSTA-AI-V3/www.rameshdas.dev/"
 urls = []
 
 for tpl in templates:
@@ -217,9 +217,9 @@ for tpl in templates:
         content = re.sub(r'<meta name="keywords" content=".*?" />', f'<meta name="keywords" content="hire {tpl["kw_prefix"]} {city["name"]}, {tpl["kw_prefix"]} for hire UAE, freelance developer {city["name"]}, Next.js developer {city["name"]}, remote developer UAE, SaaS developer Dubai, Ramesh Kumar Das" />', content)
         
         # Canonical & OG
-        content = re.sub(r'<link rel="canonical" href=".*?\.html" />', f'<link rel="canonical" href="https://mrdasdeveloper.github.io/{tpl["slug_prefix"]}{city["slug"]}.html" />', content)
+        content = re.sub(r'<link rel="canonical" href=".*?\.html" />', f'<link rel="canonical" href="https://www.rameshdas.dev/{tpl["slug_prefix"]}{city["slug"]}.html" />', content)
         content = re.sub(r'<meta property="og:title" content=".*?" />', f'<meta property="og:title" content="Hire Ramesh Kumar Das — Top {tpl["role"]} in {city["name"]} & UAE" />', content)
-        content = re.sub(r'<meta property="og:url" content=".*?" />', f'<meta property="og:url" content="https://mrdasdeveloper.github.io/{tpl["slug_prefix"]}{city["slug"]}.html" />', content)
+        content = re.sub(r'<meta property="og:url" content=".*?" />', f'<meta property="og:url" content="https://www.rameshdas.dev/{tpl["slug_prefix"]}{city["slug"]}.html" />', content)
         
         # Schema Area Served
         content = content.replace('"areaServed":"Worldwide"', f'"areaServed":"{city["name"]}, UAE"')
@@ -253,7 +253,7 @@ for tpl in templates:
         
         # Only collect the AI and Backend URLs for appending to sitemap, as full-stack is already there
         if tpl["role"] != "Full-Stack Developer":
-            urls.append(f"<url><loc>https://mrdasdeveloper.github.io/{filename}</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>")
+            urls.append(f"<url><loc>https://www.rameshdas.dev/{filename}</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>")
 
 print("\n--- New Sitemap Entries ---")
 print("\n".join(urls))

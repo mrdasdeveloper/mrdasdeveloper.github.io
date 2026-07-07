@@ -9,7 +9,7 @@ from google.auth.transport.requests import AuthorizedSession
 # ==============================================================================
 # CONFIGURATION
 # ==============================================================================
-BASE_URL = "https://mrdasdeveloper.github.io"
+BASE_URL = "https://www.rameshdas.dev"
 JSON_KEY_FILE = "ramesh-portfolio-499406-2f223aed9f17.json"
 SCOPES = ["https://www.googleapis.com/auth/indexing"]
 ENDPOINT = "https://indexing.googleapis.com/v3/urlNotifications:publish"

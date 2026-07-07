@@ -9,9 +9,9 @@
 <div align="center">
 
 [![Profile Views](https://komarev.com/ghpvc/?username=mrdasdeveloper&color=6C63FF&style=flat-square&label=Profile+Views)](https://github.com/mrdasdeveloper)
-[![Experience](https://img.shields.io/badge/Experience-6%2B%20Years-6C63FF?style=flat-square)](https://mrdasdeveloper.github.io/)
+[![Experience](https://img.shields.io/badge/Experience-6%2B%20Years-6C63FF?style=flat-square)](https://www.rameshdas.dev/)
 [![Status](https://img.shields.io/badge/Open%20to%20Roles-Agentic%20AI%20%7C%20Backend%20%7C%20Full--Stack-22c55e?style=flat-square)](mailto:mrdasdeveloper@gmail.com)
-[![Location](https://img.shields.io/badge/Nepal-Remote%20Available-3b82f6?style=flat-square)](https://mrdasdeveloper.github.io/)
+[![Location](https://img.shields.io/badge/Nepal-Remote%20Available-3b82f6?style=flat-square)](https://www.rameshdas.dev
 
 </div>
 
@@ -207,7 +207,7 @@ Production AI platform with **LLM orchestration**, **agentic workflows**, text-t
 
 `FastAPI` `LangChain` `ComfyUI` `RAG` `Stripe` `Docker` `Kubernetes`
 
-[![Portfolio](https://img.shields.io/badge/View-Live%20Platform-6C63FF?style=flat-square)](https://mrdasdeveloper.github.io/)
+[![Portfolio](https://img.shields.io/badge/View-Live%20Platform-6C63FF?style=flat-square)](https://www.rameshdas.dev
 
 </td>
 <td width="50%" valign="top">
@@ -381,12 +381,12 @@ Explore my specialized engineering services across different regions and technol
 ### 🎯 Core Engineering Services
 <div align="center">
 
-[![Agentic AI](https://img.shields.io/badge/Hire-Agentic%20AI%20Developer-6C63FF?style=for-the-badge)](https://mrdasdeveloper.github.io/hire-agentic-ai-developer.html)
-[![Backend Architect](https://img.shields.io/badge/Hire-Backend%20Architect-0F172A?style=for-the-badge)](https://mrdasdeveloper.github.io/hire-backend-architect.html)
-[![Full-Stack](https://img.shields.io/badge/Hire-Full--Stack%20Developer-3B82F6?style=for-the-badge)](https://mrdasdeveloper.github.io/hire-full-stack-developer.html)
-[![RAG Developer](https://img.shields.io/badge/Hire-RAG%20Developer-10B981?style=for-the-badge)](https://mrdasdeveloper.github.io/hire-rag-developer.html)
-[![LLM Engineer](https://img.shields.io/badge/Hire-LLM%20Engineer-F59E0B?style=for-the-badge)](https://mrdasdeveloper.github.io/hire-llm-engineer.html)
-[![FastAPI](https://img.shields.io/badge/Hire-FastAPI%20Developer-009688?style=for-the-badge)](https://mrdasdeveloper.github.io/hire-fastapi-developer.html)
+[![Agentic AI](https://img.shields.io/badge/Hire-Agentic%20AI%20Developer-6C63FF?style=for-the-badge)](https://www.rameshdas.devgentic-ai-developer.html)
+[![Backend Architect](https://img.shields.io/badge/Hire-Backend%20Architect-0F172A?style=for-the-badge)](https://www.rameshdas.devackend-architect.html)
+[![Full-Stack](https://img.shields.io/badge/Hire-Full--Stack%20Developer-3B82F6?style=for-the-badge)](https://www.rameshdas.devull-stack-developer.html)
+[![RAG Developer](https://img.shields.io/badge/Hire-RAG%20Developer-10B981?style=for-the-badge)](https://www.rameshdas.devag-developer.html)
+[![LLM Engineer](https://img.shields.io/badge/Hire-LLM%20Engineer-F59E0B?style=for-the-badge)](https://www.rameshdas.devlm-engineer.html)
+[![FastAPI](https://img.shields.io/badge/Hire-FastAPI%20Developer-009688?style=for-the-badge)](https://www.rameshdas.devastapi-developer.html)
 
 </div>
 
@@ -397,33 +397,33 @@ Find localized tech hiring guides and services for your specific region.
 <tr>
 <td width="33%" align="center">
 <b>🇺🇸 North America</b><br><br>
-<a href="https://mrdasdeveloper.github.io/hire-developers-usa.html">United States</a><br>
-<a href="https://mrdasdeveloper.github.io/hire-developers-canada.html">Canada</a>
+<a href="https://www.rameshdas.dev/developers-usa.html">United States</a><br>
+<a href="https://www.rameshdas.dev/developers-canada.html">Canada</a>
 </td>
 <td width="33%" align="center">
 <b>🇪🇺 Europe & UK</b><br><br>
-<a href="https://mrdasdeveloper.github.io/hire-developers-uk.html">United Kingdom</a><br>
-<a href="https://mrdasdeveloper.github.io/hire-developers-germany.html">Germany</a>
+<a href="https://www.rameshdas.dev/developers-uk.html">United Kingdom</a><br>
+<a href="https://www.rameshdas.dev/developers-germany.html">Germany</a>
 </td>
 <td width="33%" align="center">
 <b>🌏 Asia-Pacific</b><br><br>
-<a href="https://mrdasdeveloper.github.io/hire-developers-japan.html">Japan</a><br>
-<a href="https://mrdasdeveloper.github.io/hire-developers-singapore.html">Singapore</a><br>
-<a href="https://mrdasdeveloper.github.io/hire-developers-australia.html">Australia</a>
+<a href="https://www.rameshdas.dev/developers-japan.html">Japan</a><br>
+<a href="https://www.rameshdas.dev/developers-singapore.html">Singapore</a><br>
+<a href="https://www.rameshdas.dev/developers-australia.html">Australia</a>
 </td>
 </tr>
 <tr>
 <td colspan="3" align="center">
 <b>🕋 Middle East (MENA)</b><br><br>
-<a href="https://mrdasdeveloper.github.io/hire-developers-saudi-arabia.html">Saudi Arabia</a> • 
-<a href="https://mrdasdeveloper.github.io/hire-developers-middle-east.html">UAE, Qatar & Full MENA</a>
+<a href="https://www.rameshdas.dev/developers-saudi-arabia.html">Saudi Arabia</a> • 
+<a href="https://www.rameshdas.dev/developers-middle-east.html">UAE, Qatar & Full MENA</a>
 </td>
 </tr>
 </table>
 
 <div align="center">
 
-[![Global Sitemap](https://img.shields.io/badge/🗺️-View%20Full%20Global%20Sitemap-A855F7?style=for-the-badge)](https://mrdasdeveloper.github.io/sitemap.html)
+[![Global Sitemap](https://img.shields.io/badge/🗺️-View%20Full%20Global%20Sitemap-A855F7?style=for-the-badge)](https://www.rameshdas.devp.html)
 
 </div>
 
@@ -431,8 +431,8 @@ Find localized tech hiring guides and services for your specific region.
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-View%20Live-F97316?style=for-the-badge&logo=google-chrome&logoColor=white)](https://mrdasdeveloper.github.io/)
-[![Resume](https://img.shields.io/badge/Resume-Download%20PDF-EF4444?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://mrdasdeveloper.github.io/contact--me-by-+977-9700864900-via-whatsapp-Ramesh-Full-Stack-Automation-Engineer.pdf)
+[![Portfolio](https://img.shields.io/badge/Portfolio-View%20Live-F97316?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.rameshdas.dev
+[![Resume](https://img.shields.io/badge/Resume-Download%20PDF-EF4444?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://www.rameshdas.devt--me-by-+977-9700864900-via-whatsapp-Ramesh-Full-Stack-Automation-Engineer.pdf)
 [![Email](https://img.shields.io/badge/Email-mrdasdeveloper@gmail.com-FBBF24?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mrdasdeveloper@gmail.com)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B977%209700864900-22C55E?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/9779700864900)
 

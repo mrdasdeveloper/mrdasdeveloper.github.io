@@ -73,6 +73,6 @@ def update_file(filepath):
     print(f"Successfully updated {filepath}")
 
 if __name__ == "__main__":
-    directory = "/home/mrdas/WINSTA-AI/WINSTA-AI-V3/mrdasdeveloper.github.io/"
+    directory = "/home/mrdas/WINSTA-AI/WINSTA-AI-V3/www.rameshdas.dev/"
     for f in base_templates:
         update_file(os.path.join(directory, f))

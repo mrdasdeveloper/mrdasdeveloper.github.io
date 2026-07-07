@@ -162,5 +162,5 @@ def update_file(filepath):
         print(f"Updated {filepath}")
 
 for f in files_to_update:
-    filepath = os.path.join("/home/mrdas/WINSTA-AI/WINSTA-AI-V3/mrdasdeveloper.github.io/", f)
+    filepath = os.path.join("/home/mrdas/WINSTA-AI/WINSTA-AI-V3/www.rameshdas.dev/", f)
     update_file(filepath)

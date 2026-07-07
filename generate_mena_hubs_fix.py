@@ -1,6 +1,6 @@
 import os
 
-output_dir = "/home/mrdas/WINSTA-AI/WINSTA-AI-V3/mrdasdeveloper.github.io/"
+output_dir = "/home/mrdas/WINSTA-AI/WINSTA-AI-V3/www.rameshdas.dev/"
 
 with open(os.path.join(output_dir, "hire-full-stack-developer.html"), "r") as f:
     template = f.read()

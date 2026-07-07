@@ -8,7 +8,7 @@ from google.auth.transport.requests import AuthorizedSession
 # ==============================================================================
 # CONFIGURATION
 # ==============================================================================
-BASE_URL = "https://mrdasdeveloper.github.io"
+BASE_URL = "https://www.rameshdas.dev"
 JSON_KEY_FILE = "ramesh-portfolio-499406-2f223aed9f17.json"  # <-- You need to put your GCP service account JSON key here
 SCOPES = ["https://www.googleapis.com/auth/indexing"]
 ENDPOINT = "https://indexing.googleapis.com/v3/urlNotifications:publish"
@@ -43,7 +43,7 @@ def save_progress(progress):
 
 def main():
     print("🔍 Fetching all pages...")
-    all_urls = get_all_html_urls("/home/mrdas/WINSTA-AI/WINSTA-AI-V3/mrdasdeveloper.github.io/")
+    all_urls = get_all_html_urls("/home/mrdas/WINSTA-AI/WINSTA-AI-V3/www.rameshdas.dev
     print(f"Total HTML pages found: {len(all_urls)}")
 
     progress = load_progress()

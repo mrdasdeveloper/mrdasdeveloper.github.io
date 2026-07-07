@@ -75,9 +75,9 @@
 #           for file in _site/*.html; do
 #             filename=$(basename "$file")
 #             if [ "$filename" = "index.html" ]; then
-#               echo "https://mrdasdeveloper.github.io/" >> _site/urllist.txt
+#               echo "https://www.rameshdas.dev/" >> _site/urllist.txt
 #             else
-#               echo "https://mrdasdeveloper.github.io/$filename" >> _site/urllist.txt
+#               echo "https://www.rameshdas.dev/$filename" >> _site/urllist.txt
 #             fi
 #           done
 

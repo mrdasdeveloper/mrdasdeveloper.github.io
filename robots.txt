@@ -1,4 +1,4 @@
-# Ramesh Das — https://mrdasdeveloper.github.io/
+# Ramesh Das — https://www.rameshdas.dev/
 # Portfolio: open to all search engines, AI assistants, and research crawlers.
 # Updated: 2026-06-14
 
@@ -106,4 +106,4 @@ Allow: /
 # full-llm.txt  — comprehensive structured data for deep AI extraction
 
 # ── Sitemaps ─────────────────────────────────────────────────────
-Sitemap: https://mrdasdeveloper.github.io/sitemap.xml
+Sitemap: https://www.rameshdas.dev/sitemap.xml

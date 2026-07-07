@@ -12,7 +12,7 @@ base_templates = [
     "presentation.html"
 ]
 
-directory = "/home/mrdas/WINSTA-AI/WINSTA-AI-V3/mrdasdeveloper.github.io/"
+directory = "/home/mrdas/WINSTA-AI/WINSTA-AI-V3/www.rameshdas.dev/"
 
 target = """<a href="https://github.com/mrdasdeveloper" target="_blank">github.com/mrdasdeveloper</a>"""
 replacement = """<a href="https://github.com/mrdasdeveloper" target="_blank">github.com/mrdasdeveloper</a>

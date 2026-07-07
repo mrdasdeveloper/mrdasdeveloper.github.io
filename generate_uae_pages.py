@@ -1,7 +1,7 @@
 import os
 import re
 
-base_file = "/home/mrdas/WINSTA-AI/WINSTA-AI-V3/mrdasdeveloper.github.io/hire-full-stack-developer-dubai.html"
+base_file = "/home/mrdas/WINSTA-AI/WINSTA-AI-V3/www.rameshdas.dev/hire-full-stack-developer-dubai.html"
 with open(base_file, "r") as f:
     template = f.read()
 
@@ -127,7 +127,7 @@ cities = [
     }
 ]
 
-output_dir = "/home/mrdas/WINSTA-AI/WINSTA-AI-V3/mrdasdeveloper.github.io/"
+output_dir = "/home/mrdas/WINSTA-AI/WINSTA-AI-V3/www.rameshdas.dev
 
 urls = []
 
@@ -150,7 +150,7 @@ for city in cities:
         out_f.write(content)
         
     print(f"Generated {filename}")
-    urls.append(f"<url><loc>https://mrdasdeveloper.github.io/{filename}</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>")
+    urls.append(f"<url><loc>https://www.rameshdas.devame}</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>")
 
 print("\n--- Sitemap Entries ---")
 print("\n".join(urls))

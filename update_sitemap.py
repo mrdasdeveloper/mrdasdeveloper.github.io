@@ -28,8 +28,8 @@ WHY THIS WORKS IN GSC:
 import os
 from datetime import datetime, timezone
 
-directory = "/home/mrdas/WINSTA-AI/WINSTA-AI-V3/mrdasdeveloper.github.io/"
-BASE_URL  = "https://mrdasdeveloper.github.io"
+directory = "/home/mrdas/WINSTA-AI/WINSTA-AI-V3/www.rameshdas.dev/"
+BASE_URL  = "https://www.rameshdas.dev
 
 html_files = [
     f for f in os.listdir(directory)
@@ -192,4 +192,4 @@ print(f"    lastmod format: ISO 8601 with UTC ({now_iso})")
 print()
 print("📋  Submit each of these individually to Google Search Console:")
 for g in generated:
-    print(f"    https://mrdasdeveloper.github.io/{g}")
+    print(f"    https://www.rameshdas.dev

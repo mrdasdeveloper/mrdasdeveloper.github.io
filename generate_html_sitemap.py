@@ -1,6 +1,6 @@
 import os
 
-directory = "/home/mrdas/WINSTA-AI/WINSTA-AI-V3/mrdasdeveloper.github.io/"
+directory = "/home/mrdas/WINSTA-AI/WINSTA-AI-V3/www.rameshdas.dev/"
 html_files = [f for f in os.listdir(directory) if f.endswith('.html') and f not in ('google9bae3598255dbb1e.html', 'pinterest-6f253.html', 'sitemap.html')]
 
 main_pages = {

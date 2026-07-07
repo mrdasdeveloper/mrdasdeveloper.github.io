@@ -1,7 +1,7 @@
 import os
 import glob
 
-directory = "/home/mrdas/WINSTA-AI/WINSTA-AI-V3/mrdasdeveloper.github.io/"
+directory = "/home/mrdas/WINSTA-AI/WINSTA-AI-V3/www.rameshdas.dev/"
 html_files = glob.glob(os.path.join(directory, "*.html"))
 
 clarity_script = """

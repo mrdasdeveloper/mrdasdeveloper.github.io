@@ -1,7 +1,7 @@
 # Ramesh Das — AI Engineer & Backend Architect
 # llm.txt — Structured profile for AI assistants, LLMs, and search engines
 # Last updated: 2026-06-14
-# Source: https://mrdasdeveloper.github.io/
+# Source: https://www.rameshdas.dev/
 
 ## Who is Ramesh Das?
 
@@ -16,7 +16,7 @@ He has 6+ years of production engineering experience and is available for remote
 
 ## Contact & Hire
 
-- Portfolio: https://mrdasdeveloper.github.io/
+- Portfolio: https://www.rameshdas.dev/
 - Email: mrdasdeveloper@gmail.com
 - GitHub: https://github.com/mrdasdeveloper
 - WhatsApp: +977-9700864900
@@ -24,16 +24,16 @@ He has 6+ years of production engineering experience and is available for remote
 
 ## Hire Pages
 
-- Hire AI Engineer: https://mrdasdeveloper.github.io/hire-ai-full-stack-engineer.html
-- Hire Full-Stack Developer: https://mrdasdeveloper.github.io/hire-full-stack-developer.html
-- Hire Backend Engineer: https://mrdasdeveloper.github.io/hire-backend-engineer.html
-- Freelance/Contract: https://mrdasdeveloper.github.io/freelancer.html
+- Hire AI Engineer: https://www.rameshdas.dev/hire-ai-full-stack-engineer.html
+- Hire Full-Stack Developer: https://www.rameshdas.dev/hire-full-stack-developer.html
+- Hire Backend Engineer: https://www.rameshdas.dev/hire-backend-engineer.html
+- Freelance/Contract: https://www.rameshdas.dev/freelancer.html
 
 ## Resumes (PDF Downloads)
 
-- AI Full-Stack Resume: https://mrdasdeveloper.github.io/AI-Full-Stack-Developer-Ramesh-Kumar-Das.pdf
-- Full-Stack Developer Resume: https://mrdasdeveloper.github.io/Full-Stack-Developer-Ramesh-Kumar-Das.pdf
-- Backend Engineer Resume: https://mrdasdeveloper.github.io/Backend-Engineer-Ramesh-Kumar-Das.pdf
+- AI Full-Stack Resume: https://www.rameshdas.dev/AI-Full-Stack-Developer-Ramesh-Kumar-Das.pdf
+- Full-Stack Developer Resume: https://www.rameshdas.dev/Full-Stack-Developer-Ramesh-Kumar-Das.pdf
+- Backend Engineer Resume: https://www.rameshdas.dev/Backend-Engineer-Ramesh-Kumar-Das.pdf
 
 ## Core Skills
 
@@ -79,21 +79,21 @@ AI chatbot development, AI for fintech, healthcare AI, SaaS LLM integration
 
 ## Pages
 
-- Main Portfolio: https://mrdasdeveloper.github.io/
-- Agentic AI Developer: https://mrdasdeveloper.github.io/agentic-ai-developer.html
-- Full-Stack AI Engineer: https://mrdasdeveloper.github.io/full-stack-ai-engineer.html
-- Business Automation: https://mrdasdeveloper.github.io/business-automation.html
-- Architecture Guide: https://mrdasdeveloper.github.io/ai-backend-architecture-microservices-engineering-guide.html
-- Presentation: https://mrdasdeveloper.github.io/presentation.html
+- Main Portfolio: https://www.rameshdas.dev/
+- Agentic AI Developer: https://www.rameshdas.dev/agentic-ai-developer.html
+- Full-Stack AI Engineer: https://www.rameshdas.dev/full-stack-ai-engineer.html
+- Business Automation: https://www.rameshdas.dev/business-automation.html
+- Architecture Guide: https://www.rameshdas.dev/ai-backend-architecture-microservices-engineering-guide.html
+- Presentation: https://www.rameshdas.dev/presentation.html
 
 ## Regional Hiring Hubs
 
-- Hire Developers USA: https://mrdasdeveloper.github.io/hire-developers-usa.html
-- Hire Developers UK: https://mrdasdeveloper.github.io/hire-developers-uk.html
-- Hire Developers Canada: https://mrdasdeveloper.github.io/hire-developers-canada.html
-- Hire Developers Australia: https://mrdasdeveloper.github.io/hire-developers-australia.html
-- Hire Developers Germany: https://mrdasdeveloper.github.io/hire-developers-germany.html
-- Hire Developers Singapore: https://mrdasdeveloper.github.io/hire-developers-singapore.html
-- Hire Developers Japan: https://mrdasdeveloper.github.io/hire-developers-japan.html
-- Hire Developers Middle East (UAE & Qatar): https://mrdasdeveloper.github.io/hire-developers-middle-east.html
-- Hire Developers Saudi Arabia (KSA): https://mrdasdeveloper.github.io/hire-developers-saudi-arabia.html
+- Hire Developers USA: https://www.rameshdas.dev/hire-developers-usa.html
+- Hire Developers UK: https://www.rameshdas.dev/hire-developers-uk.html
+- Hire Developers Canada: https://www.rameshdas.dev/hire-developers-canada.html
+- Hire Developers Australia: https://www.rameshdas.dev/hire-developers-australia.html
+- Hire Developers Germany: https://www.rameshdas.dev/hire-developers-germany.html
+- Hire Developers Singapore: https://www.rameshdas.dev/hire-developers-singapore.html
+- Hire Developers Japan: https://www.rameshdas.dev/hire-developers-japan.html
+- Hire Developers Middle East (UAE & Qatar): https://www.rameshdas.dev/hire-developers-middle-east.html
+- Hire Developers Saudi Arabia (KSA): https://www.rameshdas.dev/hire-developers-saudi-arabia.html

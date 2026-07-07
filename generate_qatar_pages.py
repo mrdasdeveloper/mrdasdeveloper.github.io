@@ -94,7 +94,7 @@ qatar_cities = [
     }
 ]
 
-base_file = "/home/mrdas/WINSTA-AI/WINSTA-AI-V3/mrdasdeveloper.github.io/hire-full-stack-developer.html"
+base_file = "/home/mrdas/WINSTA-AI/WINSTA-AI-V3/www.rameshdas.dev/hire-full-stack-developer.html"
 with open(base_file, "r") as f:
     template = f.read()
 
@@ -153,7 +153,7 @@ keyword_section_template = """
 
 """
 
-output_dir = "/home/mrdas/WINSTA-AI/WINSTA-AI-V3/mrdasdeveloper.github.io/"
+output_dir = "/home/mrdas/WINSTA-AI/WINSTA-AI-V3/www.rameshdas.dev/"
 urls = []
 
 for city in qatar_cities:
@@ -163,11 +163,11 @@ for city in qatar_cities:
     content = re.sub(r'<title>.*?</title>', f'<title>Hire Ramesh Kumar Das — Top Full-Stack AI Developer in {city["name"]} & Qatar</title>', content)
     content = re.sub(r'<meta name="description" content=".*?" />', f'<meta name="description" content="Hire Ramesh Kumar Das, Top Full-Stack AI Developer in {city["name"]} & Qatar. Expert in React, Next.js, FastAPI. Building scalable SaaS for {city["hero_desc"]}." />', content)
     content = re.sub(r'<meta name="keywords" content=".*?" />', f'<meta name="keywords" content="hire full-stack developer {city["name"]}, full stack developer for hire Qatar, freelance AI engineer {city["name"]}, Next.js developer {city["name"]}, remote full stack developer Qatar, SaaS developer Middle East, Ramesh Kumar Das" />', content)
-    content = re.sub(r'<link rel="canonical" href=".*?hire-full-stack-developer\.html" />', f'<link rel="canonical" href="https://mrdasdeveloper.github.io/hire-full-stack-developer-{city["slug"]}.html" />', content)
+    content = re.sub(r'<link rel="canonical" href=".*?hire-full-stack-developer\.html" />', f'<link rel="canonical" href="https://www.rameshdas.dev/hire-full-stack-developer-{city["slug"]}.html" />', content)
     
     # OG Tags
     content = re.sub(r'<meta property="og:title" content=".*?" />', f'<meta property="og:title" content="Hire Ramesh Kumar Das — Top Full-Stack AI Developer in {city["name"]} & Qatar" />', content)
-    content = re.sub(r'<meta property="og:url" content=".*?" />', f'<meta property="og:url" content="https://mrdasdeveloper.github.io/hire-full-stack-developer-{city["slug"]}.html" />', content)
+    content = re.sub(r'<meta property="og:url" content=".*?" />', f'<meta property="og:url" content="https://www.rameshdas.dev/hire-full-stack-developer-{city["slug"]}.html" />', content)
     
     # Schema Area Served
     content = content.replace('"areaServed":"Worldwide"', f'"areaServed":"{city["name"]}, Qatar"')
@@ -207,7 +207,7 @@ for city in qatar_cities:
         out_f.write(content)
         
     print(f"Generated {filename}")
-    urls.append(f"<url><loc>https://mrdasdeveloper.github.io/{filename}</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>")
+    urls.append(f"<url><loc>https://www.rameshdas.dev/{filename}</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>")
 
 print("\n--- Sitemap Entries ---")
 print("\n".join(urls))

@@ -30,23 +30,23 @@ Generated hire-backend-engineer-dukhan.html
 Generated hire-backend-engineer-madinat-ash-shamal.html
 
 --- New Sitemap Entries ---
-<url><loc>https://mrdasdeveloper.github.io/hire-ai-full-stack-engineer-doha.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
-<url><loc>https://mrdasdeveloper.github.io/hire-ai-full-stack-engineer-al-rayyan.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
-<url><loc>https://mrdasdeveloper.github.io/hire-ai-full-stack-engineer-lusail.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
-<url><loc>https://mrdasdeveloper.github.io/hire-ai-full-stack-engineer-al-wakrah.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
-<url><loc>https://mrdasdeveloper.github.io/hire-ai-full-stack-engineer-umm-salal.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
-<url><loc>https://mrdasdeveloper.github.io/hire-ai-full-stack-engineer-al-khor.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
-<url><loc>https://mrdasdeveloper.github.io/hire-ai-full-stack-engineer-al-daayen.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
-<url><loc>https://mrdasdeveloper.github.io/hire-ai-full-stack-engineer-mesaieed.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
-<url><loc>https://mrdasdeveloper.github.io/hire-ai-full-stack-engineer-dukhan.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
-<url><loc>https://mrdasdeveloper.github.io/hire-ai-full-stack-engineer-madinat-ash-shamal.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
-<url><loc>https://mrdasdeveloper.github.io/hire-backend-engineer-doha.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
-<url><loc>https://mrdasdeveloper.github.io/hire-backend-engineer-al-rayyan.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
-<url><loc>https://mrdasdeveloper.github.io/hire-backend-engineer-lusail.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
-<url><loc>https://mrdasdeveloper.github.io/hire-backend-engineer-al-wakrah.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
-<url><loc>https://mrdasdeveloper.github.io/hire-backend-engineer-umm-salal.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
-<url><loc>https://mrdasdeveloper.github.io/hire-backend-engineer-al-khor.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
-<url><loc>https://mrdasdeveloper.github.io/hire-backend-engineer-al-daayen.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
-<url><loc>https://mrdasdeveloper.github.io/hire-backend-engineer-mesaieed.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
-<url><loc>https://mrdasdeveloper.github.io/hire-backend-engineer-dukhan.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
-<url><loc>https://mrdasdeveloper.github.io/hire-backend-engineer-madinat-ash-shamal.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+<url><loc>https://www.rameshdas.dev/hire-ai-full-stack-engineer-doha.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+<url><loc>https://www.rameshdas.dev/hire-ai-full-stack-engineer-al-rayyan.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+<url><loc>https://www.rameshdas.dev/hire-ai-full-stack-engineer-lusail.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+<url><loc>https://www.rameshdas.dev/hire-ai-full-stack-engineer-al-wakrah.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+<url><loc>https://www.rameshdas.dev/hire-ai-full-stack-engineer-umm-salal.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+<url><loc>https://www.rameshdas.dev/hire-ai-full-stack-engineer-al-khor.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+<url><loc>https://www.rameshdas.dev/hire-ai-full-stack-engineer-al-daayen.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+<url><loc>https://www.rameshdas.dev/hire-ai-full-stack-engineer-mesaieed.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+<url><loc>https://www.rameshdas.dev/hire-ai-full-stack-engineer-dukhan.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+<url><loc>https://www.rameshdas.dev/hire-ai-full-stack-engineer-madinat-ash-shamal.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+<url><loc>https://www.rameshdas.dev/hire-backend-engineer-doha.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+<url><loc>https://www.rameshdas.dev/hire-backend-engineer-al-rayyan.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+<url><loc>https://www.rameshdas.dev/hire-backend-engineer-lusail.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+<url><loc>https://www.rameshdas.dev/hire-backend-engineer-al-wakrah.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+<url><loc>https://www.rameshdas.dev/hire-backend-engineer-umm-salal.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+<url><loc>https://www.rameshdas.dev/hire-backend-engineer-al-khor.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+<url><loc>https://www.rameshdas.dev/hire-backend-engineer-al-daayen.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+<url><loc>https://www.rameshdas.dev/hire-backend-engineer-mesaieed.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+<url><loc>https://www.rameshdas.dev/hire-backend-engineer-dukhan.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+<url><loc>https://www.rameshdas.dev/hire-backend-engineer-madinat-ash-shamal.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
