@@ -381,12 +381,12 @@ Explore my specialized engineering services across different regions and technol
 ### 🎯 Core Engineering Services
 <div align="center">
 
-[![Agentic AI](https://img.shields.io/badge/Hire-Agentic%20AI%20Developer-6C63FF?style=for-the-badge)](https://www.rameshdas.devgentic-ai-developer.html)
-[![Backend Architect](https://img.shields.io/badge/Hire-Backend%20Architect-0F172A?style=for-the-badge)](https://www.rameshdas.devackend-architect.html)
-[![Full-Stack](https://img.shields.io/badge/Hire-Full--Stack%20Developer-3B82F6?style=for-the-badge)](https://www.rameshdas.devull-stack-developer.html)
-[![RAG Developer](https://img.shields.io/badge/Hire-RAG%20Developer-10B981?style=for-the-badge)](https://www.rameshdas.devag-developer.html)
-[![LLM Engineer](https://img.shields.io/badge/Hire-LLM%20Engineer-F59E0B?style=for-the-badge)](https://www.rameshdas.devlm-engineer.html)
-[![FastAPI](https://img.shields.io/badge/Hire-FastAPI%20Developer-009688?style=for-the-badge)](https://www.rameshdas.devastapi-developer.html)
+[![Agentic AI](https://img.shields.io/badge/Hire-Agentic%20AI%20Developer-6C63FF?style=for-the-badge)](https://www.rameshdas.dev/agentic-ai-developer.html)
+[![Backend Architect](https://img.shields.io/badge/Hire-Backend%20Architect-0F172A?style=for-the-badge)](https://www.rameshdas.dev/hire-backend-engineer.html)
+[![Full-Stack](https://img.shields.io/badge/Hire-Full--Stack%20Developer-3B82F6?style=for-the-badge)](https://www.rameshdas.dev/hire-full-stack-developer.html)
+[![RAG Developer](https://img.shields.io/badge/Hire-RAG%20Developer-10B981?style=for-the-badge)](https://www.rameshdas.dev/hire-rag-developer-dubai.html)
+[![LLM Engineer](https://img.shields.io/badge/Hire-LLM%20Engineer-F59E0B?style=for-the-badge)](https://www.rameshdas.dev/hire-llm-engineer-dubai.html)
+[![FastAPI](https://img.shields.io/badge/Hire-FastAPI%20Developer-009688?style=for-the-badge)](https://www.rameshdas.dev/hire-fastapi-developer-dubai.html)
 
 </div>
 
@@ -423,7 +423,7 @@ Find localized tech hiring guides and services for your specific region.
 
 <div align="center">
 
-[![Global Sitemap](https://img.shields.io/badge/🗺️-View%20Full%20Global%20Sitemap-A855F7?style=for-the-badge)](https://www.rameshdas.devp.html)
+[![Global Sitemap](https://img.shields.io/badge/🗺️-View%20Full%20Global%20Sitemap-A855F7?style=for-the-badge)](https://www.rameshdas.dev/sitemap.html)
 
 </div>
 
@@ -432,7 +432,7 @@ Find localized tech hiring guides and services for your specific region.
 <div align="center">
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-View%20Live-F97316?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.rameshdas.dev
-[![Resume](https://img.shields.io/badge/Resume-Download%20PDF-EF4444?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://www.rameshdas.devt--me-by-+977-9700864900-via-whatsapp-Ramesh-Full-Stack-Automation-Engineer.pdf)
+[![Resume](https://img.shields.io/badge/Resume-Download%20PDF-EF4444?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://www.rameshdas.dev/contact--me-by-+977-9700864900-via-whatsapp-Ramesh-Full-Stack-Automation-Engineer.pdf)
 [![Email](https://img.shields.io/badge/Email-mrdasdeveloper@gmail.com-FBBF24?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mrdasdeveloper@gmail.com)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B977%209700864900-22C55E?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/9779700864900)
 

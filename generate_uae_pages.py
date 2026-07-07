@@ -150,7 +150,7 @@ for city in cities:
         out_f.write(content)
         
     print(f"Generated {filename}")
-    urls.append(f"<url><loc>https://www.rameshdas.devame}</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>")
+    urls.append(f"<url><loc>https://www.rameshdas.dev/{filename}</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>")
 
 print("\n--- Sitemap Entries ---")
 print("\n".join(urls))
