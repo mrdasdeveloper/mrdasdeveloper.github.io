@@ -1,6 +1,6 @@
 # Ramesh Das — AI Engineer & Backend Architect
 # llm.txt — Structured profile for AI assistants, LLMs, and search engines
-# Last updated: 2026-06-14
+# Last updated: 2026-07-07
 # Source: https://www.rameshdas.dev/
 
 ## Who is Ramesh Das?
@@ -22,8 +22,32 @@ He has 6+ years of production engineering experience and is available for remote
 - WhatsApp: +977-9700864900
 - Location: Nepal (remote-first, available globally)
 
+## Services
+
+Full services overview: https://www.rameshdas.dev/services.html
+
+Ramesh Das offers the following services (remote, worldwide):
+- Agentic AI & multi-agent systems (LangChain, LangGraph, CrewAI, AutoGen)
+- LLM applications & RAG systems (vector search, embeddings, reranking)
+- Generative AI integration (text-to-image, speech-to-text, TTS, OCR, video/audio AI)
+- AI chatbots & voice AI (customer support, sales, knowledge assistants)
+- Custom software development (internal tools, dashboards, enterprise platforms)
+- Backend architecture & APIs (FastAPI, Django, Node.js, REST/GraphQL, microservices)
+- Full-stack web applications (Next.js, React, TypeScript + Python/Node)
+- SaaS MVP development (auth, billing, multi-tenancy, AI features)
+- Website development (fast, SEO-optimized marketing sites & landing pages)
+- Business & workflow automation (webhooks, queues, scheduled jobs, API integration)
+- Cloud, DevOps & deployment (Docker, Kubernetes, CI/CD, AWS/GCP)
+- AI consulting & architecture (feasibility, system design, tech stack selection)
+
+Pricing (current 50% direct-hire discount):
+- Hourly consulting: from $25/hr (AI/backend $29/hr, full-stack/automation $25/hr)
+- Monthly retainer: from $1,899/month (160 hrs, full-time equivalent)
+- Fixed-price projects: automation from $799, backend API from $1,199, SaaS MVP from $1,899, AI agent/RAG from $1,999, website from $499, chatbot from $999
+
 ## Hire Pages
 
+- Services (all offerings): https://www.rameshdas.dev/services.html
 - Hire AI Engineer: https://www.rameshdas.dev/hire-ai-full-stack-engineer.html
 - Hire Full-Stack Developer: https://www.rameshdas.dev/hire-full-stack-developer.html
 - Hire Backend Engineer: https://www.rameshdas.dev/hire-backend-engineer.html
@@ -80,6 +104,7 @@ AI chatbot development, AI for fintech, healthcare AI, SaaS LLM integration
 ## Pages
 
 - Main Portfolio: https://www.rameshdas.dev/
+- Services: https://www.rameshdas.dev/services.html
 - Agentic AI Developer: https://www.rameshdas.dev/agentic-ai-developer.html
 - Full-Stack AI Engineer: https://www.rameshdas.dev/full-stack-ai-engineer.html
 - Business Automation: https://www.rameshdas.dev/business-automation.html
