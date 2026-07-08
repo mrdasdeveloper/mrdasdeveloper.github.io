@@ -69,6 +69,24 @@
     <priority>0.85</priority>
   </url>
   <url>
+    <loc>https://www.rameshdas.dev/contact.html</loc>
+    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.rameshdas.dev/privacy.html</loc>
+    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+  <url>
+    <loc>https://www.rameshdas.dev/terms.html</loc>
+    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+  <url>
     <loc>https://www.rameshdas.dev/sitemap.html</loc>
     <lastmod>2026-06-14T02:56:18+00:00</lastmod>
     <changefreq>weekly</changefreq>

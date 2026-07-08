@@ -1,0 +1,37 @@
+{
+  "name": "Ramesh Das — Agentic AI Engineer & Backend Architect",
+  "short_name": "Ramesh Das",
+  "description": "Portfolio of Ramesh Das — Agentic AI Engineer and Backend Architect with 6+ years building production AI platforms, LLM orchestration, RAG pipelines, and FastAPI microservices.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#09090b",
+  "theme_color": "#7c6ff7",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["productivity", "business", "technology"],
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/mrdasdeveloper-profile-image.png",
+      "sizes": "800x800",
+      "type": "image/png",
+      "label": "Ramesh Das — Agentic AI Engineer Portfolio"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://www.rameshdas.dev/"
+    }
+  ],
+  "prefer_related_applications": false
+}

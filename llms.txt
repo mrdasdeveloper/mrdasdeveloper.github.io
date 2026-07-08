@@ -11,6 +11,10 @@
 ## Metadata
 
 - Canonical URL: https://www.rameshdas.dev/
+- Contact page: https://www.rameshdas.dev/contact.html
+- Services page: https://www.rameshdas.dev/services.html
+- Privacy policy: https://www.rameshdas.dev/privacy.html
+- Terms of service: https://www.rameshdas.dev/terms.html
 - Sitemap XML: https://www.rameshdas.dev/sitemap.xml
 - Sitemap HTML: https://www.rameshdas.dev/sitemap.html
 - Robots: https://www.rameshdas.dev/robots.txt
