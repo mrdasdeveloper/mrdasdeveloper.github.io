@@ -1,6 +1,6 @@
 # Ramesh Das — https://www.rameshdas.dev/
 # Portfolio: open to all search engines, AI assistants, and research crawlers.
-# Updated: 2026-06-14
+# Updated: 2026-07-08
 
 # ── Default: allow all crawlers ──────────────────────────────────
 User-agent: *
@@ -96,14 +96,58 @@ Allow: /
 User-agent: cohere-ai
 Allow: /
 
+# ── Google DeepMind / Gemini ──────────────────────────────────────
+User-agent: Google-CloudVertexBot
+Allow: /
+
+# ── DeepSeek ─────────────────────────────────────────────────────
+User-agent: DeepSeek-Spider
+Allow: /
+
+# ── Mistral AI ───────────────────────────────────────────────────
+User-agent: mistralai
+Allow: /
+
+# ── OpenRouter / Together AI ─────────────────────────────────────
+User-agent: openrouter-bot
+Allow: /
+
+# ── Hugging Face ─────────────────────────────────────────────────
+User-agent: HuggingFaceBot
+Allow: /
+
+# ── Grok / xAI ───────────────────────────────────────────────────
+User-agent: Grok
+Allow: /
+
+# ── You.com ──────────────────────────────────────────────────────
+User-agent: YouBot
+Allow: /
+
+# ── Brave Search ─────────────────────────────────────────────────
+User-agent: Brave-Bot
+Allow: /
+
 # ── Common Crawl ─────────────────────────────────────────────────
 User-agent: CCBot
 Allow: /
 
-# ── AI-specific structured data files ────────────────────────────
+# ── AI-specific structured data files (llmstxt.org convention) ────
 # These files are specifically designed for LLM / AI model consumption
-# llm.txt       — concise profile summary for AI assistants
-# full-llm.txt  — comprehensive structured data for deep AI extraction
+# llms.txt       — concise profile summary for AI assistants
+# llms-full.txt  — comprehensive structured data for deep AI extraction
 
 # ── Sitemaps ─────────────────────────────────────────────────────
 Sitemap: https://www.rameshdas.dev/sitemap.xml
+Sitemap: https://www.rameshdas.dev/sitemap-main.xml
+Sitemap: https://www.rameshdas.dev/sitemap-usa.xml
+Sitemap: https://www.rameshdas.dev/sitemap-uk.xml
+Sitemap: https://www.rameshdas.dev/sitemap-canada.xml
+Sitemap: https://www.rameshdas.dev/sitemap-australia.xml
+Sitemap: https://www.rameshdas.dev/sitemap-germany.xml
+Sitemap: https://www.rameshdas.dev/sitemap-japan.xml
+Sitemap: https://www.rameshdas.dev/sitemap-singapore.xml
+Sitemap: https://www.rameshdas.dev/sitemap-saudi-arabia.xml
+Sitemap: https://www.rameshdas.dev/sitemap-uae.xml
+Sitemap: https://www.rameshdas.dev/sitemap-qatar.xml
+Sitemap: https://www.rameshdas.dev/sitemap-middle-east.xml

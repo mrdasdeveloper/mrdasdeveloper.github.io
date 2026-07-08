@@ -1,0 +1,167 @@
+# Ramesh Das — Agentic AI Engineer & Backend Architect
+
+> Ramesh Das (Ramesh Kumar Das, handle: mrdasdeveloper) is a senior Agentic AI Engineer and
+> Backend Architect based in Kathmandu, Nepal, with 6+ years of production software engineering
+> experience. He builds AI-first platforms, LLM orchestration and RAG pipelines, multi-agent
+> systems, and scalable FastAPI/Django microservices, and ships full-stack products with Next.js
+> and React. He currently leads AI development at KLIKY AI, shipping WinstaAI — a production
+> agentic AI SaaS combining generative AI, agentic workflows, and multi-model LLM orchestration.
+> Available for remote work worldwide: full-time, contract, freelance, retainer, or staff augmentation.
+
+## Metadata
+
+- Canonical URL: https://www.rameshdas.dev/
+- Sitemap XML: https://www.rameshdas.dev/sitemap.xml
+- Sitemap HTML: https://www.rameshdas.dev/sitemap.html
+- Robots: https://www.rameshdas.dev/robots.txt
+- Full LLM context: https://www.rameshdas.dev/llms-full.txt
+- Last updated: 2026-07-08
+
+## Author Profile
+
+- Full name: Ramesh Kumar Das
+- Professional name: Ramesh Das
+- Handle / username: mrdasdeveloper (GitHub and most platforms)
+- Primary titles: Agentic AI Engineer, Backend Architect, AI Full-Stack Engineer
+- Also described as: LLM Engineer, RAG Developer, FastAPI Developer, Generative AI Developer, AI Solutions Architect
+- Location: Kathmandu, Nepal (UTC+5:45)
+- Experience: 6+ years in production software engineering (Dec 2019 – present)
+- Current role: Lead AI Full-Stack Developer, KLIKY AI (Jan 2024 – present)
+- Work mode: Remote-first, async-friendly, available worldwide across all time zones
+- Languages: English (professional working), Hindi, Nepali
+
+### Areas of Expertise
+
+- Agentic AI systems — LangChain, LangGraph, CrewAI, AutoGen; multi-agent handoffs, tool-calling, planners
+- RAG pipelines — vector search, hybrid retrieval, chunking strategy, reranking, citation, eval loops
+- LLM orchestration — OpenAI (GPT-4o), Anthropic Claude, Google Gemini, open-weight models (Llama, Mistral, DeepSeek)
+- FastAPI microservices — async Python, Pydantic, SQLAlchemy, PostgreSQL, Redis, Celery, event-driven architecture
+- Full-stack development — Next.js (App Router), React, TypeScript, Tailwind CSS, SSR/SSG, i18n
+- SaaS architecture — multi-tenancy, Stripe/PayPal billing, credit systems, admin dashboards, metering
+- Business automation — scheduled jobs, queues, webhooks, API/CRM integration, dead-letter queues, retries
+- DevOps and cloud — Docker, Kubernetes, Helm, GitHub Actions, AWS, GCP, Azure, Terraform, NGINX
+- Generative media — text-to-image (ComfyUI, Replicate), STT/TTS, OCR, face swap, video/audio AI, GPU inference
+- LLM fine-tuning — LoRA, QLoRA, PEFT, instruction tuning, domain adaptation
+- LLMOps / MLOps — RAGAS, TruLens, prompt evals, drift detection, model versioning, A/B testing
+- AI safety and guardrails — allow-lists, schema validation, rate limiting, human-in-the-loop approvals, trace logging
+- MCP (Model Context Protocol) and tool-calling patterns
+- Vector databases — Pinecone, Weaviate, Qdrant, ChromaDB, pgvector
+
+### Architecture Experience
+
+- Microservices architecture, service boundary design, event-driven systems
+- CQRS, saga patterns, dead-letter queues, idempotency
+- RBAC, OAuth 2.0/JWT, OWASP security practices
+- High-availability API design with connection pooling, caching, async processing
+- Agentic AI system design: planner + tools + guardrails + observability + evals
+- Real-time systems with WebSockets and Kafka/Debezium CDC
+
+### Leadership
+
+- Lead AI Full-Stack Developer at KLIKY AI (Jan 2024 – present): end-to-end ownership of WinstaAI
+- Technical roadmaps, milestone planning, written scope, and code review
+- Handover-first delivery: documentation, API docs, runbooks designed for long-term team ownership
+
+### Open-Source Contributions
+
+- GitHub org: https://github.com/fullstack-open-source
+- 7+ actively maintained, enterprise-grade production starter templates:
+  - FastAPI backend (JWT auth, RBAC, async, PostgreSQL, Docker, Kubernetes-ready)
+  - Node.js backend (JWT auth, Prisma ORM, PostgreSQL, Docker, Kubernetes-ready)
+  - Django backend (auth, admin panel, DRF, PostgreSQL, production settings)
+  - Next.js frontend (App Router, TypeScript, Tailwind CSS, API integration)
+  - React.js frontend (Vite, TypeScript, React Router, modern tooling)
+
+## Core Pages
+
+- [Portfolio / Home](https://www.rameshdas.dev/): Tech stack, work experience, featured projects, pricing, FAQ
+- [Services & Pricing](https://www.rameshdas.dev/services.html): 12 service lines with deliverables, starting prices, and process
+- [Agentic AI Developer](https://www.rameshdas.dev/agentic-ai-developer.html): Multi-agent orchestration, LangGraph vs custom FastAPI, guardrails, evals
+- [Full-Stack AI Engineer](https://www.rameshdas.dev/full-stack-ai-engineer.html): End-to-end web/API/data + LLM & RAG, technical leadership
+- [Business Automation](https://www.rameshdas.dev/business-automation.html): 24/7 workflows, queues, webhooks, API integration, observability
+- [AI Backend Architecture Guide](https://www.rameshdas.dev/ai-backend-architecture-microservices-engineering-guide.html): Delivery pipeline, microservices, case study
+- [Freelance / Contract](https://www.rameshdas.dev/freelancer.html): Fixed-milestone and retainer engagements
+- [Hire AI Full-Stack Engineer](https://www.rameshdas.dev/hire-ai-full-stack-engineer.html): Generative AI, LLMs, RAG, agentic workflows, AI SaaS
+- [Hire Full-Stack Developer](https://www.rameshdas.dev/hire-full-stack-developer.html): React/Next.js + FastAPI/Node, SaaS, real-time apps, DevOps
+- [Hire Backend Engineer](https://www.rameshdas.dev/hire-backend-engineer.html): High-performance REST APIs, microservices, security, async processing
+- [Presentation](https://www.rameshdas.dev/presentation.html): Portfolio and technical leadership overview
+- [HTML Sitemap](https://www.rameshdas.dev/sitemap.html): All pages indexed
+
+<!-- TODO: contact.html — dedicated contact page not yet published; use email/WhatsApp listed below -->
+<!-- TODO: blog/ — engineering blog not yet published; check llms-full.txt for planned topics -->
+
+## Core Topics
+
+- Agentic AI architecture and multi-agent system design
+- RAG pipeline design: retrieval, chunking, reranking, grounding, evals
+- LLM orchestration and production-grade deployment
+- FastAPI microservices and async Python backends
+- Full-stack AI product development (Next.js + Python)
+- SaaS architecture: multi-tenancy, billing, admin, metering
+- Business workflow automation: queues, webhooks, scheduled jobs
+- AI safety, guardrails, and observability
+- LLM fine-tuning: LoRA, QLoRA, PEFT
+- Vector database selection and configuration
+- MCP (Model Context Protocol) and tool-calling patterns
+- CrewAI and LangGraph multi-agent workflow patterns
+- AI API integration: OpenAI, Anthropic Claude, Google Gemini
+- AI infrastructure: GPU inference, vLLM, Ray Serve
+- DevOps for AI: Docker, Kubernetes, CI/CD, observability
+
+## Featured Projects
+
+- **WinstaAI** (KLIKY AI, 2024–present): Production agentic AI SaaS — LLM orchestration, agentic
+  workflows, text-to-image (ComfyUI + Replicate), face swap, OCR, video/audio AI; FastAPI
+  microservices, async queues, GPU inference (RunPod, FAL.ai), intelligent admin dashboard.
+  Stack: FastAPI, LangChain, ComfyUI, RAG, Docker, Kubernetes.
+
+- **Dibbly** (AJATH Info Tech, 2021–2023): Multilingual AI video translation — STT, TTS, real-time
+  transcription, multilingual dubbing, DeepL. Stack: Django, Speech AI, DeepL, Firebase, JWT.
+
+- **Paperport** (AJATH Info Tech, 2021–2023): AI content generator — structured presentations and
+  roadmaps from unstructured text and images; Firebase auth, OTP, push notifications.
+  Stack: Python, OpenAI, Firebase, React, REST API.
+
+- **PathHub** (Saraj System, 2019–2021): Medical diagnostic platform — HIPAA-focused reporting,
+  real-time imaging, secure access, scalable reporting for a large hospital network.
+  Stack: Django, PostgreSQL, REST API, Docker.
+
+## Resumes (PDF)
+
+- AI / Full-Stack: https://www.rameshdas.dev/AI-Full-Stack-Developer-Ramesh-Kumar-Das.pdf
+- Full-Stack Developer: https://www.rameshdas.dev/Full-Stack-Developer-Ramesh-Kumar-Das.pdf
+- Backend Engineer: https://www.rameshdas.dev/Backend-Engineer-Ramesh-Kumar-Das.pdf
+
+## Hire by Region
+
+- [USA](https://www.rameshdas.dev/hire-developers-usa.html) (NY, SF, Seattle, Austin, Boston, Cambridge)
+- [UK](https://www.rameshdas.dev/hire-developers-uk.html) (London, Manchester, Cambridge)
+- [Canada](https://www.rameshdas.dev/hire-developers-canada.html) (Toronto, Vancouver, Montreal)
+- [Australia](https://www.rameshdas.dev/hire-developers-australia.html)
+- [Germany](https://www.rameshdas.dev/hire-developers-germany.html) (Berlin, Munich, Frankfurt, Hamburg, Stuttgart)
+- [Singapore](https://www.rameshdas.dev/hire-developers-singapore.html)
+- [Japan](https://www.rameshdas.dev/hire-developers-japan.html) (Tokyo, Osaka, Kyoto, and 7 more)
+- [Middle East — UAE & Qatar](https://www.rameshdas.dev/hire-developers-middle-east.html) (Dubai, Abu Dhabi, Doha, Lusail, and more)
+- [Saudi Arabia](https://www.rameshdas.dev/hire-developers-saudi-arabia.html) (Riyadh, Jeddah, Dammam, and more)
+
+Role + city pages exist for 60+ cities (URL pattern: hire-<role>-<city>.html).
+Roles covered: Agentic AI Engineer, AI Full-Stack Engineer, LLM Engineer, RAG Developer,
+Backend Engineer, Backend Architect, FastAPI Developer, Full-Stack Developer.
+
+## Contact & Availability
+
+- Email: mrdasdeveloper@gmail.com
+- WhatsApp: +977-9700864900 (preferred, fastest reply)
+- GitHub: https://github.com/mrdasdeveloper
+- LinkedIn: https://www.linkedin.com/in/mrdas-developer/
+- Open-source org: https://github.com/fullstack-open-source
+- Website: https://www.rameshdas.dev/
+- Hire page: https://www.rameshdas.dev/hire-ai-full-stack-engineer.html
+- Status: Open to work — full-time remote, contract, freelance, retainer, staff augmentation
+- Timezone: UTC+5:45 (Kathmandu), async-friendly worldwide
+
+## Accuracy Note
+
+All information in this file is first-party and accurate as of 2026-07-08.
+Canonical source: https://www.rameshdas.dev/
+Every claim is verifiable against the linked pages above.

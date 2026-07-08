@@ -60,39 +60,117 @@
             "@id": "https://www.rameshdas.dev/#website",
             "url": "https://www.rameshdas.dev/",
             "name": "Ramesh Das — Portfolio",
+            "alternateName": "mrdasdeveloper",
             "description": "Agentic AI Engineer and Backend Architect — production AI platforms, RAG, FastAPI microservices.",
             "inLanguage": "en",
             "publisher": { "@id": "https://www.rameshdas.dev/#person" }
         },
         {
-            "@type": "Person",
+            "@type": "ImageObject",
+            "@id": "https://www.rameshdas.dev/#primaryimage",
+            "url": "https://www.rameshdas.dev/mrdasdeveloper-profile-image.png",
+            "contentUrl": "https://www.rameshdas.dev/mrdasdeveloper-profile-image.png",
+            "width": 800,
+            "height": 800,
+            "caption": "Ramesh Das — Agentic AI Engineer and Backend Architect"
+        },
+        {
+            "@type": "Organization",
+            "@id": "https://www.rameshdas.dev/#kliky",
+            "name": "KLIKY AI",
+            "description": "AI company building WinstaAI, a production agentic AI SaaS platform."
+        },
+        {
+            "@type": ["Person", "ProfessionalService"],
             "@id": "https://www.rameshdas.dev/#person",
             "name": "Ramesh Das",
+            "givenName": "Ramesh",
+            "familyName": "Das",
+            "alternateName": "Ramesh Kumar Das",
             "url": "https://www.rameshdas.dev/",
-            "email": "mrdasdeveloper@gmail.com",
+            "email": "mailto:mrdasdeveloper@gmail.com",
+            "telephone": "+977-9700864900",
             "sameAs": [
             "https://github.com/mrdasdeveloper",
+            "https://github.com/fullstack-open-source",
             "https://www.rameshdas.dev/"
             ],
-            "image": "https://www.rameshdas.dev/mrdasdeveloper-profile-image.png",
+            "image": { "@id": "https://www.rameshdas.dev/#primaryimage" },
             "jobTitle": "Agentic AI Engineer and Backend Architect",
+            "description": "Senior Agentic AI Engineer and Backend Architect with 6+ years building production AI platforms, LLM orchestration, RAG pipelines, multi-agent systems, and FastAPI microservices. Remote, available globally.",
+            "worksFor": { "@id": "https://www.rameshdas.dev/#kliky" },
+            "nationality": { "@type": "Country", "name": "Nepal" },
+            "knowsLanguage": ["English", "Hindi", "Nepali"],
+            "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Agentic AI Engineer and Backend Architect",
+            "occupationalCategory": "15-1252.00 Software Developers",
+            "skills": "Agentic AI, LLM orchestration, RAG pipelines, multi-agent systems, FastAPI, Python, microservices, Next.js, Docker, Kubernetes"
+            },
             "knowsAbout": [
+            "Agentic AI",
+            "Large language models",
+            "LLM orchestration",
+            "Retrieval-Augmented Generation",
+            "Multi-agent systems",
+            "LangChain",
+            "LangGraph",
             "FastAPI",
             "Microservices",
-            "RAG",
-            "Large language models",
-            "LangChain",
             "PostgreSQL",
             "Next.js",
-            "Python"
+            "Python",
+            "Docker",
+            "Kubernetes"
             ],
             "address": {
             "@type": "PostalAddress",
+            "addressLocality": "Kathmandu",
             "addressCountry": "NP"
+            },
+            "areaServed": "Worldwide",
+            "priceRange": "$$",
+            "makesOffer": [
+            {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Agentic AI & Multi-Agent Systems" },
+                "priceCurrency": "USD",
+                "price": "1999",
+                "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "USD", "minPrice": "1999" }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "LLM Applications & RAG Systems" },
+                "priceCurrency": "USD",
+                "price": "1999",
+                "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "USD", "minPrice": "1999" }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Backend Architecture & APIs (FastAPI, microservices)" },
+                "priceCurrency": "USD",
+                "price": "1199",
+                "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "USD", "minPrice": "1199" }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "SaaS MVP Development" },
+                "priceCurrency": "USD",
+                "price": "1899",
+                "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "USD", "minPrice": "1899" }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Hourly Consulting" },
+                "priceCurrency": "USD",
+                "price": "25",
+                "unitText": "HOUR",
+                "priceSpecification": { "@type": "UnitPriceSpecification", "priceCurrency": "USD", "minPrice": "25", "unitCode": "HUR" }
             }
+            ]
         },
         {
-            "@type": "WebPage",
+            "@type": "ProfilePage",
             "@id": "https://www.rameshdas.dev/#webpage",
             "url": "https://www.rameshdas.dev/",
             "name": "Ramesh Das — Agentic AI Engineer & Backend Architect",
@@ -100,12 +178,10 @@
             "inLanguage": "en",
             "isPartOf": { "@id": "https://www.rameshdas.dev/#website" },
             "about": { "@id": "https://www.rameshdas.dev/#person" },
+            "mainEntity": { "@id": "https://www.rameshdas.dev/#person" },
             "author": { "@id": "https://www.rameshdas.dev/#person" },
-            "primaryImageOfPage": {
-            "@type": "ImageObject",
-            "url": "https://www.rameshdas.dev/mrdasdeveloper-profile-image.png"
-            },
-            "dateModified": "2026-05-01"
+            "primaryImageOfPage": { "@id": "https://www.rameshdas.dev/#primaryimage" },
+            "dateModified": "2026-07-08"
         }
         ]
     }
@@ -1928,6 +2004,157 @@
         .seo-biz { color:#bc4c00; background:#fff1e5; border-color:#ffa657; }
       }
     </style>
+
+    <!-- ── FAQ (Answer Engine Optimization) ── -->
+    <section class="section faq-section" id="faq" aria-labelledby="faq-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="faq-heading">Frequently Asked Questions</h2>
+          <p>Hiring Ramesh Das — Agentic AI, backend &amp; full-stack engineering, remote worldwide</p>
+        </div>
+        <div class="faq-list">
+
+          <details class="faq-item" open>
+            <summary>Who is Ramesh Das?</summary>
+            <div class="faq-answer"><p>Ramesh Das is a senior Agentic AI Engineer and Backend Architect from Kathmandu, Nepal, with 6+ years building production AI platforms, LLM orchestration, RAG pipelines, multi-agent systems, and scalable FastAPI microservices. He currently leads AI development at KLIKY AI (WinstaAI) and is available for remote work worldwide.</p></div>
+          </details>
+
+          <details class="faq-item">
+            <summary>How can I hire an Agentic AI Engineer or LLM Engineer remotely?</summary>
+            <div class="faq-answer"><p>You can hire Ramesh Das as a remote Agentic AI Engineer, LLM Engineer, or RAG pipeline developer via WhatsApp at +977 9700864900 or email mrdasdeveloper@gmail.com. He builds multi-agent systems, LLM orchestration, and tool-calling agents with LangChain, LangGraph, CrewAI, AutoGen, and custom FastAPI orchestration.</p></div>
+          </details>
+
+          <details class="faq-item">
+            <summary>Where can I hire AI, backend, and full-stack developers?</summary>
+            <div class="faq-answer"><p>Ramesh Das works remotely worldwide, with dedicated hiring pages for the USA, UK, Canada, Australia, Germany, Japan, Singapore, the UAE, Qatar, and Saudi Arabia — including San Francisco, New York, London, Berlin, Tokyo, Singapore, Dubai, Doha, and Riyadh — across roles like AI Engineer, FastAPI Developer, and Backend Architect.</p></div>
+          </details>
+
+          <details class="faq-item">
+            <summary>How much does it cost to hire Ramesh Das or build an AI agent?</summary>
+            <div class="faq-answer"><p>Hourly consulting starts at $25/hr (AI and backend $29/hr) and monthly retainers at $1,899. Fixed-price projects start at: AI agent or RAG system from $1,999, SaaS MVP from $1,899, backend API from $1,199, AI chatbot from $999, and websites from $499. Prices reflect a current 50% direct-hire discount.</p></div>
+          </details>
+
+          <details class="faq-item">
+            <summary>What AI and LLM technologies does he specialize in?</summary>
+            <div class="faq-answer"><p>He specializes in LangChain, LangGraph, CrewAI, AutoGen, and LlamaIndex for agents and orchestration; RAG pipelines with vector databases (Pinecone, Weaviate, Qdrant, ChromaDB, pgvector), embeddings, hybrid search, and reranking; prompt engineering; and LLM fine-tuning (LoRA, QLoRA, PEFT) with OpenAI, Anthropic Claude, and Google Gemini APIs.</p></div>
+          </details>
+
+          <details class="faq-item">
+            <summary>Can he build a RAG chatbot or integrate ChatGPT, Claude, or Gemini?</summary>
+            <div class="faq-answer"><p>Yes. Ramesh builds RAG chatbots that answer from your own documents with citations, and integrates OpenAI (ChatGPT/GPT-4o), Anthropic Claude, Google Gemini, and open models like Llama and Mistral into existing products with streaming, function calling, rate limiting, and cost controls.</p></div>
+          </details>
+
+          <details class="faq-item">
+            <summary>Can I hire a senior backend engineer or FastAPI developer?</summary>
+            <div class="faq-answer"><p>Yes. Ramesh is a senior backend engineer and FastAPI developer who builds high-performance REST and GraphQL APIs, microservices, event-driven and distributed systems, PostgreSQL and Redis data layers, and async processing — with OAuth 2.0/JWT/RBAC security and consistent 25–35% performance improvements.</p></div>
+          </details>
+
+          <details class="faq-item">
+            <summary>What full-stack technologies does he use?</summary>
+            <div class="faq-answer"><p>He builds full-stack applications with Next.js, React, and TypeScript on the frontend and FastAPI, Django, and Node.js on the backend, using PostgreSQL, MongoDB, and Redis, deployed with Docker, Kubernetes, CI/CD, and AWS or GCP. This covers SaaS platforms, multi-tenant apps, and AI-integrated web apps.</p></div>
+          </details>
+
+          <details class="faq-item">
+            <summary>Does he offer business automation and API integration?</summary>
+            <div class="faq-answer"><p>Yes. Ramesh builds 24/7 business and workflow automation: scheduled jobs, queues, webhooks, and API, CRM, and Stripe integrations with monitoring, retries, and incident playbooks. He also migrates fragile Zapier and no-code flows to durable custom Python and Node backends.</p></div>
+          </details>
+
+          <details class="faq-item">
+            <summary>Is he available for full-time, contract, or freelance work?</summary>
+            <div class="faq-answer"><p>Yes. Ramesh Das is open to full-time remote roles, fixed-price projects, hourly contracts, monthly retainers, part-time advisory, and staff augmentation. He works asynchronously with clients worldwide and communicates in English via WhatsApp, email, and your preferred tools.</p></div>
+          </details>
+
+        </div>
+      </div>
+    </section>
+
+    <style>
+      .faq-section { border-top: 1px solid var(--border); }
+      .faq-list { display: flex; flex-direction: column; gap: 10px; }
+      .faq-item {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: var(--r-md);
+        padding: 2px 16px;
+        transition: border-color 0.2s;
+      }
+      .faq-item[open] { border-color: var(--accent-bd); }
+      .faq-item > summary {
+        list-style: none; cursor: pointer;
+        font-size: 14px; font-weight: 600; color: var(--text);
+        padding: 14px 0; display: flex; align-items: center; gap: 10px;
+      }
+      .faq-item > summary::-webkit-details-marker { display: none; }
+      .faq-item > summary::before {
+        content: "+"; color: var(--accent); font-weight: 700;
+        font-size: 18px; line-height: 1; flex-shrink: 0; width: 16px;
+      }
+      .faq-item[open] > summary::before { content: "\2212"; }
+      .faq-answer { padding: 0 0 16px 26px; }
+      .faq-answer p { font-size: 13px; color: var(--muted); line-height: 1.7; }
+    </style>
+
+    <!-- ── FAQ structured data (FAQPage) ── -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.rameshdas.dev/#faq",
+      "isPartOf": { "@id": "https://www.rameshdas.dev/#webpage" },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Who is Ramesh Das?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Ramesh Das is a senior Agentic AI Engineer and Backend Architect from Kathmandu, Nepal, with 6+ years building production AI platforms, LLM orchestration, RAG pipelines, multi-agent systems, and scalable FastAPI microservices. He currently leads AI development at KLIKY AI (WinstaAI) and is available for remote work worldwide." }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I hire an Agentic AI Engineer or LLM Engineer remotely?",
+          "acceptedAnswer": { "@type": "Answer", "text": "You can hire Ramesh Das as a remote Agentic AI Engineer, LLM Engineer, or RAG pipeline developer via WhatsApp at +977 9700864900 or email mrdasdeveloper@gmail.com. He builds multi-agent systems, LLM orchestration, and tool-calling agents with LangChain, LangGraph, CrewAI, AutoGen, and custom FastAPI orchestration." }
+        },
+        {
+          "@type": "Question",
+          "name": "Where can I hire AI, backend, and full-stack developers?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Ramesh Das works remotely worldwide, with dedicated hiring pages for the USA, UK, Canada, Australia, Germany, Japan, Singapore, the UAE, Qatar, and Saudi Arabia — including San Francisco, New York, London, Berlin, Tokyo, Singapore, Dubai, Doha, and Riyadh — across roles like AI Engineer, FastAPI Developer, and Backend Architect." }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does it cost to hire Ramesh Das or build an AI agent?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Hourly consulting starts at $25/hr (AI and backend $29/hr) and monthly retainers at $1,899. Fixed-price projects start at: AI agent or RAG system from $1,999, SaaS MVP from $1,899, backend API from $1,199, AI chatbot from $999, and websites from $499. Prices reflect a current 50% direct-hire discount." }
+        },
+        {
+          "@type": "Question",
+          "name": "What AI and LLM technologies does he specialize in?",
+          "acceptedAnswer": { "@type": "Answer", "text": "He specializes in LangChain, LangGraph, CrewAI, AutoGen, and LlamaIndex for agents and orchestration; RAG pipelines with vector databases (Pinecone, Weaviate, Qdrant, ChromaDB, pgvector), embeddings, hybrid search, and reranking; prompt engineering; and LLM fine-tuning (LoRA, QLoRA, PEFT) with OpenAI, Anthropic Claude, and Google Gemini APIs." }
+        },
+        {
+          "@type": "Question",
+          "name": "Can he build a RAG chatbot or integrate ChatGPT, Claude, or Gemini?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Ramesh builds RAG chatbots that answer from your own documents with citations, and integrates OpenAI (ChatGPT/GPT-4o), Anthropic Claude, Google Gemini, and open models like Llama and Mistral into existing products with streaming, function calling, rate limiting, and cost controls." }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I hire a senior backend engineer or FastAPI developer?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Ramesh is a senior backend engineer and FastAPI developer who builds high-performance REST and GraphQL APIs, microservices, event-driven and distributed systems, PostgreSQL and Redis data layers, and async processing — with OAuth 2.0/JWT/RBAC security and consistent 25–35% performance improvements." }
+        },
+        {
+          "@type": "Question",
+          "name": "What full-stack technologies does he use?",
+          "acceptedAnswer": { "@type": "Answer", "text": "He builds full-stack applications with Next.js, React, and TypeScript on the frontend and FastAPI, Django, and Node.js on the backend, using PostgreSQL, MongoDB, and Redis, deployed with Docker, Kubernetes, CI/CD, and AWS or GCP. This covers SaaS platforms, multi-tenant apps, and AI-integrated web apps." }
+        },
+        {
+          "@type": "Question",
+          "name": "Does he offer business automation and API integration?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Ramesh builds 24/7 business and workflow automation: scheduled jobs, queues, webhooks, and API, CRM, and Stripe integrations with monitoring, retries, and incident playbooks. He also migrates fragile Zapier and no-code flows to durable custom Python and Node backends." }
+        },
+        {
+          "@type": "Question",
+          "name": "Is he available for full-time, contract, or freelance work?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Ramesh Das is open to full-time remote roles, fixed-price projects, hourly contracts, monthly retainers, part-time advisory, and staff augmentation. He works asynchronously with clients worldwide and communicates in English via WhatsApp, email, and your preferred tools." }
+        }
+      ]
+    }
+    </script>
 
     <!-- ── Footer ── -->
     <footer class="footer">
