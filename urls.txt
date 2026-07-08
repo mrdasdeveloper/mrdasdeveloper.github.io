@@ -1,4 +1,9 @@
 https://www.rameshdas.dev/index.html
+https://www.rameshdas.dev/freelancer.html
+https://www.rameshdas.dev/services.html
+https://www.rameshdas.dev/hire-developers-usa.html
+
+
 https://www.rameshdas.dev/hire-ai-full-stack-engineer.html
 https://www.rameshdas.dev/hire-backend-engineer.html
 https://www.rameshdas.dev/hire-full-stack-developer.html
@@ -6,10 +11,8 @@ https://www.rameshdas.dev/business-automation.html
 https://www.rameshdas.dev/ai-backend-architecture-microservices-engineering-guide.html
 https://www.rameshdas.dev/agentic-ai-developer.html
 https://www.rameshdas.dev/full-stack-ai-engineer.html
-https://www.rameshdas.dev/freelancer.html
-https://www.rameshdas.dev/services.html
 https://www.rameshdas.dev/contact.html
-https://www.rameshdas.dev/hire-developers-usa.html
+
 https://www.rameshdas.dev/hire-developers-uk.html
 https://www.rameshdas.dev/hire-developers-australia.html
 https://www.rameshdas.dev/hire-developers-canada.html
@@ -18,6 +21,7 @@ https://www.rameshdas.dev/hire-developers-japan.html
 https://www.rameshdas.dev/hire-developers-middle-east.html
 https://www.rameshdas.dev/hire-developers-saudi-arabia.html
 https://www.rameshdas.dev/hire-developers-singapore.html
+
 https://www.rameshdas.dev/privacy.html
 https://www.rameshdas.dev/terms.html
 https://www.rameshdas.dev/sitemap.html

@@ -17,6 +17,8 @@
 - Terms of service: https://www.rameshdas.dev/terms.html
 - Sitemap XML: https://www.rameshdas.dev/sitemap.xml
 - Sitemap HTML: https://www.rameshdas.dev/sitemap.html
+- RSS Feed: https://www.rameshdas.dev/rss.xml
+- Humans.txt: https://www.rameshdas.dev/humans.txt
 - Robots: https://www.rameshdas.dev/robots.txt
 - Full LLM context: https://www.rameshdas.dev/llms-full.txt
 - Last updated: 2026-07-08

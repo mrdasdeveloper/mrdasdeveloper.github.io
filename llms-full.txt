@@ -20,6 +20,8 @@ Sitemap HTML:      https://www.rameshdas.dev/sitemap.html
 Robots:            https://www.rameshdas.dev/robots.txt
 LLM summary:       https://www.rameshdas.dev/llms.txt
 LLM full context:  https://www.rameshdas.dev/llms-full.txt
+Humans.txt:        https://www.rameshdas.dev/humans.txt
+RSS feed:          https://www.rameshdas.dev/rss.xml
 Last updated:      2026-07-08
 
 Core pages indexed in sitemap:

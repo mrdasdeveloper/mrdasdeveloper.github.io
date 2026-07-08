@@ -155,6 +155,12 @@ Allow: /
 # llms.txt       — concise profile summary for AI assistants
 # llms-full.txt  — comprehensive structured data for deep AI extraction
 
+# ── RSS Feed (unified — all pages) ───────────────────────────────
+# https://www.rameshdas.dev/rss.xml
+
+# ── Humans.txt (credits & site guide for people) ─────────────────
+# https://www.rameshdas.dev/humans.txt
+
 # ── Sitemaps ─────────────────────────────────────────────────────
 Sitemap: https://www.rameshdas.dev/sitemap.xml
 Sitemap: https://www.rameshdas.dev/sitemap-main.xml

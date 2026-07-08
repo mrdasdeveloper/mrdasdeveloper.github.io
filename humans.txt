@@ -1,0 +1,153 @@
+/* TEAM */
+
+	Creator, Engineer & Author: Ramesh Kumar Das (Ramesh Das)
+	Role: Agentic AI Engineer · Backend Architect · AI Full-Stack Engineer
+	Site: https://www.rameshdas.dev/
+	Contact: mrdasdeveloper@gmail.com
+	WhatsApp: +977-9700864900 (preferred — fastest reply)
+	GitHub: https://github.com/mrdasdeveloper
+	Open Source: https://github.com/fullstack-open-source
+	LinkedIn: https://www.linkedin.com/in/mrdas-developer/
+	Twitter/X: @mrdasdeveloper
+	Location: Kathmandu, Nepal (UTC+5:45)
+	Languages: English (professional), Hindi, Nepali
+	Experience: 6+ years in production software engineering (Dec 2019 – present)
+	Current role: Lead AI Full-Stack Developer, KLIKY AI — shipping WinstaAI
+	Availability: Open to remote work worldwide — full-time, contract, freelance,
+	              monthly retainer, staff augmentation, and technical advisory
+
+	What I build:
+	Agentic AI systems · LLM orchestration · RAG pipelines · multi-agent workflows ·
+	FastAPI/Django microservices · Next.js/React SaaS · business automation ·
+	AI safety guardrails · production DevOps (Docker, Kubernetes, CI/CD)
+
+	How to start a conversation:
+	Send a short brief — product goal, current stack, must-haves, timeline, budget band.
+	WhatsApp or email works. You'll get clarifying questions, a milestone plan, and pricing.
+	A one-pager or Loom recording is enough to begin.
+
+/* THANKS */
+
+	To the open-source community — FastAPI, React, Next.js, LangChain, PostgreSQL,
+	Docker, and the countless libraries that make modern engineering possible.
+	To every client, teammate, and collaborator who trusted hands-on delivery.
+	Inter typeface — Google Fonts
+	Hosted on GitHub Pages (mrdasdeveloper.github.io)
+	Analytics: Google Analytics · Microsoft Clarity
+	Conventions: humans.txt · llms.txt (llmstxt.org) · Schema.org JSON-LD
+
+/* SITE */
+
+	Name: Ramesh Das — Portfolio & AI Engineering Services
+	URL: https://www.rameshdas.dev/
+	Last update: 2026/07/08
+	Language: English
+	Doctype: HTML5
+	Standards: HTML5, CSS3, Schema.org, Open Graph, Twitter Cards, WCAG 2.2 AA,
+	           llmstxt.org, RSS 2.0, sitemaps.org
+	Software: Hand-crafted HTML/CSS/JS · Python SEO generators · GitHub Pages
+	Pages: 536 HTML pages · 540 indexed URLs · 12 XML sitemaps · 1 unified RSS feed
+	Audit: all 536 HTML pages indexed in sitemaps
+
+	── Start here (best pages for humans) ──────────────────────────
+
+	Portfolio & work history
+	  https://www.rameshdas.dev/
+
+	Services, deliverables & pricing
+	  https://www.rameshdas.dev/services.html
+	  Hourly from $25/hr · Retainer from $1,899/mo · Fixed projects from $799
+
+	Contact & hire inquiry
+	  https://www.rameshdas.dev/contact.html
+
+	Role-specific hire pages
+	  AI Full-Stack Engineer — https://www.rameshdas.dev/hire-ai-full-stack-engineer.html
+	  Full-Stack Developer  — https://www.rameshdas.dev/hire-full-stack-developer.html
+	  Backend Engineer      — https://www.rameshdas.dev/hire-backend-engineer.html
+
+	Deep-dive guides
+	  Agentic AI Developer  — https://www.rameshdas.dev/agentic-ai-developer.html
+	  Full-Stack AI Engineer — https://www.rameshdas.dev/full-stack-ai-engineer.html
+	  Business Automation   — https://www.rameshdas.dev/business-automation.html
+	  Backend Architecture  — https://www.rameshdas.dev/ai-backend-architecture-microservices-engineering-guide.html
+
+	Freelance & contract engagements
+	  https://www.rameshdas.dev/freelancer.html
+
+	Executive presentation (PDF-style overview)
+	  https://www.rameshdas.dev/presentation.html
+
+	── Hire by region (9 hubs · 63+ cities · 512 city pages) ───────
+
+	USA          — https://www.rameshdas.dev/hire-developers-usa.html
+	UK           — https://www.rameshdas.dev/hire-developers-uk.html
+	Canada       — https://www.rameshdas.dev/hire-developers-canada.html
+	Australia    — https://www.rameshdas.dev/hire-developers-australia.html
+	Germany      — https://www.rameshdas.dev/hire-developers-germany.html
+	Japan        — https://www.rameshdas.dev/hire-developers-japan.html
+	Singapore    — https://www.rameshdas.dev/hire-developers-singapore.html
+	Saudi Arabia — https://www.rameshdas.dev/hire-developers-saudi-arabia.html
+	Middle East  — https://www.rameshdas.dev/hire-developers-middle-east.html
+	               (UAE, Qatar, and Gulf cities)
+
+	City pages follow: hire-<role>-<city>.html
+	Roles: Agentic AI Engineer, AI Full-Stack Engineer, LLM Engineer, RAG Developer,
+	       Backend Engineer, Backend Architect, FastAPI Developer, Full-Stack Developer
+
+	── Featured projects ───────────────────────────────────────────
+
+	WinstaAI (KLIKY AI, 2024–present)
+	  Production agentic AI SaaS — LLM orchestration, agentic workflows, generative media,
+	  GPU inference, admin dashboard. FastAPI · LangChain · ComfyUI · Docker · Kubernetes.
+
+	Dibbly (AJATH Info Tech, 2021–2023)
+	  Multilingual AI video translation — STT, TTS, real-time transcription, DeepL.
+
+	Paperport (AJATH Info Tech, 2021–2023)
+	  AI content generator — structured presentations from unstructured text and images.
+
+	PathHub (Saraj System, 2019–2021)
+	  Medical diagnostic platform — HIPAA-focused reporting, real-time imaging, secure access.
+
+	── Open-source starter templates ─────────────────────────────────
+
+	https://github.com/fullstack-open-source
+	FastAPI backend · Node.js backend · Django backend · Next.js frontend · React frontend
+	All production-ready: JWT auth, RBAC, PostgreSQL, Docker, Kubernetes-ready.
+
+	── Resumes (PDF) ─────────────────────────────────────────────────
+
+	AI / Full-Stack — https://www.rameshdas.dev/AI-Full-Stack-Developer-Ramesh-Kumar-Das.pdf
+	Full-Stack Dev  — https://www.rameshdas.dev/Full-Stack-Developer-Ramesh-Kumar-Das.pdf
+	Backend Engineer — https://www.rameshdas.dev/Backend-Engineer-Ramesh-Kumar-Das.pdf
+
+	── Site navigation & discovery ───────────────────────────────────
+
+	HTML sitemap (searchable directory of all pages)
+	  https://www.rameshdas.dev/sitemap.html
+
+	XML sitemap index
+	  https://www.rameshdas.dev/sitemap.xml
+
+	Unified RSS feed (all pages, newest first)
+	  https://www.rameshdas.dev/rss.xml
+
+	For AI assistants & answer engines
+	  https://www.rameshdas.dev/llms.txt (concise)
+	  https://www.rameshdas.dev/llms-full.txt (comprehensive)
+
+	Humans.txt (you are here)
+	  https://www.rameshdas.dev/humans.txt
+
+	Legal
+	  Privacy — https://www.rameshdas.dev/privacy.html
+	  Terms   — https://www.rameshdas.dev/terms.html
+
+	── A note from Ramesh ────────────────────────────────────────────
+
+	This site is built and maintained by one engineer — me. Every page, every line of
+	code, every sitemap entry, and every AI context file reflects real production work
+	I have done and am doing today. If you are a human reading this: thank you for
+	looking behind the curtain. If you want to build something ambitious with AI,
+	backend systems, or full-stack products — I would love to hear from you.
