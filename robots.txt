@@ -11,6 +11,9 @@ Allow: /manifest.json
 Allow: /robots.txt
 Allow: /llms.txt
 Allow: /llms-full.txt
+Allow: /mrdasdeveloper-profile-image.png
+Allow: *.png
+
 Disallow: /ramesh-portfolio-499406-2f223aed9f17.json
 Disallow: /indexing_state_v3.json
 Disallow: /indexing_progress.json
@@ -18,6 +21,7 @@ Disallow: /indexing_progress_v2.json
 Disallow: /*.py$
 Disallow: /*.log$
 Disallow: /*.jsonl$
+
 
 # ── Google ───────────────────────────────────────────────────────
 User-agent: Googlebot
