@@ -12,6 +12,8 @@ Allow: /robots.txt
 Allow: /llms.txt
 Allow: /llms-full.txt
 Allow: /mrdasdeveloper-profile-image.png
+Allow: /og-image.jpg
+Allow: /og-image-square.jpg
 Allow: *.png
 Allow: *.ico
 
