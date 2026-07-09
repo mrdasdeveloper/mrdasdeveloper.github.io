@@ -1,0 +1,229 @@
+{
+  "slug": "software-developer-to-hire",
+  "h1": "Find the Best Software Developer to Hire",
+  "subtitle": "AI Engineering · Full-Stack (React + FastAPI) · SaaS Architecture · Backend APIs · DevOps · Remote-First",
+  "url": "https://www.rameshdas.dev/pages/software-developer-to-hire/",
+  "chips": [
+    "AI / LLM Engineering",
+    "Full-Stack React + FastAPI",
+    "SaaS Architecture",
+    "Python 3.12 / Node.js 20",
+    "PostgreSQL / Redis",
+    "Docker / Kubernetes",
+    "LangChain / LangGraph",
+    "OWASP Security",
+    "pytest + Jest (≥80%)",
+    "6+ Years Production",
+    "$29/hr",
+    "60-Day Warranty"
+  ],
+  "stats": [
+    { "val": "6+", "lbl": "Years Production Experience" },
+    { "val": "12+", "lbl": "Production Systems Shipped" },
+    { "val": "4", "lbl": "Continents Served Remotely" },
+    { "val": "48h", "lbl": "First Response Guarantee" }
+  ],
+  "trust_signals": [
+    "Production AI SaaS: WinstaAI at KLIKY AI (LangChain + FastAPI + Celery + multi-tenancy)",
+    "Full-stack ownership: React/Next.js frontend + FastAPI/NestJS backend + PostgreSQL + DevOps",
+    "≥80% test coverage standard on every project (pytest + Jest + Playwright)",
+    "OWASP Top 10 compliance on every build — Bandit, dependency scanning, security headers",
+    "Async-first remote delivery: weekly written updates, Loom demos, GitHub PRs",
+    "60-day post-launch bug warranty; full IP ownership on final payment",
+    "7+ open-source starter templates on GitHub with real production usage"
+  ],
+  "technologies": {
+    "Languages": ["Python 3.12", "TypeScript 5 (strict)", "JavaScript", "SQL"],
+    "Web Frameworks": [
+      "FastAPI (async, Pydantic v2)",
+      "Django 5 / DRF",
+      "Next.js 14 App Router",
+      "React 18",
+      "Node.js 20 LTS",
+      "NestJS",
+      "Express.js"
+    ],
+    "AI / LLM": [
+      "OpenAI GPT-4o",
+      "Claude 3.5 Sonnet",
+      "Gemini 1.5 Pro",
+      "LangChain / LangGraph",
+      "LlamaIndex",
+      "RAG pipelines",
+      "pgvector",
+      "Pinecone",
+      "Qdrant"
+    ],
+    "Databases": [
+      "PostgreSQL 16 (RLS, multi-tenant)",
+      "Redis",
+      "MongoDB",
+      "pgvector",
+      "Pinecone",
+      "Qdrant",
+      "Alembic migrations"
+    ],
+    "DevOps / Cloud": [
+      "Docker",
+      "Kubernetes + Helm",
+      "GitHub Actions CI/CD",
+      "AWS (EC2/RDS/S3/Lambda)",
+      "GCP (Cloud Run/GKE)",
+      "Terraform",
+      "Nginx",
+      "Sentry",
+      "Prometheus + Grafana"
+    ],
+    "Testing & Security": [
+      "pytest + pytest-asyncio",
+      "Jest + Supertest",
+      "Playwright (E2E)",
+      "mypy (strict)",
+      "Bandit (security)",
+      "OWASP ZAP",
+      "ruff (linting)"
+    ]
+  },
+  "pricing": [
+    {
+      "type": "Hourly",
+      "rate": "$29",
+      "period": "Per hour · Async delivery · Min. 4hrs",
+      "features": [
+        "Full-stack or backend development",
+        "AI/LangChain integration",
+        "Code review & architecture consulting",
+        "Performance optimization",
+        "Security audit",
+        "Billed weekly via invoice"
+      ]
+    },
+    {
+      "type": "Monthly Retainer",
+      "rate": "$1,999",
+      "period": "160 hrs/month · Full-time equivalent",
+      "features": [
+        "Dedicated senior software engineer",
+        "Full-stack + AI development",
+        "Weekly written status updates",
+        "CI/CD + Docker maintenance",
+        "Priority WhatsApp/Slack support",
+        "Loom demo every Friday"
+      ]
+    },
+    {
+      "type": "Fixed-Price Project",
+      "rate": "From $4,999",
+      "period": "Milestone-based · Written spec first",
+      "features": [
+        "Complete feature or product build",
+        "All source code transferred",
+        "OpenAPI / Swagger documentation",
+        "Test suite (≥80% coverage)",
+        "Docker + CI/CD pipeline",
+        "60-day bug warranty",
+        "60-min handover session"
+      ]
+    },
+    {
+      "type": "Code Audit",
+      "rate": "$699",
+      "period": "5–7 days · Written report",
+      "features": [
+        "Full codebase review",
+        "OWASP security assessment",
+        "Performance profiling report",
+        "Architecture recommendations",
+        "Dependency vulnerability scan",
+        "Written report + 1-hr consultation"
+      ]
+    }
+  ],
+  "industries": [
+    "Startups & MVPs",
+    "AI Products",
+    "SaaS Companies",
+    "E-Commerce",
+    "Fintech",
+    "Healthcare Tech",
+    "Enterprise Modernization",
+    "Business Automation",
+    "Remote-First Companies",
+    "EdTech",
+    "Data-Driven Businesses",
+    "Legal Tech"
+  ],
+  "case_studies": [
+    {
+      "title": "WinstaAI — Production AI SaaS Platform (KLIKY AI)",
+      "industry": "AI SaaS",
+      "stack": ["FastAPI", "LangChain", "React", "PostgreSQL RLS", "Stripe", "Docker", "Celery"],
+      "challenge": "Build a production AI SaaS platform for Instagram content generation with multi-tenant isolation, credit-based usage metering, and async GPU inference queuing.",
+      "solution": "FastAPI async API, LangChain orchestration, PostgreSQL RLS for tenant isolation, Stripe metered billing, Celery for GPU inference queue, React dashboard.",
+      "result_uptime": "99.7% uptime",
+      "result_billing": "0 billing incidents",
+      "result_throughput": "500+ AI jobs/hr"
+    },
+    {
+      "title": "US Startup — Full-Stack MVP in 8 Weeks",
+      "industry": "SaaS Startup",
+      "stack": ["Next.js", "FastAPI", "PostgreSQL", "Stripe", "Docker", "GitHub Actions"],
+      "challenge": "US startup needed a senior software developer to build their MVP in 8 weeks — full-stack, async remote delivery, zero in-person meetings.",
+      "solution": "Milestone-based delivery, weekly Loom demos, Next.js frontend + FastAPI backend + Stripe billing + PostgreSQL, Docker deployment on AWS.",
+      "result_timeline": "8 weeks to MVP launch",
+      "result_bugs": "0 critical bugs at launch",
+      "result_coverage": "85% test coverage"
+    },
+    {
+      "title": "Enterprise API Modernization — Legacy to FastAPI",
+      "industry": "Enterprise",
+      "stack": ["FastAPI", "PostgreSQL", "Redis", "Docker", "Kubernetes", "pytest"],
+      "challenge": "Enterprise needed to modernize a legacy PHP monolith to a FastAPI microservices architecture without disrupting existing users.",
+      "solution": "Strangler Fig pattern: new FastAPI services alongside legacy, API gateway routing, zero-downtime Alembic migrations, comprehensive pytest suite.",
+      "result_downtime": "0 downtime during migration",
+      "result_response": "<180ms p95 API response",
+      "result_coverage": "88% test coverage"
+    }
+  ],
+  "hiring_framework": {
+    "evaluation_criteria": [
+      "GitHub commit history (consistent, not sporadic bursts)",
+      "TypeScript/Python type annotations throughout",
+      "Test files present in repositories (pytest/Jest)",
+      "README quality (documentation discipline)",
+      "Live application performance (Lighthouse, API response times)",
+      "Specific technical answers (not generic 'I can do anything')"
+    ],
+    "engagement_models": {
+      "hourly": "Exploratory work, audits, undefined scope — $29/hr, min 4hrs",
+      "retainer": "Ongoing product development, 40hr/week — $1,999/mo",
+      "fixed_price": "Defined MVP or feature with clear spec — from $4,999",
+      "audit": "Codebase review, security, architecture — $699 flat fee"
+    },
+    "red_flags": [
+      "No GitHub profile or sparse commit history",
+      "Can't explain multi-tenancy or Stripe webhook idempotency",
+      "Promises 24/7 availability at standard rates",
+      "No test files in portfolio repositories",
+      "Vague case studies without specific technologies or metrics"
+    ]
+  },
+  "internal_links": [
+    "/pages/hire-full-stack-developer/",
+    "/pages/hire-python-developer/",
+    "/pages/hire-nodejs-developer/",
+    "/pages/hire-saas-developer/",
+    "/pages/hire-remote-software-engineer/",
+    "/pages/ai-automation-engineer/",
+    "/pages/chatbot-developer/",
+    "/hire-ai-full-stack-engineer.html",
+    "/agentic-ai-developer.html",
+    "/hire-backend-engineer.html",
+    "/services.html",
+    "/hire-developers-usa.html",
+    "/hire-developers-uk.html",
+    "/hire-developers-germany.html",
+    "/contact.html"
+  ],
+  "updated": "2026-07-09"
+}

@@ -1,0 +1,172 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "name": "Hire a Senior Website Developer | Next.js, Core Web Vitals 90+, SEO, WCAG | Ramesh Das",
+      "description": "Hire Ramesh Das — a senior website developer building custom, fast, SEO-optimized, mobile-first websites with Next.js 14, React 18, and headless CMS. Lighthouse 90+. $29/hr. 60-day warranty.",
+      "url": "https://www.rameshdas.dev/pages/website-developer/",
+      "datePublished": "2026-07-09",
+      "dateModified": "2026-07-09",
+      "inLanguage": "en",
+      "isPartOf": { "@type": "WebSite", "url": "https://www.rameshdas.dev" },
+      "author": { "@type": "Person", "name": "Ramesh Kumar Das", "url": "https://www.rameshdas.dev" },
+      "publisher": { "@type": "Organization", "name": "Ramesh Das Dev", "url": "https://www.rameshdas.dev" }
+    },
+    {
+      "@type": "Person",
+      "name": "Ramesh Kumar Das",
+      "alternateName": "mrdasdeveloper",
+      "url": "https://www.rameshdas.dev",
+      "image": "https://www.rameshdas.dev/assets/ramesh-das-profile.jpg",
+      "jobTitle": "Senior Website Developer & Full-Stack Engineer",
+      "description": "Senior website developer with 6+ years building custom Next.js websites with Core Web Vitals 90+, WCAG 2.1 AA accessibility, technical SEO, and headless CMS integration. Available worldwide at $29/hr.",
+      "knowsAbout": [
+        "Next.js 14 App Router",
+        "React 18",
+        "TypeScript",
+        "Core Web Vitals",
+        "Lighthouse Optimization",
+        "WCAG 2.1 AA",
+        "Technical SEO",
+        "JSON-LD",
+        "Headless CMS",
+        "Sanity.io",
+        "Contentful",
+        "Strapi",
+        "Tailwind CSS",
+        "Framer Motion",
+        "E-Commerce Development",
+        "Stripe Integration",
+        "Vercel Deployment",
+        "Mobile-First Design",
+        "Schema.org Markup",
+        "Website Performance Engineering"
+      ],
+      "sameAs": [
+        "https://github.com/mrdasdeveloper",
+        "https://linkedin.com/in/mrdas-developer/",
+        "https://twitter.com/mrdasdeveloper",
+        "https://www.rameshdas.dev"
+      ],
+      "worksFor": { "@type": "Organization", "name": "Ramesh Das Dev", "url": "https://www.rameshdas.dev" }
+    },
+    {
+      "@type": "ProfessionalService",
+      "name": "Hire a Senior Website Developer — Ramesh Das",
+      "description": "Senior website developer available for hire. Custom Next.js websites with Core Web Vitals 90+, WCAG 2.1 AA, technical SEO, and headless CMS. $29/hr or from $2,999 fixed-price.",
+      "url": "https://www.rameshdas.dev/pages/website-developer/",
+      "provider": { "@type": "Person", "name": "Ramesh Kumar Das", "url": "https://www.rameshdas.dev" },
+      "areaServed": { "@type": "Place", "name": "Worldwide" },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Website Development Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Hourly Website Development",
+            "description": "Next.js/React development, CMS integration, performance optimization, SEO implementation, accessibility fixes. Min. 4hrs, billed weekly.",
+            "price": "29", "priceCurrency": "USD", "unitText": "HOUR",
+            "availability": "https://schema.org/InStock"
+          },
+          {
+            "@type": "Offer",
+            "name": "Business Website Build",
+            "description": "Up to 10 pages, headless CMS, Lighthouse 90+ mobile, WCAG 2.1 AA, JSON-LD, GA4 setup, 60-day warranty.",
+            "price": "2999", "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          {
+            "@type": "Offer",
+            "name": "E-Commerce Website Build",
+            "description": "Product catalog, Stripe checkout, CMS product management, Schema.org Product markup, mobile checkout, 60-day warranty.",
+            "price": "5999", "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          {
+            "@type": "Offer",
+            "name": "Monthly Website Maintenance",
+            "description": "Uptime monitoring, security updates, Core Web Vitals monitoring, backup/restore, content update hours, monthly report.",
+            "price": "499", "priceCurrency": "USD", "unitText": "MON",
+            "availability": "https://schema.org/InStock"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "HowTo",
+      "name": "How to Hire a Senior Website Developer",
+      "description": "A step-by-step guide to hiring a senior website developer for your custom, fast, SEO-optimized website project.",
+      "step": [
+        {
+          "@type": "HowToStep", "position": 1,
+          "name": "Define your website scope and performance requirements",
+          "text": "Specify: page count, CMS needs, e-commerce/booking/membership features, target Lighthouse score (90+ recommended), WCAG accessibility level, languages, and timeline."
+        },
+        {
+          "@type": "HowToStep", "position": 2,
+          "name": "Choose the right technology stack",
+          "text": "Next.js App Router for performance-critical sites. Headless CMS (Sanity/Contentful/Strapi) for content management. SSG for marketing sites, ISR for e-commerce, SSR for personalized content."
+        },
+        {
+          "@type": "HowToStep", "position": 3,
+          "name": "Evaluate portfolio with performance evidence",
+          "text": "Ask for Lighthouse reports from previous projects. Test live sites on mobile PageSpeed Insights. Verify JSON-LD structured data in page source. Check axe DevTools accessibility score."
+        },
+        {
+          "@type": "HowToStep", "position": 4,
+          "name": "Agree on deliverables and CMS training",
+          "text": "Define: Figma files, GitHub source code transfer, CMS editor documentation, GA4 + Search Console setup, Lighthouse audit report, WCAG report, and 60-day bug warranty."
+        },
+        {
+          "@type": "HowToStep", "position": 5,
+          "name": "Milestone-based development with weekly demos",
+          "text": "Use milestone contracts: design approval → homepage build → inner pages → CMS integration → SEO/performance pass → launch. Weekly Loom demos on staging environment."
+        },
+        {
+          "@type": "HowToStep", "position": 6,
+          "name": "Launch, handover, and maintenance plan",
+          "text": "Final deliverables: deployed site, GitHub repo, CMS training session, documentation, Lighthouse report. Agree on maintenance retainer ($499/mo+) for security updates and performance monitoring."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does it cost to hire a website developer?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Ramesh Das: $29/hr hourly, from $2,999 business website, from $5,999 e-commerce, from $499/mo maintenance. 40–60% below comparable agency rates for equivalent senior Next.js expertise." }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Core Web Vitals optimization checklist for a fast website?",
+          "acceptedAnswer": { "@type": "Answer", "text": "LCP < 2.5s: next/image WebP/AVIF, preload hero, CDN. CLS < 0.1: explicit image dimensions, reserve dynamic content space. INP < 200ms: code-split routes, defer non-critical JS, use React Server Components. Lighthouse CI gates in GitHub Actions." }
+        },
+        {
+          "@type": "Question",
+          "name": "When should I use Next.js App Router vs headless WordPress?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Next.js for performance/SEO priority, custom functionality, and full code ownership. Headless WordPress when team knows WP admin and has existing content. Hybrid (WP CMS + Next.js frontend) gives WP editing UX with Next.js performance." }
+        },
+        {
+          "@type": "Question",
+          "name": "What technical SEO is included in a professional website build?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Included: semantic HTML, JSON-LD on all page types, canonical tags, XML sitemap, robots.txt, OpenGraph/Twitter Cards, HTTPS, Core Web Vitals optimization, Search Console setup. Extra: keyword research, content strategy, link building, Google Ads." }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the typical website project timeline by scope?",
+          "acceptedAnswer": { "@type": "Answer", "text": "5-page business site: 2–3 weeks. CMS business site: 3–5 weeks from $2,999. E-commerce: 5–8 weeks from $5,999. Membership/booking: 6–10 weeks. Multilingual: add 1–2 weeks per language." }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.rameshdas.dev" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.rameshdas.dev/pages/" },
+        { "@type": "ListItem", "position": 3, "name": "Hire a Senior Website Developer", "item": "https://www.rameshdas.dev/pages/website-developer/" }
+      ]
+    }
+  ]
+}

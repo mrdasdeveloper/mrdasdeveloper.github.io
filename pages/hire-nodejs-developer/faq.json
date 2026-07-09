@@ -1,0 +1,109 @@
+{
+  "count": 26,
+  "faqs": [
+    {
+      "question": "What is the best Node.js developer for startup projects?",
+      "answer": "For startup projects, the ideal Node.js developer: (1) Uses TypeScript (reduces runtime bugs significantly). (2) Can own both frontend (React/Next.js) and backend (Node.js) — reducing team size. (3) Has Stripe integration experience (every SaaS needs billing). (4) Understands database design (Prisma + PostgreSQL). (5) Can deploy via Docker and set up CI/CD. A senior Node.js developer at $29–$50/hr delivers far more than a junior at $15/hr — the difference in code quality and architecture decisions compounds over the entire project. Hire for seniority, not rate minimization."
+    },
+    {
+      "question": "What should I look for in a Node.js developer for real-time applications?",
+      "answer": "Real-time Node.js specific requirements: (1) Socket.io production experience (not just documentation examples — real production systems with thousands of concurrent connections). (2) Redis Pub/Sub for multi-instance WebSocket scaling. (3) WebSocket authentication (JWT validation in the WebSocket upgrade handshake). (4) Reconnection handling (clients that disconnect and reconnect should recover state properly). (5) Room/namespace management for chat or collaboration features. (6) Understanding of the event loop (what blocks it and how to avoid blocking it in real-time contexts). Ask candidates to explain their most complex Socket.io implementation specifically."
+    },
+    {
+      "question": "Freelance Node.js developers vs dedicated hire for web development — which is better?",
+      "answer": "Freelance Node.js for: pre-PMF startups (reduce fixed costs), defined projects with clear scope, specialized skill gaps in an existing team, and exploration/prototyping phases. Dedicated hire for: post-PMF companies with consistent 40+hr/week engineering needs, teams that need engineers attending regular meetings and syncs, and products in heavy growth phase where availability and responsiveness are critical. A senior Node.js freelancer on a monthly retainer ($1,999/mo for 160 hours) provides dedicated availability at lower cost than a full-time hire ($120,000–$180,000/year) without employment overhead."
+    },
+    {
+      "question": "What Node.js frameworks should I look for when hiring a developer?",
+      "answer": "Framework priorities: Express.js (know thoroughly — it's the foundation of the Node.js ecosystem), NestJS (essential for enterprise-scale projects — know the DI system, decorators, modules, guards, interceptors), Fastify (high-performance alternative to Express when raw throughput matters). Also: Prisma (modern ORM — prefer over raw Sequelize), TypeORM (commonly used with NestJS but has quirks), Bull/BullMQ (job queues — essential for background tasks), Passport.js (authentication strategies), Socket.io (real-time). Red flags: developers who only know Express at a basic level without TypeScript, or who haven't used NestJS for any larger project."
+    },
+    {
+      "question": "Can a Node.js developer integrate REST APIs from external services?",
+      "answer": "Yes — Node.js's vast npm ecosystem includes official SDKs for almost every external service: Stripe, Twilio, SendGrid, AWS SDK, Google APIs, Slack, HubSpot, Salesforce, and more. For services without SDKs: the axios or node-fetch libraries handle HTTP calls cleanly. Production-quality API integration requires: proper error handling (retry logic with exponential backoff), timeout configuration (don't let slow external APIs hang your server), rate limit handling (respect third-party rate limits, implement your own queue if needed), webhook handler implementation (with signature verification), and integration health monitoring. Ask candidates to explain their approach to handling a flaky external API."
+    },
+    {
+      "question": "Should I hire a Node.js developer for e-commerce backend?",
+      "answer": "Node.js is an excellent choice for e-commerce backends. Relevant Node.js strengths: (1) High throughput for product catalog APIs (thousands of concurrent requests during flash sales). (2) Native async for simultaneous inventory checks, price calculations, and availability queries. (3) Stripe's Node.js SDK is first-class and feature-complete. (4) Socket.io for real-time cart updates and inventory availability. (5) Bull Queue for order processing, email confirmation, and inventory reservation workflows. The main alternatives (Python/FastAPI, Java/Spring) can do the same work — Node.js wins when your team already has JavaScript expertise or when real-time features are a priority."
+    },
+    {
+      "question": "What databases work best with Node.js?",
+      "answer": "Database recommendations by use case: PostgreSQL + Prisma ORM: the modern default for relational data (type-safe queries, migration management, visual browser). MongoDB + Mongoose: when your data is genuinely document-shaped (nested, variable structure) and you don't need joins. Redis: caching, session storage, rate limiting counters, Bull Queue broker, Pub/Sub for WebSockets. Elasticsearch: full-text search, log aggregation. The Prisma + PostgreSQL combination is the current gold standard for new Node.js projects in 2026 — type-safe, well-documented, and with excellent migration tooling. Avoid raw SQL strings in Node.js — use an ORM or query builder for security and maintainability."
+    },
+    {
+      "question": "How much does it cost to hire a Node.js developer?",
+      "answer": "Node.js developer rates: Junior (0–2 years): $25–$60/hr or $60K–$90K/year. Mid-level (2–4 years): $60–$100/hr or $90K–$130K/year. Senior (5+ years): $90–$200/hr or $130K–$220K/year. US rates are highest; Eastern Europe/Latin America are 40–50% lower; Southeast Asia (Nepal, Vietnam, Philippines) are 60–70% lower for equivalent seniority. Monthly retainer with Ramesh Das ($1,999/mo for 160 hours): equivalent to a $14/hr blended rate for senior Node.js expertise — significantly below any comparable market rate."
+    },
+    {
+      "question": "Node.js developer vs full-stack developer for backend tasks — which should I hire?",
+      "answer": "If you only need backend API work and have an existing frontend team: hire a backend-focused Node.js developer — they'll go deeper on API performance, database design, and scalability. If you're a small startup without a separate frontend engineer: hire a full-stack developer who uses Node.js as their backend of choice — this is usually more cost-effective and produces better integration between frontend and backend. If your Node.js backend needs to evolve into microservices: hire a Node.js developer with microservices architecture experience (NestJS Microservices, Kafka, Docker orchestration)."
+    },
+    {
+      "question": "What is the difference between Express.js and NestJS?",
+      "answer": "Express.js: minimal, unopinionated Node.js framework. Gives you routing + middleware, nothing else. You make all other architectural decisions: directory structure, dependency injection, error handling patterns, validation approach. Advantages: simple, fast to start, maximum flexibility. Disadvantages: large projects become inconsistent without enforced conventions; onboarding new engineers is harder. NestJS: opinionated, enterprise-grade framework built on Express. Provides: dependency injection, decorators, module system, guards (for auth), interceptors, pipes (for validation), Swagger auto-generation. Advantages: enforced structure, excellent for large teams, built-in solutions for common patterns. Choose Express for small projects/teams; choose NestJS for larger teams or complex domains."
+    },
+    {
+      "question": "How do I verify a Node.js developer's real experience before hiring?",
+      "answer": "Verification strategies: (1) Review their GitHub — look for TypeScript, NestJS or Express, Prisma/Sequelize, and actual test files. Repos without tests or TypeScript from a 'senior' candidate are red flags. (2) Give a small paid test: 'Build a REST API endpoint with JWT auth, request validation, and a test' — this reveals code quality in 2 hours. (3) Ask architecture questions: 'How would you scale this Node.js service to handle 50,000 requests/minute?' A junior developer will say 'add more servers'; a senior will discuss event loop optimization, Redis caching, database connection pooling, read replicas, and horizontal scaling via Kubernetes. (4) Check npm packages — any Node.js developer should know at least 20–30 ecosystem packages beyond Express."
+    },
+    {
+      "question": "Can a Node.js developer handle AWS deployment?",
+      "answer": "Experienced Node.js developers should know: EC2 for VM-based deployment, ECS or EKS for Docker/Kubernetes deployment, S3 for static asset storage, CloudFront CDN, Elastic Load Balancer, and basic IAM configuration. The depth of AWS knowledge varies: some Node.js developers deploy to a single EC2 instance via PM2; others orchestrate full EKS clusters with Helm. Specify your deployment complexity requirements explicitly in the job description — 'Docker Compose on a single server' vs. 'Kubernetes multi-region deployment' are different skill levels. Ramesh handles full Docker + Kubernetes + GitHub Actions CI/CD + AWS deployment for every project."
+    },
+    {
+      "question": "What is Bull Queue and why is it important in Node.js projects?",
+      "answer": "Bull (now BullMQ) is a Node.js job queue library backed by Redis. It handles: background task processing (send emails, generate reports, process uploads without blocking API responses), scheduled jobs (cron-like job execution), delayed jobs (send email 24hrs after signup), priority queues (urgent tasks before normal tasks), failed job retry with exponential backoff, and dead-letter queues for persistently failed jobs. Without a job queue: heavy operations block API response time, scheduled tasks require hacky cron setups, and failed jobs are silently lost. Bull is essential in almost every production Node.js application. A Node.js developer who hasn't used Bull or a similar queue system has limited production experience."
+    },
+    {
+      "question": "Is Node.js good for fintech application development?",
+      "answer": "Yes — Node.js is used in production fintech at companies like PayPal, Capital One, and Klarna. Node.js fintech strengths: (1) High-throughput transaction APIs handle concurrent payment requests efficiently. (2) Stripe's Node.js SDK is feature-complete for payment processing. (3) TypeScript provides type safety for financial data models (amount, currency, precision). (4) Native async handles parallel account balance checks without blocking. (5) Bull Queue for reliable payment processing workflows with retry on failure. Key requirements for fintech Node.js: Decimal.js or decimal arithmetic libraries (never float for money), comprehensive audit logging, idempotency for all payment operations, and PostgreSQL (ACID transactions) for financial data integrity."
+    },
+    {
+      "question": "What Node.js testing tools should developers use?",
+      "answer": "Essential Node.js testing stack: Jest (test runner — unit + integration, TypeScript support via ts-jest), Supertest (HTTP API testing against running Express/NestJS instances), nock (mock external HTTP calls in tests), factory-bot (generate test data), Playwright (E2E browser testing for full stack verification). Optional but valuable: Pact (contract testing for microservices), k6 or Artillery (load testing), jest-coverage + Istanbul (coverage reporting). A Node.js project without Jest tests is not production-ready. TypeScript compilation errors + ESLint + test suite should all be verified in CI (GitHub Actions) before any deployment proceeds."
+    },
+    {
+      "question": "How do Node.js developers handle authentication?",
+      "answer": "Modern Node.js authentication: (1) JWT (JSON Web Tokens) with short expiry (15min–1hr) + refresh token rotation (refresh tokens stored in httpOnly cookies or a database with revocation capability). (2) Passport.js strategies for OAuth (Google, GitHub, Microsoft) + local (username/password). (3) Bcrypt for password hashing (cost factor 12+). (4) RBAC middleware (check user role/permissions in every protected route handler). (5) Rate limiting on auth endpoints (prevent brute force: 5 attempts per 15 minutes per IP). (6) Session management with express-session + Redis store for session-based apps. Every auth implementation should: validate JWTs on every request, never store passwords in plain text, and log all authentication events (login, logout, failed attempts)."
+    },
+    {
+      "question": "What is the typical timeline for a Node.js API project?",
+      "answer": "Timeline by scope: Simple CRUD API (5–10 endpoints, basic auth, PostgreSQL): 2–4 weeks. Full-featured application API (20+ endpoints, complex domain, Stripe billing, email, file upload): 6–10 weeks. Real-time application (WebSockets + REST + background jobs): 8–14 weeks. Microservices architecture (3+ independent services, service mesh, Kafka): 3–6 months. These assume: clear requirements, 24-hour client feedback, and a dedicated senior developer. Add 2–4 weeks for each major third-party integration (Stripe subscriptions, Salesforce CRM, complex OAuth flows) without existing examples from the developer."
+    },
+    {
+      "question": "Can Node.js handle GraphQL APIs?",
+      "answer": "Yes — Apollo Server and Yoga Server are the leading Node.js GraphQL frameworks. Apollo Server integrates with Express and NestJS seamlessly. GraphQL advantages: type-safe schema (SDL definition), clients request only the fields they need (reduces over-fetching), single endpoint vs. multiple REST endpoints, and automatic schema documentation. GraphQL disadvantages: more complex to implement and cache than REST, N+1 query problems require DataLoader, and HTTP caching is harder. When to use GraphQL: complex data graphs where different clients (web, mobile, partner) need different data shapes. When to use REST: simpler use cases, better HTTP caching needs, or teams unfamiliar with GraphQL complexity."
+    },
+    {
+      "question": "Does Ramesh Das write Node.js microservices?",
+      "answer": "Yes. Ramesh has designed and implemented microservices architectures with Node.js/NestJS: API gateway routing, independent service deployment, Bull Queue + Redis for async inter-service communication, Docker containerization per service, Kubernetes orchestration with per-service scaling policies, and distributed tracing with OpenTelemetry. The key microservices decision: 'What should be a separate service?' is one Ramesh answers based on: independent scaling needs, different team ownership, genuinely different technology requirements, and change frequency — not just 'microservices are modern'."
+    },
+    {
+      "question": "How do you handle Node.js application performance issues?",
+      "answer": "Node.js performance toolkit: (1) Event loop lag monitoring (use clinic.js or --inspect to identify blocking operations). (2) Database query profiling (EXPLAIN ANALYZE for PostgreSQL, Mongoose explain() for MongoDB). (3) N+1 query elimination (Prisma include, Mongoose populate, DataLoader for GraphQL). (4) Redis caching for frequently-read, slowly-changing data (product catalog, user profiles). (5) Response compression (compression middleware). (6) Horizontal scaling behind a load balancer (PM2 cluster mode or Kubernetes HPA). (7) Connection pool tuning (pg-pool max connections). (8) Async I/O audit — ensure all I/O operations are properly awaited and no synchronous operations are blocking the event loop."
+    },
+    {
+      "question": "What is the best Node.js developer for mobile app backend support?",
+      "answer": "A Node.js developer who can build mobile app backends should have: (1) RESTful API design experience (versioning, pagination, filtering, consistent error responses). (2) JWT authentication for stateless mobile auth sessions. (3) Push notification integration (Expo Push Notifications, FCM, APNs via node-apn). (4) File upload handling (multer for direct upload, presigned S3 URLs for direct client upload). (5) WebSocket support (for real-time features: chat, live notifications). (6) Offline sync patterns (conflict resolution for data written offline). Express or NestJS both work well for mobile backends — NestJS is recommended for APIs that will be maintained and extended by a team over years."
+    },
+    {
+      "question": "How does NestJS dependency injection work and why does it matter?",
+      "answer": "NestJS uses a module-based dependency injection (DI) container inspired by Angular. Every class (services, repositories, guards, interceptors) is decorated with @Injectable() and registered in a Module's providers array. NestJS resolves and instantiates dependencies automatically at startup — you declare what you need in the constructor, and NestJS injects it. Why it matters: (1) Testability — you can inject mock services in unit tests without globals or module-level mocking hacks. (2) Separation of concerns — business logic lives in Services, HTTP handling in Controllers, data access in Repositories. (3) Modularity — feature modules (AuthModule, BillingModule, UserModule) are independently developed and tested. (4) Lifecycle hooks — onModuleInit, onApplicationBootstrap allow initialization logic. NestJS's DI is the #1 reason to choose it over Express for any project that will grow beyond 3 engineers or 20+ endpoints."
+    },
+    {
+      "question": "What is BullMQ and how does it differ from the original Bull library?",
+      "answer": "BullMQ is the modern successor to the original Bull job queue library for Node.js, both backed by Redis. Key differences: (1) BullMQ is fully TypeScript-native (Bull was retrofitted with types). (2) BullMQ has a redesigned API with Job flows — parent/child job dependencies (complete Job B only after Job A succeeds). (3) BullMQ separates Queue (producer) and Worker (consumer) into distinct classes, enabling better separation of concerns. (4) BullMQ has native rate limiting per queue. (5) BullMQ has improved metrics and monitoring via BullMQ Board or Bull-Board UI. When to use BullMQ: sending transactional emails, processing file uploads, running AI inference jobs, scheduled reports (with QueueScheduler), and any operation that should not block an API response. Best practice: always set a maxStalledCount and backoff configuration on every worker to prevent infinite retries on broken jobs."
+    },
+    {
+      "question": "How do you architect a Node.js API to handle 100,000 concurrent users?",
+      "answer": "Architecture checklist for 100k concurrent users with Node.js: (1) Horizontal scaling — multiple Node.js instances behind a load balancer (AWS ALB or Nginx). Node.js is single-threaded, so one instance = one CPU core. Use Kubernetes HPA to scale pods based on CPU/memory. (2) Stateless design — JWT auth so any instance can handle any request. No server-side sessions (or use Redis session store). (3) Database — PostgreSQL with read replicas (route read queries to replicas). PgBouncer for connection pooling (Node instances × connection pool size must stay under PostgreSQL max_connections). (4) Redis caching — cache product catalog, user profiles, permissions at Redis layer. Cache-aside pattern with TTL. (5) CDN — CloudFront or Cloudflare for static assets, reducing origin load. (6) Rate limiting — express-rate-limit with Redis store to share rate limit state across instances. (7) Event loop — no CPU-heavy synchronous work in the main process; offload to BullMQ workers or separate worker threads."
+    },
+    {
+      "question": "What is Prisma ORM and when should I use TypeORM instead?",
+      "answer": "Prisma is a modern Node.js/TypeScript ORM with a schema-first approach (schema.prisma file), type-safe auto-generated client, and built-in migration tooling (prisma migrate). TypeORM is a more traditional Active Record/Data Mapper ORM with decorator-based entity definitions, closer to Java-style Hibernate. Choose Prisma when: (1) Starting a new project — best developer experience in 2026 (2) You want fully type-safe queries auto-generated from schema (3) You want a visual schema browser (Prisma Studio). (4) You want simple, predictable migrations. Choose TypeORM when: (1) Your project is already on TypeORM (migration cost not worth it). (2) You specifically need NestJS @InjectRepository() pattern that TypeORM integrates with cleanly (Prisma also integrates with NestJS but requires more manual setup). Red flag: Sequelize for new TypeScript projects — it has poor TypeScript support compared to Prisma."
+    },
+    {
+      "question": "How do Node.js developers implement streaming APIs for AI applications?",
+      "answer": "Streaming AI responses from LLMs (OpenAI, Claude) to clients in Node.js: two main approaches: (1) Server-Sent Events (SSE): the server sends a text/event-stream response where each OpenAI stream chunk is pushed as an SSE event. The client uses EventSource to receive events. SSE is unidirectional (server → client), simpler to implement, and works through standard HTTP/2. (2) WebSockets: bidirectional — the client sends a message, the server streams back AI tokens over the WebSocket connection. Better when the client also needs to send mid-stream updates. Implementation in Node.js: with Express, set headers manually (Content-Type: text/event-stream, X-Accel-Buffering: no for Nginx). With NestJS, use the @Sse() decorator with an Observable stream. OpenAI Node SDK v4 has native streaming: for await (const chunk of stream) { res.write(chunk) }. Always handle client disconnect events (req.on('close')) to abort the upstream OpenAI request and avoid unnecessary token spend."
+    }
+  ]
+}

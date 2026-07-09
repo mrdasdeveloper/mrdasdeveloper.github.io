@@ -1,0 +1,172 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "name": "Hire a Senior Remote Software Engineer | Async-First, Full-Stack + AI | Ramesh Das",
+      "description": "Hire Ramesh Das — a senior remote software engineer with 6+ years building production web apps, APIs, and AI systems. Async-first, weekly written updates, global timezone coverage. $29/hr or $1,999/mo. 60-day warranty.",
+      "url": "https://www.rameshdas.dev/pages/hire-remote-software-engineer/",
+      "datePublished": "2026-07-09",
+      "dateModified": "2026-07-09",
+      "inLanguage": "en",
+      "isPartOf": { "@type": "WebSite", "url": "https://www.rameshdas.dev" },
+      "author": { "@type": "Person", "name": "Ramesh Kumar Das", "url": "https://www.rameshdas.dev" },
+      "publisher": { "@type": "Organization", "name": "Ramesh Das Dev", "url": "https://www.rameshdas.dev" }
+    },
+    {
+      "@type": "Person",
+      "name": "Ramesh Kumar Das",
+      "alternateName": "mrdasdeveloper",
+      "url": "https://www.rameshdas.dev",
+      "image": "https://www.rameshdas.dev/assets/ramesh-das-profile.jpg",
+      "jobTitle": "Senior Remote Software Engineer & AI Developer",
+      "description": "Senior remote software engineer with 6+ years 100% remote delivery. Full-stack + AI: React/Next.js, FastAPI, NestJS, LangChain. Async-first, weekly written updates. Available worldwide at $29/hr.",
+      "knowsAbout": [
+        "Remote Software Engineering",
+        "Async-First Development",
+        "React 18",
+        "Next.js 14",
+        "TypeScript",
+        "FastAPI",
+        "Node.js",
+        "NestJS",
+        "LangChain",
+        "OpenAI API",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "Kubernetes",
+        "GitHub Actions",
+        "AWS",
+        "GCP",
+        "Full-Stack Development",
+        "AI Integration",
+        "SaaS Architecture"
+      ],
+      "sameAs": [
+        "https://github.com/mrdasdeveloper",
+        "https://linkedin.com/in/mrdas-developer/",
+        "https://twitter.com/mrdasdeveloper",
+        "https://www.rameshdas.dev"
+      ],
+      "worksFor": { "@type": "Organization", "name": "Ramesh Das Dev", "url": "https://www.rameshdas.dev" }
+    },
+    {
+      "@type": "ProfessionalService",
+      "name": "Hire a Senior Remote Software Engineer — Ramesh Das",
+      "description": "Senior remote software engineer available for hire. 6+ years 100% remote delivery. Full-stack + AI, async-first communication, weekly written updates. $29/hr or $1,999/mo retainer.",
+      "url": "https://www.rameshdas.dev/pages/hire-remote-software-engineer/",
+      "provider": { "@type": "Person", "name": "Ramesh Kumar Das", "url": "https://www.rameshdas.dev" },
+      "areaServed": { "@type": "Place", "name": "Worldwide" },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Remote Software Engineering Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Hourly Remote Engineering",
+            "description": "Full-stack or backend development, AI integration, code review, architecture consulting. Async delivery, min. 4hrs, billed weekly.",
+            "price": "29", "priceCurrency": "USD", "unitText": "HOUR",
+            "availability": "https://schema.org/InStock"
+          },
+          {
+            "@type": "Offer",
+            "name": "Monthly Remote Retainer",
+            "description": "160 hrs/month dedicated senior remote engineer. Weekly written updates, Loom demos, full-stack + AI, priority support.",
+            "price": "1999", "priceCurrency": "USD", "unitText": "MON",
+            "availability": "https://schema.org/InStock"
+          },
+          {
+            "@type": "Offer",
+            "name": "Fixed-Price Remote Project",
+            "description": "Complete feature or product build. Source code, OpenAPI docs, test suite, Docker + CI/CD, 60-day warranty, handover session.",
+            "price": "5499", "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          {
+            "@type": "Offer",
+            "name": "Async Code Audit",
+            "description": "Full codebase review, OWASP security assessment, performance report, architecture recommendations, Loom walkthrough + 1-hr call.",
+            "price": "499", "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "HowTo",
+      "name": "How to Hire and Onboard a Senior Remote Software Engineer",
+      "description": "A step-by-step guide to hiring, vetting, and onboarding a senior remote software engineer for your startup or product team.",
+      "step": [
+        {
+          "@type": "HowToStep", "position": 1,
+          "name": "Define your remote engineering requirements",
+          "text": "Write a one-page spec: tech stack, scope, timeline, and communication expectations. Specify async vs. sync preference, timezone overlap needs, and whether you need full-stack or backend-only."
+        },
+        {
+          "@type": "HowToStep", "position": 2,
+          "name": "Evaluate async communication quality",
+          "text": "Review their initial outreach email for clarity and specificity. Ask for a sample weekly update format. Check GitHub README quality — good documentation signals good async communication habits."
+        },
+        {
+          "@type": "HowToStep", "position": 3,
+          "name": "Assign a paid technical test",
+          "text": "Give a 2–3 hour paid test with a clear spec and acceptance criteria. Evaluate: code quality, test coverage, documentation, and whether they ask clarifying questions before starting."
+        },
+        {
+          "@type": "HowToStep", "position": 4,
+          "name": "Agree on communication framework",
+          "text": "Define: daily async update channel (Slack/WhatsApp), weekly written report format, Loom demo cadence, task tracking tool (Linear/GitHub Projects), and PR review SLA (24hr)."
+        },
+        {
+          "@type": "HowToStep", "position": 5,
+          "name": "Secure onboarding and tooling access",
+          "text": "Sign NDA and IP agreement. Set up GitHub access (branch protection enabled), secrets vault, staging environment, and communication channels before day one."
+        },
+        {
+          "@type": "HowToStep", "position": 6,
+          "name": "Start with a small defined task",
+          "text": "First task: a small bug fix or feature with clear acceptance criteria. Their first PR reveals code quality, communication style, and integration ability better than any interview."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does an async-first remote engineering workflow look like?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Async-first workflow: written spec before code, daily async Slack updates, weekly written status report with PR links, Friday Loom demo, GitHub PRs for all changes, Linear/GitHub Projects for task tracking. Works across any timezone difference." }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does it cost to hire a remote software engineer?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Ramesh Das: $29/hr hourly, $1,999/mo retainer (160 hrs), from $5,499 fixed-price project, $499 async code audit. Significantly below US/EU agency rates ($120–$250/hr) for equivalent senior expertise." }
+        },
+        {
+          "@type": "Question",
+          "name": "Compare Mrdasdeveloper vs Toptal for hiring remote software engineers?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Toptal: $60–$150/hr, platform fee, fast placement. Ramesh Das: $29/hr direct hire, no platform fee, production AI + full-stack experience, async-first with weekly written updates, 60-day bug warranty. Ramesh offers significantly lower cost for equivalent seniority." }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you handle timezone differences with US or EU clients?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Based in Nepal (UTC+5:45) with overlap windows for US East (8:45 AM–12:45 PM EST), US West (8:00 AM–12:00 PM PST), and UK/EU (9:00 AM–1:00 PM GMT). Async-first means timezone differences create a 24-hour development cycle without anyone working nights." }
+        },
+        {
+          "@type": "Question",
+          "name": "When should I hire a remote engineer on retainer vs hourly vs fixed-price?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Hourly: exploratory work, audits, undefined scope. Monthly retainer ($1,999/mo): ongoing product development with consistent 40hr/week needs. Fixed-price (from $5,499): defined features or MVPs with clear acceptance criteria. Pre-PMF → hourly. Post-PMF → retainer. Defined scope → fixed-price." }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.rameshdas.dev" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.rameshdas.dev/pages/" },
+        { "@type": "ListItem", "position": 3, "name": "Hire a Senior Remote Software Engineer", "item": "https://www.rameshdas.dev/pages/hire-remote-software-engineer/" }
+      ]
+    }
+  ]
+}

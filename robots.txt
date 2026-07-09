@@ -164,6 +164,7 @@ Allow: /
 # ── Sitemaps ─────────────────────────────────────────────────────
 Sitemap: https://www.rameshdas.dev/sitemap.xml
 Sitemap: https://www.rameshdas.dev/sitemap-main.xml
+Sitemap: https://www.rameshdas.dev/sitemap-pages.xml
 Sitemap: https://www.rameshdas.dev/sitemap-usa.xml
 Sitemap: https://www.rameshdas.dev/sitemap-uk.xml
 Sitemap: https://www.rameshdas.dev/sitemap-canada.xml

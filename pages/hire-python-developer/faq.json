@@ -1,0 +1,109 @@
+{
+  "count": 26,
+  "faqs": [
+    {
+      "question": "What is the best platform to hire a Python developer?",
+      "answer": "The best platforms by use case: (1) Direct hire from portfolio sites (like rameshdas.dev) — you get the actual senior engineer, fastest communication, best value. (2) Toptal — heavily vetted, higher cost ($60–150/hr). (3) Gun.io / Arc.dev — curated pool with pre-screening. (4) Upwork — wide pool but requires significant due diligence; quality varies enormously at Python level. For AI/ML Python specifically, GitHub is an underrated source — find engineers with active Python AI repositories and reach out directly."
+    },
+    {
+      "question": "Should I hire a freelance Python developer or a full-time hire for startup needs?",
+      "answer": "Freelance first, full-time later. A senior Python freelancer at $29–$50/hr delivers the expertise you need without the $120,000–$200,000/year full-time cost (salary + benefits + recruiting + equity). Once you have product-market fit, recurring revenue, and a product that requires 40+ hours/week of engineering work, transition to full-time. Pre-PMF: hire a senior freelancer on a retainer. Post-PMF with consistent revenue: hire full-time. Most startups hire full-time engineers too early and pay enormous fixed costs during uncertain phases."
+    },
+    {
+      "question": "Which Python developer should I hire for data science tasks?",
+      "answer": "Data science Python and backend Python are different skill sets. Data science focuses on: pandas, NumPy, scikit-learn, Jupyter notebooks, data visualization (matplotlib, Plotly), and statistical analysis. Backend Python focuses on: FastAPI/Django API development, database design, async processing, and deployment. For a product that needs both: consider two specialists, or a developer who genuinely bridges both domains (rare but exists). Ask specifically: 'Have you built production data APIs that serve real users, or have you built analytical notebooks?' These are different experiences."
+    },
+    {
+      "question": "What are the best Python frameworks to look for when hiring?",
+      "answer": "Framework priorities in 2026: FastAPI (✅ must-have for any serious API work — async, Pydantic v2, auto-docs), Django (✅ for content-heavy platforms and admin interfaces), Pydantic v2 (✅ data validation — insist on v2, not v1), SQLAlchemy 2.0 (✅ for async ORM — major rewrite from v1), LangChain or LlamaIndex (✅ for AI features), pytest (✅ for testing — no exceptions), Celery (✅ for background tasks). Red flags: developers who still use Flask for new production APIs (Flask doesn't have async or validation out of the box), or who use raw SQL without an ORM (security risk)."
+    },
+    {
+      "question": "What is the difference between a Python developer and a data engineer?",
+      "answer": "Python developer: builds web APIs, backend systems, automation scripts, and AI backends using Python. Data engineer: builds data pipelines, ETL processes, data warehouses, and streaming data infrastructure (typically using Apache Spark, Kafka, Airflow, dbt, Snowflake). The tools overlap but the focus doesn't. For a web application backend that happens to process data: hire a Python backend developer. For large-scale data infrastructure (petabytes of data, streaming analytics, data warehousing): hire a data engineer. Many projects need both; few individual engineers are genuinely expert in both disciplines."
+    },
+    {
+      "question": "What is FastAPI and why should I hire a FastAPI developer?",
+      "answer": "FastAPI is a modern Python web framework for building high-performance APIs. It's built on: Starlette (async web framework), Pydantic (data validation), and standard Python type hints. Key advantages: (1) Automatic OpenAPI/Swagger documentation generated from your code. (2) Request/response validation with Pydantic (no manual validation logic). (3) Async-first design for high concurrency without multiple threads. (4) Type hints throughout = fewer runtime errors, better IDE support. In benchmarks, FastAPI performs comparably to Node.js for I/O-bound APIs. It's the right choice for any new Python API backend in 2026."
+    },
+    {
+      "question": "Can a Python developer help with AI and machine learning projects?",
+      "answer": "Yes — Python is the primary language for AI/ML. However, 'AI/ML experience' spans a wide range: (1) LLM API integration (OpenAI, Claude) — most senior Python developers can do this. (2) RAG pipeline implementation (LangChain, LlamaIndex, vector databases) — requires specific experience. (3) Model training and fine-tuning (PyTorch, Hugging Face) — requires ML engineering expertise. (4) Data science and statistical modeling (sklearn, pandas) — a separate discipline. Be specific about what you need: 'integrate OpenAI into our API' vs. 'fine-tune a custom model' vs. 'build a data analysis pipeline' are very different skill requirements."
+    },
+    {
+      "question": "How much does it cost to hire a Python developer?",
+      "answer": "Rates by experience: Junior (0–2 years): $20–$50/hr or $60K–$90K/year. Mid-level (2–5 years): $50–$100/hr or $90K–$140K/year. Senior (5+ years): $80–$200/hr or $140K–$250K+ year. By region: US: $100–$200/hr for senior. UK/EU: £80–£150/hr for senior. Nepal/SE Asia: $25–$60/hr for equivalent senior. Monthly retainer with Ramesh Das (6+ years senior FastAPI/Django): $1,999/mo for 160 hours — significantly below equivalent agency rates."
+    },
+    {
+      "question": "What Python skills are most in demand in 2026?",
+      "answer": "Highest-demand Python skills in 2026: (1) FastAPI with async SQLAlchemy — the modern Python API stack. (2) LangChain/LlamaIndex for LLM integration — every company is building AI features. (3) Pydantic v2 — now the standard for Python data validation. (4) Type annotations with mypy — type-safe Python is the professional standard. (5) Celery for background tasks — needed in almost every production system. (6) Docker + Kubernetes for deployment — DevOps is no longer optional. (7) pytest with async support — tested Python code is non-negotiable. Avoid hiring Python developers who don't use type annotations — it's a strong signal of outdated practices."
+    },
+    {
+      "question": "Python developer vs Java developer for backend development — which to choose?",
+      "answer": "Choose Python when: (1) You're building AI-integrated features (Python's ecosystem is unmatched). (2) You need rapid iteration and development speed. (3) Your team is small and needs to move fast. (4) Data processing is a core requirement. (5) You're integrating with ML/AI services. Choose Java when: (1) You have an existing Java codebase or team. (2) You're in an enterprise environment with existing JVM infrastructure. (3) You need the absolute maximum throughput for high-frequency computing (trading systems, etc.). (4) You require strict static typing from the language level. For most modern web applications and AI-integrated products: Python with FastAPI is the superior choice in 2026."
+    },
+    {
+      "question": "Where can I find Python developers with API integration experience?",
+      "answer": "Look for: (1) FastAPI project samples on GitHub that connect to external APIs (Stripe, Twilio, OpenAI). (2) Celery workers that process webhook payloads. (3) Evidence of webhook handling (signature verification, idempotency keys). Platforms: Arc.dev and Gun.io tend to attract backend-focused Python developers. GitHub is excellent for finding Python developers with real API integration work (search for repositories using 'httpx', 'aiohttp', or specific API clients). Direct outreach to active Python contributors on GitHub is often the most effective sourcing strategy for specialized API integration experience."
+    },
+    {
+      "question": "How do I evaluate a Python developer's code quality?",
+      "answer": "Evaluation criteria: (1) Type annotations — is the code fully typed? (2) Pydantic models — are they used for validation, or is validation manual? (3) Error handling — are exceptions specific (HTTPException, ValueError) or generic (except Exception)? (4) Test coverage — run pytest --cov and check the percentage. (5) Security patterns — search for raw SQL strings (SQL injection risk), hardcoded secrets, or missing CORS configuration. (6) Async patterns — if using async def, does the code actually await I/O operations correctly? Give candidates a small paid test task: build a FastAPI endpoint with validation, authentication, and tests — this reveals quality quickly."
+    },
+    {
+      "question": "Can a Python developer build a REST API that connects to a React frontend?",
+      "answer": "Yes — this is one of the most common full stack patterns. The Python backend (FastAPI or Django) serves a REST or GraphQL API that the React frontend consumes. Key integration points: (1) CORS configuration (FastAPI has built-in CORS middleware). (2) Authentication — JWT tokens returned from FastAPI, stored in React (localStorage or httpOnly cookies). (3) API type sharing — Pydantic models on the backend, TypeScript interfaces on the frontend. (4) Real-time features — WebSockets (FastAPI supports native WebSockets) or SSE for streaming AI responses. A Python developer with React/Next.js skills can own this entire integration independently."
+    },
+    {
+      "question": "What is Celery and when do I need it in a Python project?",
+      "answer": "Celery is a Python distributed task queue for running background operations asynchronously, outside the API request-response cycle. You need Celery when: (1) Sending emails (don't block API responses for email sending). (2) Processing uploaded files (PDF parsing, image processing). (3) AI inference (don't block the web server thread for 30-second GPU tasks). (4) Scheduled jobs (daily reports, hourly sync jobs). (5) Webhook processing (receive fast, process in background). Without Celery: these operations block API responses, causing timeouts and poor user experience. Celery + Redis is the standard Python pattern for background task processing."
+    },
+    {
+      "question": "Can a Python developer help with web scraping and data extraction?",
+      "answer": "Yes — Python has the best scraping ecosystem: Scrapy (large-scale structured scraping), BeautifulSoup (HTML parsing), Playwright (JavaScript-rendered sites, browser automation), httpx (async HTTP requests), and Selenium (browser automation for complex interactions). For production scraping: Playwright with proper rate limiting, proxy rotation, user agent management, and retry logic. The ethical considerations: respect robots.txt, implement rate limiting, don't overload target servers, and ensure your use case complies with the target site's terms of service. Python scraping delivered as a standalone service (with scheduling via Celery) can automate significant data acquisition workflows."
+    },
+    {
+      "question": "Should I hire a Python developer for a SaaS product?",
+      "answer": "Python (FastAPI specifically) is an excellent choice for SaaS backends. SaaS-specific patterns Python handles well: (1) Multi-tenancy — row-level security in PostgreSQL via SQLAlchemy, or schema-per-tenant. (2) Subscription billing — Stripe's Python SDK handles checkout, webhooks, subscription management, proration, and dunning. (3) Usage metering — Celery workers track API usage per customer and trigger billing events. (4) Admin dashboard — Django admin (or custom FastAPI + React) provides a powerful internal tool with minimal code. (5) API access for customers — FastAPI generates API documentation automatically, making it easy to expose your product's API to developers."
+    },
+    {
+      "question": "How do Python developers handle database migrations in production?",
+      "answer": "The standard Python migration tool is Alembic (for SQLAlchemy) or Django's built-in migration system. Professional migration workflow: (1) Never modify the production database schema manually. (2) Generate migrations from model changes (alembic revision --autogenerate). (3) Test migrations on a copy of production data. (4) Apply migrations before deploying new code that requires the new schema. (5) Use blue-green deployment to avoid downtime during migrations. (6) Keep a rollback migration ready (alembic downgrade). Asking a Python developer candidate 'walk me through your database migration process' is an excellent interview question."
+    },
+    {
+      "question": "Do Python developers know how to work with Docker and cloud deployment?",
+      "answer": "Experienced Python developers should know Docker basics: writing a Dockerfile, building images, running containers, and using docker-compose for local development. Cloud deployment (AWS, GCP, Azure) varies — some Python developers focus only on application code and rely on a DevOps engineer for cloud infrastructure, while others own the full deployment pipeline. If you need a Python developer who also owns deployment: specify Docker, GitHub Actions CI/CD, and AWS/GCP experience explicitly in the job description. A developer who can only write Python but can't deploy it is only half of what a solo startup needs."
+    },
+    {
+      "question": "What is the best Python framework for building an API for a mobile app?",
+      "answer": "FastAPI is the best choice for mobile app backends in 2026. Reasons: (1) Async performance handles concurrent mobile clients efficiently. (2) Automatic OpenAPI documentation makes it easy for mobile developers to understand and integrate the API. (3) Pydantic validation ensures data consistency between server and client. (4) JWT authentication integrates naturally with mobile auth flows. (5) WebSocket support enables real-time features (chat, notifications, live updates). Build the API with FastAPI, use PostgreSQL for data storage, Redis for caching and real-time, and Celery for push notifications and background jobs."
+    },
+    {
+      "question": "Can a Python developer integrate with existing ERP or CRM systems?",
+      "answer": "Yes — Python's requests, httpx, and zeep (SOAP) libraries handle virtually any external system integration. Common ERP/CRM integrations: Salesforce (simple_salesforce library), HubSpot (hubspot-api-client), SAP (via REST/OData APIs), Microsoft Dynamics (via Graph API), QuickBooks (qbpy), Xero (xero-python). The pattern is the same regardless of system: authenticate, transform data, synchronize with retry logic and error handling, and webhook handling for real-time updates. Python's versatility makes it the best language for integration middleware that connects disparate business systems."
+    },
+    {
+      "question": "How do I hire a Python developer who can deliver on tight deadlines?",
+      "answer": "Signs of a developer who delivers on deadlines: (1) Their GitHub shows consistent commit activity — not sporadic bursts. (2) They ask about scope before committing to timelines (not optimistic promises). (3) They decompose tasks into specific milestones with daily granularity. (4) They communicate proactively when blockers arise (not silent and then missed deadline). (5) They have experience with milestone-based delivery rather than open-ended engagements. In the contract: specify milestone dates (not just a final delivery date), define acceptance criteria per milestone, and include a process for handling delay (adjustment, scope reduction). Fast delivery requires clear requirements — unclear specs are the #1 cause of blown deadlines."
+    },
+    {
+      "question": "What is the difference between FastAPI async and Django async in 2026?",
+      "answer": "FastAPI is async-native from the ground up — built on Starlette (ASGI), it runs on Uvicorn or Hypercorn and every endpoint can be async def by default. SQLAlchemy 2.0 provides an async session (async with AsyncSession()), and asyncpg is the native async PostgreSQL driver. Django 4.1+ added async views (async def my_view(request)), and Django 4.2+ supports async ORM queries, but the ecosystem is still catching up — many third-party Django packages block the async event loop. In practice: for new async-first projects in 2026, FastAPI is the clear choice. For projects that need Django's built-in admin, auth, signals, and content management: Django is still worth it — just be cautious about blocking I/O in async views. Never run sync-heavy code inside a FastAPI async endpoint without wrapping in asyncio.run_in_executor() or using starlette.concurrency.run_in_threadpool()."
+    },
+    {
+      "question": "How does Pydantic v2 differ from v1 and why does it matter for API development?",
+      "answer": "Pydantic v2 (released 2023, now the production standard) is a complete rewrite of the data validation library in Rust (via PyO3). Key differences from v1: (1) Speed: 5–50x faster validation — important for high-throughput APIs. (2) model_config instead of class Config — cleaner configuration. (3) @field_validator and @model_validator replace @validator with clearer semantics. (4) model_dump() replaces .dict() — more explicit and supports include/exclude cleanly. (5) Discriminated unions work correctly now (important for complex polymorphic data models). (6) Strict mode — model.model_validate(data, strict=True) rejects coercions (e.g. string '1' → int 1). Why it matters: FastAPI's entire request/response validation layer is built on Pydantic. Upgrading to v2 yields meaningful performance improvements and better type-safety. When hiring a Python developer, insisting on Pydantic v2 experience filters out developers still using v1 patterns."
+    },
+    {
+      "question": "When should I use SQLAlchemy 2.0 async vs Django ORM for a FastAPI project?",
+      "answer": "SQLAlchemy 2.0 is the standard ORM for FastAPI projects. The key decision points: Use SQLAlchemy 2.0 async when: (1) Your FastAPI app is async-first (all endpoints are async def). (2) You need fine-grained control over query optimization (Core queries, custom SQL, window functions). (3) You have a complex domain model (inheritance, polymorphism, composite PKs). (4) You want Alembic for migrations (the gold standard for Python schema management). Use Django ORM via Django with ASGI when: (1) You need Django Admin without building a custom one. (2) Your team already knows Django ORM deeply. (3) Your project has heavy content management requirements. The async SQLAlchemy pattern: async with AsyncSession(engine) as session: result = await session.execute(select(User).where(User.id == user_id)). Always set pool_size + max_overflow appropriately for your Kubernetes pod count — database connections are the #1 scalability bottleneck."
+    },
+    {
+      "question": "How do Python developers implement LangChain RAG pipelines in production?",
+      "answer": "A production LangChain RAG pipeline has 5 layers: (1) Ingestion: documents (PDF, DOCX, URL) are chunked with RecursiveCharacterTextSplitter (chunk_size=1000, overlap=200), embedded with text-embedding-3-large (OpenAI) or multilingual-e5-large (local), and stored in pgvector or Pinecone. (2) Retrieval: user query is embedded, vector similarity search returns top-k chunks (k=5–10 depending on context window). Use MMR (Maximum Marginal Relevance) retrieval to reduce redundancy in retrieved chunks. (3) Context assembly: retrieved chunks + conversation history (last 4 exchanges) + system prompt → context window. Use ConversationBufferWindowMemory for history management. (4) Generation: Claude 3.5 or GPT-4o generates a response grounded in retrieved context with citation references. (5) Evaluation: RAGAS metrics (faithfulness, answer relevance, context recall) — run on a representative test set of Q&A pairs before every production deployment. Celery handles async retrieval and generation for non-blocking API responses."
+    },
+    {
+      "question": "What Python testing setup should a senior developer use for a FastAPI project?",
+      "answer": "Complete FastAPI testing setup: (1) pytest + pytest-asyncio — async test functions with @pytest.mark.asyncio. Use AsyncClient from httpx (not the standard sync requests library) for async FastAPI endpoint testing. (2) pytest fixtures — create a test database fixture with async_sessionmaker + override FastAPI dependency injection to inject the test session. (3) factory_boy — generate test model instances (UserFactory.create(), OrderFactory.build()). (4) respx — mock external HTTP calls in tests (don't call real Stripe or OpenAI in your test suite). (5) mypy strict — run in CI to catch type errors before runtime. (6) ruff — linting + formatting in CI (replaces flake8 + black + isort). (7) Bandit — security scan in CI (catches SQL injection, hardcoded secrets). Coverage target: 80% minimum, 90% for core business logic. The GitHub Actions pipeline: ruff → mypy → bandit → pytest --cov → docker build → deploy. A FastAPI project without this setup is not production-ready."
+    }
+  ]
+}

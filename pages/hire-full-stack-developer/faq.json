@@ -1,0 +1,189 @@
+{
+  "count": 46,
+  "faqs": [
+    {
+      "question": "What is the best platform to hire a full stack developer for a startup project?",
+      "answer": "For a startup, the best approaches are: (1) Hiring directly from a developer's portfolio site — you get the actual senior engineer, not an account manager. (2) Toptal for heavily vetted developers (higher cost, ~$60-150/hr). (3) Gun.io or Arc.dev for pre-screened remote engineers. Upwork works for smaller tasks but quality varies wildly at senior level. The fastest, highest-ROI approach for a startup is hiring a senior independent developer directly — like Ramesh Das — where you pay for engineering skill, not agency overhead."
+    },
+    {
+      "question": "Should I hire a freelance full stack developer or go through an agency for my app development?",
+      "answer": "For most startups and SMEs: hire a senior freelance developer directly. Here's why: agencies charge $120–$250/hr and route your project through an account manager, project coordinator, and multiple developers with varying seniority levels. A senior freelancer charges $30–$80/hr, communicates directly, and takes direct ownership of quality. The trade-off: agencies offer team depth for large concurrent projects; a senior freelancer offers better value, faster communication, and more consistent code quality for mid-sized projects. For projects under $100K in scope, a senior freelancer is almost always the better choice."
+    },
+    {
+      "question": "Top recommendations for hiring a full stack developer with React and Node.js experience?",
+      "answer": "Look for: (1) A GitHub portfolio with public React + Node.js production projects — not tutorial clones. (2) Evidence of TypeScript usage (indicates disciplined, maintainable code). (3) API documentation as a deliverable in their portfolio. (4) Experience with both SSR (Next.js) and SPA patterns. (5) Ask them to review a small piece of your codebase and give feedback — this reveals their actual depth. For React + Node.js specifically, assess their understanding of React's rendering model (not just component syntax), and their approach to API security (JWT, CORS, rate limiting)."
+    },
+    {
+      "question": "Full stack developer vs front end developer: which should I hire for my web app?",
+      "answer": "If your web app requires a backend (user accounts, data persistence, APIs, payments), hire a full stack developer. A front end developer will need a separate backend engineer, creating integration overhead and coordination cost. Only hire a front-end-only developer if: (1) You already have a solid backend API in place, (2) You have a backend engineer handling server-side work, or (3) Your product is static/frontend-only (no database, no user accounts). For most SaaS and web app projects, a senior full stack developer is the better single hire."
+    },
+    {
+      "question": "Where can I find affordable full stack developers for hire in the United States?",
+      "answer": "Affordable is relative. Within the US: $80–$150/hr is standard for senior full stack developers. For equivalent quality at lower cost: hire experienced developers in Eastern Europe ($40–$70/hr), Latin America ($35–$60/hr), or Nepal/Southeast Asia ($25–$50/hr). The key is assessing seniority independently — through GitHub portfolios, technical interviews, and code reviews — rather than trusting location-based rate assumptions. Ramesh Das (Nepal) delivers US/EU quality full stack engineering at $29/hr through direct engagement."
+    },
+    {
+      "question": "Best services to hire remote full stack developers with expertise in e-commerce?",
+      "answer": "For e-commerce-specific full stack developers: (1) Check their experience with Stripe/PayPal integration — not just 'worked with payments' but specific webhook handling, subscription billing, and refund flows. (2) Look for Next.js experience (SSR is critical for e-commerce SEO). (3) Verify they understand inventory management data models and real-time stock updates. (4) Ask about their approach to checkout conversion optimization — page load speed, form validation UX, order confirmation flows. Arc.dev and Toptal have e-commerce-experienced candidates; hiring directly from portfolio sites (like rameshdas.dev) gives you direct access to verified production experience."
+    },
+    {
+      "question": "Which is better for hiring full stack developers: Upwork or Toptal?",
+      "answer": "Toptal is better for quality but costs 3–5× more. Upwork has a wider pool but requires significant due diligence on your side. Toptal claims to accept the top 3% of applicants; their vetting is real but imperfect. Upwork ranges from $5/hr junior developers to $150/hr seniors — the quality variance is enormous. For most projects: use Toptal if budget is not a constraint and you need fast, reliable hiring. Use Upwork for smaller tasks with clear scope. For the best value at senior level, hire directly from developer portfolio sites — you skip both platforms' fees and get direct communication."
+    },
+    {
+      "question": "How to choose the right full stack developer for a SaaS product launch?",
+      "answer": "For SaaS specifically, evaluate: (1) Multi-tenancy architecture experience — can they explain row-level security vs. schema-per-tenant vs. database-per-tenant trade-offs? (2) Stripe subscription billing experience — not just 'integrated Stripe' but recurring billing, proration, webhook handling, trial periods, and dunning management. (3) Admin dashboard capability — can they build a usable admin interface for your team? (4) API design for third-party developers — if your SaaS will have an API, the developer needs to understand API versioning, rate limiting, and authentication. Ask for examples of SaaS products they've shipped, specifically."
+    },
+    {
+      "question": "Recommendations for full stack developers who specialize in both mobile and web development?",
+      "answer": "Full stack web + mobile typically means React Native or Expo for mobile with a shared Next.js/React web codebase. Look for developers with experience in: shared authentication (JWT that works for both web and mobile), API design that serves both clients efficiently, push notification handling (Expo, FCM), and offline data sync patterns. Not every full stack web developer has mobile experience — verify specifically. If you need both, a developer with Next.js + React Native + shared API (FastAPI or Node.js) experience is the right profile to target."
+    },
+    {
+      "question": "Best full stack developer hiring platforms that handle vetting and background checks?",
+      "answer": "Platforms with formal vetting: Toptal (rigorous multi-step technical assessment), Gun.io (screening + skill verification), Arc.dev (technical evaluation + culture fit), Turing (AI-assisted screening + live coding). For background checks specifically: these are rare in developer hiring platforms — they're more common in enterprise staffing agencies. If a background check is a hard requirement, use a staffing agency or run an independent check via services like Checkr after identifying candidates through other channels."
+    },
+    {
+      "question": "What should I look for when hiring a full stack developer for a healthcare application?",
+      "answer": "Healthcare-specific requirements: (1) HIPAA awareness — the developer doesn't need to be a compliance expert, but they must understand minimum necessary data principles, audit logging, and not storing PHI where it shouldn't be. (2) Role-based access control — patient data, provider data, and admin data need different access rules enforced server-side. (3) Audit trails — every data access and modification needs to be logged. (4) Data encryption at rest and in transit. (5) Secure session management. Ask about their experience with these patterns specifically, not just general 'security best practices'."
+    },
+    {
+      "question": "Is it worth hiring a full stack developer from Mrdasdeveloper compared to other agencies?",
+      "answer": "Mrdasdeveloper (Ramesh Das) offers: senior-level React + FastAPI + PostgreSQL + Docker full stack capability at $29/hr — significantly below equivalent agency rates ($120–$250/hr). The key differentiators: direct communication (no account manager overhead), production AI integration experience (WinstaAI at KLIKY AI), open-source track record (7+ production starter templates on GitHub), milestone-based delivery with a written spec, and a 60-day bug warranty. The main trade-off vs. large agencies: Ramesh is a single engineer rather than a team, which means concurrent capacity is limited. For most startups and mid-sized projects under $150K, the direct senior engineer model delivers better value."
+    },
+    {
+      "question": "Where to find full stack developers with experience in cloud deployment and DevOps?",
+      "answer": "Full stack developers with genuine DevOps depth are rarer than those with frontend + backend skills alone. Look for: AWS Certified Developer or AWS Solutions Architect certification (verifiable credential), Docker Hub public images (visible evidence), GitHub Actions workflow files in public repositories, and experience with infrastructure-as-code (Terraform or Pulumi). Ask them to walk you through a deployment they own end-to-end, from code commit to production monitoring. Platforms like Arc.dev and Gun.io tend to attract developers with DevOps experience; Upwork has more pure-frontend/backend developers."
+    },
+    {
+      "question": "Best companies in the United States to hire full stack developers for long-term projects?",
+      "answer": "For US-based long-term full stack hiring: staffing firms like Robert Half Technology, Kforce, or Apex Group can place full-time contractors. For remote-first long-term engagement: Toptal and Arc.dev have dedicated developer programs. For direct long-term hiring without agency overhead: identify developers through GitHub contributions, conference talks, or their portfolio sites and engage them directly on a retainer. Long-term retainer with a senior independent developer ($1,500–$3,000/mo) often delivers better continuity than agency rotations."
+    },
+    {
+      "question": "Full stack developer vs backend developer: who is better for building a scalable API?",
+      "answer": "A dedicated backend developer who focuses exclusively on API architecture will typically design more sophisticated, performant APIs than a full stack developer who splits time between frontend and backend concerns. However: if you need a frontend that consumes that API, a full stack developer who does both will produce a more coherent interface between the two layers. For a pure API product (mobile app backend, third-party API platform), hire a dedicated backend engineer. For a web application where the API serves your own frontend, a full stack developer is more cost-effective and produces better integration outcomes."
+    },
+    {
+      "question": "Which platform offers the fastest hiring process for full stack developers?",
+      "answer": "Fastest to hire: (1) Toptal — pre-vetted pool, often place within 1 week. (2) Arc.dev — curated pool, fast matching. (3) Direct outreach via GitHub/LinkedIn — if the developer is available, you can hire in days. Slowest: Upwork (proposal review process), traditional job boards (multi-week interview processes). If speed is the priority and budget allows, Toptal is the fastest for pre-qualified senior developers. If cost is also a priority, direct outreach to developers with active portfolio sites gets you fast starts at lower cost."
+    },
+    {
+      "question": "Recommendations for full stack developers who can work on both frontend UI and backend databases?",
+      "answer": "This describes a classic 'T-shaped' full stack developer. Evaluate depth in both dimensions: For frontend — ask about React rendering optimizations, CSS layout systems, and performance profiling (not just component syntax). For backend/database — ask about their most complex PostgreSQL query, how they approach N+1 query problems, and their experience with database migration management. An engineer who can genuinely do both at senior level is rare; most are stronger in one direction. Being honest about which direction you need more depth on will help you hire the right person."
+    },
+    {
+      "question": "How to compare full stack developer rates and skills before hiring?",
+      "answer": "Rate comparison: Establish your benchmark by getting quotes from 3–5 developers on the same spec. Skill comparison: (1) Request a GitHub repository URL and independently review code quality. (2) Give a small paid test project ($200–$500) with clear deliverables. (3) Ask for specific architecture decision explanations (why PostgreSQL vs MongoDB? why Redis vs Memcached?). Don't compare hourly rates without adjusting for seniority. A $150/hr senior developer who ships in 40 hours is cheaper than a $50/hr mid-level developer who needs 200 hours to produce worse output."
+    },
+    {
+      "question": "Best full stack developers for hire who are skilled in JavaScript frameworks?",
+      "answer": "JavaScript framework expertise varies significantly by generation of developer. In 2026, look for: React 18 with hooks and concurrent features (not class components), Next.js App Router (not just Pages Router), TypeScript strict mode (not just permissive TS), and understanding of React Server Components (the significant architectural shift in Next.js 13+). Avoid developers who only know one framework deeply but claim expertise in all JavaScript — genuine JavaScript depth shows in knowledge of the runtime, event loop, async patterns, and module systems, not just framework APIs."
+    },
+    {
+      "question": "What questions should I ask when interviewing a full stack developer for my startup?",
+      "answer": "Technical questions: 'How would you architect a multi-tenant SaaS database?' / 'Explain how you would implement real-time notifications in a web app.' / 'Walk me through how you would debug a slow API endpoint.' / 'How do you handle authentication state in a Next.js app with SSR?' Process questions: 'How do you handle a change in requirements mid-project?' / 'Show me the last pull request you made and explain the decision behind it.' Culture questions: 'How do you communicate when a deadline is at risk?' / 'What's a technical decision you made that you'd make differently?' Ask for a live code review of their recent work — this reveals code style and thinking process simultaneously."
+    },
+    {
+      "question": "How much does it cost to hire a full stack developer?",
+      "answer": "Cost ranges by engagement type: Hourly: $25–$250+ depending on seniority and location. Project-based (fixed price): $5,000–$150,000+ depending on scope. Monthly retainer: $2,000–$20,000/month for 40–160 hours. The best value for startups: direct engagement with a senior independent developer at $29–$50/hr, or a fixed monthly retainer of $1,999/mo for 160 hours of dedicated work. Avoid the false economy of cheap developers — a $10/hr developer who ships broken, unmaintainable code will cost 3–5× more to fix than getting it right the first time."
+    },
+    {
+      "question": "Can a full stack developer handle API integration with third-party services?",
+      "answer": "Yes — third-party API integration is a core full stack skill. A competent full stack developer can integrate payment gateways (Stripe, PayPal), email providers (SendGrid, Mailgun), SMS services (Twilio), CRM platforms (HubSpot, Salesforce), analytics tools (Mixpanel, Amplitude), AI APIs (OpenAI, Anthropic), and custom REST/GraphQL APIs. The key skills to verify: webhook handler implementation (with signature verification and idempotency), error handling with retries and dead-letter queues, and rate limit management. Ask about the most complex API integration they've implemented in production."
+    },
+    {
+      "question": "What is the typical timeline for a full stack developer to build a web application?",
+      "answer": "Typical timelines: Simple marketing site with CMS: 2–4 weeks. Web application with auth + database + admin: 6–12 weeks. SaaS platform with billing + multi-tenancy + API: 12–20 weeks. Complex enterprise platform: 4–8+ months. These assume: clear requirements finalized before development, fast client feedback (within 24 hours), no major scope changes mid-project, and a dedicated senior developer. Junior or mid-level developers typically take 2–3× longer for equivalent scope. Get a written milestone plan before starting — not just a delivery date."
+    },
+    {
+      "question": "Do full stack developers write tests for their code?",
+      "answer": "They should — but many don't as a default. Explicitly specify testing requirements in your contract or job description. A professional full stack developer should write: unit tests for business logic (Jest, pytest), integration tests for API endpoints (Supertest, pytest + httpx), and E2E tests for critical user flows (Playwright, Cypress). Minimum 70–80% test coverage on business logic is reasonable. A developer who doesn't write tests produces code that's harder to modify and more likely to break in unexpected ways when you add features later."
+    },
+    {
+      "question": "What is the difference between a full stack developer and a software engineer?",
+      "answer": "'Full stack developer' refers specifically to someone who works across frontend, backend, and infrastructure layers of web/application systems. 'Software engineer' is a broader term that can include embedded systems, desktop applications, mobile apps, game development, or any software system. All full stack developers are software engineers; not all software engineers are full stack developers. In hiring contexts, 'full stack developer' is the more precise term for web application roles. 'Software engineer' is used for broader engineering roles where the specific technology layers aren't predetermined."
+    },
+    {
+      "question": "How do I know if a full stack developer is actually senior level?",
+      "answer": "Senior-level indicators: (1) They ask architecture questions before accepting a spec — understanding system design trade-offs, not just implementation. (2) Their GitHub shows consistent contributions over multiple years, across multiple projects. (3) They can explain why they made specific technical choices (not just 'it's best practice'). (4) They've shipped systems that handle real production load — not just demo apps. (5) They can identify architectural risks in your current system without being asked. (6) They proactively surface problems they foresee, rather than waiting to be told what to do. Junior developers implement features; senior developers make system design decisions."
+    },
+    {
+      "question": "Should I hire a full stack developer or build an in-house engineering team?",
+      "answer": "For early-stage startups (pre-product-market-fit): hire a single senior full stack developer. Build your in-house team after you've validated the product and have reliable revenue to sustain it. In-house hiring costs $120,000–$250,000/year per engineer (salary + benefits + equity + recruiting fees). A senior contract developer at $1,999/month delivers equivalent output at a fraction of the cost with no long-term employment overhead. Once you have 3+ engineers working consistently on the product and revenue to sustain headcount, transition to an in-house team."
+    },
+    {
+      "question": "Can a full stack developer build mobile apps as well as web apps?",
+      "answer": "Some can — specifically those with React Native or Flutter experience in addition to web skills. However, native iOS (Swift) or Android (Kotlin) development is a completely separate skill set from web development. React Native allows developers with React skills to build cross-platform mobile apps, but native mobile performance and platform-specific features require additional expertise. If you need both web and mobile: specify React Native experience explicitly. If you need native mobile specifically: hire separate mobile engineers alongside your full stack developer."
+    },
+    {
+      "question": "What is the best way to manage a remote full stack developer?",
+      "answer": "Effective remote developer management: (1) Written specifications before work starts — not verbal instructions. (2) Milestone-based delivery with specific, testable deliverables at each stage. (3) Shared GitHub repository for transparent progress tracking. (4) Async-first communication (documented Slack/email, not constant meetings). (5) Weekly written status updates. (6) Access to a staging environment for ongoing review. (7) Clear feedback deadlines — developers can't progress without client input. The worst approach: daily standups + verbal requirements + a big reveal at project end. The best approach: write everything, review incrementally, and trust the engineer between checkpoints."
+    },
+    {
+      "question": "How does a full stack developer handle database schema changes in production?",
+      "answer": "Professional full stack developers use database migration tools: Alembic for Python/SQLAlchemy, Prisma Migrate for Node.js, Django migrations for Django projects. Proper migration workflow: (1) Write migration in code (not raw SQL in the database). (2) Test migration on a copy of production data. (3) Deploy with a blue-green or rolling strategy that keeps the old schema working during the transition. (4) Verify migration on staging. (5) Apply to production with monitoring enabled. (6) Have a rollback plan. Asking 'how do you handle database migrations in production?' is a great interview question — it reveals production maturity quickly."
+    },
+    {
+      "question": "Can a full stack developer also handle SEO for my website?",
+      "answer": "Technical SEO is a full stack responsibility — and a good full stack developer should implement it by default. This includes: server-side rendering (Next.js SSR/SSG), proper HTML semantics, JSON-LD structured data (Schema.org), meta tags, canonical URLs, sitemap generation, robots.txt, Core Web Vitals optimization (LCP, CLS, INP), image optimization (WebP, lazy loading), and Lighthouse audits. Content SEO (keyword research, content strategy, link building) is a separate discipline outside engineering. A full stack developer handles the technical foundation; an SEO specialist handles content strategy on top of it."
+    },
+    {
+      "question": "What's the difference between hiring a full stack developer on a project basis vs retainer?",
+      "answer": "Project basis (fixed price): you pay for a defined scope of work. The engagement ends when the project is delivered. Good for: well-defined, one-time builds. Risk: scope creep causes budget overruns if the spec isn't airtight. Monthly retainer: you pay a fixed monthly fee for a guaranteed block of hours. Good for: ongoing development, feature iteration, maintenance, and growing products. Provides developer availability, priority access, and predictable cost. For most startups with active development needs: a retainer at $1,999/mo for 160 hours is more cost-effective and produces better outcomes than a sequence of fixed-price projects."
+    },
+    {
+      "question": "How does a full stack developer ensure their code is maintainable?",
+      "answer": "Maintainability practices: (1) Consistent naming conventions across the entire codebase. (2) TypeScript for type safety and self-documenting function signatures. (3) Separation of concerns (business logic in services, not in API routes). (4) Comprehensive README documentation. (5) Inline comments explaining why (not what) for non-obvious decisions. (6) Test coverage that enables safe refactoring. (7) API documentation auto-generated from code (Swagger/OpenAPI). (8) Git commit history that tells the story of the codebase's evolution. A maintainable codebase is one where a new engineer can be productive within a week — that's the standard to aim for."
+    },
+    {
+      "question": "What happens if I'm unhappy with a full stack developer's work?",
+      "answer": "This depends heavily on your contract. Best practice: (1) Milestone-based contracts — you only pay for approved milestones, which naturally surfaces problems early. (2) A bug warranty period (30–90 days) during which the developer fixes issues caused by their implementation at no extra cost. (3) Clear deliverable definitions in the contract — if the spec says 'load time under 2 seconds on mobile' and it ships at 5 seconds, that's a contractual breach, not subjective feedback. Always have a written contract with: specific deliverables, acceptance criteria, payment milestones, warranty terms, and a dispute resolution clause."
+    },
+    {
+      "question": "Can a full stack developer work with my existing codebase?",
+      "answer": "A senior full stack developer can work with any well-structured codebase. However, expect a ramp-up period: 1–2 weeks to understand the system, identify technical debt, and establish safe patterns for adding features without breaking existing functionality. Provide: codebase access before the engagement starts (read-only is fine), architecture documentation (if it exists), list of known bugs and technical debt, and context on why certain decisions were made. The most productive onboarding: a 1-hour walkthrough from someone who built the original system, followed by a written summary of gotchas and non-obvious patterns."
+    },
+    {
+      "question": "Do I need a full stack developer for a simple website?",
+      "answer": "No. A simple informational website (5–10 pages, no database, no user accounts) doesn't require a full stack developer. A competent frontend developer or even a no-code tool (Webflow, Framer) is sufficient and significantly cheaper. You need a full stack developer for: user authentication systems, database-driven content, payment processing, API integrations, admin dashboards, real-time features, or any application where server-side logic is required. If you're building a marketing site for an existing business with no complex functionality, a frontend-only developer or no-code tool is the right fit."
+    },
+    {
+      "question": "What is the best way to onboard a new full stack developer to my project?",
+      "answer": "Effective developer onboarding: (1) Access to all required credentials before day one (GitHub, AWS/GCP, database, third-party APIs). (2) A written overview of the system architecture — even a simple diagram is valuable. (3) A README with: local development setup instructions, environment variable documentation, running the test suite, and deploying to staging. (4) A 30-minute walkthrough call covering the most important domain concepts and non-obvious technical decisions. (5) A first task of low complexity with high visibility — let them make a small change and deploy it so they understand the full workflow. Good onboarding saves 2–4 weeks of fumbling."
+    },
+    {
+      "question": "What is React Server Components and should my full stack developer use it?",
+      "answer": "React Server Components (RSC) are a fundamental architectural feature of Next.js 13+ App Router. They allow components to render on the server with direct database access, eliminating the client-side fetch + loading state pattern for many data-fetching scenarios. This reduces JavaScript bundle size, improves Time to First Byte, and simplifies data fetching code. For new projects in 2026: yes, your full stack developer should use RSC via Next.js App Router. For existing projects on Next.js Pages Router: migration is optional but beneficial. A full stack developer who doesn't know RSC is working with a 2021-era mental model of Next.js."
+    },
+    {
+      "question": "How do I structure a contract with a freelance full stack developer?",
+      "answer": "Essential contract elements: (1) Project scope — specific features, not vague descriptions. (2) Deliverables — what gets handed over at each milestone. (3) Payment schedule — milestone-based (30% deposit, 40% mid-point, 30% completion). (4) IP ownership — all custom code transfers to you on final payment. (5) Bug warranty — 30–90 days post-launch, covering development-caused bugs. (6) Change request process — written requests, cost/time impact assessed before work begins. (7) Communication expectations — response times, update frequency, primary channel. (8) Termination clause — what happens if either party wants to exit. Get a lawyer to review contracts over $10,000."
+    },
+    {
+      "question": "Can a full stack developer help with performance optimization of an existing application?",
+      "answer": "Yes — performance optimization is often the highest-ROI engagement for a senior full stack developer. Common improvements: database query optimization (25–35% gains from indexing alone), Redis caching implementation (60–80% reduction in database load for read-heavy endpoints), code splitting in Next.js/React (40–60% reduction in JavaScript bundle size), image optimization (40–70% reduction in page weight), and CDN configuration (40–60% improvement in global load times). Start with a performance audit — a 2–4 hour assessment that identifies the highest-impact optimizations for your specific system — before committing to an optimization project."
+    },
+    {
+      "question": "What is the difference between Next.js and React for full stack development?",
+      "answer": "React is a UI library — it renders components in the browser (client-side). Next.js is a full stack framework built on React that adds: server-side rendering (SSR), static site generation (SSG), API routes (basic backend), file-system routing, image optimization, and deployment infrastructure. For any serious web application in 2026, Next.js (not plain React) is the right choice. React alone requires you to build or integrate routing, SSR, image optimization, and API handling separately. Next.js provides these batteries-included. A full stack developer should be working with Next.js for web application development, not raw React + custom webpack configuration."
+    },
+    {
+      "question": "What is the tech stack a senior full stack developer uses in 2026?",
+      "answer": "The production-proven 2026 full stack: Frontend — Next.js 14 App Router with React Server Components, TypeScript strict mode, Tailwind CSS, React Query for client-side data fetching, Playwright for E2E tests. Backend — FastAPI (Python) or NestJS (Node.js) with Pydantic v2 validation, SQLAlchemy 2.0, Alembic migrations, Celery for async task queues. Database — PostgreSQL 16 (primary), Redis (caching + session), pgvector for AI embeddings. DevOps — Docker + Docker Compose for local development, GitHub Actions for CI/CD, AWS or GCP for cloud hosting, Nginx reverse proxy, Sentry for error monitoring, Prometheus + Grafana for metrics. AI layer — OpenAI GPT-4o or Anthropic Claude 3.5 via API, LangChain for orchestration, Pinecone or Qdrant for vector storage, SSE streaming for AI responses. This stack handles 99% of web application requirements from startup to enterprise scale."
+    },
+    {
+      "question": "How does a full stack developer implement WebSocket real-time features with FastAPI?",
+      "answer": "FastAPI natively supports WebSockets via the WebSocket class. Architecture: (1) WebSocket endpoint in FastAPI handles connections and message routing. (2) Connection manager maintains active connections (dictionary of user_id → WebSocket). (3) For multi-server deployments (Kubernetes): Redis pub/sub distributes messages across all FastAPI instances — each server subscribes to relevant channels. (4) Celery workers publish events to Redis when background tasks complete. (5) Connection manager broadcasts to relevant connected clients. Client-side: React hooks manage WebSocket connection lifecycle, reconnection strategy, and message parsing. This pattern powers real-time dashboards, collaborative editing, live notifications, and AI response streaming at scale. For AI specifically: SSE (Server-Sent Events) is simpler than WebSockets for one-directional streaming — FastAPI's StreamingResponse with async generators handles this cleanly."
+    },
+    {
+      "question": "What is the difference between hiring a full stack developer vs hiring a software engineering team?",
+      "answer": "Single senior full stack developer: (1) Cost: $29/hr or $1,999/mo retainer. (2) Communication: direct, no handoffs. (3) Architecture: coherent, one mental model. (4) Speed on MVP: fastest (no coordination overhead). (5) Concurrency: limited — one engineer can't parallelize large feature sets. (6) Best for: startups, pre-PMF products, projects under $150K scope. Software engineering team: (1) Cost: $15,000–$50,000+/month. (2) Communication: manager overhead, coordination meetings, handoff delays. (3) Architecture: risk of inconsistency across engineers without strong tech lead. (4) Speed on MVP: slower (team ramp-up, meetings, PRs). (5) Concurrency: high — parallel feature development. (6) Best for: post-PMF products with validated market, series A+ startups, projects requiring simultaneous parallel workstreams. The most common mistake: hiring a team too early. Validate your product first with one excellent senior engineer, then scale the team when you have revenue to sustain it."
+    },
+    {
+      "question": "What security practices should a full stack developer implement by default?",
+      "answer": "OWASP Top 10 compliance is the baseline: (1) Injection prevention — parameterized queries (never string-formatted SQL), Pydantic input validation on every API endpoint. (2) Authentication — JWT with short expiry (15min access tokens), HTTP-only cookies for refresh tokens, bcrypt password hashing (never MD5/SHA1). (3) Broken access control — server-side RBAC enforcement, row-level security in PostgreSQL, never trust client-sent user IDs. (4) Security misconfiguration — environment variables for all secrets (never committed to Git), CORS configured to specific origins, security headers (HSTS, CSP, X-Frame-Options). (5) XSS — React's JSX escapes output by default; avoid dangerouslySetInnerHTML; Content-Security-Policy header. (6) CSRF — SameSite cookies, double-submit CSRF tokens for state-changing requests. (7) Rate limiting — per-IP and per-user limits on auth endpoints and costly operations. (8) Dependencies — automated security scanning (GitHub Dependabot) on every PR. Security isn't a feature to add later — it's built into every layer from day one."
+    },
+    {
+      "question": "How do I know if my existing full stack application needs a rewrite or just refactoring?",
+      "answer": "Rewrite criteria (start fresh): (1) The codebase is completely undocumented and the original developers are unavailable. (2) Adding any new feature requires touching 20+ files due to absent separation of concerns. (3) The technology choices are unsupported or unmaintained (e.g., end-of-life Node.js 10, jQuery as primary UI layer). (4) Deployment is manual and risky — no CI/CD, no tests, deployments require 4+ hour windows. Refactoring criteria (improve incrementally): (1) Core business logic is correct but the code is messy. (2) Performance problems exist but are localized (specific endpoints or queries). (3) Test coverage is poor but the architecture is sound. (4) The technology is outdated but still supported (e.g., React class components → hooks migration). Rule of thumb: if you can test-cover and then refactor within 3 months without breaking production, refactor. If you'd spend more time understanding the existing code than building the new system, rewrite. Always start with a paid architecture audit ($599) before committing to either path."
+    }
+  ]
+}

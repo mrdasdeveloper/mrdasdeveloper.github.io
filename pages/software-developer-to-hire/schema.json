@@ -1,0 +1,174 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "name": "Software Developer to Hire | Senior Full-Stack, AI, Backend & SaaS | Ramesh Das",
+      "description": "Hire Ramesh Das — a senior software developer with 6+ years building production web apps, AI systems, SaaS platforms, backend APIs, and business automation. $29/hr. Remote worldwide. 60-day warranty.",
+      "url": "https://www.rameshdas.dev/pages/software-developer-to-hire/",
+      "datePublished": "2026-07-09",
+      "dateModified": "2026-07-09",
+      "inLanguage": "en",
+      "isPartOf": { "@type": "WebSite", "url": "https://www.rameshdas.dev" },
+      "author": { "@type": "Person", "name": "Ramesh Kumar Das", "url": "https://www.rameshdas.dev" },
+      "publisher": { "@type": "Organization", "name": "Ramesh Das Dev", "url": "https://www.rameshdas.dev" }
+    },
+    {
+      "@type": "Person",
+      "name": "Ramesh Kumar Das",
+      "alternateName": "mrdasdeveloper",
+      "url": "https://www.rameshdas.dev",
+      "image": "https://www.rameshdas.dev/assets/ramesh-das-profile.jpg",
+      "jobTitle": "Senior Software Developer & AI Engineer",
+      "description": "Senior software developer with 6+ years building production web apps, AI systems, SaaS platforms, backend APIs, and business automation. Available worldwide at $29/hr.",
+      "knowsAbout": [
+        "Full-Stack Development",
+        "AI System Engineering",
+        "LangChain",
+        "LangGraph",
+        "FastAPI",
+        "Django",
+        "React 18",
+        "Next.js 14",
+        "Node.js",
+        "NestJS",
+        "PostgreSQL",
+        "Redis",
+        "SaaS Architecture",
+        "Multi-Tenancy",
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "GCP",
+        "OWASP Security",
+        "Business Automation",
+        "API Integration",
+        "Legacy Modernization"
+      ],
+      "sameAs": [
+        "https://github.com/mrdasdeveloper",
+        "https://linkedin.com/in/mrdas-developer/",
+        "https://twitter.com/mrdasdeveloper",
+        "https://www.rameshdas.dev"
+      ],
+      "worksFor": { "@type": "Organization", "name": "Ramesh Das Dev", "url": "https://www.rameshdas.dev" }
+    },
+    {
+      "@type": "ProfessionalService",
+      "name": "Software Developer to Hire — Ramesh Das",
+      "description": "Senior software developer available for hire. 6+ years building production web apps, AI systems, SaaS platforms, backend APIs, and business automation. $29/hr or $1,999/mo retainer.",
+      "url": "https://www.rameshdas.dev/pages/software-developer-to-hire/",
+      "provider": { "@type": "Person", "name": "Ramesh Kumar Das", "url": "https://www.rameshdas.dev" },
+      "areaServed": { "@type": "Place", "name": "Worldwide" },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Software Development Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Hourly Software Development",
+            "description": "Full-stack development, AI/LangChain integration, code review, architecture consulting, performance optimization. Min. 4hrs, billed weekly.",
+            "price": "29", "priceCurrency": "USD", "unitText": "HOUR",
+            "availability": "https://schema.org/InStock"
+          },
+          {
+            "@type": "Offer",
+            "name": "Monthly Software Retainer",
+            "description": "160 hrs/month dedicated senior software engineer. Full-stack + AI development, weekly updates, CI/CD maintenance, priority support.",
+            "price": "1999", "priceCurrency": "USD", "unitText": "MON",
+            "availability": "https://schema.org/InStock"
+          },
+          {
+            "@type": "Offer",
+            "name": "Fixed-Price Software Project",
+            "description": "Complete feature or product build with source code transfer, OpenAPI docs, test suite, Docker + CI/CD, 60-day warranty.",
+            "price": "4999", "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          {
+            "@type": "Offer",
+            "name": "Software Code Audit",
+            "description": "Full codebase review, OWASP security assessment, performance profiling, architecture recommendations, written report + 1-hr consultation.",
+            "price": "699", "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "HowTo",
+      "name": "How to Hire a Senior Software Developer",
+      "description": "A step-by-step guide to hiring a senior software developer for your web app, AI system, SaaS platform, or backend API project.",
+      "step": [
+        {
+          "@type": "HowToStep", "position": 1,
+          "name": "Define your project scope and technical requirements",
+          "text": "Specify: full-stack vs backend-only vs AI specialist, expected tech stack (React/FastAPI/Node.js), engagement model (hourly/retainer/fixed-price), timeline, and compliance requirements (GDPR, HIPAA, SOC2)."
+        },
+        {
+          "@type": "HowToStep", "position": 2,
+          "name": "Evaluate portfolio and GitHub evidence",
+          "text": "Check: consistent commit history, TypeScript/Python type annotations, test files in repositories, live application performance (Lighthouse, API response times), and specific technical answers in case studies."
+        },
+        {
+          "@type": "HowToStep", "position": 3,
+          "name": "Run a technical interview with high-signal questions",
+          "text": "Ask: 'How would you design a multi-tenant SaaS data model?' / 'How do you handle webhook idempotency?' / 'Walk me through debugging an intermittent production timeout.' Vague answers indicate mid-level experience."
+        },
+        {
+          "@type": "HowToStep", "position": 4,
+          "name": "Choose the right engagement model",
+          "text": "Hourly for exploratory work, retainer for ongoing product development, fixed-price for defined MVPs with written acceptance criteria. Start with a small paid trial task ($200–$500) before committing to a large engagement."
+        },
+        {
+          "@type": "HowToStep", "position": 5,
+          "name": "Agree on milestones, communication, and deliverables",
+          "text": "Define: weekly written updates, Loom demos, GitHub PR review process, staging environment access, milestone acceptance criteria, and handover deliverables (source code, docs, test suite, 60-day warranty)."
+        },
+        {
+          "@type": "HowToStep", "position": 6,
+          "name": "Handover and post-launch support",
+          "text": "Final deliverables: source code to your GitHub, API documentation, architecture diagram, test coverage report, Docker deployment config, 60-minute walkthrough, and 60-day bug warranty. Agree on retainer for ongoing development."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does it cost to hire a software developer?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Ramesh Das: $29/hr hourly, $1,999/mo retainer, from $4,999 fixed-price project, $699 code audit. Significantly below US/EU market rates ($80–$200/hr) for equivalent senior full-stack + AI expertise." }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I choose between hiring a full-stack developer vs a specialist?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Hire full-stack for startups/SMEs building MVPs under $150K where one person owns frontend + backend + DevOps. Hire specialists for large teams with parallel workstreams or deep domain needs (ML training, blockchain, native mobile). A senior full-stack developer with AI experience covers 80% of startup software needs." }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I evaluate AI and LLM claims in a software developer's portfolio?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Green flags: RAG pipeline with pgvector/Pinecone, RAGAS evaluation metrics, LangChain/LangGraph in GitHub repos, streaming SSE, production AI SaaS with real usage. Red flags: 'AI chatbot' with no RAG/vector DB mention, no prompt engineering discipline, no LLM cost management." }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I hire a freelance software developer or a software development agency?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Hire a senior freelancer for projects $5K–$150K needing direct communication and developer continuity. Hire an agency for 3+ concurrent workstreams or enterprise SLA contracts. For most startups and SMEs: a senior freelancer delivers better value." }
+        },
+        {
+          "@type": "Question",
+          "name": "What deliverables should I expect from a senior software developer at project handover?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Source code on your GitHub, README, .env.example, OpenAPI docs, database schema docs, test suite with coverage report, Docker Compose, CI/CD pipeline, architecture diagram, 60-minute walkthrough, and 60-day bug warranty." }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.rameshdas.dev" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.rameshdas.dev/pages/" },
+        { "@type": "ListItem", "position": 3, "name": "Software Developer to Hire", "item": "https://www.rameshdas.dev/pages/software-developer-to-hire/" }
+      ]
+    }
+  ]
+}

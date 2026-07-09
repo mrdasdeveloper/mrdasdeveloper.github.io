@@ -1,0 +1,242 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "name": "Hire a Senior Full Stack Developer | React, Next.js, FastAPI, AI Integration | Ramesh Das",
+      "description": "Hire Ramesh Das — a senior full stack developer with 6+ years building SaaS, AI platforms, and e-commerce with React 18, Next.js App Router, FastAPI, PostgreSQL, Docker, and OpenAI. $29/hr or $1,999/mo.",
+      "url": "https://www.rameshdas.dev/pages/hire-full-stack-developer/",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.rameshdas.dev/#person-fsd"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Ramesh Das Dev",
+        "url": "https://www.rameshdas.dev"
+      },
+      "datePublished": "2026-07-09",
+      "dateModified": "2026-07-09",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://www.rameshdas.dev"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.rameshdas.dev/#person-fsd",
+      "name": "Ramesh Kumar Das",
+      "alternateName": "Ramesh Das",
+      "url": "https://www.rameshdas.dev",
+      "jobTitle": "Senior Full Stack Developer & AI Engineer",
+      "description": "Senior full stack developer with 6+ years building production SaaS, AI platforms, and e-commerce systems using React 18, Next.js App Router, FastAPI, PostgreSQL, Docker, and OpenAI. Available for remote hire worldwide at $29/hr.",
+      "knowsAbout": [
+        "React 18",
+        "Next.js App Router",
+        "React Server Components",
+        "TypeScript",
+        "FastAPI",
+        "Node.js",
+        "NestJS",
+        "PostgreSQL",
+        "Redis",
+        "pgvector",
+        "Docker",
+        "Kubernetes",
+        "GitHub Actions",
+        "AWS",
+        "GCP",
+        "LangChain",
+        "OpenAI API",
+        "OWASP Security",
+        "Multi-tenant SaaS Architecture",
+        "Stripe Integration"
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/mrdas-developer/",
+        "https://github.com/mrdasdeveloper",
+        "https://twitter.com/rameshdas_dev"
+      ],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "KLIKY AI",
+        "url": "https://kliky.ai"
+      }
+    },
+    {
+      "@type": "ProfessionalService",
+      "name": "Hire a Senior Full Stack Developer — Ramesh Das",
+      "description": "Senior full stack development: React 18, Next.js App Router, FastAPI, PostgreSQL, Docker, AI integration, and cloud deployment. Production-quality code with 60-day warranty.",
+      "url": "https://www.rameshdas.dev/pages/hire-full-stack-developer/",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.rameshdas.dev/#person-fsd"
+      },
+      "areaServed": "Worldwide",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Full Stack Development Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Hourly Full Stack Development",
+            "description": "React/Next.js frontend, FastAPI/Node.js backend, PostgreSQL database, Docker DevOps at $29/hr.",
+            "price": "29",
+            "priceCurrency": "USD",
+            "unitText": "per hour",
+            "eligibleQuantity": {
+              "@type": "QuantitativeValue",
+              "minValue": 4,
+              "unitText": "hours"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Monthly Full Stack Retainer",
+            "description": "160 hours/month dedicated senior full stack engineering. React, FastAPI, PostgreSQL, Docker, CI/CD, AI integration, priority support.",
+            "price": "1999",
+            "priceCurrency": "USD",
+            "unitText": "per month"
+          },
+          {
+            "@type": "Offer",
+            "name": "Fixed-Price Full Stack Project",
+            "description": "Complete web application: all source code, OpenAPI documentation, deployment scripts, test suite, 60-day bug warranty, handover session.",
+            "price": "4999",
+            "priceCurrency": "USD",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "4999",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Architecture Audit",
+            "description": "3–5 day full stack architecture audit: code quality, performance bottlenecks, OWASP security, scalability assessment, database schema review, written recommendations, strategy call.",
+            "price": "599",
+            "priceCurrency": "USD"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "HowTo",
+      "name": "How to Hire a Senior Full Stack Developer — 7-Step Guide",
+      "description": "A proven process for evaluating, interviewing, and onboarding a senior full stack developer for your product.",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Define your tech stack requirements",
+          "text": "Specify the frontend framework (React/Next.js), backend language (Python/Node.js), and any specific platform requirements (AWS, GCP, mobile). This narrows the candidate pool to developers with genuine expertise in your stack."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Review GitHub portfolio for production code",
+          "text": "Request GitHub profile before any interview. Look for: multiple production projects (not tutorials), TypeScript usage, meaningful commit history over months, and real test coverage. Tutorial-clone repositories are a red flag."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Assess architecture depth, not syntax knowledge",
+          "text": "Ask: 'How would you architect a multi-tenant SaaS database?' and 'How do you debug a slow API endpoint in production?' Senior developers discuss trade-offs and systematic approaches. Junior developers describe implementations."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Request a paid trial task",
+          "text": "Pay $200–$500 for a small, well-defined task. Review the output for: code style consistency, error handling, input validation, test coverage, and documentation. The output reveals more than any interview."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Verify security practices",
+          "text": "Ask how they handle: authentication (JWT best practices), input validation (Pydantic/Zod), SQL injection prevention (parameterized queries), and secrets management (environment variables, never Git). Non-answers indicate a security gap."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "Establish milestone-based contract",
+          "text": "Define specific deliverables at each milestone (not just 'start development'). Include acceptance criteria, payment schedule (30% deposit, 40% mid, 30% completion), IP ownership clause, bug warranty, and communication expectations."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 7,
+          "name": "Onboard with complete credential access",
+          "text": "Provide: GitHub repository access, cloud platform access (read-only to start), all third-party API credentials, and a README or architecture overview. A good onboarding document saves 2–4 weeks of ramp-up time."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the tech stack a senior full stack developer uses in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The production-proven 2026 full stack: Next.js 14 App Router with React Server Components, TypeScript strict mode, Tailwind CSS, React Query. Backend: FastAPI (Python) or NestJS (Node.js) with Pydantic v2, SQLAlchemy 2.0, Alembic migrations, Celery. Database: PostgreSQL 16, Redis, pgvector for AI embeddings. DevOps: Docker, GitHub Actions CI/CD, AWS or GCP, Nginx, Sentry, Prometheus + Grafana. AI layer: OpenAI GPT-4o or Claude 3.5 via API, LangChain, Pinecone or Qdrant, SSE streaming."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What security practices should a full stack developer implement by default?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "OWASP Top 10 compliance: (1) Parameterized queries — never string-formatted SQL. (2) JWT with 15-min access tokens, HTTP-only cookies for refresh tokens. (3) Server-side RBAC enforcement, row-level security in PostgreSQL. (4) Environment variables for all secrets. (5) CORS configured to specific origins, HSTS + CSP security headers. (6) bcrypt password hashing. (7) Rate limiting on auth endpoints. (8) GitHub Dependabot for dependency scanning. Security is built in from day one, not added later."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between hiring a full stack developer vs a software engineering team?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Single senior full stack developer: $29/hr, direct communication, coherent architecture, fastest for MVP, limited concurrency. Best for pre-PMF startups and projects under $150K. Software engineering team: $15,000–$50,000+/month, coordination overhead, parallel feature development. Best for post-PMF products with validated market and series A+ funding. Most common mistake: hiring a team too early. Validate the product first with one excellent senior engineer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I know if my existing full stack application needs a rewrite or just refactoring?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rewrite when: codebase is completely undocumented, every new feature requires touching 20+ files, technology is end-of-life, deployments are manual and risky. Refactor when: core logic is correct but messy, performance problems are localized, test coverage is poor but architecture is sound. Rule of thumb: if you can test-cover and refactor within 3 months without breaking production, refactor. Always start with a paid architecture audit ($599) before committing to either path."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does a full stack developer implement WebSocket real-time features with FastAPI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "FastAPI natively supports WebSockets. Architecture: (1) WebSocket endpoint handles connections and routing. (2) Connection manager maintains active connections per user. (3) Redis pub/sub distributes messages across multiple server instances for Kubernetes deployments. (4) Celery workers publish events to Redis when background tasks complete. For AI specifically: SSE (Server-Sent Events) is simpler than WebSockets for one-directional streaming — FastAPI's StreamingResponse with async generators handles this cleanly."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.rameshdas.dev"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Pages",
+          "item": "https://www.rameshdas.dev/pages/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Hire a Senior Full Stack Developer",
+          "item": "https://www.rameshdas.dev/pages/hire-full-stack-developer/"
+        }
+      ]
+    }
+  ]
+}

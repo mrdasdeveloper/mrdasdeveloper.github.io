@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.rameshdas.dev"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Pages",
+      "item": "https://www.rameshdas.dev/pages/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Hire a Senior Node.js Developer",
+      "item": "https://www.rameshdas.dev/pages/hire-nodejs-developer/"
+    }
+  ]
+}

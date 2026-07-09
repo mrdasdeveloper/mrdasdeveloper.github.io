@@ -1,0 +1,204 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "name": "Hire a Senior AI Automation Engineer | LangChain, LangGraph, Python, GPT-4o & Agentic AI | Ramesh Das",
+      "description": "Hire Ramesh Das — a senior AI automation engineer with 6+ years building LLM-powered workflows, agentic AI systems, RAG pipelines, Python business automation, and production AI agents. $29/hr or $1,999/mo.",
+      "url": "https://www.rameshdas.dev/pages/ai-automation-engineer/",
+      "datePublished": "2026-07-09",
+      "dateModified": "2026-07-09",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://www.rameshdas.dev",
+        "name": "Ramesh Das — AI Automation Engineer"
+      },
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.rameshdas.dev/#person",
+        "name": "Ramesh Kumar Das",
+        "url": "https://www.rameshdas.dev"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Ramesh Das Dev",
+        "url": "https://www.rameshdas.dev"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.rameshdas.dev"},
+          {"@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.rameshdas.dev/pages/"},
+          {"@type": "ListItem", "position": 3, "name": "AI Automation Engineer", "item": "https://www.rameshdas.dev/pages/ai-automation-engineer/"}
+        ]
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.rameshdas.dev/#person",
+      "name": "Ramesh Kumar Das",
+      "alternateName": ["Ramesh Das", "mrdasdeveloper"],
+      "description": "Senior AI Automation Engineer and Agentic AI Developer with 6+ years building production LangChain agents, RAG pipelines, and Python business automation. Lead AI Developer at KLIKY AI.",
+      "url": "https://www.rameshdas.dev",
+      "email": "hello@rameshdas.dev",
+      "telephone": "+977-9748021127",
+      "jobTitle": "Senior AI Automation Engineer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "KLIKY AI"
+      },
+      "knowsAbout": [
+        "LangChain",
+        "LangGraph",
+        "Agentic AI Systems",
+        "RAG Pipeline Engineering",
+        "LLM Orchestration",
+        "Python Automation",
+        "Celery",
+        "FastAPI",
+        "OpenAI GPT-4o",
+        "Anthropic Claude",
+        "Google Gemini",
+        "RAGAS Evaluation",
+        "Business Process Automation"
+      ],
+      "sameAs": [
+        "https://github.com/mrdasdeveloper",
+        "https://linkedin.com/in/mrdas-developer/",
+        "https://www.rameshdas.dev"
+      ]
+    },
+    {
+      "@type": "ProfessionalService",
+      "name": "AI Automation Engineering Services",
+      "description": "Production-grade AI automation engineering: LangChain agentic workflows, RAG pipelines, Python business process automation, LLM orchestration, and RAGAS-evaluated AI systems. Built by Ramesh Das — senior AI automation engineer with 6+ years of production experience.",
+      "url": "https://www.rameshdas.dev/pages/ai-automation-engineer/",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.rameshdas.dev/#person"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Worldwide"
+      },
+      "availableChannel": {
+        "@type": "ServiceChannel",
+        "serviceUrl": "https://www.rameshdas.dev/contact.html",
+        "servicePhone": "+977-9748021127"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "AI Automation Engineering Pricing",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Hourly AI Automation Engineering",
+            "price": "29",
+            "priceCurrency": "USD",
+            "description": "Per-hour AI automation engineering — LangChain, RAG, Python automation. Minimum 4 hours.",
+            "priceValidUntil": "2027-01-01"
+          },
+          {
+            "@type": "Offer",
+            "name": "Monthly AI Automation Retainer",
+            "price": "1999",
+            "priceCurrency": "USD",
+            "description": "160 hrs/month dedicated senior AI automation engineer. Priority response, weekly reports.",
+            "priceValidUntil": "2027-01-01"
+          },
+          {
+            "@type": "Offer",
+            "name": "AI Automation Project",
+            "price": "4999",
+            "priceCurrency": "USD",
+            "description": "Full AI automation project build — LangChain agents, RAG, monitoring. 4–8 weeks, milestone-based.",
+            "priceValidUntil": "2027-01-01"
+          },
+          {
+            "@type": "Offer",
+            "name": "AI Workflow Audit",
+            "price": "699",
+            "priceCurrency": "USD",
+            "description": "5–7 day written audit of existing AI automation — cost optimisation, hallucination risk, monitoring gaps.",
+            "priceValidUntil": "2027-01-01"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "HowTo",
+      "name": "How to Hire an AI Automation Engineer in 2026",
+      "description": "Step-by-step guide to evaluating and hiring a senior AI automation engineer for production LangChain, RAG, and Python automation projects.",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Define the automation scope",
+          "text": "Document the manual workflow you want to automate: inputs, outputs, frequency, current error rate, and estimated time cost. Identify whether it requires AI judgment (use LangChain) or is purely mechanical (use Python scripts)."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Evaluate production experience",
+          "text": "Ask for GitHub repositories showing production LangChain or LangGraph code — not just tutorials. Look for: Pydantic output validation, retry logic, Celery task queues, cost monitoring, and RAGAS evaluation."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Assess RAG pipeline depth",
+          "text": "Ask: 'How do you evaluate retrieval quality in a RAG system?' The answer should mention RAGAS metrics (faithfulness, answer relevance, context precision) and RAGAS evaluation pipelines — not just 'I test it manually.'"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Verify monitoring and observability",
+          "text": "Production AI automation without monitoring is a liability. Ask: 'How do you track LLM costs per workflow run?' and 'How do you detect quality degradation over time?' Correct answers involve LLM call logging, cost dashboards, and quality metric tracking."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Agree on deliverables and warranty",
+          "text": "Confirm the project includes: GitHub repository transfer, architecture documentation, runbook, monitoring setup, and a minimum 30-day (ideally 60-day) bug warranty. Get everything in writing before starting."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does it cost to hire an AI automation engineer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI automation engineering rates: Junior: $30–$60/hr. Mid-level: $60–$120/hr. Senior (production agentic AI, RAG evaluation, observability): $100–$250/hr at agencies. Ramesh Das: $29/hr direct, $1,999/mo retainer. Project-based: from $4,999. No-code alternatives (Zapier, Make) cost $29–$800/month but lack custom AI capability."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best AI automation framework in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LangChain for single-agent workflows and RAG pipelines. LangGraph for complex stateful multi-agent workflows. LlamaIndex for document-heavy RAG. CrewAI for multi-agent role-based collaboration. In practice: most production AI automation uses LangChain + LangGraph as the base."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is agentic AI automation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Agentic AI: the AI decides what steps to take based on goals and available tools — without a fixed sequence. The agent perceives the environment, reasons, takes actions (tool calls), observes results, and continues until the goal is achieved. More powerful than fixed automation but requires rigorous production engineering to be reliable."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.rameshdas.dev"},
+        {"@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.rameshdas.dev/pages/"},
+        {"@type": "ListItem", "position": 3, "name": "Hire a Senior AI Automation Engineer", "item": "https://www.rameshdas.dev/pages/ai-automation-engineer/"}
+      ]
+    }
+  ]
+}

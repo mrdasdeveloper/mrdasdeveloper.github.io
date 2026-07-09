@@ -1,0 +1,215 @@
+{
+  "slug": "website-developer",
+  "h1": "Hire a Senior Website Developer",
+  "subtitle": "Next.js 14 · Core Web Vitals 90+ · WCAG 2.1 AA · Technical SEO · Headless CMS · Mobile-First",
+  "url": "https://www.rameshdas.dev/pages/website-developer/",
+  "chips": [
+    "Next.js 14 App Router",
+    "React 18 + TypeScript",
+    "Core Web Vitals 90+",
+    "Lighthouse 90+ Target",
+    "WCAG 2.1 AA",
+    "Technical SEO (JSON-LD)",
+    "Headless CMS (Sanity/Contentful)",
+    "Mobile-First Design",
+    "Tailwind CSS + Framer Motion",
+    "Vercel / CloudFront CDN",
+    "6+ Years",
+    "$29/hr"
+  ],
+  "stats": [
+    { "val": "90+", "lbl": "Lighthouse Score Target" },
+    { "val": "< 2s", "lbl": "LCP Target (Mobile)" },
+    { "val": "100%", "lbl": "Mobile-First Design" },
+    { "val": "WCAG", "lbl": "2.1 AA Accessibility" }
+  ],
+  "trust_signals": [
+    "Lighthouse 90+ mobile score on every website — measured, not promised",
+    "Technical SEO built in: JSON-LD on every page type, SSR/SSG, XML sitemap, hreflang",
+    "WCAG 2.1 AA accessibility — tested with axe DevTools and keyboard navigation",
+    "Complete handover: Figma files, source code, deployment scripts, CMS editor docs",
+    "No templates, no ThemeForest — 100% custom Next.js code you own",
+    "CMS training included — your team manages content without ongoing developer dependency",
+    "60-day post-launch bug warranty on all fixed-price projects"
+  ],
+  "technologies": {
+    "Frontend Framework": [
+      "Next.js 14 App Router + RSC",
+      "React 18",
+      "TypeScript 5 (strict)",
+      "Tailwind CSS",
+      "Framer Motion",
+      "next/image (WebP/AVIF)"
+    ],
+    "CMS (Headless)": [
+      "Sanity.io (real-time, portable text)",
+      "Contentful (enterprise CMS)",
+      "Strapi (self-hosted, open-source)",
+      "WordPress (headless via REST API)",
+      "Custom CMS (FastAPI + React admin)"
+    ],
+    "Performance": [
+      "WebP / AVIF image optimization",
+      "next/image responsive srcset",
+      "Lighthouse CI in GitHub Actions",
+      "Core Web Vitals (LCP, CLS, INP)",
+      "CDN (Vercel Edge / CloudFront)",
+      "Code splitting + tree shaking"
+    ],
+    "SEO": [
+      "JSON-LD / Schema.org (all page types)",
+      "next/seo + metadata API",
+      "XML Sitemap auto-generation",
+      "OpenGraph + Twitter Cards",
+      "hreflang (multilingual)",
+      "Canonical URLs + robots.txt"
+    ],
+    "Analytics & Tracking": [
+      "Google Analytics 4",
+      "Google Search Console setup",
+      "Meta Pixel",
+      "Hotjar / Microsoft Clarity",
+      "Conversion tracking"
+    ],
+    "DevOps": [
+      "Vercel (primary deployment)",
+      "Netlify",
+      "GitHub Actions CI/CD",
+      "AWS CloudFront CDN",
+      "Nginx",
+      "Lighthouse CI gates"
+    ]
+  },
+  "pricing": [
+    {
+      "type": "Hourly",
+      "rate": "$29",
+      "period": "Per hour · Min. 4hrs · Async delivery",
+      "features": [
+        "Next.js / React development",
+        "CMS integration",
+        "Performance optimization",
+        "SEO technical implementation",
+        "Accessibility fixes",
+        "Billed weekly via invoice"
+      ]
+    },
+    {
+      "type": "Business Website",
+      "rate": "From $2,999",
+      "period": "3–5 weeks · Fixed scope",
+      "features": [
+        "Up to 10 pages",
+        "Headless CMS integration",
+        "Lighthouse 90+ mobile",
+        "WCAG 2.1 AA",
+        "JSON-LD on all pages",
+        "GA4 + Search Console setup",
+        "60-day bug warranty"
+      ]
+    },
+    {
+      "type": "E-Commerce Website",
+      "rate": "From $5,999",
+      "period": "5–8 weeks · Milestone-based",
+      "features": [
+        "Product catalog + Stripe checkout",
+        "CMS for product management",
+        "Schema.org Product markup",
+        "Mobile-optimized checkout",
+        "Order confirmation emails",
+        "Admin order dashboard",
+        "60-day bug warranty"
+      ]
+    },
+    {
+      "type": "Monthly Maintenance",
+      "rate": "From $499",
+      "period": "Per month · Cancel anytime",
+      "features": [
+        "Uptime monitoring + alerts",
+        "Security updates (dependencies)",
+        "Core Web Vitals monitoring",
+        "Backup and restore",
+        "Content update hours included",
+        "Monthly performance report"
+      ]
+    }
+  ],
+  "industries": [
+    "Small Business",
+    "E-Commerce",
+    "Healthcare",
+    "Government & Non-Profit",
+    "Education",
+    "Restaurants",
+    "Professional Services",
+    "Real Estate",
+    "Creative & Portfolio",
+    "Media & Publishing",
+    "Travel & Hospitality",
+    "SaaS Marketing Sites"
+  ],
+  "case_studies": [
+    {
+      "title": "SaaS Marketing Site — Next.js + Sanity CMS",
+      "industry": "SaaS",
+      "stack": ["Next.js 14", "Sanity.io", "Tailwind CSS", "Framer Motion", "Vercel"],
+      "challenge": "SaaS startup needed a fast, SEO-optimized marketing site with a CMS their non-technical team could manage independently.",
+      "solution": "Next.js App Router with SSG, Sanity.io CMS with real-time preview, JSON-LD on all page types, Lighthouse 94 mobile score, Vercel deployment.",
+      "result_lighthouse": "94 mobile Lighthouse",
+      "result_lcp": "1.4s LCP (mobile)",
+      "result_cms": "Team manages content independently"
+    },
+    {
+      "title": "E-Commerce — Next.js + Stripe + Headless CMS",
+      "industry": "E-Commerce",
+      "stack": ["Next.js", "Stripe", "Sanity.io", "Tailwind CSS", "Vercel", "GA4"],
+      "challenge": "Small e-commerce brand needed a fast, SEO-optimized store to replace their slow Shopify theme (Lighthouse 42 mobile).",
+      "solution": "Custom Next.js storefront with Stripe checkout, Sanity CMS for product management, Schema.org Product markup, image optimization via next/image.",
+      "result_lighthouse": "42 → 91 mobile Lighthouse",
+      "result_conversion": "+23% checkout conversion",
+      "result_lcp": "1.8s LCP (mobile)"
+    },
+    {
+      "title": "Healthcare Practice — WCAG 2.1 AA + Local SEO",
+      "industry": "Healthcare",
+      "stack": ["Next.js", "Contentful", "Tailwind CSS", "JSON-LD", "Vercel"],
+      "challenge": "Healthcare practice needed an accessible website (WCAG 2.1 AA legal requirement) with local SEO for 'doctors near me' searches.",
+      "solution": "Next.js with WCAG 2.1 AA compliance (axe DevTools verified), LocalBusiness + MedicalBusiness JSON-LD, hreflang for multilingual patients, Core Web Vitals 90+.",
+      "result_accessibility": "0 axe violations",
+      "result_lighthouse": "92 mobile Lighthouse",
+      "result_local_seo": "Page 1 for 8 local keywords"
+    }
+  ],
+  "website_stack": {
+    "nextjs_rendering": {
+      "ssg": { "best_for": "Marketing sites, blogs, portfolios", "pros": ["Fastest load", "CDN-cacheable", "Best SEO"], "cons": ["Rebuild required for content changes (unless ISR)"] },
+      "ssr": { "best_for": "Personalized content, auth-gated pages", "pros": ["Fresh data on every request", "Good SEO"], "cons": ["Slower than SSG", "Server required"] },
+      "isr": { "best_for": "E-commerce, news, frequently updated content", "pros": ["SSG speed + fresh data", "Revalidate on interval"], "cons": ["Stale content between revalidations"] }
+    },
+    "cms_comparison": {
+      "sanity": { "best_for": "Marketing sites, blogs, real-time preview", "pros": ["Real-time collaboration", "Portable text", "GROQ queries"], "cons": ["Learning curve for content editors"] },
+      "contentful": { "best_for": "Enterprise, large content teams", "pros": ["Mature API", "Enterprise features", "GraphQL"], "cons": ["Higher cost at scale"] },
+      "strapi": { "best_for": "Self-hosted, full control", "pros": ["Open-source", "Self-hosted", "Customizable"], "cons": ["Requires DevOps maintenance"] }
+    }
+  },
+  "internal_links": [
+    "/pages/best-custom-website-developer/",
+    "/pages/hire-full-stack-developer/",
+    "/custom-web-development-seo.html",
+    "/custom-web-development-mobile.html",
+    "/custom-web-development-cms-integration.html",
+    "/hire-custom-web-development-company.html",
+    "/custom-web-development-pricing.html",
+    "/custom-web-development-security.html",
+    "/custom-web-development-deliverables.html",
+    "/services.html",
+    "/hire-developers-usa.html",
+    "/hire-developers-uk.html",
+    "/hire-developers-australia.html",
+    "/hire-developers-canada.html",
+    "/contact.html"
+  ],
+  "updated": "2026-07-09"
+}
