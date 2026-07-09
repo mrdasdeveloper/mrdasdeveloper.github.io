@@ -1,7 +1,7 @@
 {
   "slug": "ai-automation-engineer",
   "h1": "Hire a Senior AI Automation Engineer",
-  "subtitle": "LangChain · LangGraph · Agentic AI · Python Automation · LLM Workflows · RAG Pipelines · MCP",
+  "subtitle": "LangChain · Agentic AI · Python Automation · LLM Workflows · RPA · FastAPI",
   "url": "https://www.rameshdas.dev/pages/ai-automation-engineer/",
   "chips": [
     "LangChain / LangGraph",
@@ -9,12 +9,9 @@
     "Agentic AI",
     "LLM Orchestration",
     "RAG Pipelines",
-    "MCP Ready",
-    "Celery / Redis",
-    "RAGAS Evaluation",
-    "GPT-4o / Claude / Gemini",
-    "6+ Years",
-    "$29/hr"
+    "Celery",
+    "MCP",
+    "6+ Years"
   ],
   "stats": [
     {
@@ -34,16 +31,6 @@
       "lbl": "Autonomous Workflow Uptime"
     }
   ],
-  "trust_signals": [
-    "✅ Production LangChain at KLIKY AI",
-    "✅ RAGAS-Evaluated RAG Pipelines",
-    "✅ LLM Cost Monitoring Built-In",
-    "✅ Human-in-the-Loop Patterns",
-    "✅ Fault-Tolerant Retry Logic",
-    "✅ MCP (Model Context Protocol) Ready",
-    "✅ OpenAI + Claude + Gemini + Ollama",
-    "✅ 60-Day Bug Warranty"
-  ],
   "technologies": {
     "AI Frameworks": [
       "LangChain",
@@ -56,12 +43,11 @@
     ],
     "LLM APIs": [
       "OpenAI GPT-4o",
-      "Anthropic Claude 3.5",
-      "Google Gemini 1.5 Pro",
+      "Claude 3.5",
+      "Gemini 1.5 Pro",
       "Ollama (local)",
       "Groq",
-      "Mistral",
-      "DeepSeek"
+      "Mistral"
     ],
     "Vector Databases": [
       "pgvector",
@@ -76,77 +62,44 @@
       "Scrapy",
       "Playwright",
       "PyMuPDF",
-      "Tesseract OCR",
-      "Pandas"
+      "Tesseract"
     ],
-    "Evaluation & Observability": [
+    "Evaluation": [
       "RAGAS",
       "TruLens",
       "LangSmith",
-      "Promptfoo",
-      "OpenTelemetry",
-      "Sentry",
-      "Datadog"
+      "Promptfoo"
     ],
-    "Backend & DevOps": [
-      "FastAPI",
+    "DevOps": [
       "Docker",
       "Kubernetes",
       "GitHub Actions",
       "AWS",
       "GCP",
       "Redis",
-      "PostgreSQL"
+      "Sentry"
     ]
   },
   "pricing": [
     {
       "type": "Hourly",
       "rate": "$29",
-      "period": "Per hour · Min. 4hrs · Async delivery",
-      "features": [
-        "LangChain / LangGraph development",
-        "RAG pipeline engineering",
-        "Python automation scripting",
-        "LLM API integration",
-        "Code review & audit"
-      ]
+      "period": "Per hour · Min. 4hrs · Async delivery"
     },
     {
       "type": "Monthly Retainer",
       "rate": "$1,999",
-      "period": "160 hrs/month · Dedicated senior engineer",
-      "features": [
-        "Full-time equivalent capacity",
-        "Priority response (< 4hr)",
-        "Weekly progress reports",
-        "Unlimited revisions",
-        "Direct Slack / WhatsApp access"
-      ]
+      "period": "160 hrs/month · Dedicated senior engineer"
     },
     {
       "type": "AI Automation Project",
       "rate": "From $4,999",
-      "period": "4–8 weeks · Milestone-based",
-      "features": [
-        "Full workflow design & build",
-        "LLM + RAG integration",
-        "Monitoring & observability",
-        "Documentation & runbooks",
-        "60-day bug warranty"
-      ]
+      "period": "4–8 weeks · Milestone-based"
     },
     {
       "type": "AI Workflow Audit",
       "rate": "$699",
-      "period": "5–7 days · Written report",
-      "features": [
-        "Existing workflow review",
-        "Cost optimisation analysis",
-        "Hallucination risk assessment",
-        "Monitoring gaps identified",
-        "Prioritised fix roadmap"
-      ]
+      "period": "5–7 days · Written report"
     }
   ],
   "industries": [
@@ -155,58 +108,13 @@
     "E-Commerce",
     "Legal",
     "Enterprise",
-    "Marketing & Advertising",
+    "Marketing",
     "EdTech",
-    "Manufacturing & Supply Chain",
+    "Manufacturing",
     "Media & Publishing",
     "SaaS Products",
-    "Real Estate & PropTech",
-    "Compliance & Risk",
-    "HR & Recruitment",
-    "Insurance"
-  ],
-  "case_studies": [
-    {
-      "title": "WinstaAI — Production Agentic AI SaaS",
-      "type": "Flagship Project",
-      "stack": ["LangChain", "LangGraph", "FastAPI", "GPT-4o", "PostgreSQL", "Celery", "Kubernetes"],
-      "description": "Multi-agent agentic AI SaaS at KLIKY AI. Autonomous content workflows, multi-model LLM routing, Celery-based async pipelines, cost monitoring, and RAGAS-evaluated RAG.",
-      "metrics": [
-        {"val": "10+", "lbl": "LLM Agents Deployed"},
-        {"val": "80%", "lbl": "Manual Work Eliminated"},
-        {"val": "24/7", "lbl": "Autonomous Uptime"}
-      ]
-    },
-    {
-      "title": "Customer Support AI Automation",
-      "type": "Typical Project",
-      "stack": ["LangChain", "RAG", "pgvector", "Zendesk API", "FastAPI"],
-      "description": "RAG-powered support bot grounded in product documentation. Intent classification, confidence-threshold escalation to human agents, Zendesk ticket integration.",
-      "metrics": [
-        {"val": "65%", "lbl": "Tickets Auto-Resolved"},
-        {"val": "2-4wk", "lbl": "Typical Build Time"},
-        {"val": "0", "lbl": "Hallucinated Answers (with guardrails)"}
-      ]
-    },
-    {
-      "title": "Document Processing Pipeline",
-      "type": "Typical Project",
-      "stack": ["PyMuPDF", "Tesseract", "GPT-4o", "Pydantic", "Celery", "PostgreSQL"],
-      "description": "Automated PDF invoice extraction, classification, and ERP routing. Structured output validation with Pydantic, dead-letter queues for failed extractions.",
-      "metrics": [
-        {"val": "95%", "lbl": "Extraction Accuracy"},
-        {"val": "1-2wk", "lbl": "Build Time"},
-        {"val": "0", "lbl": "Vendor Lock-In"}
-      ]
-    }
-  ],
-  "interview_questions": [
-    "What LangChain agent patterns have you shipped in production (not just tutorials)?",
-    "How do you handle LLM API rate limits and transient failures in a production queue?",
-    "What is your approach to RAG evaluation — how do you measure retrieval quality?",
-    "How do you implement cost monitoring for multi-model LLM workflows?",
-    "What does your output validation pattern look like for structured LLM responses?",
-    "How do you design human-in-the-loop approval for high-stakes AI actions?"
+    "Real Estate",
+    "Compliance & Risk"
   ],
   "internal_links": [
     "/agentic-ai-developer.html",

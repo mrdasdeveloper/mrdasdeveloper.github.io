@@ -1,5 +1,5 @@
 {
-  "count": 26,
+  "count": 20,
   "faqs": [
     {
       "question": "What's the best platform to hire a remote software engineer for a startup project?",
@@ -80,30 +80,6 @@
     {
       "question": "What programming languages are most in-demand for remote software engineers?",
       "answer": "Most in-demand languages for remote engineering in 2026: (1) Python — AI/ML integration, FastAPI/Django backends, data processing (highest demand growth). (2) TypeScript — React frontends, Next.js, Node.js backends. (3) JavaScript — web development, Node.js. (4) Go — high-performance microservices, cloud-native tools. (5) Rust — systems programming, WebAssembly, high-performance applications. (6) SQL — database management (universal requirement across all engineering roles). The Python + TypeScript combination is the most versatile for a single remote engineer who wants to serve the widest range of clients — covering AI backends, REST APIs, and React frontends."
-    },
-    {
-      "question": "What does an async-first remote engineering workflow look like in practice?",
-      "answer": "Async-first workflow structure: (1) Written spec before any code — requirements documented in Notion or GitHub issue with acceptance criteria. (2) Daily async Slack updates (not meetings) — 'completed X, working on Y, blocked on Z.' (3) Weekly written status report — completed tasks with PR links, in-progress with % estimate, blockers with proposed solutions, next week plan. (4) Friday Loom demo — 5–10 minute async video walkthrough of the week's work. (5) GitHub PRs for all code — reviewed within 24 hours, never direct commits to main. (6) Linear/GitHub Projects for task tracking — visible to the whole team without asking. This workflow produces more documentation and accountability than daily standup meetings, and works across any timezone difference."
-    },
-    {
-      "question": "How do you handle timezone differences when working with US or EU clients?",
-      "answer": "Timezone strategy (based in Nepal, UTC+5:45): US East Coast overlap: 6:30 PM – 10:30 PM NPT (8:45 AM – 12:45 PM EST) — available for synchronous calls 2–3 days/week if needed. US West Coast overlap: 9:30 PM – 1:30 AM NPT (8:00 AM – 12:00 PM PST). UK/EU overlap: 2:30 PM – 6:30 PM NPT (9:00 AM – 1:00 PM GMT) — strong overlap for European clients. The key principle: async-first means timezone differences are a feature, not a bug. Work submitted at end of Nepal day is ready for US/EU review at start of their day — creating a 24-hour development cycle without anyone working nights."
-    },
-    {
-      "question": "What should a weekly written update from a remote engineer include?",
-      "answer": "A professional weekly update has 5 sections: (1) Completed this week — specific tasks with GitHub PR links (not vague 'worked on backend'). (2) In progress — current task with % complete estimate and expected completion date. (3) Blockers — anything preventing progress, with a proposed solution (not just 'waiting for client'). (4) Next week plan — specific tasks with acceptance criteria for each. (5) Loom demo link — 5–10 minute async video showing the week's work in the running application. This format gives founders and product managers full visibility without a single meeting. A remote engineer who can't produce this format consistently will create anxiety — ask for a sample update before hiring."
-    },
-    {
-      "question": "How do I securely onboard a remote software engineer to my codebase?",
-      "answer": "Secure remote onboarding checklist: (1) Sign NDA and IP assignment agreement before any code access. (2) GitHub access — invite to repository with 'Write' permission (not Admin) on a feature branch workflow. (3) AWS/GCP access — IAM role with minimum required permissions (principle of least privilege). (4) Secrets — add to 1Password/Bitwarden shared vault, never share via Slack or email. (5) Staging environment access only initially — production access after trust is established. (6) Enable GitHub branch protection — no direct commits to main, required PR reviews. (7) First task: a small, well-defined bug fix or feature (not a large vague task) — their first PR reveals working style and code quality."
-    },
-    {
-      "question": "When should I hire a remote engineer on retainer vs. hourly vs. fixed-price?",
-      "answer": "Engagement model guide: Hourly ($29/hr): best for exploratory work, code reviews, audits, or undefined scope where you want flexibility. Minimum 4-hour blocks. Monthly retainer ($1,999/mo, 160 hrs): best for ongoing product development with consistent 40hr/week needs — provides dedicated availability, built-up system knowledge, and predictable cost. Fixed-price (from $5,499): best for defined features or MVPs with clear acceptance criteria — aligns incentives (developer delivers scope, you pay on milestone approval). Rule of thumb: pre-PMF startup with uncertain scope → hourly. Post-PMF with consistent roadmap → retainer. Defined feature with clear spec → fixed-price. Most successful long-term remote relationships use a retainer after an initial fixed-price MVP engagement."
-    },
-    {
-      "question": "What remote collaboration tools does Ramesh Das use?",
-      "answer": "Standard remote toolchain: GitHub (code, PRs, issues, CI/CD via Actions), Slack or WhatsApp (daily async communication), Linear or GitHub Projects (task tracking with sprint visibility), Notion (architecture docs, runbooks, decision records), Loom (async video demos — no scheduling required), Figma (design handoff review). Ramesh adapts to your existing tools — no requirement to adopt new infrastructure. The only non-negotiable: all code changes via GitHub PRs with CI checks passing before merge. Everything else (Jira vs. Linear, Slack vs. Discord, Notion vs. Confluence) is flexible to match your team's existing workflow."
     }
   ]
 }

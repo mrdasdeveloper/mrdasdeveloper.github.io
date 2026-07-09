@@ -1,5 +1,5 @@
 {
-  "count": 26,
+  "count": 21,
   "faqs": [
     {
       "question": "What is the best Node.js developer for startup projects?",
@@ -84,26 +84,6 @@
     {
       "question": "What is the best Node.js developer for mobile app backend support?",
       "answer": "A Node.js developer who can build mobile app backends should have: (1) RESTful API design experience (versioning, pagination, filtering, consistent error responses). (2) JWT authentication for stateless mobile auth sessions. (3) Push notification integration (Expo Push Notifications, FCM, APNs via node-apn). (4) File upload handling (multer for direct upload, presigned S3 URLs for direct client upload). (5) WebSocket support (for real-time features: chat, live notifications). (6) Offline sync patterns (conflict resolution for data written offline). Express or NestJS both work well for mobile backends — NestJS is recommended for APIs that will be maintained and extended by a team over years."
-    },
-    {
-      "question": "How does NestJS dependency injection work and why does it matter?",
-      "answer": "NestJS uses a module-based dependency injection (DI) container inspired by Angular. Every class (services, repositories, guards, interceptors) is decorated with @Injectable() and registered in a Module's providers array. NestJS resolves and instantiates dependencies automatically at startup — you declare what you need in the constructor, and NestJS injects it. Why it matters: (1) Testability — you can inject mock services in unit tests without globals or module-level mocking hacks. (2) Separation of concerns — business logic lives in Services, HTTP handling in Controllers, data access in Repositories. (3) Modularity — feature modules (AuthModule, BillingModule, UserModule) are independently developed and tested. (4) Lifecycle hooks — onModuleInit, onApplicationBootstrap allow initialization logic. NestJS's DI is the #1 reason to choose it over Express for any project that will grow beyond 3 engineers or 20+ endpoints."
-    },
-    {
-      "question": "What is BullMQ and how does it differ from the original Bull library?",
-      "answer": "BullMQ is the modern successor to the original Bull job queue library for Node.js, both backed by Redis. Key differences: (1) BullMQ is fully TypeScript-native (Bull was retrofitted with types). (2) BullMQ has a redesigned API with Job flows — parent/child job dependencies (complete Job B only after Job A succeeds). (3) BullMQ separates Queue (producer) and Worker (consumer) into distinct classes, enabling better separation of concerns. (4) BullMQ has native rate limiting per queue. (5) BullMQ has improved metrics and monitoring via BullMQ Board or Bull-Board UI. When to use BullMQ: sending transactional emails, processing file uploads, running AI inference jobs, scheduled reports (with QueueScheduler), and any operation that should not block an API response. Best practice: always set a maxStalledCount and backoff configuration on every worker to prevent infinite retries on broken jobs."
-    },
-    {
-      "question": "How do you architect a Node.js API to handle 100,000 concurrent users?",
-      "answer": "Architecture checklist for 100k concurrent users with Node.js: (1) Horizontal scaling — multiple Node.js instances behind a load balancer (AWS ALB or Nginx). Node.js is single-threaded, so one instance = one CPU core. Use Kubernetes HPA to scale pods based on CPU/memory. (2) Stateless design — JWT auth so any instance can handle any request. No server-side sessions (or use Redis session store). (3) Database — PostgreSQL with read replicas (route read queries to replicas). PgBouncer for connection pooling (Node instances × connection pool size must stay under PostgreSQL max_connections). (4) Redis caching — cache product catalog, user profiles, permissions at Redis layer. Cache-aside pattern with TTL. (5) CDN — CloudFront or Cloudflare for static assets, reducing origin load. (6) Rate limiting — express-rate-limit with Redis store to share rate limit state across instances. (7) Event loop — no CPU-heavy synchronous work in the main process; offload to BullMQ workers or separate worker threads."
-    },
-    {
-      "question": "What is Prisma ORM and when should I use TypeORM instead?",
-      "answer": "Prisma is a modern Node.js/TypeScript ORM with a schema-first approach (schema.prisma file), type-safe auto-generated client, and built-in migration tooling (prisma migrate). TypeORM is a more traditional Active Record/Data Mapper ORM with decorator-based entity definitions, closer to Java-style Hibernate. Choose Prisma when: (1) Starting a new project — best developer experience in 2026 (2) You want fully type-safe queries auto-generated from schema (3) You want a visual schema browser (Prisma Studio). (4) You want simple, predictable migrations. Choose TypeORM when: (1) Your project is already on TypeORM (migration cost not worth it). (2) You specifically need NestJS @InjectRepository() pattern that TypeORM integrates with cleanly (Prisma also integrates with NestJS but requires more manual setup). Red flag: Sequelize for new TypeScript projects — it has poor TypeScript support compared to Prisma."
-    },
-    {
-      "question": "How do Node.js developers implement streaming APIs for AI applications?",
-      "answer": "Streaming AI responses from LLMs (OpenAI, Claude) to clients in Node.js: two main approaches: (1) Server-Sent Events (SSE): the server sends a text/event-stream response where each OpenAI stream chunk is pushed as an SSE event. The client uses EventSource to receive events. SSE is unidirectional (server → client), simpler to implement, and works through standard HTTP/2. (2) WebSockets: bidirectional — the client sends a message, the server streams back AI tokens over the WebSocket connection. Better when the client also needs to send mid-stream updates. Implementation in Node.js: with Express, set headers manually (Content-Type: text/event-stream, X-Accel-Buffering: no for Nginx). With NestJS, use the @Sse() decorator with an Observable stream. OpenAI Node SDK v4 has native streaming: for await (const chunk of stream) { res.write(chunk) }. Always handle client disconnect events (req.on('close')) to abort the upstream OpenAI request and avoid unnecessary token spend."
     }
   ]
 }

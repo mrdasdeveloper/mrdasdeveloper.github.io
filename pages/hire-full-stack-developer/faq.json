@@ -1,5 +1,5 @@
 {
-  "count": 46,
+  "count": 41,
   "faqs": [
     {
       "question": "What is the best platform to hire a full stack developer for a startup project?",
@@ -164,26 +164,6 @@
     {
       "question": "What is the difference between Next.js and React for full stack development?",
       "answer": "React is a UI library — it renders components in the browser (client-side). Next.js is a full stack framework built on React that adds: server-side rendering (SSR), static site generation (SSG), API routes (basic backend), file-system routing, image optimization, and deployment infrastructure. For any serious web application in 2026, Next.js (not plain React) is the right choice. React alone requires you to build or integrate routing, SSR, image optimization, and API handling separately. Next.js provides these batteries-included. A full stack developer should be working with Next.js for web application development, not raw React + custom webpack configuration."
-    },
-    {
-      "question": "What is the tech stack a senior full stack developer uses in 2026?",
-      "answer": "The production-proven 2026 full stack: Frontend — Next.js 14 App Router with React Server Components, TypeScript strict mode, Tailwind CSS, React Query for client-side data fetching, Playwright for E2E tests. Backend — FastAPI (Python) or NestJS (Node.js) with Pydantic v2 validation, SQLAlchemy 2.0, Alembic migrations, Celery for async task queues. Database — PostgreSQL 16 (primary), Redis (caching + session), pgvector for AI embeddings. DevOps — Docker + Docker Compose for local development, GitHub Actions for CI/CD, AWS or GCP for cloud hosting, Nginx reverse proxy, Sentry for error monitoring, Prometheus + Grafana for metrics. AI layer — OpenAI GPT-4o or Anthropic Claude 3.5 via API, LangChain for orchestration, Pinecone or Qdrant for vector storage, SSE streaming for AI responses. This stack handles 99% of web application requirements from startup to enterprise scale."
-    },
-    {
-      "question": "How does a full stack developer implement WebSocket real-time features with FastAPI?",
-      "answer": "FastAPI natively supports WebSockets via the WebSocket class. Architecture: (1) WebSocket endpoint in FastAPI handles connections and message routing. (2) Connection manager maintains active connections (dictionary of user_id → WebSocket). (3) For multi-server deployments (Kubernetes): Redis pub/sub distributes messages across all FastAPI instances — each server subscribes to relevant channels. (4) Celery workers publish events to Redis when background tasks complete. (5) Connection manager broadcasts to relevant connected clients. Client-side: React hooks manage WebSocket connection lifecycle, reconnection strategy, and message parsing. This pattern powers real-time dashboards, collaborative editing, live notifications, and AI response streaming at scale. For AI specifically: SSE (Server-Sent Events) is simpler than WebSockets for one-directional streaming — FastAPI's StreamingResponse with async generators handles this cleanly."
-    },
-    {
-      "question": "What is the difference between hiring a full stack developer vs hiring a software engineering team?",
-      "answer": "Single senior full stack developer: (1) Cost: $29/hr or $1,999/mo retainer. (2) Communication: direct, no handoffs. (3) Architecture: coherent, one mental model. (4) Speed on MVP: fastest (no coordination overhead). (5) Concurrency: limited — one engineer can't parallelize large feature sets. (6) Best for: startups, pre-PMF products, projects under $150K scope. Software engineering team: (1) Cost: $15,000–$50,000+/month. (2) Communication: manager overhead, coordination meetings, handoff delays. (3) Architecture: risk of inconsistency across engineers without strong tech lead. (4) Speed on MVP: slower (team ramp-up, meetings, PRs). (5) Concurrency: high — parallel feature development. (6) Best for: post-PMF products with validated market, series A+ startups, projects requiring simultaneous parallel workstreams. The most common mistake: hiring a team too early. Validate your product first with one excellent senior engineer, then scale the team when you have revenue to sustain it."
-    },
-    {
-      "question": "What security practices should a full stack developer implement by default?",
-      "answer": "OWASP Top 10 compliance is the baseline: (1) Injection prevention — parameterized queries (never string-formatted SQL), Pydantic input validation on every API endpoint. (2) Authentication — JWT with short expiry (15min access tokens), HTTP-only cookies for refresh tokens, bcrypt password hashing (never MD5/SHA1). (3) Broken access control — server-side RBAC enforcement, row-level security in PostgreSQL, never trust client-sent user IDs. (4) Security misconfiguration — environment variables for all secrets (never committed to Git), CORS configured to specific origins, security headers (HSTS, CSP, X-Frame-Options). (5) XSS — React's JSX escapes output by default; avoid dangerouslySetInnerHTML; Content-Security-Policy header. (6) CSRF — SameSite cookies, double-submit CSRF tokens for state-changing requests. (7) Rate limiting — per-IP and per-user limits on auth endpoints and costly operations. (8) Dependencies — automated security scanning (GitHub Dependabot) on every PR. Security isn't a feature to add later — it's built into every layer from day one."
-    },
-    {
-      "question": "How do I know if my existing full stack application needs a rewrite or just refactoring?",
-      "answer": "Rewrite criteria (start fresh): (1) The codebase is completely undocumented and the original developers are unavailable. (2) Adding any new feature requires touching 20+ files due to absent separation of concerns. (3) The technology choices are unsupported or unmaintained (e.g., end-of-life Node.js 10, jQuery as primary UI layer). (4) Deployment is manual and risky — no CI/CD, no tests, deployments require 4+ hour windows. Refactoring criteria (improve incrementally): (1) Core business logic is correct but the code is messy. (2) Performance problems exist but are localized (specific endpoints or queries). (3) Test coverage is poor but the architecture is sound. (4) The technology is outdated but still supported (e.g., React class components → hooks migration). Rule of thumb: if you can test-cover and then refactor within 3 months without breaking production, refactor. If you'd spend more time understanding the existing code than building the new system, rewrite. Always start with a paid architecture audit ($599) before committing to either path."
     }
   ]
 }

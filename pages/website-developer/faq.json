@@ -1,5 +1,5 @@
 {
-  "count": 26,
+  "count": 21,
   "faqs": [
     {
       "question": "What's the best website developer for small business e-commerce sites?",
@@ -84,26 +84,6 @@
     {
       "question": "What should I expect to pay for ongoing website maintenance?",
       "answer": "Website maintenance pricing: Monitoring-only (uptime, SSL check): $100–$200/month. Basic maintenance (security updates + monitoring + critical bug fixes): $299–$599/month. Standard maintenance (all of above + 5–10 development hours): $599–$999/month. Full retainer (dedicated development hours + maintenance + priority access): $1,499–$2,999/month. Without maintenance: websites accumulate security vulnerabilities, framework dependencies become outdated, and Core Web Vitals degrade as third-party scripts accumulate. A website without maintenance is like a car without oil changes — it works until it fails expensively. Ramesh offers all maintenance tiers starting at $499/month for basic maintenance."
-    },
-    {
-      "question": "When should I use Next.js App Router vs headless WordPress for my website?",
-      "answer": "Choose Next.js App Router when: performance and SEO are priorities (SSR/SSG for Google indexing), you need custom functionality beyond content publishing (booking, e-commerce, membership), you want full code ownership without platform lock-in, or you need Core Web Vitals 90+ scores. Choose headless WordPress when: your team already knows WordPress admin, you have extensive existing WordPress content to migrate, non-technical editors need the familiar WP block editor, or budget is tighter and WordPress hosting is already paid for. The hybrid approach (headless WordPress CMS + Next.js frontend) gives you WordPress's content editing UX with Next.js performance — best of both worlds for content-heavy sites. Avoid traditional WordPress themes for performance-critical sites — they consistently score Lighthouse 40–60 on mobile."
-    },
-    {
-      "question": "What is the Core Web Vitals optimization checklist for a fast website?",
-      "answer": "Core Web Vitals engineering checklist: LCP (Largest Contentful Paint, target < 2.5s): use next/image with WebP/AVIF, preload hero image, eliminate render-blocking CSS/JS, use CDN edge delivery. CLS (Cumulative Layout Shift, target < 0.1): set explicit width/height on all images and embeds, reserve space for dynamic content, avoid injecting content above existing content. INP (Interaction to Next Paint, target < 200ms): minimize main-thread JavaScript, code-split per route, defer non-critical scripts, use React Server Components where possible. Additional: Lighthouse CI in GitHub Actions (fail PR if score drops below 90), no third-party scripts without performance budget approval, font-display: swap for web fonts. A developer who can't explain all three metrics and their fixes has not done real performance engineering."
-    },
-    {
-      "question": "What technical SEO is included in a professional website build vs what costs extra?",
-      "answer": "Included in every Ramesh website build (not extra): semantic HTML5 heading hierarchy, JSON-LD structured data on all page types (WebPage, Organization, BreadcrumbList, FAQPage, Product where applicable), canonical tags, XML sitemap auto-generation, robots.txt, OpenGraph and Twitter Card meta tags, mobile-first responsive design, HTTPS enforcement, Core Web Vitals optimization, and Google Search Console setup. Legitimately extra (marketing activities, not development): keyword research and content strategy, ongoing blog content creation, link building campaigns, local SEO citation management, Google Ads management, and multilingual content translation. Red flag: a developer who charges extra for JSON-LD or sitemap generation — these are baseline technical SEO requirements, not premium add-ons."
-    },
-    {
-      "question": "What is the typical website project timeline by scope?",
-      "answer": "Website project timelines by scope: (1) Simple business website (5–10 pages, no CMS): 2–3 weeks. (2) Business website with headless CMS (Sanity/Contentful): 3–5 weeks, from $2,999. (3) E-commerce website (product catalog + Stripe checkout): 5–8 weeks, from $5,999. (4) Membership or booking website (auth + payments + gated content): 6–10 weeks. (5) Multilingual website (3+ languages with hreflang): add 1–2 weeks per language. (6) Website redesign/migration from legacy platform: 4–8 weeks depending on content volume. Timelines assume: requirements finalized before development starts, feedback provided within 48 hours of each milestone demo, and no major scope changes mid-project. The #1 cause of timeline overruns is unclear requirements and slow client feedback — not developer speed."
-    },
-    {
-      "question": "When should a startup choose Webflow or Framer vs hiring a custom Next.js developer?",
-      "answer": "Choose Webflow or Framer when: budget under $3,000, no custom backend functionality needed, team can manage the platform independently, and SEO/performance requirements are moderate (Lighthouse 70–85 is acceptable). Choose a custom Next.js developer when: you need Core Web Vitals 90+ (Google ranking advantage), custom functionality (booking, e-commerce, membership, AI features), full code ownership without monthly platform fees, SSR for better Google indexing of dynamic content, or WCAG 2.1 AA accessibility compliance. Platform lock-in risk: Webflow/Framer sites cannot be exported as clean, maintainable code — migrating away later costs 2–3× the original build. Custom Next.js code lives in your GitHub repository forever. For funded startups planning to scale: custom Next.js from day one avoids expensive migration later."
     }
   ]
 }

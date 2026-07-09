@@ -1,20 +1,16 @@
 {
   "slug": "hire-remote-software-engineer",
   "h1": "Hire a Senior Remote Software Engineer",
-  "subtitle": "100% Remote · Async-First · Weekly Written Updates · Full-Stack + AI · Global Timezone Coverage",
+  "subtitle": "Async-First · Global Timezone Coverage · Full-Stack AI Engineering · Startup-Friendly Rates",
   "url": "https://www.rameshdas.dev/pages/hire-remote-software-engineer/",
   "chips": [
     "100% Remote",
-    "Async-First Workflow",
-    "Weekly Written Updates",
-    "React / Next.js / FastAPI",
-    "LangChain / AI Integration",
-    "GitHub + Linear + Slack",
-    "All Time Zones (UTC+5:45)",
-    "Docker / Kubernetes",
-    "6+ Years Remote",
-    "$29/hr",
-    "60-Day Warranty"
+    "Async-First",
+    "Full-Stack + AI",
+    "All Time Zones",
+    "UTC+5:45",
+    "6+ Years",
+    "Direct Communication"
   ],
   "stats": [
     {
@@ -34,115 +30,72 @@
       "lbl": "Timezone Flexibility"
     }
   ],
-  "trust_signals": [
-    "6+ years 100% remote delivery — never required an office to ship production software",
-    "Async-first communication: weekly written updates, Loom demos, Linear task tracking",
-    "Works across US, UK, EU, and APAC timezones with 24-hour max response time",
-    "Production AI SaaS experience: WinstaAI at KLIKY AI (remote delivery, global clients)",
-    "Full-stack + AI: React/Next.js frontend + FastAPI/NestJS backend + LangChain AI",
-    "60-day post-launch bug warranty; full IP ownership on final payment",
-    "Direct communication — WhatsApp/Slack, no account manager layer"
-  ],
   "technologies": {
     "Frontend": [
       "React 18",
-      "Next.js 14 App Router",
-      "TypeScript 5 (strict)",
-      "Tailwind CSS",
-      "Framer Motion"
+      "Next.js 14",
+      "TypeScript",
+      "Tailwind CSS"
     ],
     "Backend": [
-      "FastAPI (async, Pydantic v2)",
-      "Node.js 20 LTS",
+      "FastAPI",
+      "Node.js",
+      "Express",
       "NestJS",
-      "Django 5",
+      "Django",
       "Python 3.12"
     ],
     "AI / LLM": [
-      "OpenAI GPT-4o",
-      "Anthropic Claude 3.5",
-      "LangChain / LangGraph",
+      "OpenAI",
+      "Claude",
+      "LangChain",
       "LlamaIndex",
       "pgvector",
       "Pinecone"
     ],
     "Databases": [
-      "PostgreSQL 16",
+      "PostgreSQL",
       "Redis",
-      "MongoDB",
-      "pgvector"
+      "MongoDB"
     ],
     "DevOps": [
       "Docker",
-      "Kubernetes + Helm",
+      "Kubernetes",
       "GitHub Actions",
-      "AWS (EC2/RDS/S3)",
-      "GCP (Cloud Run)",
-      "Terraform",
-      "Sentry"
+      "AWS",
+      "GCP",
+      "Sentry",
+      "Terraform"
     ],
-    "Collaboration (Remote)": [
-      "GitHub (PRs, code review, branch protection)",
-      "Slack / WhatsApp (async messaging)",
-      "Linear / GitHub Projects (task tracking)",
-      "Notion (documentation, runbooks)",
-      "Loom (async video demos)",
-      "Figma (design handoff)"
+    "Collaboration": [
+      "GitHub",
+      "Slack",
+      "Notion",
+      "Linear",
+      "Loom",
+      "WhatsApp"
     ]
   },
   "pricing": [
     {
       "type": "Hourly",
       "rate": "$29",
-      "period": "Per hour · Async delivery · Min. 4hrs",
-      "features": [
-        "Full-stack or backend development",
-        "AI/LangChain integration",
-        "Code review & architecture consulting",
-        "Performance optimization",
-        "Async code audit",
-        "Billed weekly via invoice"
-      ]
+      "period": "Per hour · Async delivery · Min. 4hrs"
     },
     {
       "type": "Monthly Retainer",
       "rate": "$1,999",
-      "period": "160 hrs/month · Async-first delivery",
-      "features": [
-        "Dedicated senior remote engineer",
-        "Weekly written status updates",
-        "Full-stack + AI development",
-        "CI/CD + Docker maintenance",
-        "Priority WhatsApp/Slack support",
-        "Loom demo every Friday"
-      ]
+      "period": "160 hrs/month · Async-first delivery"
     },
     {
       "type": "Fixed-Price Project",
       "rate": "From $5,499",
-      "period": "Milestone-based · Written spec first",
-      "features": [
-        "Complete feature or product build",
-        "All source code transferred",
-        "OpenAPI / Swagger documentation",
-        "Test suite (80%+ coverage)",
-        "Docker + CI/CD pipeline",
-        "60-day bug warranty",
-        "60-min handover session"
-      ]
+      "period": "Milestone-based · Written spec first"
     },
     {
       "type": "Code Audit (Async)",
       "rate": "$499",
-      "period": "5 days · Fully async delivery",
-      "features": [
-        "Full codebase review",
-        "Security (OWASP) assessment",
-        "Performance profiling report",
-        "Architecture recommendations",
-        "Written report + Loom walkthrough",
-        "1-hr async consultation call"
-      ]
+      "period": "5 days · Fully async delivery"
     }
   ],
   "industries": [
@@ -159,62 +112,6 @@
     "Marketing Tech",
     "Legal Tech (Remote)"
   ],
-  "case_studies": [
-    {
-      "title": "WinstaAI — Remote AI SaaS Delivery (KLIKY AI)",
-      "industry": "AI SaaS",
-      "stack": ["FastAPI", "LangChain", "React", "PostgreSQL", "Docker", "Celery"],
-      "challenge": "Build and maintain a production AI SaaS platform for a global client base — 100% remote delivery across US and EU timezones with no in-person meetings.",
-      "solution": "Async-first workflow: weekly written updates, Loom demos, Linear task tracking. FastAPI + LangChain backend, React frontend, Docker deployment on AWS. All communication via Slack and GitHub PRs.",
-      "result_remote": "100% remote delivery",
-      "result_uptime": "99.7% uptime",
-      "result_throughput": "500+ AI jobs/hr"
-    },
-    {
-      "title": "US Startup — Full-Stack MVP (Remote, Async)",
-      "industry": "SaaS Startup",
-      "stack": ["Next.js", "FastAPI", "PostgreSQL", "Stripe", "Docker", "GitHub Actions"],
-      "challenge": "US-based startup needed a senior engineer to build their MVP in 8 weeks — founder in PST, engineer in Nepal (UTC+5:45), zero overlap required for async delivery.",
-      "solution": "Written spec → milestone-based delivery → daily async Slack updates → weekly Loom demo → GitHub PR reviews. Stripe billing, multi-tenant PostgreSQL, Next.js dashboard.",
-      "result_timeline": "8 weeks to MVP launch",
-      "result_communication": "Zero missed weekly demos",
-      "result_bugs": "0 critical bugs at launch"
-    },
-    {
-      "title": "UK Fintech — Remote Backend Integration",
-      "industry": "Fintech",
-      "stack": ["FastAPI", "PostgreSQL", "Redis", "Stripe", "pytest", "Docker"],
-      "challenge": "UK fintech needed a senior backend engineer to integrate Stripe subscriptions and build a compliance-aware REST API — remote, async, with strict security requirements.",
-      "solution": "FastAPI async API with Pydantic v2 validation, PostgreSQL row-level security, Stripe webhook handlers with idempotency keys, comprehensive pytest suite (88% coverage), OWASP compliance.",
-      "result_coverage": "88% test coverage",
-      "result_webhooks": "100% webhook delivery",
-      "result_response": "<200ms p95 API response"
-    }
-  ],
-  "async_workflow": {
-    "weekly_update_format": [
-      "Completed this week (with PR links)",
-      "In progress (with % estimate)",
-      "Blockers (with proposed solutions)",
-      "Next week plan (with acceptance criteria)",
-      "Loom demo link (Friday)"
-    ],
-    "communication_channels": {
-      "urgent": "WhatsApp (< 2hr response during work hours)",
-      "daily": "Slack async messages (< 24hr response)",
-      "tasks": "Linear / GitHub Projects (updated daily)",
-      "docs": "Notion (architecture decisions, runbooks)",
-      "demos": "Loom (weekly async video walkthrough)",
-      "code": "GitHub PRs (reviewed within 24hr)"
-    },
-    "timezone_coverage": {
-      "base": "UTC+5:45 (Nepal — Kathmandu)",
-      "us_east_overlap": "6:30 PM – 10:30 PM NPT (8:45 AM – 12:45 PM EST)",
-      "us_west_overlap": "9:30 PM – 1:30 AM NPT (8:00 AM – 12:00 PM PST)",
-      "uk_eu_overlap": "2:30 PM – 6:30 PM NPT (9:00 AM – 1:00 PM GMT)",
-      "apac_overlap": "Full business hours overlap with India, Singapore, Australia"
-    }
-  },
   "internal_links": [
     "/pages/hire-full-stack-developer/",
     "/pages/hire-python-developer/",

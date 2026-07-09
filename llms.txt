@@ -21,6 +21,7 @@
 - Humans.txt: https://www.rameshdas.dev/humans.txt
 - Robots: https://www.rameshdas.dev/robots.txt
 - Full LLM context: https://www.rameshdas.dev/llms-full.txt
+- Social profiles: https://www.rameshdas.dev/social-profile.txt
 - Last updated: 2026-07-09
 
 ## Author Profile
@@ -35,6 +36,23 @@
 - Current role: Lead AI Full-Stack Developer, KLIKY AI (Jan 2024 – present)
 - Work mode: Remote-first, async-friendly, available worldwide across all time zones
 - Languages: English (professional working), Hindi, Nepali
+
+### Social Profiles (verified)
+
+Source file: https://www.rameshdas.dev/social-profile.txt
+
+- Website: https://www.rameshdas.dev/
+- LinkedIn: https://www.linkedin.com/in/mrdas-developer/
+- GitHub (personal): https://github.com/mrdasdeveloper
+- GitHub (open-source org): https://github.com/fullstack-open-source
+- X (Twitter): https://x.com/mrdasdeveloper
+- YouTube: https://www.youtube.com/@mrdasdeveloper
+- Instagram: https://www.instagram.com/mrdasdeveloper
+- Facebook: https://www.facebook.com/mrdasdeveloper
+- Medium: https://medium.com/@mrdasdeveloper
+- Stack Overflow: https://stackoverflow.com/users/mrdasdeveloper
+- TikTok: https://www.tiktok.com/@mrdasdeveloper
+- Upwork: https://www.upwork.com/freelancers/rameshdas
 
 ### Areas of Expertise
 
@@ -186,11 +204,20 @@ Backend Engineer, Backend Architect, FastAPI Developer, Full-Stack Developer.
 
 - Email: mrdasdeveloper@gmail.com
 - WhatsApp: +977-9700864900 (preferred, fastest reply)
-- GitHub: https://github.com/mrdasdeveloper
-- LinkedIn: https://www.linkedin.com/in/mrdas-developer/
-- Open-source org: https://github.com/fullstack-open-source
 - Website: https://www.rameshdas.dev/
 - Hire page: https://www.rameshdas.dev/hire-ai-full-stack-engineer.html
+- Social profiles: https://www.rameshdas.dev/social-profile.txt
+- LinkedIn: https://www.linkedin.com/in/mrdas-developer/
+- GitHub: https://github.com/mrdasdeveloper
+- Open-source org: https://github.com/fullstack-open-source
+- X: https://x.com/mrdasdeveloper
+- YouTube: https://www.youtube.com/@mrdasdeveloper
+- Instagram: https://www.instagram.com/mrdasdeveloper
+- Facebook: https://www.facebook.com/mrdasdeveloper
+- Medium: https://medium.com/@mrdasdeveloper
+- Stack Overflow: https://stackoverflow.com/users/mrdasdeveloper
+- TikTok: https://www.tiktok.com/@mrdasdeveloper
+- Upwork: https://www.upwork.com/freelancers/rameshdas
 - Status: Open to work — full-time remote, contract, freelance, retainer, staff augmentation
 - Timezone: UTC+5:45 (Kathmandu), async-friendly worldwide
 

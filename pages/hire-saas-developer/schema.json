@@ -2,170 +2,269 @@
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@context": "https://schema.org",
       "@type": "WebPage",
-      "name": "Hire a Senior SaaS Developer | Multi-Tenancy, Stripe Billing, Admin Dashboards | Ramesh Das",
-      "description": "Hire Ramesh Das — a senior SaaS developer with 6+ years building multi-tenant platforms, Stripe subscription billing, usage metering, admin dashboards, and AI-integrated SaaS products. $29/hr. Remote worldwide. 60-day warranty.",
+      "name": "Hire a SaaS Developer | Multi-Tenancy, Stripe Billing & Cloud Architecture | Ramesh Das",
+      "description": "Hire Ramesh Das — a senior SaaS developer with 6+ years building multi-tenant platforms, subscription billing (Stripe), admin dashboards, and scalable cloud APIs. $29/hr. Remote.",
       "url": "https://www.rameshdas.dev/pages/hire-saas-developer/",
+      "author": {
+        "@type": "Person",
+        "name": "Ramesh Kumar Das",
+        "url": "https://www.rameshdas.dev",
+        "sameAs": [
+          "https://www.linkedin.com/in/mrdas-developer/",
+          "https://github.com/mrdasdeveloper",
+          "https://github.com/fullstack-open-source",
+          "https://x.com/mrdasdeveloper",
+          "https://www.youtube.com/@mrdasdeveloper",
+          "https://www.instagram.com/mrdasdeveloper",
+          "https://www.facebook.com/mrdasdeveloper",
+          "https://medium.com/@mrdasdeveloper",
+          "https://stackoverflow.com/users/mrdasdeveloper",
+          "https://www.tiktok.com/@mrdasdeveloper",
+          "https://www.upwork.com/freelancers/rameshdas"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Ramesh Das Dev",
+        "url": "https://www.rameshdas.dev",
+        "sameAs": [
+          "https://www.linkedin.com/in/mrdas-developer/",
+          "https://github.com/mrdasdeveloper",
+          "https://github.com/fullstack-open-source",
+          "https://x.com/mrdasdeveloper",
+          "https://www.youtube.com/@mrdasdeveloper",
+          "https://www.instagram.com/mrdasdeveloper",
+          "https://www.facebook.com/mrdasdeveloper",
+          "https://medium.com/@mrdasdeveloper",
+          "https://stackoverflow.com/users/mrdasdeveloper",
+          "https://www.tiktok.com/@mrdasdeveloper",
+          "https://www.upwork.com/freelancers/rameshdas"
+        ]
+      },
       "datePublished": "2026-07-09",
       "dateModified": "2026-07-09",
       "inLanguage": "en",
-      "isPartOf": { "@type": "WebSite", "url": "https://www.rameshdas.dev" },
-      "author": { "@type": "Person", "name": "Ramesh Kumar Das", "url": "https://www.rameshdas.dev" },
-      "publisher": { "@type": "Organization", "name": "Ramesh Das Dev", "url": "https://www.rameshdas.dev" }
-    },
-    {
-      "@type": "Person",
-      "name": "Ramesh Kumar Das",
-      "alternateName": "mrdasdeveloper",
-      "url": "https://www.rameshdas.dev",
-      "image": "https://www.rameshdas.dev/assets/ramesh-das-profile.jpg",
-      "jobTitle": "Senior SaaS Developer & AI Engineer",
-      "description": "Senior SaaS developer with 6+ years building multi-tenant platforms, Stripe billing lifecycle, usage metering, and AI-integrated SaaS products. Available worldwide at $29/hr.",
-      "knowsAbout": [
-        "SaaS Architecture",
-        "Multi-Tenancy",
-        "PostgreSQL Row-Level Security",
-        "Stripe Billing",
-        "Stripe Webhooks",
-        "Usage-Based Billing",
-        "Subscription Management",
-        "FastAPI",
-        "NestJS",
-        "React 18",
-        "Next.js 14",
-        "Auth0",
-        "SAML SSO",
-        "GDPR Compliance",
-        "Admin Dashboards",
-        "API-First Design",
-        "Docker",
-        "Kubernetes",
-        "LangChain",
-        "AI SaaS Integration"
-      ],
-      "sameAs": [
-        "https://github.com/mrdasdeveloper",
-        "https://linkedin.com/in/mrdas-developer/",
-        "https://twitter.com/mrdasdeveloper",
-        "https://www.rameshdas.dev"
-      ],
-      "worksFor": { "@type": "Organization", "name": "Ramesh Das Dev", "url": "https://www.rameshdas.dev" }
-    },
-    {
-      "@type": "ProfessionalService",
-      "name": "Hire a Senior SaaS Developer — Ramesh Das",
-      "description": "Senior SaaS developer available for hire. 6+ years building multi-tenant platforms, Stripe billing, usage metering, admin dashboards, and AI SaaS. $29/hr or $1,999/mo retainer.",
-      "url": "https://www.rameshdas.dev/pages/hire-saas-developer/",
-      "provider": { "@type": "Person", "name": "Ramesh Kumar Das", "url": "https://www.rameshdas.dev" },
-      "areaServed": { "@type": "Place", "name": "Worldwide" },
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "SaaS Development Services",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "name": "Hourly SaaS Development",
-            "description": "SaaS architecture consulting, Stripe billing, multi-tenancy setup, admin dashboards, usage metering. Min. 4hrs, billed weekly.",
-            "price": "29", "priceCurrency": "USD", "unitText": "HOUR",
-            "availability": "https://schema.org/InStock"
-          },
-          {
-            "@type": "Offer",
-            "name": "Monthly SaaS Retainer",
-            "description": "160 hrs/month dedicated senior SaaS engineer. Multi-tenancy, Stripe billing, admin dashboard, CI/CD, feature sprints, priority support.",
-            "price": "1999", "priceCurrency": "USD", "unitText": "MON",
-            "availability": "https://schema.org/InStock"
-          },
-          {
-            "@type": "Offer",
-            "name": "SaaS MVP Build",
-            "description": "Multi-tenant SaaS MVP with Stripe billing, admin dashboard, onboarding flow, OpenAPI docs, Docker + CI/CD, 60-day warranty.",
-            "price": "8999", "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock"
-          },
-          {
-            "@type": "Offer",
-            "name": "SaaS Architecture Audit",
-            "description": "Multi-tenancy isolation review, Stripe webhook security, database RLS review, billing logic check, GDPR assessment, written report + 1-hr call.",
-            "price": "799", "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock"
-          }
-        ]
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://www.rameshdas.dev"
       }
     },
     {
-      "@type": "HowTo",
-      "name": "How to Hire a Senior SaaS Developer",
-      "description": "A step-by-step guide to hiring a senior SaaS developer for your multi-tenant platform, subscription billing, and admin dashboard project.",
-      "step": [
-        {
-          "@type": "HowToStep", "position": 1,
-          "name": "Define your SaaS architecture requirements",
-          "text": "Specify: B2B vs B2C, multi-tenancy model (RLS vs schema-per-tenant), billing model (flat/seat/usage), auth requirements (OAuth/SSO/SAML), and compliance needs (GDPR/HIPAA/SOC2)."
-        },
-        {
-          "@type": "HowToStep", "position": 2,
-          "name": "Verify multi-tenancy and Stripe billing experience",
-          "text": "Ask specifically: How do you implement tenant isolation? What is an idempotency key and why is it essential? Have you implemented dunning for failed payments? Have you done proration for mid-cycle plan changes?"
-        },
-        {
-          "@type": "HowToStep", "position": 3,
-          "name": "Review production SaaS evidence",
-          "text": "Ask for a live SaaS product they've built. Check: admin dashboard quality, Stripe billing flow (trial → paid → upgrade → cancel), and whether they can explain their multi-tenancy approach in detail."
-        },
-        {
-          "@type": "HowToStep", "position": 4,
-          "name": "Agree on MVP scope and milestones",
-          "text": "Define MVP scope narrowly: auth + 1 core feature + Stripe checkout + basic admin panel. Avoid enterprise features (SSO, SCIM) in MVP. Use milestone-based contracts with written acceptance criteria per milestone."
-        },
-        {
-          "@type": "HowToStep", "position": 5,
-          "name": "Set up billing and tenancy architecture first",
-          "text": "Build multi-tenancy and Stripe billing infrastructure before feature development. Retrofitting billing or tenancy into an existing codebase is 3–5× more expensive than building it correctly from day one."
-        },
-        {
-          "@type": "HowToStep", "position": 6,
-          "name": "Handover and documentation",
-          "text": "Final deliverables: source code to your GitHub, Stripe webhook documentation, admin dashboard runbook, Alembic migration history, test suite with coverage report, and 60-minute walkthrough session."
-        }
-      ]
-    },
-    {
+      "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "What is multi-tenancy in SaaS and why does it matter?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Multi-tenancy means multiple customers share one application instance with complete data isolation. It enables operational efficiency (one codebase, one deployment) and cost efficiency. Isolation is critical — one customer must never see another's data. PostgreSQL RLS is the gold standard for B2B SaaS." }
+          "name": "What is the best SaaS developer for building scalable cloud applications?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Look for: (1) Proven multi-tenancy implementation (ask to explain their tenant isolation approach). (2) Complete Stripe billing experience (not just checkout — the full subscription lifecycle). (3) Kubernetes deployment experience (horizontal scaling is essential for growth-stage SaaS). (4) Monitoring and alerting setup (a SaaS product needs business metric alerts, not just server uptime alerts). (5) Zero-downtime deployment capability. Ramesh Das has shipped a production AI SaaS platform at KLIKY AI with all of these capabilities."
+          }
         },
         {
           "@type": "Question",
-          "name": "How do you implement Stripe webhook idempotency?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Store every processed Stripe event ID in a webhook_events table with a unique constraint. On receipt: check if event ID exists — if yes, return 200 immediately. Process inside a database transaction. Use idempotency keys on all Stripe API calls. Verify webhook signatures. A developer without idempotency has only done demo Stripe integration." }
+          "name": "How do I hire a SaaS developer with expertise in subscription billing integration?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Subscription billing is complex. Verify specifically: (1) Have they implemented trial-to-paid conversion flows with proper webhook handling? (2) Do they know what an idempotency key is and why it's essential for webhook processing? (3) Have they handled dunning (failed payment recovery) — retry schedules, grace periods, account suspension? (4) Have they implemented proration for mid-cycle plan changes? If a developer can't answer these questions specifically, they've only done basic Stripe checkout — not production subscription billing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Top SaaS developers for custom CRM platform development?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For custom CRM development: (1) Data model expertise (CRM data models are complex — contacts, companies, deals, activities, all with flexible custom fields). (2) Real-time updates (sales teams need live pipeline updates). (3) Email integration (IMAP/SMTP for email logging to contact timelines). (4) Calendar integration (Google Calendar, Outlook for activity scheduling). (5) Reporting (pipeline analytics, sales rep performance). FastAPI + React with PostgreSQL and Redis for real-time features is a solid stack for custom CRM."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "SaaS developer vs freelance full-stack developer for startup project?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A freelance full-stack developer can build a SaaS product, but a developer who specifically understands SaaS patterns — multi-tenancy, subscription billing, usage metering, admin dashboards — will do it correctly the first time. The most expensive SaaS architecture mistakes: building without multi-tenancy (painful to retrofit), skipping idempotency in webhook handlers (double charges), and building an admin panel that still requires database queries to answer customer questions. Hire a developer with specific SaaS production experience, not one who says 'I can figure it out.'"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which SaaS developer should I hire for multi-tenant architecture design?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Multi-tenancy design decisions depend on your requirements: Row-level security (RLS) via PostgreSQL: simpler operationally, works for most B2B SaaS. Schema-per-tenant: better isolation, harder migration management. Database-per-tenant: maximum isolation, required for some compliance scenarios (healthcare, finance). The right developer asks: 'What are your compliance requirements?' before recommending an approach. If they immediately say 'we'll use RLS' without asking about your use case, that's a concern."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the best platforms to find reliable SaaS developers for rapid prototyping?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For rapid SaaS prototyping: (1) Direct hire from portfolio sites — fastest communication, best context continuity. (2) Toptal — pre-vetted, can start quickly. (3) Arc.dev — SaaS-experienced developers. For rapid prototyping specifically: prioritize developers who can work without extensive documentation, make sensible architectural decisions independently, and deliver weekly demos on staging. The worst rapid prototyping bottleneck: a developer who requires daily clarification meetings."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "SaaS developers with experience in SaaS marketplace apps?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Marketplace SaaS (connecting buyers and sellers) requires specific patterns: (1) Stripe Connect for multi-party payment routing (platform collects fee, disburses to sellers). (2) Two-sided user models (buyer profile vs. seller profile with different onboarding flows). (3) Dispute resolution workflows. (4) Payout management and tax reporting for sellers. (5) Search and discovery with faceted filtering. These are genuinely complex compared to single-vendor SaaS. Verify marketplace-specific experience explicitly — not just general SaaS experience."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I hire a SaaS developer familiar with GDPR and data compliance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GDPR-specific SaaS requirements: (1) Data export API (every customer can request all their data in machine-readable format). (2) Right to erasure (delete account and all associated PII — requires careful cascade logic in a multi-tenant system). (3) Consent management (granular consent for marketing, analytics, etc.). (4) DPA (Data Processing Agreement) — a contractual requirement with customers in EU. (5) Data residency options (EU-only hosting for some customers). Ask candidates to describe how they've implemented data export in a previous SaaS project."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is multi-tenancy in SaaS and why does it matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Multi-tenancy means multiple customers share one application instance with complete data isolation between them. It matters because: (1) Operational efficiency — you manage one codebase and one deployment, not one per customer. (2) Cost efficiency — shared infrastructure is cheaper than dedicated per-customer. (3) Feature consistency — all customers get the same codebase and can be updated simultaneously. The isolation requirement is critical: one customer must never see another customer's data, ever. This requires either row-level filtering on every database query or database/schema isolation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Best SaaS developer for SaaS product migration to AWS?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SaaS AWS migration involves: (1) Containerizing the application (Docker) if not already containerized. (2) Setting up VPC, security groups, RDS (managed PostgreSQL), ElastiCache (managed Redis). (3) ECS or EKS for container orchestration. (4) CloudFront CDN for static assets. (5) ALB (Application Load Balancer) with health checks. (6) RDS Multi-AZ for database high availability. (7) GitHub Actions or AWS CodePipeline for CI/CD. A SaaS developer with AWS and Kubernetes experience can design this migration plan and execute it with zero downtime using a properly sequenced migration strategy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "SaaS developer vs SaaS development agency for ongoing support?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Agency for ongoing support: structured account management, SLA guarantees, team availability. Individual developer retainer for ongoing support: faster context (one person who built it), lower cost, more direct communication. For most SaaS companies under 50 employees: a senior developer retainer at $1,999/mo gives you better outcomes than an agency at $5,000–$15,000/mo — because you're working with the person who knows the system, not a rotating cast of agency engineers who need to re-learn it each time."
+          }
         },
         {
           "@type": "Question",
           "name": "How much does it cost to hire a SaaS developer?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Ramesh Das: $29/hr hourly, $1,999/mo retainer, from $8,999 SaaS MVP build, $799 architecture audit. 50–70% below comparable US/UK agency rates for equivalent senior SaaS expertise." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SaaS development costs: Hourly: $29–$200/hr depending on experience and location. Monthly retainer (full-time equivalent): $1,999–$20,000/mo. Fixed-price MVP: $15,000–$80,000+ depending on features. Full production platform (multi-tenancy + billing + admin + public API): $40,000–$150,000+ for a complete build. Direct hire from portfolio (Ramesh Das): $29/hr or $1,999/mo retainer — 50–70% below comparable agency rates for the same senior expertise."
+          }
         },
         {
           "@type": "Question",
           "name": "What is the best tech stack for building a SaaS application?",
-          "acceptedAnswer": { "@type": "Answer", "text": "2026 SaaS stack: Next.js 14 + React + TypeScript (frontend), FastAPI or NestJS (backend), PostgreSQL + Redis (database), Auth0 or JWT (auth), Stripe (billing), Docker + Kubernetes on AWS/GCP (deployment), GitHub Actions (CI/CD), Sentry + Prometheus (monitoring)." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The dominant SaaS stack in 2026: Frontend: Next.js 14 + React + TypeScript + Tailwind CSS. Backend: FastAPI (Python) for AI-integrated SaaS, or NestJS (Node.js) for JavaScript-stack teams. Database: PostgreSQL (relational data), Redis (caching, sessions, queues). Auth: Auth0 or custom JWT + OAuth2. Billing: Stripe (subscriptions + metering). Deployment: Docker + Kubernetes on AWS or GCP. CI/CD: GitHub Actions. Monitoring: Sentry + Prometheus + Grafana. This stack handles 99% of B2B SaaS requirements and has enough ecosystem depth to solve any edge case that arises."
+          }
         },
         {
           "@type": "Question",
-          "name": "What is the typical timeline for building a SaaS MVP?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Basic MVP (auth + 1 feature + Stripe checkout + admin): 8–10 weeks, from $8,999. Standard MVP (multi-tenancy + billing + 3 features + admin dashboard): 10–14 weeks, from $12,999. Full platform (multi-tenancy + full Stripe lifecycle + usage metering + SSO): 16–24 weeks." }
+          "name": "What is usage-based billing and how do SaaS developers implement it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usage-based billing (UBB) means customers pay based on what they consume — API calls, AI tokens used, storage, seats, or any other measurable unit. Implementation with Stripe: (1) Create a Stripe subscription with a metered price plan. (2) As usage occurs, report usage records to Stripe via the API (stripe.subscriptionItems.createUsageRecord). (3) Stripe aggregates usage within the billing period and charges the customer at the end. Key implementation considerations: usage records must be idempotent (with unique idempotency keys), usage reporting must be async (don't block the user action while reporting to Stripe), and customers need a real-time usage display in their dashboard."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do SaaS developers handle customer onboarding flows?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Effective SaaS onboarding: (1) Signup (email + password or OAuth → immediate account creation + tenant provisioning). (2) Email verification (required before full access). (3) Welcome email sequence (automated, value-focused). (4) In-app setup wizard (guide users to first value realization). (5) Trial activation (auto-start trial, show days remaining, prompt to add payment method). (6) Trial conversion (email sequence leading up to trial end, in-app upgrade prompts). Each step is tracked for analytics: completion rates, drop-off points, time to first value. A developer who thinks onboarding is just 'a signup form' hasn't built a real SaaS product."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a SaaS developer integrate AI features into software products?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — and AI integration in SaaS specifically requires: (1) Credit-based AI metering (users consume AI credits from their plan allocation). (2) Async AI job queues (LLM inference takes seconds — don't block API responses). (3) Streaming responses to the frontend (show the AI typing via SSE). (4) Cost monitoring (AI API costs per customer → feed into billing). (5) Rate limiting per plan tier (starter = 10 AI calls/day, pro = 100/day, enterprise = unlimited). Ramesh Das has implemented all of these patterns in production AI SaaS at KLIKY AI."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between B2B and B2C SaaS development requirements?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "B2B SaaS specific requirements: organization workspaces (multiple users per account), SSO integration (enterprise buyers demand SAML/OIDC), SCIM provisioning, advanced RBAC (admin vs. editor vs. viewer at org level), invoice-based billing (net 30 terms, not just credit card), audit logging for compliance buyers, and sales-assisted onboarding (demo, trial, enterprise contract). B2C SaaS specific requirements: frictionless self-serve signup, individual user data model, credit card billing (no invoicing), viral growth features (referrals, shareable content), and mobile-optimized experience. Most SaaS starts B2C or SMB and moves upmarket toward B2B enterprise — the architecture should support this evolution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do SaaS developers implement SSO (Single Sign-On)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SSO for SaaS typically means SAML 2.0 or OIDC integration that lets enterprise customers use their identity provider (Okta, Azure AD, Google Workspace) to authenticate with your SaaS. Implementation options: (1) Auth0 (simplest — handles SAML and OIDC for you, just configure the connection per customer). (2) Clerk or WorkOS (managed SSO specifically for SaaS companies). (3) Custom SAML implementation (complex, not recommended). From a database standpoint: users authenticated via SSO are linked to their organization, their permissions come from your RBAC system (not the identity provider's groups), and you need to handle just-in-time provisioning (create a user record on first SSO login)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the key metrics a SaaS developer should track?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Technical metrics (the developer's responsibility): API p99 latency, error rate by endpoint, database query time, queue depth (pending background jobs), and infrastructure costs by service. Business metrics (the developer should make visible): MRR (Monthly Recurring Revenue), ARR, new MRR, expansion MRR, churned MRR, customer count by plan, trial-to-paid conversion rate, feature usage per plan tier. A SaaS developer who only tracks 'is the server up' and not business health metrics isn't serving the business well. Ramesh builds admin dashboards that surface both technical and business metrics in one place."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do SaaS developers handle database schema changes without downtime?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Zero-downtime migration pattern: (1) Migrations must be backward compatible — the running code and the new code must both work with the new schema. (2) Add before remove — add the new column before the code that uses it, remove the old column after the code no longer references it. (3) Multi-phase deployment — deploy migration, then deploy code, then deploy cleanup migration. (4) Test on a copy of production data before applying. (5) Monitor error rates for 30 minutes after applying. (6) Have a rollback plan (alembic downgrade or a reverse migration). This is a non-negotiable discipline for any SaaS product with real users."
+          }
         }
       ]
     },
     {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Hire a Senior SaaS Developer",
+      "description": "Hire Ramesh Das — a senior SaaS developer with 6+ years building multi-tenant platforms, subscription billing (Stripe), admin dashboards, and scalable cloud APIs. $29/hr. Remote.",
+      "provider": {
+        "@type": "Person",
+        "name": "Ramesh Kumar Das",
+        "url": "https://www.rameshdas.dev",
+        "sameAs": [
+          "https://www.linkedin.com/in/mrdas-developer/",
+          "https://github.com/mrdasdeveloper",
+          "https://github.com/fullstack-open-source",
+          "https://x.com/mrdasdeveloper",
+          "https://www.youtube.com/@mrdasdeveloper",
+          "https://www.instagram.com/mrdasdeveloper",
+          "https://www.facebook.com/mrdasdeveloper",
+          "https://medium.com/@mrdasdeveloper",
+          "https://stackoverflow.com/users/mrdasdeveloper",
+          "https://www.tiktok.com/@mrdasdeveloper",
+          "https://www.upwork.com/freelancers/rameshdas"
+        ]
+      },
+      "url": "https://www.rameshdas.dev/pages/hire-saas-developer/",
+      "areaServed": "Worldwide"
+    },
+    {
+      "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.rameshdas.dev" },
-        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.rameshdas.dev/pages/" },
-        { "@type": "ListItem", "position": 3, "name": "Hire a Senior SaaS Developer", "item": "https://www.rameshdas.dev/pages/hire-saas-developer/" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.rameshdas.dev"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Pages",
+          "item": "https://www.rameshdas.dev/pages/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Hire a Senior SaaS Developer",
+          "item": "https://www.rameshdas.dev/pages/hire-saas-developer/"
+        }
       ]
     }
   ]

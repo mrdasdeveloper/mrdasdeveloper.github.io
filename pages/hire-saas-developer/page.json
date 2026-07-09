@@ -1,21 +1,16 @@
 {
   "slug": "hire-saas-developer",
   "h1": "Hire a Senior SaaS Developer",
-  "subtitle": "Multi-Tenancy · Stripe Billing Lifecycle · Usage Metering · Admin Dashboards · FastAPI/NestJS · API-First",
+  "subtitle": "Multi-Tenancy · Stripe Billing · FastAPI/Node.js · Admin Dashboards · Scalable Cloud",
   "url": "https://www.rameshdas.dev/pages/hire-saas-developer/",
   "chips": [
-    "Multi-Tenancy (RLS)",
-    "Stripe Billing Lifecycle",
-    "Usage-Based Metering",
+    "Multi-Tenancy",
+    "Stripe / Billing",
+    "FastAPI / Node.js",
     "Admin Dashboards",
-    "FastAPI / NestJS",
-    "Auth0 / SSO (SAML)",
-    "GDPR-Ready Architecture",
-    "Zero-Downtime Migrations",
-    "API-First Design",
-    "6+ Years SaaS",
-    "$29/hr",
-    "60-Day Warranty"
+    "API-First",
+    "GDPR-Ready",
+    "6+ Years"
   ],
   "stats": [
     {
@@ -35,118 +30,75 @@
       "lbl": "Billing Incidents on My Systems"
     }
   ],
-  "trust_signals": [
-    "Production AI SaaS: WinstaAI at KLIKY AI (multi-tenancy + Stripe + usage metering + LangChain)",
-    "Stripe billing lifecycle: trials, subscriptions, proration, dunning, usage metering, webhooks",
-    "PostgreSQL row-level security (RLS) for multi-tenant data isolation — zero cross-tenant leaks",
-    "Zero-downtime Alembic migrations — backward-compatible schema changes only",
-    "Admin dashboards with MRR, churn, trial conversion, and feature usage metrics",
-    "60-day post-launch bug warranty; full IP ownership on final payment",
-    "GDPR-ready: data export API, right to erasure, consent management"
-  ],
   "technologies": {
     "Backend": [
-      "FastAPI (async, Pydantic v2)",
-      "Node.js 20 LTS / NestJS",
+      "FastAPI",
+      "Node.js / NestJS",
       "Python 3.12",
-      "TypeScript 5",
-      "Celery (async jobs)",
-      "BullMQ (Node.js queues)"
+      "TypeScript",
+      "Celery",
+      "Bull Queue"
     ],
-    "Billing & Payments": [
-      "Stripe Billing (subscriptions)",
+    "Billing": [
+      "Stripe",
+      "Stripe Billing",
       "Stripe Tax",
-      "Stripe Connect (marketplaces)",
-      "Stripe Customer Portal",
-      "Stripe Webhooks (idempotency)",
-      "Usage metering (metered prices)"
+      "Stripe Connect",
+      "Stripe Customer Portal"
     ],
     "Frontend / Dashboard": [
       "React 18",
-      "Next.js 14 App Router",
+      "Next.js 14",
       "TypeScript",
       "Tailwind CSS",
-      "Recharts (analytics)",
-      "React Table (admin grids)"
-    ],
-    "Multi-Tenancy & Auth": [
-      "PostgreSQL RLS (row-level security)",
-      "Auth0 (SSO/SAML/OIDC)",
-      "JWT + refresh tokens",
-      "OAuth 2.0",
-      "SAML 2.0 (enterprise SSO)",
-      "RBAC (admin/editor/viewer)"
+      "Recharts",
+      "React Table"
     ],
     "Databases": [
-      "PostgreSQL 16 (RLS, multi-tenant)",
-      "Redis (caching, sessions, queues)",
-      "pgvector (AI embeddings)",
-      "PgBouncer (connection pooling)",
-      "Alembic (zero-downtime migrations)"
+      "PostgreSQL (RLS)",
+      "Redis",
+      "pgvector",
+      "PgBouncer"
+    ],
+    "Auth / Identity": [
+      "Auth0",
+      "JWT",
+      "OAuth2",
+      "SAML 2.0",
+      "OIDC",
+      "Passport.js"
     ],
     "DevOps": [
       "Docker",
-      "Kubernetes + Helm",
-      "GitHub Actions CI/CD",
-      "AWS (ECS/EKS/RDS)",
-      "GCP (Cloud Run/GKE)",
+      "Kubernetes",
+      "Helm",
+      "GitHub Actions",
+      "AWS",
       "Terraform",
-      "Sentry + Prometheus + Grafana"
+      "Sentry",
+      "Prometheus"
     ]
   },
   "pricing": [
     {
       "type": "Hourly",
       "rate": "$29",
-      "period": "Per hour · Billed weekly · Min. 4hrs",
-      "features": [
-        "SaaS architecture consulting",
-        "Stripe billing implementation",
-        "Multi-tenancy setup (RLS)",
-        "Admin dashboard development",
-        "Usage metering integration",
-        "Performance optimization"
-      ]
+      "period": "Per hour · Billed weekly · Min. 4hrs"
     },
     {
       "type": "Monthly Retainer",
       "rate": "$1,999",
-      "period": "160 hrs/month · Full-time equivalent",
-      "features": [
-        "Dedicated senior SaaS engineer",
-        "Multi-tenancy + Stripe billing",
-        "Admin dashboard maintenance",
-        "CI/CD + Docker maintenance",
-        "Feature development sprints",
-        "Priority WhatsApp support"
-      ]
+      "period": "160 hrs/month · Full-time equivalent"
     },
     {
       "type": "SaaS MVP Build",
       "rate": "From $8,999",
-      "period": "8–14 weeks · Milestone-based",
-      "features": [
-        "Multi-tenant SaaS MVP",
-        "Stripe subscription billing",
-        "Admin dashboard",
-        "User onboarding flow",
-        "OpenAPI documentation",
-        "Docker + CI/CD deployment",
-        "60-day bug warranty"
-      ]
+      "period": "8–14 weeks · Milestone-based"
     },
     {
-      "type": "SaaS Architecture Audit",
+      "type": "SaaS Audit",
       "rate": "$799",
-      "period": "5–7 days · Flat fee",
-      "features": [
-        "Multi-tenancy isolation review",
-        "Stripe webhook security audit",
-        "Database schema + RLS review",
-        "Billing logic correctness check",
-        "GDPR compliance assessment",
-        "Written recommendations + 1-hr call"
-      ]
+      "period": "5–7 days · Flat fee"
     }
   ],
   "industries": [
@@ -163,66 +115,6 @@
     "Analytics SaaS",
     "Security SaaS"
   ],
-  "case_studies": [
-    {
-      "title": "WinstaAI — AI SaaS Platform (KLIKY AI)",
-      "industry": "AI SaaS",
-      "stack": ["FastAPI", "LangChain", "Stripe", "PostgreSQL RLS", "React", "Docker", "Celery"],
-      "challenge": "Build a production AI SaaS platform with multi-tenant isolation, credit-based usage metering, Stripe subscription billing, and async AI job queuing for a global user base.",
-      "solution": "PostgreSQL RLS for tenant isolation, Stripe metered billing for AI credits, Celery for async GPU inference queue, FastAPI admin API for MRR/churn metrics, React dashboard for end users.",
-      "result_uptime": "99.7% uptime",
-      "result_billing": "0 billing incidents",
-      "result_throughput": "500+ AI jobs/hr"
-    },
-    {
-      "title": "B2B SaaS — Stripe Subscription Platform",
-      "industry": "B2B SaaS",
-      "stack": ["NestJS", "TypeScript", "Stripe Billing", "PostgreSQL", "Prisma", "React", "Docker"],
-      "challenge": "Build a B2B SaaS with tiered subscriptions (Starter/Pro/Enterprise), trial-to-paid conversion, proration on plan changes, and dunning for failed payments.",
-      "solution": "NestJS BillingModule with Stripe webhook handlers (idempotency keys), trial management, proration logic, dunning email sequences via BullMQ, admin dashboard with MRR/churn metrics.",
-      "result_payment_success": "99.1% payment success",
-      "result_trial_conversion": "34% trial-to-paid",
-      "result_webhooks": "100% webhook delivery"
-    },
-    {
-      "title": "Healthcare SaaS — HIPAA-Aware Multi-Tenant Platform",
-      "industry": "HealthTech SaaS",
-      "stack": ["FastAPI", "PostgreSQL RLS", "Auth0", "Pydantic v2", "React", "pytest", "Docker"],
-      "challenge": "Build a HIPAA-aware multi-tenant SaaS for patient data with role-based access, full audit logging, GDPR data export, and zero cross-tenant data leaks.",
-      "solution": "PostgreSQL RLS policies per tenant, Auth0 for SSO, append-only audit log, GDPR data export API, comprehensive pytest suite (90% coverage), zero-downtime Alembic migrations.",
-      "result_isolation": "0 cross-tenant leaks",
-      "result_coverage": "90% test coverage",
-      "result_audit": "100% request audit coverage"
-    }
-  ],
-  "saas_architecture": {
-    "multi_tenancy_models": {
-      "row_level_security": {
-        "best_for": "Most B2B SaaS (default recommendation)",
-        "pros": ["Single database, simple operations", "Easy migrations", "Cost-efficient"],
-        "cons": ["Requires RLS discipline on every query", "Shared DB performance at scale"]
-      },
-      "schema_per_tenant": {
-        "best_for": "Enterprise customers requiring stronger isolation",
-        "pros": ["Better data isolation", "Per-tenant backup/restore"],
-        "cons": ["Complex migration management", "Higher operational overhead"]
-      },
-      "database_per_tenant": {
-        "best_for": "Healthcare, finance, government compliance",
-        "pros": ["Maximum isolation", "Per-tenant data residency"],
-        "cons": ["Highest cost", "Complex connection management"]
-      }
-    },
-    "stripe_billing_lifecycle": [
-      "Signup → Stripe Customer created",
-      "Trial start → subscription with trial_period_days",
-      "Trial end → auto-charge or dunning sequence",
-      "Plan upgrade/downgrade → proration via Stripe API",
-      "Failed payment → dunning emails + grace period + suspension",
-      "Cancellation → end_of_period or immediate",
-      "Usage metering → stripe.subscriptionItems.createUsageRecord"
-    ]
-  },
   "internal_links": [
     "/pages/hire-full-stack-developer/",
     "/pages/hire-python-developer/",

@@ -1,28 +1,25 @@
 {
   "slug": "best-custom-website-developer",
   "h1": "The Best Custom Website Developer for Your Project",
-  "subtitle": "100% Bespoke Code · Next.js / React · Core Web Vitals 90+ · SEO-First · WCAG AA · AI-Capable · Fully Yours",
+  "subtitle": "Bespoke Design · React / Next.js · SEO-First · Scalable · Fully Yours",
   "url": "https://www.rameshdas.dev/pages/best-custom-website-developer/",
   "chips": [
     "100% Custom Code",
-    "Next.js 14 App Router",
-    "React 18",
+    "React / Next.js",
+    "Bespoke Design",
     "Core Web Vitals 90+",
-    "SEO-First (JSON-LD)",
-    "WCAG 2.1 AA",
-    "Figma Design System",
-    "AI Features Available",
-    "Zero Lock-In",
-    "$29/hr"
+    "SEO-First",
+    "WCAG AA",
+    "Scalable"
   ],
   "stats": [
     {
       "val": "100%",
-      "lbl": "Custom — No Templates Ever"
+      "lbl": "Custom — No Templates"
     },
     {
       "val": "90+",
-      "lbl": "Lighthouse Score (Target)"
+      "lbl": "Lighthouse Score Target"
     },
     {
       "val": "60d",
@@ -32,16 +29,6 @@
       "val": "∞",
       "lbl": "Scalability — No Platform Limits"
     }
-  ],
-  "trust_signals": [
-    "✅ 100% Custom — No ThemeForest, No Templates",
-    "✅ Lighthouse 90+ on Mobile",
-    "✅ WCAG 2.1 AA Accessible",
-    "✅ JSON-LD Structured Data on Every Page",
-    "✅ Complete Code Ownership (GitHub Transfer)",
-    "✅ Figma Design Files Delivered",
-    "✅ Google Analytics 4 + Search Console Setup",
-    "✅ 60-Day Bug Warranty"
   ],
   "technologies": {
     "Core Stack": [
@@ -56,35 +43,28 @@
       "Contentful",
       "Strapi",
       "WordPress (Headless)",
-      "Custom Admin Panel"
+      "Custom CMS"
     ],
     "Performance": [
-      "next/image (WebP / AVIF)",
+      "next/image",
+      "WebP / AVIF",
       "Code splitting",
       "Critical CSS",
-      "Vercel Edge CDN",
-      "CloudFront"
+      "Vercel CDN / CloudFront"
     ],
     "SEO & Analytics": [
       "JSON-LD / Schema.org",
-      "Google Analytics 4",
+      "GA4",
       "Google Search Console",
-      "XML Sitemap",
-      "Hotjar / Clarity"
+      "Hotjar",
+      "XML Sitemap"
     ],
-    "AI Features": [
-      "OpenAI semantic search",
-      "AI chatbot (RAG-powered)",
-      "Content personalization",
-      "AI image generation",
-      "LangChain integration"
-    ],
-    "Testing & QA": [
-      "Lighthouse Audit",
+    "Testing": [
+      "Lighthouse",
       "axe Accessibility",
-      "Playwright E2E",
-      "PageSpeed Insights",
-      "OWASP ZAP (security)"
+      "NVDA / VoiceOver",
+      "Playwright",
+      "PageSpeed Insights"
     ],
     "DevOps": [
       "GitHub Actions",
@@ -98,117 +78,37 @@
     {
       "type": "Hourly",
       "rate": "$29",
-      "period": "Per hour · Min. 4hrs · Async delivery",
-      "features": [
-        "Component development",
-        "Performance optimisation",
-        "SEO technical fixes",
-        "Bug fixes & updates",
-        "Code review"
-      ]
+      "period": "Per hour · Min. 4hrs · Async delivery"
     },
     {
       "type": "Custom Business Website",
       "rate": "From $3,499",
-      "period": "3–6 weeks · Milestone-based",
-      "features": [
-        "Figma design system",
-        "Next.js custom build",
-        "CMS integration",
-        "SEO + JSON-LD setup",
-        "60-day bug warranty"
-      ]
+      "period": "4–6 weeks · Milestone-based"
     },
     {
       "type": "Custom E-Commerce",
       "rate": "From $6,999",
-      "period": "6–9 weeks · Milestone-based",
-      "features": [
-        "Custom product catalog",
-        "Stripe payment integration",
-        "Schema.org Product markup",
-        "Performance-first build",
-        "Analytics + Search Console"
-      ]
+      "period": "6–9 weeks · Milestone-based"
     },
     {
       "type": "Custom Platform + AI",
       "rate": "From $12,999",
-      "period": "10–16 weeks · Phased delivery",
-      "features": [
-        "Full custom platform",
-        "AI features (RAG, chatbot, search)",
-        "FastAPI backend",
-        "Multi-tenant architecture",
-        "Full DevOps pipeline"
-      ]
+      "period": "10–16 weeks · Phased delivery"
     }
   ],
   "industries": [
     "Corporate & Enterprise",
     "Funded Startups",
-    "E-Commerce & D2C",
-    "Healthcare & MedTech",
-    "Professional Services (Law, Finance)",
-    "Education & EdTech",
-    "SaaS Marketing Sites",
+    "E-Commerce",
+    "Healthcare",
+    "Professional Services",
+    "Education",
+    "SaaS Marketing",
     "Creative Agencies",
     "International Brands",
     "Real Estate & PropTech",
     "Government & Non-Profit",
-    "AI Products & Platforms"
-  ],
-  "case_studies": [
-    {
-      "title": "rameshdas.dev — Personal Portfolio with SEO",
-      "type": "Live Example",
-      "stack": ["Next.js", "Tailwind CSS", "JSON-LD", "Vercel", "XML Sitemap"],
-      "description": "100% custom static HTML portfolio with JSON-LD structured data, 309-page XML sitemap, llms.txt/llms-full.txt for LLM discoverability, and full Core Web Vitals optimisation.",
-      "metrics": [
-        {"val": "90+", "lbl": "Lighthouse Mobile Score"},
-        {"val": "30+", "lbl": "Structured Data Types"},
-        {"val": "0", "lbl": "Template Dependencies"}
-      ]
-    },
-    {
-      "title": "Custom SaaS Marketing Website",
-      "type": "Typical Project",
-      "stack": ["Next.js 14", "Sanity.io CMS", "Framer Motion", "JSON-LD", "GA4"],
-      "description": "Bespoke marketing site with custom design system, Sanity headless CMS, animated sections, multilingual support, and full technical SEO implementation.",
-      "metrics": [
-        {"val": "95", "lbl": "Lighthouse Performance"},
-        {"val": "4-5wk", "lbl": "Build Time"},
-        {"val": "100%", "lbl": "Figma → Code Match"}
-      ]
-    },
-    {
-      "title": "Custom E-Commerce Website",
-      "type": "Typical Project",
-      "stack": ["Next.js", "Stripe", "PostgreSQL", "Schema.org Product", "CloudFront"],
-      "description": "Custom product catalog with Stripe checkout, Schema.org Product markup for Google Shopping, optimised product images (AVIF), and cart/checkout UX.",
-      "metrics": [
-        {"val": "+23%", "lbl": "Conversion vs. Shopify Theme"},
-        {"val": "6-8wk", "lbl": "Build Time"},
-        {"val": "0", "lbl": "Platform Fees Monthly"}
-      ]
-    }
-  ],
-  "quality_checklist": [
-    "Lighthouse Performance 90+ on mobile",
-    "Lighthouse Accessibility 95+",
-    "Lighthouse SEO 100",
-    "Lighthouse Best Practices 95+",
-    "WCAG 2.1 AA — zero axe violations on core pages",
-    "JSON-LD on every page type (WebPage, BreadcrumbList, FAQPage, Article)",
-    "XML sitemap with correct priorities and lastmod dates",
-    "canonical tag on every page",
-    "hreflang on multilingual pages",
-    "All images WebP/AVIF with alt text and width/height",
-    "No render-blocking JavaScript",
-    "Core Web Vitals: LCP < 2.5s, CLS < 0.1, INP < 200ms",
-    "GitHub repository transferred to client",
-    "Figma design files delivered",
-    "GA4 + Search Console configured and verified"
+    "AI Products"
   ],
   "internal_links": [
     "/pages/website-developer/",

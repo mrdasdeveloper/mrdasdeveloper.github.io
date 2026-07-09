@@ -1,21 +1,16 @@
 {
   "slug": "hire-full-stack-developer",
   "h1": "Hire a Senior Full Stack Developer",
-  "subtitle": "React 18 · Next.js App Router · FastAPI · Node.js · PostgreSQL · Docker · AI Integration · TypeScript",
+  "subtitle": "React · Next.js · Node.js · FastAPI · PostgreSQL · Docker · AI Integration",
   "url": "https://www.rameshdas.dev/pages/hire-full-stack-developer/",
   "chips": [
-    "React 18 / Next.js App Router",
-    "FastAPI / Node.js",
-    "TypeScript Strict Mode",
-    "PostgreSQL / Redis / pgvector",
-    "Docker / Kubernetes",
-    "AI Integration (GPT-4o / Claude)",
-    "GitHub Actions CI/CD",
-    "OWASP Security",
-    "Core Web Vitals",
+    "React / Next.js",
+    "Node.js / FastAPI",
+    "PostgreSQL / Redis",
+    "Docker / K8s",
+    "AI Integration",
     "6+ Years",
-    "$29/hr",
-    "60-Day Warranty"
+    "Remote-First"
   ],
   "stats": [
     {
@@ -35,26 +30,17 @@
       "lbl": "Avg. First Response"
     }
   ],
-  "trust_signals": [
-    "Production AI SaaS experience: WinstaAI at KLIKY AI (LangChain + FastAPI + Celery + ComfyUI)",
-    "7+ open-source starter templates on GitHub with real production usage",
-    "TypeScript strict mode on every frontend and backend project",
-    "OWASP Top 10 compliance standard on every build",
-    "60-day post-launch bug warranty on all fixed-price projects",
-    "Full IP ownership — all code transferred on final payment",
-    "Milestone-based contracts — you only pay for approved deliverables"
-  ],
   "technologies": {
     "Frontend": [
-      "React 18 (hooks, concurrent)",
-      "Next.js 14 App Router + RSC",
-      "TypeScript 5 (strict mode)",
+      "React 18",
+      "Next.js 14",
+      "TypeScript",
       "Tailwind CSS",
       "Zustand",
-      "React Query / TanStack Query",
+      "React Query",
       "Framer Motion",
       "Vite",
-      "Playwright (E2E testing)"
+      "Playwright"
     ],
     "Backend": [
       "FastAPI",
@@ -64,38 +50,39 @@
       "Django",
       "Python 3.12",
       "Pydantic v2",
-      "SQLAlchemy 2.0",
-      "Celery + Redis"
+      "SQLAlchemy",
+      "Celery"
     ],
     "Databases": [
-      "PostgreSQL 16",
+      "PostgreSQL",
       "Redis",
       "MongoDB",
-      "pgvector (AI embeddings)",
-      "PgBouncer (connection pooling)",
-      "Prisma ORM",
-      "Alembic migrations"
+      "pgvector",
+      "PgBouncer",
+      "Prisma ORM"
     ],
-    "AI / ML Integration": [
+    "AI / ML": [
       "OpenAI GPT-4o",
-      "Anthropic Claude 3.5",
-      "Google Gemini 1.5",
-      "LangChain / LangGraph",
+      "Claude 3.5",
+      "Gemini 1.5",
+      "LangChain",
       "LlamaIndex",
-      "Pinecone / Qdrant",
-      "RAG pipelines",
-      "MCP (Model Context Protocol)",
-      "SSE streaming for AI responses"
+      "Pinecone",
+      "Qdrant",
+      "RAG",
+      "MCP"
     ],
     "DevOps / Cloud": [
       "Docker",
-      "Kubernetes + Helm",
+      "Kubernetes",
+      "Helm",
       "GitHub Actions",
-      "AWS (EC2, RDS, S3, Lambda)",
-      "GCP (Cloud Run, GKE)",
+      "AWS",
+      "GCP",
       "Terraform",
-      "Nginx + Certbot",
-      "Prometheus + Grafana",
+      "Nginx",
+      "Prometheus",
+      "Grafana",
       "Sentry"
     ]
   },
@@ -103,57 +90,22 @@
     {
       "type": "Hourly",
       "rate": "$29",
-      "period": "Per hour · Billed weekly · Min. 4hrs",
-      "features": [
-        "React / Next.js frontend work",
-        "FastAPI / Node.js backend",
-        "Database schema design",
-        "Code review and audit",
-        "Performance optimization",
-        "Architecture consulting"
-      ]
+      "period": "Per hour · Billed weekly · Min. 4hrs"
     },
     {
       "type": "Monthly Retainer",
       "rate": "$1,999",
-      "period": "160 hrs/month · Full-time equivalent",
-      "features": [
-        "Dedicated senior full stack engineer",
-        "React + Next.js frontend",
-        "FastAPI/Node.js backend",
-        "PostgreSQL + Redis architecture",
-        "Docker + CI/CD maintenance",
-        "AI integration development",
-        "Priority WhatsApp support"
-      ]
+      "period": "160 hrs/month · Full-time equivalent"
     },
     {
       "type": "Fixed-Price Project",
       "rate": "From $4,999",
-      "period": "Milestone-based · Written spec first",
-      "features": [
-        "Complete web application build",
-        "All source code transferred",
-        "API documentation (OpenAPI)",
-        "Deployment scripts + runbooks",
-        "Test suite included",
-        "60-day bug warranty",
-        "60-min handover session"
-      ]
+      "period": "Milestone-based · Written spec first"
     },
     {
       "type": "Architecture Audit",
       "rate": "$599",
-      "period": "3–5 business days · Flat fee",
-      "features": [
-        "Full codebase quality review",
-        "Performance bottleneck analysis",
-        "OWASP security vulnerability report",
-        "Scalability assessment",
-        "Database schema review",
-        "Actionable written recommendations",
-        "1-hr strategy call"
-      ]
+      "period": "3–5 business days · Flat fee"
     }
   ],
   "industries": [
@@ -169,56 +121,6 @@
     "Media & Publishing",
     "Legal Tech",
     "Travel & Hospitality"
-  ],
-  "case_studies": [
-    {
-      "title": "AI SaaS Platform — WinstaAI (KLIKY AI)",
-      "industry": "AI / SaaS",
-      "stack": ["FastAPI", "LangChain", "Celery", "ComfyUI", "PostgreSQL", "Redis", "React"],
-      "challenge": "Build an AI-powered Instagram content generation platform handling GPU inference queues, LangChain orchestration, and a real-time React dashboard.",
-      "solution": "Microservices architecture: FastAPI for API gateway, Celery + Redis for async GPU inference queuing, LangChain for content generation pipelines, ComfyUI for image generation, PostgreSQL for user data.",
-      "result_uptime": "99.7%",
-      "result_queue_throughput": "500+ jobs/hr",
-      "result_latency": "< 8s end-to-end"
-    },
-    {
-      "title": "E-Commerce Platform Optimization",
-      "industry": "E-Commerce",
-      "stack": ["Next.js", "FastAPI", "PostgreSQL", "Redis", "Stripe", "Docker"],
-      "challenge": "Existing platform with 4s+ page loads, N+1 database queries, and no caching. Checkout conversion at 1.2%.",
-      "solution": "Next.js App Router migration with RSC, Redis caching layer, 23 PostgreSQL query optimizations, image CDN, Stripe webhook hardening.",
-      "result_page_load": "4.1s → 0.9s",
-      "result_conversion": "+41% checkout conversion",
-      "result_db_load": "-68% database queries"
-    },
-    {
-      "title": "Healthcare Patient Portal",
-      "industry": "Healthcare",
-      "stack": ["React", "FastAPI", "PostgreSQL", "Docker", "RBAC", "Audit Logging"],
-      "challenge": "Replace legacy PHP portal with HIPAA-aware React + FastAPI system for 3,200 active patients with role-based access and full audit trails.",
-      "solution": "Row-level security in PostgreSQL, JWT RBAC with 4 role levels, complete audit logging to append-only table, encryption at rest and in transit.",
-      "result_migration": "Zero downtime migration",
-      "result_security": "HIPAA audit-ready",
-      "result_perf": "< 200ms API responses"
-    }
-  ],
-  "interview_questions": [
-    {
-      "q": "How do you architect a multi-tenant SaaS database?",
-      "a": "Three patterns: (1) Row-level security (one shared schema, tenant_id column with PostgreSQL RLS policies — simplest operationally, suitable for most SaaS). (2) Schema-per-tenant (separate PostgreSQL schema per tenant — good isolation, moderately complex migrations). (3) Database-per-tenant (maximum isolation, highest cost, only for enterprise clients with data residency requirements). My default: row-level security with PostgreSQL RLS. It scales to thousands of tenants, simplifies migrations, and provides strong isolation with proper policy enforcement."
-    },
-    {
-      "q": "How do you debug a slow API endpoint in production?",
-      "a": "Systematic process: (1) Check Sentry/Prometheus for p95/p99 latency — is it consistently slow or occasional spikes? (2) EXPLAIN ANALYZE on the slowest queries (pg_stat_statements shows top queries by total_time). (3) Check for N+1 queries in SQLAlchemy ORM — add relationship loading strategies. (4) Check Redis cache hit rate — is the caching layer being bypassed? (5) Profile the FastAPI endpoint with py-spy if CPU-bound. (6) Check external API calls — are third-party integrations adding latency? Systematic elimination, not guessing."
-    },
-    {
-      "q": "What is your approach to handling authentication in a Next.js + FastAPI application?",
-      "a": "Next.js handles auth sessions (Auth.js/NextAuth with PostgreSQL adapter). FastAPI validates JWT tokens on every protected endpoint (python-jose). Access tokens: short-lived (15min), stored in memory. Refresh tokens: long-lived (7 days), HTTP-only secure cookie (not localStorage). API routes in Next.js act as BFF (Backend for Frontend) — proxying requests with credentials, not exposing JWT to the browser directly. Rate limiting on auth endpoints (5 attempts/minute). Refresh token rotation on every use."
-    },
-    {
-      "q": "How do you implement real-time features in a full stack application?",
-      "a": "Options: (1) Server-Sent Events (SSE) — best for one-directional real-time (AI response streaming, notifications, live feeds). Simple, HTTP/1.1 compatible, auto-reconnects. FastAPI natively supports SSE with async generators. (2) WebSockets — bidirectional real-time (chat, collaborative editing, gaming). Higher complexity, requires connection state management. (3) Polling — simplest, highest latency, highest server load. Only for low-frequency updates. My default: SSE for AI streaming and notifications, WebSockets for collaborative features. Both handled in FastAPI with connection manager and Redis pub/sub for multi-instance scaling."
-    }
   ],
   "internal_links": [
     "/hire-ai-full-stack-engineer.html",

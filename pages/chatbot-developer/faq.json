@@ -1,5 +1,5 @@
 {
-  "count": 26,
+  "count": 21,
   "faqs": [
     {
       "question": "Best chatbot developer for e-commerce websites?",
@@ -84,26 +84,6 @@
     {
       "question": "Can a chatbot developer build a chatbot that integrates with Facebook Messenger?",
       "answer": "Yes — Facebook Messenger chatbot integration via the Meta Graph API. Technical implementation: (1) Register a Facebook App and configure Messenger integration. (2) Implement webhook for incoming messages (Meta sends POST requests to your webhook endpoint). (3) Verify webhook signature for security. (4) Implement send message API for outgoing responses. (5) Handle Messenger-specific features (quick replies, buttons, carousels, templates). Meta's Messenger API supports text, images, audio, video, and structured message templates. For AI chatbot integration: the Messenger webhook receives messages, routes to your LLM + RAG backend, and sends the response via the Messenger Send API. Note: Meta frequently changes Messenger API policies — verify current requirements before committing to Messenger as a primary channel."
-    },
-    {
-      "question": "What is the difference between a RAG chatbot and a fine-tuned LLM chatbot?",
-      "answer": "RAG (Retrieval-Augmented Generation): the LLM is unchanged; answers are grounded by retrieving relevant documents from your knowledge base at inference time. Advantages: (1) Knowledge can be updated instantly (add/remove documents without retraining). (2) Answers cite specific sources — auditable. (3) Significantly cheaper than fine-tuning. (4) Works out-of-the-box with any LLM. Fine-tuning: the LLM's weights are updated with domain-specific training data. Advantages: (1) Better for capturing stylistic patterns and tone (e.g., 'respond like our brand voice'). (2) Can improve performance on narrow, highly specialized tasks. Disadvantages: (1) Expensive ($500–$5,000+ per fine-tuning run). (2) Knowledge cutoff at training time — stale unless retrained. (3) Fine-tuned model can still hallucinate. For 99% of business chatbot use cases: RAG is the right choice. Fine-tuning is reserved for specific style/tone requirements or highly specialized domain tasks."
-    },
-    {
-      "question": "How does a chatbot developer handle LLM cost management in production?",
-      "answer": "LLM API costs can spiral without active management. Key strategies: (1) Model selection — use GPT-4o-mini or Claude Haiku for simple FAQ responses; reserve GPT-4o / Claude 3.5 Sonnet for complex multi-step reasoning. (2) Context window optimization — don't include the full conversation history in every call; summarize older turns. (3) Caching — cache identical or near-identical queries (semantic cache with Redis + embedding similarity). (4) Response streaming — stream responses rather than waiting for complete generation (improves perceived latency at the same cost). (5) Token monitoring — instrument every LLM call with input/output token counts. Dashboard showing cost per conversation, cost per day, and projected monthly spend. (6) Rate limits — cap per-user conversations to prevent abuse. Target: $0.01–$0.05 per conversation for standard customer support chatbots."
-    },
-    {
-      "question": "What deliverables should I expect from a chatbot development project?",
-      "answer": "A professional chatbot delivery package includes: (1) Source code — full codebase with clear documentation, deposited to your GitHub repository. (2) Architecture document — system design diagram, technology choices with rationale, data flow documentation. (3) Knowledge base setup — vector database populated with your documents, chunking strategy documented. (4) Analytics dashboard — conversation volume, escalation rate, accuracy metrics, cost per conversation. (5) Evaluation report — RAGAS scores across all key metrics (faithfulness, relevance, context recall). (6) Platform deployment — chatbot live on all agreed channels (web widget, Slack, Teams, WhatsApp). (7) Admin panel — interface for your team to update the knowledge base without developer involvement. (8) Runbook — how to update documentation, monitor performance, escalate issues. (9) 60-day bug warranty. Anything less than this is incomplete delivery."
-    },
-    {
-      "question": "Can a chatbot developer build an agent that takes actions, not just answers questions?",
-      "answer": "Yes — this is the shift from chatbot (answers questions) to AI agent (takes actions). An AI agent uses tools: search the web, query a database, send an email, create a calendar event, call an API. Architecture: LangChain or LangGraph orchestrates the agent loop — the LLM decides which tool to call based on the user's request, calls it, incorporates the result, and either takes another action or returns a response. Practical examples: (1) Customer service agent that looks up order status AND processes a return (not just answers). (2) HR agent that answers policy questions AND books leave directly in the HR system. (3) Sales agent that qualifies leads AND creates CRM records AND sends a follow-up email. The complexity and cost of building an agent is higher than a pure chatbot — verify whether answering questions or taking actions is the actual requirement before committing to agent architecture."
-    },
-    {
-      "question": "How long does it take to build a production-ready chatbot?",
-      "answer": "Timeline by complexity: (1) Simple FAQ chatbot — static knowledge base, web widget only, no integrations: 1–2 weeks. (2) Customer support chatbot — RAG on 50–200 documents, Zendesk/Intercom escalation, basic analytics: 3–4 weeks. (3) Multi-platform chatbot — web + Slack + Teams + WhatsApp, CRM sync, full analytics dashboard: 5–8 weeks. (4) Voice-enabled chatbot — STT + TTS + phone integration via Twilio: add 2–3 weeks to any of the above. (5) AI agent with tool use — actions beyond answering questions, multi-step task execution: 6–10 weeks depending on tool complexity. Timeline accelerators: clean, well-organized documentation ready on day one; a test question set (100+ representative Q&A pairs) prepared before development starts; single designated decision-maker for UI approvals; 24-hour feedback turnaround during UAT."
     }
   ]
 }

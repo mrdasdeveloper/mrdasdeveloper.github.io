@@ -1,5 +1,5 @@
 {
-  "count": 26,
+  "count": 21,
   "faqs": [
     {
       "question": "What is the best platform to hire a Python developer?",
@@ -84,26 +84,6 @@
     {
       "question": "How do I hire a Python developer who can deliver on tight deadlines?",
       "answer": "Signs of a developer who delivers on deadlines: (1) Their GitHub shows consistent commit activity — not sporadic bursts. (2) They ask about scope before committing to timelines (not optimistic promises). (3) They decompose tasks into specific milestones with daily granularity. (4) They communicate proactively when blockers arise (not silent and then missed deadline). (5) They have experience with milestone-based delivery rather than open-ended engagements. In the contract: specify milestone dates (not just a final delivery date), define acceptance criteria per milestone, and include a process for handling delay (adjustment, scope reduction). Fast delivery requires clear requirements — unclear specs are the #1 cause of blown deadlines."
-    },
-    {
-      "question": "What is the difference between FastAPI async and Django async in 2026?",
-      "answer": "FastAPI is async-native from the ground up — built on Starlette (ASGI), it runs on Uvicorn or Hypercorn and every endpoint can be async def by default. SQLAlchemy 2.0 provides an async session (async with AsyncSession()), and asyncpg is the native async PostgreSQL driver. Django 4.1+ added async views (async def my_view(request)), and Django 4.2+ supports async ORM queries, but the ecosystem is still catching up — many third-party Django packages block the async event loop. In practice: for new async-first projects in 2026, FastAPI is the clear choice. For projects that need Django's built-in admin, auth, signals, and content management: Django is still worth it — just be cautious about blocking I/O in async views. Never run sync-heavy code inside a FastAPI async endpoint without wrapping in asyncio.run_in_executor() or using starlette.concurrency.run_in_threadpool()."
-    },
-    {
-      "question": "How does Pydantic v2 differ from v1 and why does it matter for API development?",
-      "answer": "Pydantic v2 (released 2023, now the production standard) is a complete rewrite of the data validation library in Rust (via PyO3). Key differences from v1: (1) Speed: 5–50x faster validation — important for high-throughput APIs. (2) model_config instead of class Config — cleaner configuration. (3) @field_validator and @model_validator replace @validator with clearer semantics. (4) model_dump() replaces .dict() — more explicit and supports include/exclude cleanly. (5) Discriminated unions work correctly now (important for complex polymorphic data models). (6) Strict mode — model.model_validate(data, strict=True) rejects coercions (e.g. string '1' → int 1). Why it matters: FastAPI's entire request/response validation layer is built on Pydantic. Upgrading to v2 yields meaningful performance improvements and better type-safety. When hiring a Python developer, insisting on Pydantic v2 experience filters out developers still using v1 patterns."
-    },
-    {
-      "question": "When should I use SQLAlchemy 2.0 async vs Django ORM for a FastAPI project?",
-      "answer": "SQLAlchemy 2.0 is the standard ORM for FastAPI projects. The key decision points: Use SQLAlchemy 2.0 async when: (1) Your FastAPI app is async-first (all endpoints are async def). (2) You need fine-grained control over query optimization (Core queries, custom SQL, window functions). (3) You have a complex domain model (inheritance, polymorphism, composite PKs). (4) You want Alembic for migrations (the gold standard for Python schema management). Use Django ORM via Django with ASGI when: (1) You need Django Admin without building a custom one. (2) Your team already knows Django ORM deeply. (3) Your project has heavy content management requirements. The async SQLAlchemy pattern: async with AsyncSession(engine) as session: result = await session.execute(select(User).where(User.id == user_id)). Always set pool_size + max_overflow appropriately for your Kubernetes pod count — database connections are the #1 scalability bottleneck."
-    },
-    {
-      "question": "How do Python developers implement LangChain RAG pipelines in production?",
-      "answer": "A production LangChain RAG pipeline has 5 layers: (1) Ingestion: documents (PDF, DOCX, URL) are chunked with RecursiveCharacterTextSplitter (chunk_size=1000, overlap=200), embedded with text-embedding-3-large (OpenAI) or multilingual-e5-large (local), and stored in pgvector or Pinecone. (2) Retrieval: user query is embedded, vector similarity search returns top-k chunks (k=5–10 depending on context window). Use MMR (Maximum Marginal Relevance) retrieval to reduce redundancy in retrieved chunks. (3) Context assembly: retrieved chunks + conversation history (last 4 exchanges) + system prompt → context window. Use ConversationBufferWindowMemory for history management. (4) Generation: Claude 3.5 or GPT-4o generates a response grounded in retrieved context with citation references. (5) Evaluation: RAGAS metrics (faithfulness, answer relevance, context recall) — run on a representative test set of Q&A pairs before every production deployment. Celery handles async retrieval and generation for non-blocking API responses."
-    },
-    {
-      "question": "What Python testing setup should a senior developer use for a FastAPI project?",
-      "answer": "Complete FastAPI testing setup: (1) pytest + pytest-asyncio — async test functions with @pytest.mark.asyncio. Use AsyncClient from httpx (not the standard sync requests library) for async FastAPI endpoint testing. (2) pytest fixtures — create a test database fixture with async_sessionmaker + override FastAPI dependency injection to inject the test session. (3) factory_boy — generate test model instances (UserFactory.create(), OrderFactory.build()). (4) respx — mock external HTTP calls in tests (don't call real Stripe or OpenAI in your test suite). (5) mypy strict — run in CI to catch type errors before runtime. (6) ruff — linting + formatting in CI (replaces flake8 + black + isort). (7) Bandit — security scan in CI (catches SQL injection, hardcoded secrets). Coverage target: 80% minimum, 90% for core business logic. The GitHub Actions pipeline: ruff → mypy → bandit → pytest --cov → docker build → deploy. A FastAPI project without this setup is not production-ready."
     }
   ]
 }

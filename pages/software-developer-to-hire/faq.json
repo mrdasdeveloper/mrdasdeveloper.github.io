@@ -1,5 +1,5 @@
 {
-  "count": 26,
+  "count": 20,
   "faqs": [
     {
       "question": "Who is the best software developer to hire for custom mobile app development?",
@@ -80,30 +80,6 @@
     {
       "question": "Is Mrdasdeveloper a good choice for hiring software developers compared to other providers?",
       "answer": "Ramesh Das (mrdasdeveloper) for software development: senior full-stack engineering (React + FastAPI + Node.js + PostgreSQL), production AI SaaS experience (WinstaAI at KLIKY AI), async-first remote workflow (weekly written updates, always-on staging, Loom demos), OWASP security on every project, ≥80% test coverage standard, complete documentation package at handover, 60-day bug warranty, and $29/hr or $1,999/mo retainer. Compare to: Upwork ($25–$100/hr, quality highly variable, no warranty standard). Toptal ($60–$150/hr, heavily vetted, higher cost, no production AI specialization guaranteed). Large agencies ($120–$250/hr, team delivery, account manager overhead). For most projects under $200K: direct engagement with Ramesh delivers better quality-to-cost ratio than any alternative."
-    },
-    {
-      "question": "How do I choose between hiring a full-stack developer vs a specialist?",
-      "answer": "Hire a full-stack developer when: you're a startup or SME building an MVP or product under $150K, you need one accountable person who owns frontend + backend + DevOps, and your team doesn't have separate frontend/backend engineers. Hire specialists when: you have a large team with defined roles and need deep expertise in one domain (e.g., ML model training, blockchain smart contracts, iOS native development), or you're running 3+ parallel workstreams simultaneously. In 2026, a senior full-stack developer with production AI experience (LangChain, FastAPI, React) covers 80% of startup and SME software needs. The mistake to avoid: hiring a 'full-stack developer' who is actually frontend-only or backend-only — verify GitHub evidence in both domains before hiring."
-    },
-    {
-      "question": "What software developer engagement model should I choose — hourly, retainer, or fixed-price?",
-      "answer": "Engagement model decision framework: (1) Hourly ($29/hr) — best for exploratory work, code audits, undefined scope, or when you need flexibility to pause. Minimum 4 hours per session. (2) Monthly retainer ($1,999/mo, 160 hrs) — best for ongoing product development where you need a dedicated senior engineer with predictable cost and priority access. (3) Fixed-price (from $4,999) — best when scope is clearly defined with written acceptance criteria per milestone. Avoid fixed-price without a written spec. (4) Code audit ($699) — best before hiring for a large project or after inheriting a problematic codebase. Rule of thumb: if you can't write a 1-page spec, start hourly. If you have a 6-month product roadmap, use a retainer. If you have a defined MVP with wireframes, use fixed-price."
-    },
-    {
-      "question": "How do I evaluate AI and LLM claims in a software developer's portfolio?",
-      "answer": "AI portfolio red flags: (1) 'Built an AI chatbot' with no mention of RAG, vector database, or evaluation metrics — likely a thin OpenAI API wrapper. (2) No evidence of prompt engineering discipline (system prompts, output validation, guardrails). (3) Claims of 'custom ML models' without PyTorch/Hugging Face repositories. (4) No mention of LLM cost management (token budgeting, semantic caching, model routing). Green flags: RAG pipeline with pgvector/Pinecone, RAGAS or similar evaluation metrics quoted, LangChain/LangGraph in GitHub repos, streaming SSE implementation, production AI SaaS with real usage (not a demo). Ask specifically: 'How do you prevent hallucinations in your RAG system?' and 'What is your LLM cost per conversation?' Vague answers indicate tutorial-level AI experience."
-    },
-    {
-      "question": "What deliverables should I expect from a senior software developer at project handover?",
-      "answer": "Standard senior developer handover deliverables: (1) Source code transferred to your GitHub repository (full commit history, not a ZIP file). (2) README with local development setup instructions. (3) Environment variables documentation (.env.example with descriptions). (4) API documentation (OpenAPI/Swagger for REST APIs). (5) Database schema documentation and Alembic migration history. (6) Test suite with coverage report (≥80% on critical paths). (7) Docker Compose for local development and production deployment config. (8) CI/CD pipeline (GitHub Actions) with passing tests. (9) Architecture diagram (system components, data flow). (10) 60-minute recorded walkthrough session. (11) 60-day bug warranty. Red flag: a developer who delivers only compiled/built files without source code or documentation."
-    },
-    {
-      "question": "When should I hire for legacy modernization vs greenfield development?",
-      "answer": "Hire for legacy modernization when: the existing system's data model is sound but the technology stack is outdated (PHP monolith, old Rails app, legacy Java), users depend on the system daily and downtime is unacceptable, and the business logic is complex and well-understood. Use the Strangler Fig pattern — build new services alongside legacy, route traffic gradually. Hire for greenfield when: the existing system has fundamental data model problems, the cost of maintaining legacy exceeds rewrite cost, or you're launching a new product with no existing users to migrate. Greenfield is faster to build but carries migration risk if you have existing data. A senior developer with both experiences will recommend the right approach after a $699 code audit — don't commit to a full rewrite without understanding what you're leaving behind."
-    },
-    {
-      "question": "How does Ramesh's async remote workflow work for software development projects?",
-      "answer": "Async remote workflow for software projects: (1) Kickoff call (60 min) — requirements, architecture decisions, milestone plan, communication channels. (2) Daily progress via GitHub PRs — you review code asynchronously, no mandatory daily standups. (3) Weekly written status update — what was completed, what's next, blockers, decisions needed from you. (4) Weekly Loom demo — screen recording of working features on staging environment. (5) Always-on staging environment — you can test features anytime without waiting for a demo. (6) WhatsApp/Slack for urgent blockers — async by default, synchronous when needed. (7) Milestone acceptance — written sign-off before next milestone starts. This workflow works across US, UK, EU, and APAC time zones without requiring overlapping 8-hour workdays. Most clients in US/UK report better communication quality than with local agencies."
     }
   ]
 }

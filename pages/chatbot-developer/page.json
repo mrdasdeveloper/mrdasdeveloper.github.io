@@ -1,20 +1,16 @@
 {
   "slug": "chatbot-developer",
   "h1": "Hire a Senior Chatbot Developer",
-  "subtitle": "LLM-Powered · RAG Knowledge Base · Voice-Enabled · Customer Support Automation · Multi-Platform · Analytics",
+  "subtitle": "LLM-Powered · RAG Knowledge Base · Customer Support Automation · Multi-Platform Integration",
   "url": "https://www.rameshdas.dev/pages/chatbot-developer/",
   "chips": [
-    "LLM Chatbots (GPT-4o/Claude)",
+    "LLM Chatbots",
     "RAG Knowledge Base",
-    "LangChain / LlamaIndex",
-    "Voice-Enabled (Whisper/ElevenLabs)",
+    "LangChain",
     "Multi-Platform",
-    "Slack / Teams / WhatsApp",
-    "RAGAS Evaluation",
-    "Redis / Celery",
-    "Analytics Dashboard",
-    "6+ Years",
-    "$29/hr"
+    "OpenAI / Claude",
+    "Analytics",
+    "6+ Years"
   ],
   "stats": [
     {
@@ -34,117 +30,69 @@
       "lbl": "Platforms Integrated"
     }
   ],
-  "trust_signals": [
-    "RAG-grounded — every answer from your verified knowledge base",
-    "Hallucination mitigation with output validation + confidence scoring",
-    "RAGAS evaluation before every production launch",
-    "60-day post-launch bug warranty",
-    "Full source code ownership — no vendor lock-in",
-    "Prompt injection protection + input sanitization",
-    "Cost monitoring + per-conversation spend tracking"
-  ],
   "technologies": {
     "LLM / AI": [
       "OpenAI GPT-4o",
       "Claude 3.5 Sonnet",
       "Gemini 1.5 Pro",
       "LangChain",
-      "LlamaIndex",
-      "LangGraph",
-      "MCP (Model Context Protocol)"
+      "LlamaIndex"
     ],
     "Voice": [
-      "OpenAI Whisper (STT)",
-      "ElevenLabs (TTS)",
+      "OpenAI Whisper",
+      "ElevenLabs",
       "OpenAI TTS",
-      "Twilio Voice",
-      "WebRTC"
+      "Twilio Voice"
     ],
     "Vector / RAG": [
       "pgvector",
       "Pinecone",
       "Qdrant",
       "ChromaDB",
-      "RAGAS evaluation",
-      "multilingual-e5-large embeddings"
+      "RAGAS evaluation"
     ],
     "Backend": [
       "FastAPI",
       "Node.js",
       "WebSockets",
-      "Server-Sent Events (SSE)",
+      "Server-Sent Events",
       "Redis",
-      "Celery",
-      "PostgreSQL"
+      "Celery"
     ],
     "Platforms": [
-      "Slack API (Block Kit)",
+      "Slack API",
       "MS Teams Bot Framework",
       "WhatsApp Business API",
       "Zendesk",
-      "Intercom",
-      "Freshdesk",
-      "Facebook Messenger"
+      "Intercom"
     ],
     "Frontend": [
       "React",
       "Next.js",
       "Tailwind CSS",
-      "Web Widget SDK",
-      "TypeScript"
+      "Web Widget SDK"
     ]
   },
   "pricing": [
     {
       "type": "Hourly",
       "rate": "$29",
-      "period": "Per hour · Min. 4hrs · Async delivery",
-      "features": [
-        "RAG pipeline development",
-        "LLM prompt engineering",
-        "Platform integration",
-        "Chatbot audits",
-        "Performance tuning"
-      ]
+      "period": "Per hour · Min. 4hrs · Async delivery"
     },
     {
       "type": "Monthly Retainer",
       "rate": "$1,999",
-      "period": "160 hrs/month · Full-time senior dev",
-      "features": [
-        "Dedicated senior chatbot engineer",
-        "Continuous model fine-tuning",
-        "Knowledge base updates",
-        "Analytics monitoring",
-        "Multi-platform deployment",
-        "Priority WhatsApp support"
-      ]
+      "period": "160 hrs/month · Full-time senior dev"
     },
     {
       "type": "Chatbot Build",
       "rate": "From $3,499",
-      "period": "3–6 weeks · Milestone-based",
-      "features": [
-        "Full RAG pipeline + vector DB",
-        "Multi-platform integration",
-        "Analytics dashboard",
-        "Escalation to human support",
-        "RAGAS quality evaluation",
-        "60-day bug warranty",
-        "Full source code ownership"
-      ]
+      "period": "3–6 weeks · Milestone-based"
     },
     {
       "type": "Chatbot Audit",
       "rate": "$499",
-      "period": "3–5 days · Written report",
-      "features": [
-        "Accuracy & hallucination analysis",
-        "RAG pipeline review",
-        "Prompt injection vulnerability check",
-        "Cost optimization recommendations",
-        "Performance & latency report"
-      ]
+      "period": "3–5 days · Written report"
     }
   ],
   "industries": [
@@ -160,56 +108,6 @@
     "Marketing & Lead Gen",
     "Travel & Hospitality",
     "Media & Entertainment"
-  ],
-  "case_studies": [
-    {
-      "title": "E-Commerce Support Chatbot",
-      "industry": "E-Commerce",
-      "stack": ["OpenAI GPT-4o", "RAG (pgvector)", "Shopify API", "Zendesk"],
-      "challenge": "1,200+ daily support tickets overwhelming a 5-person team. 40% of tickets were repetitive product and order questions.",
-      "solution": "RAG chatbot on product catalog + order policies. Shopify API integration for live order status. Zendesk escalation for complex queries.",
-      "result_tickets_deflected": "62%",
-      "result_response_time": "< 2s",
-      "result_csat": "+18 NPS pts"
-    },
-    {
-      "title": "SaaS Internal Knowledge Bot",
-      "industry": "B2B SaaS",
-      "stack": ["Claude 3.5 Sonnet", "LangChain", "LlamaIndex", "Slack API"],
-      "challenge": "Engineering team spending 3+ hours/day answering internal questions about product specs and architecture docs.",
-      "solution": "Slack-native RAG bot grounded on Confluence, Notion, and GitHub documentation. Multi-turn conversation memory.",
-      "result_time_saved": "2.5h/dev/day",
-      "result_accuracy": "94%",
-      "result_adoption": "88% weekly active"
-    },
-    {
-      "title": "Financial Services Compliance Bot",
-      "industry": "Financial Services",
-      "stack": ["OpenAI GPT-4o", "RAG (Qdrant)", "PII filtering", "Audit logging"],
-      "challenge": "Compliance team manually answering 800+ regulatory Q&A per month. No guardrails on sensitive data.",
-      "solution": "Strict-scope RAG chatbot with PII filtering, regulatory guardrails, compliance audit logging, and escalation to licensed advisors.",
-      "result_deflection": "71%",
-      "result_pii_incidents": "0 PII leaks",
-      "result_audit_coverage": "100% logged"
-    }
-  ],
-  "interview_questions": [
-    {
-      "q": "How do you prevent hallucinations in a production RAG chatbot?",
-      "a": "Multi-layer approach: (1) Retrieve from verified knowledge base (RAG eliminates reliance on LLM training data). (2) Include source citations in every response so users can verify. (3) Confidence threshold — if retrieved context similarity score is below threshold, decline to answer rather than guess. (4) Output validation with Pydantic models to detect malformed or implausible responses. (5) RAGAS evaluation metrics (faithfulness, answer relevance, context recall) measured before every deployment."
-    },
-    {
-      "q": "What's your approach to chatbot conversation memory at scale?",
-      "a": "Short-term (in-session): last N messages in LLM context window. Long-term (cross-session): PostgreSQL for message archive. Active session state in Redis for sub-millisecond retrieval. Context compression: when conversation exceeds context window, summarize earlier turns rather than truncate. Session management: JWT-based user association. At millions of conversations: time-based database partitioning + async archiving."
-    },
-    {
-      "q": "How do you evaluate RAG chatbot quality before launching to production?",
-      "a": "RAGAS evaluation suite: faithfulness (does the answer match retrieved context?), answer relevance (does the answer address the question?), context recall (was the right context retrieved?), context precision. Build a golden dataset of 200+ representative Q&A pairs covering all knowledge base topics. Run automated RAGAS evaluation on every deployment. Set minimum score thresholds — below which the chatbot does not go to production. Measure latency at p50/p95/p99 under realistic load."
-    },
-    {
-      "q": "How do you architect a chatbot for multiple languages?",
-      "a": "Modern LLMs (GPT-4o, Claude 3.5) natively handle 100+ languages — no separate models per language. For RAG: use multilingual embedding models (multilingual-e5-large or OpenAI's text-embedding-3-large) so English knowledge base retrieves correctly for Spanish/French/Japanese queries. Language detection in middleware — route to language-appropriate escalation agents. Evaluate retrieval quality per target language in RAGAS before launch. One backend, one knowledge base, true multilingual capability."
-    }
   ],
   "internal_links": [
     "/pages/ai-automation-engineer/",

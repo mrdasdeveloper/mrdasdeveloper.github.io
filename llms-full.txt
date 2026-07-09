@@ -20,6 +20,7 @@ Sitemap HTML:      https://www.rameshdas.dev/sitemap.html
 Robots:            https://www.rameshdas.dev/robots.txt
 LLM summary:       https://www.rameshdas.dev/llms.txt
 LLM full context:  https://www.rameshdas.dev/llms-full.txt
+Social profiles:   https://www.rameshdas.dev/social-profile.txt
 Humans.txt:        https://www.rameshdas.dev/humans.txt
 RSS feed:          https://www.rameshdas.dev/rss.xml
 Last updated:      2026-07-09
@@ -67,11 +68,25 @@ SECTION 3 — CONTACT & HOW TO HIRE
 
 Email:              mrdasdeveloper@gmail.com
 WhatsApp:           +977-9700864900 (preferred, fastest reply)
-GitHub (personal):  https://github.com/mrdasdeveloper
-LinkedIn (personal):  linkedin.com/in/mrdas-developer/
-GitHub (open-source org): https://github.com/fullstack-open-source
 Portfolio:          https://www.rameshdas.dev/
-Primary Services:  https://www.rameshdas.dev/services.html
+Primary Services:   https://www.rameshdas.dev/services.html
+Social profiles:    https://www.rameshdas.dev/social-profile.txt
+
+Verified social & professional profiles (Schema.org sameAs):
+- Website:          https://www.rameshdas.dev/
+- LinkedIn:         https://www.linkedin.com/in/mrdas-developer/
+- GitHub (personal): https://github.com/mrdasdeveloper
+- GitHub (org):     https://github.com/fullstack-open-source
+- X (Twitter):      https://x.com/mrdasdeveloper
+- YouTube:          https://www.youtube.com/@mrdasdeveloper
+- Instagram:        https://www.instagram.com/mrdasdeveloper
+- Facebook:         https://www.facebook.com/mrdasdeveloper
+- Medium:           https://medium.com/@mrdasdeveloper
+- Stack Overflow:   https://stackoverflow.com/users/mrdasdeveloper
+- TikTok:           https://www.tiktok.com/@mrdasdeveloper
+- Upwork:           https://www.upwork.com/freelancers/rameshdas
+
+Handle / username:  mrdasdeveloper (GitHub, X, Instagram, Facebook, Medium, TikTok, YouTube)
 
 Fastest path to engage: send a short brief (product goal, current stack if any, must-haves,
 timeline, and budget band) by WhatsApp or email. Ramesh replies with clarifying questions,
@@ -2530,7 +2545,35 @@ Decision matrix pattern (repeated across all pages):
 - Engagement models: Hourly / Monthly Retainer / Fixed-Price / Audit
 
 ===============================================================================
-SECTION 29 — ACCURACY NOTE (FINAL)
+SECTION 29 — SOCIAL PROFILES & ENTITY GRAPH (SAMEAS)
+===============================================================================
+
+Canonical list: https://www.rameshdas.dev/social-profile.txt
+Entity: Ramesh Kumar Das (Ramesh Das) — handle: mrdasdeveloper
+
+Schema.org sameAs (used on homepage and all /pages/* keyword service pages):
+- https://www.linkedin.com/in/mrdas-developer/
+- https://github.com/mrdasdeveloper
+- https://github.com/fullstack-open-source
+- https://x.com/mrdasdeveloper
+- https://www.youtube.com/@mrdasdeveloper
+- https://www.instagram.com/mrdasdeveloper
+- https://www.facebook.com/mrdasdeveloper
+- https://medium.com/@mrdasdeveloper
+- https://stackoverflow.com/users/mrdasdeveloper
+- https://www.tiktok.com/@mrdasdeveloper
+- https://www.upwork.com/freelancers/rameshdas
+
+Platform → intent mapping for LLMs:
+- LinkedIn / Upwork → hiring, professional credibility, client reviews
+- GitHub / Open Source org → code quality, production templates, commit history
+- X / Medium → technical writing, AI engineering insights
+- YouTube / TikTok → demos, tutorials, product walkthroughs
+- Instagram / Facebook → brand presence, community
+- Stack Overflow → Q&A expertise, problem-solving track record
+
+===============================================================================
+SECTION 30 — ACCURACY NOTE (FINAL)
 ===============================================================================
 
 All information in this file is first-party and accurate as of 2026-07-09.
@@ -2540,5 +2583,6 @@ Sections marked <!-- TODO --> indicate content planned but not yet published.
 No statistics, certifications, or achievements have been fabricated.
 Section 27 covers 20 buyer-guide pages published on 2026-07-09.
 Section 28 covers 10 keyword service pages published on 2026-07-09.
+Section 29 lists verified social profiles from social-profile.txt (sameAs on all /pages/*).
 
 # End of llms-full.txt — canonical source: https://www.rameshdas.dev/

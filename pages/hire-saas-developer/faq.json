@@ -1,5 +1,5 @@
 {
-  "count": 26,
+  "count": 21,
   "faqs": [
     {
       "question": "What is the best SaaS developer for building scalable cloud applications?",
@@ -84,26 +84,6 @@
     {
       "question": "Is Mrdasdeveloper a better choice than other SaaS developers for my project?",
       "answer": "Ramesh Das (mrdasdeveloper) offers: senior SaaS engineering experience (multi-tenancy, Stripe billing, admin dashboards, AI integration) with production evidence (WinstaAI AI SaaS at KLIKY AI), startup-friendly rates ($29/hr or $1,999/mo retainer — 50% below comparable London/US agency rates), direct communication (WhatsApp, no account manager layer), milestone-based delivery with written specs, 60-day bug warranty, and full source code ownership transfer. The main consideration: Ramesh is an individual senior engineer, not a team. For projects requiring concurrent parallel development streams, a larger team is more appropriate."
-    },
-    {
-      "question": "How does PostgreSQL row-level security (RLS) work for SaaS multi-tenancy?",
-      "answer": "PostgreSQL RLS enforces tenant isolation at the database level — not just in application code. Implementation: (1) Add a tenant_id column to every table. (2) Create RLS policies: CREATE POLICY tenant_isolation ON users USING (tenant_id = current_setting('app.current_tenant')::uuid). (3) Set the tenant context at the start of every request: SET app.current_tenant = 'tenant-uuid' via a FastAPI/NestJS middleware. (4) Even if application code has a bug and forgets to filter by tenant_id, the database enforces isolation. This is the gold standard for B2B SaaS multi-tenancy in 2026. Verify your SaaS developer has implemented RLS — not just application-level WHERE tenant_id = X filtering, which can be bypassed by a single missed query."
-    },
-    {
-      "question": "How do you implement Stripe webhook idempotency to prevent double charges?",
-      "answer": "Stripe webhook idempotency is non-negotiable for production SaaS. Implementation: (1) Store every processed Stripe event ID in a webhook_events table with a unique constraint. (2) On webhook receipt: check if event ID already exists — if yes, return 200 immediately (idempotent). (3) Process the event inside a database transaction. (4) Use Stripe's idempotency keys on all API calls that create charges or subscriptions. (5) Handle webhook retries gracefully — Stripe retries failed webhooks for up to 3 days. (6) Verify webhook signatures using stripe.Webhook.construct_event() — never process unsigned webhooks. A SaaS developer who hasn't implemented idempotency has only done demo Stripe integration — not production billing."
-    },
-    {
-      "question": "What is the typical timeline and cost for building a SaaS MVP?",
-      "answer": "SaaS MVP timeline by scope: Basic MVP (auth + 1 core feature + Stripe checkout + admin panel): 8–10 weeks, from $8,999. Standard MVP (multi-tenancy + subscription billing + 3 core features + admin dashboard): 10–14 weeks, from $12,999. Full production platform (multi-tenancy + full Stripe lifecycle + usage metering + SSO + public API): 16–24 weeks, from $25,000+. These assume: clear written requirements, 24-hour client feedback, and a dedicated senior developer. Add 2–3 weeks for each major integration (Salesforce CRM, complex OAuth, marketplace with Stripe Connect). The most common MVP scope mistake: trying to build enterprise features (SSO, SCIM, audit logging) in the MVP — ship core value first, add enterprise features when you have paying customers requesting them."
-    },
-    {
-      "question": "How do SaaS developers implement seat-based vs. usage-based billing?",
-      "answer": "Seat-based billing: charge per user seat in an organization. Implementation: Stripe per-seat pricing (quantity = active user count), update quantity on user invite/removal via stripe.subscriptions.update(). Usage-based billing: charge based on consumption (API calls, AI tokens, storage GB). Implementation: Stripe metered prices + stripe.subscriptionItems.createUsageRecord() called asynchronously after each usage event. Hybrid (most common for AI SaaS): base subscription fee + usage overage. Key implementation detail: usage reporting must be async (Celery/BullMQ) — never block the user's API request while reporting to Stripe. Display real-time usage in the customer dashboard so users aren't surprised by their bill."
-    },
-    {
-      "question": "What SOC2 and security practices should a SaaS developer implement?",
-      "answer": "SOC2-ready SaaS security practices (implementable by a senior developer, not requiring a dedicated security team): (1) Encryption at rest (RDS encryption, S3 encryption) and in transit (TLS everywhere). (2) Secrets management (AWS Secrets Manager or 1Password — no hardcoded credentials). (3) Audit logging (append-only log of all data access, auth events, admin actions). (4) Dependency scanning (Dependabot, Snyk, or pip-audit in CI). (5) RBAC with principle of least privilege. (6) Automated backups with tested restore procedure. (7) Incident response runbook. Note: SOC2 Type II certification requires 6–12 months of evidence collection and a formal audit — a developer can build SOC2-ready architecture, but certification itself requires organizational process beyond engineering."
     }
   ]
 }
