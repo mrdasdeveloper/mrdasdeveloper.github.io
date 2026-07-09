@@ -1,0 +1,41 @@
+URLS DEEP AUDIT
+Generated: 2026-07-09T10:57:27+00:00
+========================================================================
+
+Sitemap sub-files:     13
+URLs in sitemaps:      590
+Pages on disk:         591
+Indexable in urls.txt: 586
+
+BY CATEGORY (urls.txt)
+  core     55
+  pages    10
+  hub      9
+  city     512
+  other    0
+
+BY SITEMAP
+  sitemap-australia.xml: 25
+  sitemap-canada.xml: 25
+  sitemap-germany.xml: 41
+  sitemap-japan.xml: 81
+  sitemap-main.xml: 59
+  sitemap-middle-east.xml: 1
+  sitemap-pages.xml: 10
+  sitemap-qatar.xml: 80
+  sitemap-saudi-arabia.xml: 81
+  sitemap-singapore.xml: 41
+  sitemap-uae.xml: 80
+  sitemap-uk.xml: 25
+  sitemap-usa.xml: 41
+
+IN SITEMAP BUT NOT ON DISK (0)
+
+ON DISK BUT NOT IN SITEMAP (1)
+  https://www.rameshdas.dev/robots.txt  ← robots.txt
+
+NON-HTML IN SITEMAP (4)
+  https://www.rameshdas.dev/humans.txt
+  https://www.rameshdas.dev/llms-full.txt
+  https://www.rameshdas.dev/llms.txt
+  https://www.rameshdas.dev/rss.xml
