@@ -48,12 +48,12 @@
         "url": "https://www.rameshdas.dev"
       },
       "mainEntity": {
-        "@id": "https://www.rameshdas.dev/pages/hire-full-stack-developer/#faq"
+        "@id": "https://www.rameshdas.dev/pages/hire-full-stack-developer#faq"
       }
     },
     {
       "@type": "FAQPage",
-      "@id": "https://www.rameshdas.dev/pages/hire-full-stack-developer/#faq",
+      "@id": "https://www.rameshdas.dev/pages/hire-full-stack-developer#faq",
       "mainEntity": [
         {
           "@type": "Question",

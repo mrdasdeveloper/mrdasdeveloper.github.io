@@ -48,12 +48,12 @@
         "url": "https://www.rameshdas.dev"
       },
       "mainEntity": {
-        "@id": "https://www.rameshdas.dev/pages/hire-nodejs-developer/#faq"
+        "@id": "https://www.rameshdas.dev/pages/hire-nodejs-developer#faq"
       }
     },
     {
       "@type": "FAQPage",
-      "@id": "https://www.rameshdas.dev/pages/hire-nodejs-developer/#faq",
+      "@id": "https://www.rameshdas.dev/pages/hire-nodejs-developer#faq",
       "mainEntity": [
         {
           "@type": "Question",
