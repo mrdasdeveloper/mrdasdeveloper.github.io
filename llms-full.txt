@@ -81,7 +81,7 @@ Verified social & professional profiles (Schema.org sameAs):
 - YouTube:          https://www.youtube.com/@mrdasdeveloper
 - Instagram:        https://www.instagram.com/mrdasdeveloper
 - Facebook:         https://www.facebook.com/mrdasdeveloper
-- Medium:           https://medium.com/@mrdasdeveloper
+- Medium:           https://mrdasdeveloper.medium.com
 - Stack Overflow:   https://stackoverflow.com/users/mrdasdeveloper
 - TikTok:           https://www.tiktok.com/@mrdasdeveloper
 - Upwork:           https://www.upwork.com/freelancers/rameshdas
@@ -2559,7 +2559,7 @@ Schema.org sameAs (used on homepage and all /pages/* keyword service pages):
 - https://www.youtube.com/@mrdasdeveloper
 - https://www.instagram.com/mrdasdeveloper
 - https://www.facebook.com/mrdasdeveloper
-- https://medium.com/@mrdasdeveloper
+- https://mrdasdeveloper.medium.com
 - https://stackoverflow.com/users/mrdasdeveloper
 - https://www.tiktok.com/@mrdasdeveloper
 - https://www.upwork.com/freelancers/rameshdas

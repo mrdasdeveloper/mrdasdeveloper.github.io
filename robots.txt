@@ -25,6 +25,29 @@ Disallow: /*.py$
 Disallow: /*.log$
 Disallow: /*.jsonl$
 
+# ── Legacy redirect stubs (noindex) ──
+Disallow: /best-post-launch-support-custom-web-development-service.html
+Disallow: /businesses-benefit-most-from-custom-web-development-services.html
+Disallow: /client-involvement-during-custom-web-development-project.html
+Disallow: /custom-web-developers-content-management-system-integration.html
+Disallow: /custom-web-developers-maintenance-packages-after-launch.html
+Disallow: /custom-web-developers-website-updates-feature-additions.html
+Disallow: /custom-web-development-companies-mobile-optimization.html
+Disallow: /custom-web-development-firm-frontend-and-backend-work.html
+Disallow: /custom-web-development-firms-scalable-websites.html
+Disallow: /custom-web-development-providers-seo-friendly-site-builds.html
+Disallow: /custom-web-development-services-ecommerce-sites.html
+Disallow: /custom-web-development-third-party-tools-integration.html
+Disallow: /custom-web-development-user-experience-design-services.html
+Disallow: /demo-or-prototype-before-custom-web-development-project.html
+Disallow: /how-custom-web-development-agencies-price-projects.html
+Disallow: /questions-to-ask-before-signing-web-development-agency-contract.html
+Disallow: /security-features-custom-web-development-provider.html
+Disallow: /timelines-for-custom-web-development-project.html
+Disallow: /typical-deliverables-custom-web-development-project.html
+Disallow: /what-to-look-for-hiring-custom-web-development-company.html
+
+
 
 # ── Google ───────────────────────────────────────────────────────
 User-agent: Googlebot

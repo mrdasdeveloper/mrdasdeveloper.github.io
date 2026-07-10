@@ -1,0 +1,345 @@
+================================================================================
+rameshdas.dev — ALL COMMANDS REFERENCE
+================================================================================
+Site: https://www.rameshdas.dev
+Repo: mrdasdeveloper.github.io
+
+Run all commands from the project root:
+  cd /path/to/mrdasdeveloper.github.io
+
+
+================================================================================
+1. ONE-TIME SETUP
+================================================================================
+
+# AI config (optional — env vars also work)
+cp ai_config.json.example ai_config.json
+
+# Set one API key (pick one provider)
+export OPENAI_API_KEY=sk-...
+export ANTHROPIC_API_KEY=sk-ant-...
+export DEEPSEEK_API_KEY=sk-...
+
+# IndexNow key (for Bing/Yandex/Ahrefs)
+python3 master_script.py --indexnow-init
+
+# Verify AI is wired correctly (no API call)
+python3 ai_content.py --check
+
+
+================================================================================
+2. MASTER SCRIPT (main SEO + generate entry point)
+================================================================================
+
+# Audit only — report Ahrefs issues (default)
+python3 master_script.py
+python3 master_script.py --audit
+
+# Apply ALL SEO fixes
+python3 master_script.py --fix-all
+
+# Preview fixes without writing files
+python3 master_script.py --dry-run --fix-all
+
+# Apply one fix category
+python3 master_script.py --fix broken-links
+python3 master_script.py --fix redirect-stubs
+python3 master_script.py --fix pages-index
+python3 master_script.py --fix internal-links
+python3 master_script.py --fix discovery-links
+python3 master_script.py --fix robots
+python3 master_script.py --fix sitemap
+python3 master_script.py --fix meta
+python3 master_script.py --fix hreflang
+python3 master_script.py --fix external-links
+python3 master_script.py --fix structured-data
+python3 master_script.py --fix indexnow
+python3 master_script.py --fix all
+
+# Regenerate ALL pages + fix meta tags
+python3 master_script.py --generate
+
+# Regenerate one country only (city pages + hub)
+python3 master_script.py --generate --country usa
+python3 master_script.py --generate --country uk
+python3 master_script.py --generate --country canada
+python3 master_script.py --generate --country australia
+python3 master_script.py --generate --country germany
+python3 master_script.py --generate --country japan
+python3 master_script.py --generate --country singapore
+python3 master_script.py --generate --country saudi-arabia
+python3 master_script.py --generate --country uae
+python3 master_script.py --generate --country qatar
+
+# Generate with AI content (2000 words/page)
+python3 master_script.py --generate --ai
+python3 master_script.py --generate --ai --ai-provider deepseek
+python3 master_script.py --generate --ai --ai-provider openai
+python3 master_script.py --generate --ai --ai-provider anthropic
+python3 master_script.py --generate --country usa --ai --ai-provider deepseek
+
+# IndexNow key setup
+python3 master_script.py --indexnow-init
+
+
+================================================================================
+3. PAGE GENERATOR (city pages, hubs, service pages, webdev FAQ)
+================================================================================
+
+# Generate everything
+python3 page_generator.py --all
+
+# Generate everything + fix meta tags
+python3 page_generator.py --all --fix-meta
+
+# City pages (all regions)
+python3 page_generator.py --city-pages
+
+# City pages for one country
+python3 page_generator.py --city-pages --country usa
+python3 page_generator.py --city-pages --country uk
+python3 page_generator.py --city-pages --country canada
+python3 page_generator.py --city-pages --country australia
+python3 page_generator.py --city-pages --country germany
+python3 page_generator.py --city-pages --country japan
+python3 page_generator.py --city-pages --country singapore
+python3 page_generator.py --city-pages --country saudi-arabia
+python3 page_generator.py --city-pages --country uae
+python3 page_generator.py --city-pages --country qatar
+
+# Regional hub pages
+python3 page_generator.py --hubs
+
+# Service hire pages (/pages/{slug}/)
+python3 page_generator.py --service-pages
+
+# Webdev FAQ pages (20 custom pages)
+python3 page_generator.py --webdev-faq
+
+# Auxiliary feeds (humans.txt + rss.xml)
+python3 page_generator.py --aux
+
+# Dry run (preview, no file writes)
+python3 page_generator.py --city-pages --country usa --dry-run
+
+# ── AI options ────────────────────────────────────────────────────────────────
+
+# Full generate with AI batch + render from cache
+python3 page_generator.py --all --ai --ai-provider deepseek --fix-meta
+
+# Target 2000 words per page (default)
+python3 page_generator.py --all --ai --ai-target-words 2000
+
+# Test AI on limited pages only
+python3 page_generator.py --service-pages --ai --ai-limit 2
+
+# Re-generate AI content (ignore cache)
+python3 page_generator.py --all --ai --ai-force
+
+# Enhance one service page slug only
+python3 page_generator.py --ai --ai-slug hire-full-stack-developer --ai-provider deepseek
+
+# City pages with live AI per page (~512 pages — use country filter first)
+python3 page_generator.py --city-pages --country usa --ai --ai-target-words 2000
+
+
+================================================================================
+4. AI CONTENT (batch mode — 2000 words per page)
+================================================================================
+
+# Deep implementation audit
+python3 ai_content.py --check
+
+# ── Batch generate (writes to ai_cache/) ─────────────────────────────────────
+
+# All service hire pages (~10 pages)
+python3 ai_content.py --batch service --provider deepseek --target-words 2000
+
+# All webdev FAQ pages (20 pages)
+python3 ai_content.py --batch webdev --provider deepseek --target-words 2000
+
+# City pages (~512 pages — expensive; use --limit for testing)
+python3 ai_content.py --batch city --provider deepseek --target-words 2000
+
+# All page types (service + webdev + city)
+python3 ai_content.py --batch all --provider deepseek --target-words 2000
+
+# Test batch (2 pages only)
+python3 ai_content.py --batch service --provider deepseek --limit 2
+
+# Custom batch size and word target
+python3 ai_content.py --batch service --provider openai --target-words 2000 --batch-size 5
+
+# Force re-generate (ignore cache)
+python3 ai_content.py --batch service --provider deepseek --force
+
+# ── Single page enhance ──────────────────────────────────────────────────────
+
+python3 ai_content.py --enhance-service hire-full-stack-developer --provider deepseek --target-words 2000
+python3 ai_content.py --enhance-service hire-python-developer --provider deepseek --force
+
+# Legacy aliases (same as --batch)
+python3 ai_content.py --enhance-all-service --provider deepseek
+python3 ai_content.py --enhance-all-webdev --provider deepseek
+
+# Providers: openai | anthropic | deepseek
+
+
+================================================================================
+5. RENDER INDIVIDUAL PAGE TYPES
+================================================================================
+
+# Service pages from pages_data.py → /pages/{slug}/
+python3 render_pages.py
+
+# Service pages using AI cache (run ai_content.py batch first)
+python3 render_pages.py --use-ai-cache
+
+# Webdev FAQ pages
+python3 webdev_pages.py
+
+# Webdev pages using AI cache
+python3 webdev_pages.py --use-ai-cache
+
+# Sitemaps + urls.txt
+python3 sitemap_tools.py
+
+# humans.txt stats refresh
+python3 generate_humans.py
+
+# rss.xml feed
+python3 generate_rss.py
+
+
+================================================================================
+6. GOOGLE INDEXING API (smart_indexer.py)
+================================================================================
+
+# Run indexer (submits pending URLs, respects 200/day quota)
+python3 smart_indexer.py
+
+# Status report only (no API calls)
+python3 smart_indexer.py --report
+
+# Preview submissions (no API calls)
+python3 smart_indexer.py --dry-run
+
+# Submit max 50 URLs this run
+python3 smart_indexer.py --limit 50
+
+# HEAD-check URLs are live before submitting
+python3 smart_indexer.py --preflight
+
+# Re-submit already-submitted URLs
+python3 smart_indexer.py --force
+
+# Reset all URLs to pending
+python3 smart_indexer.py --reset
+
+# Reset one URL
+python3 smart_indexer.py --reset-url https://www.rameshdas.dev/pages/hire-full-stack-developer/
+
+# Reset only failed URLs
+python3 smart_indexer.py --reset-failed
+
+# Scan a different directory
+python3 smart_indexer.py --dir .
+
+
+================================================================================
+7. INDEXNOW (Bing / Yandex / Ahrefs)
+================================================================================
+
+# Create key file + indexnow_config.json
+python3 master_script.py --indexnow-init
+
+# Submit all URLs from urls.txt (via master_script fix)
+python3 master_script.py --fix indexnow
+
+# Dry run IndexNow (via master_script)
+python3 master_script.py --dry-run --fix indexnow
+
+
+================================================================================
+8. RECOMMENDED WORKFLOWS
+================================================================================
+
+── A. SEO fix only (no page regen) ──────────────────────────────────────────
+python3 master_script.py --audit
+python3 master_script.py --fix-all
+
+── B. AI batch → render HTML (test 2 pages) ───────────────────────────────────
+python3 ai_content.py --check
+python3 ai_content.py --batch service --provider deepseek --limit 2 --target-words 2000
+python3 render_pages.py --use-ai-cache
+
+── C. Full AI pipeline (service + webdev, no city) ───────────────────────────
+python3 ai_content.py --batch service --provider deepseek --target-words 2000
+python3 ai_content.py --batch webdev --provider deepseek --target-words 2000
+python3 page_generator.py --service-pages --webdev-faq --fix-meta
+# (pass --use-ai-cache is automatic when using page_generator --ai)
+
+── D. One-command full site regen with AI ────────────────────────────────────
+python3 master_script.py --generate --ai --ai-provider deepseek
+
+── E. Deploy checklist ───────────────────────────────────────────────────────
+python3 master_script.py --fix-all
+python3 master_script.py --generate --ai --ai-provider deepseek
+python3 sitemap_tools.py
+python3 generate_humans.py
+python3 generate_rss.py
+git add -A && git commit -m "Regenerate pages with AI content"
+git push
+python3 master_script.py --fix indexnow
+python3 smart_indexer.py
+
+
+================================================================================
+9. PYTHON FILES (12 core scripts)
+================================================================================
+
+master_script.py    Main SEO orchestrator + --generate passthrough
+page_generator.py   City pages, hubs, orchestrates render/webdev/aux
+ai_content.py       AI batch + 2000-word content (OpenAI/Anthropic/DeepSeek)
+render_pages.py     Renders /pages/{slug}/ hire pages
+webdev_pages.py     20 custom webdev FAQ pages
+pages_data.py       Service page data (imported by render_pages)
+site_fixes.py       Meta, links, structured data fixes
+sitemap_tools.py    Sitemaps, urls.txt, redirect stubs list
+seo_utils.py        Title/description helpers
+indexnow.py         IndexNow key + submission
+generate_humans.py  humans.txt
+generate_rss.py     rss.xml
+smart_indexer.py    Google Indexing API (standalone)
+
+
+================================================================================
+10. CACHE & CONFIG PATHS
+================================================================================
+
+ai_config.json              AI provider settings (copy from ai_config.json.example)
+ai_cache/service/*.json     AI-enhanced hire page content
+ai_cache/webdev/*.json      AI-enhanced webdev FAQ content
+ai_cache/city/*.json        AI-enhanced city page content
+ai_cache/batch_progress.json Batch job progress tracker
+indexnow_config.json        IndexNow API key config
+indexing_state_v3.json      Google Indexing API state (smart_indexer)
+urls.txt                    All indexable URLs (from sitemap_tools)
+
+
+================================================================================
+11. SERVICE PAGE SLUGS (for --ai-slug / --enhance-service)
+================================================================================
+
+hire-full-stack-developer
+hire-python-developer
+hire-nodejs-developer
+hire-saas-developer
+hire-remote-software-engineer
+ai-automation-engineer
+chatbot-developer
+website-developer
+best-custom-website-developer
+software-developer-to-hire
+
+================================================================================

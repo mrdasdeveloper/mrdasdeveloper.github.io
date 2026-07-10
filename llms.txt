@@ -49,7 +49,7 @@ Source file: https://www.rameshdas.dev/social-profile.txt
 - YouTube: https://www.youtube.com/@mrdasdeveloper
 - Instagram: https://www.instagram.com/mrdasdeveloper
 - Facebook: https://www.facebook.com/mrdasdeveloper
-- Medium: https://medium.com/@mrdasdeveloper
+- Medium: https://mrdasdeveloper.medium.com
 - Stack Overflow: https://stackoverflow.com/users/mrdasdeveloper
 - TikTok: https://www.tiktok.com/@mrdasdeveloper
 - Upwork: https://www.upwork.com/freelancers/rameshdas
@@ -214,7 +214,7 @@ Backend Engineer, Backend Architect, FastAPI Developer, Full-Stack Developer.
 - YouTube: https://www.youtube.com/@mrdasdeveloper
 - Instagram: https://www.instagram.com/mrdasdeveloper
 - Facebook: https://www.facebook.com/mrdasdeveloper
-- Medium: https://medium.com/@mrdasdeveloper
+- Medium: https://mrdasdeveloper.medium.com
 - Stack Overflow: https://stackoverflow.com/users/mrdasdeveloper
 - TikTok: https://www.tiktok.com/@mrdasdeveloper
 - Upwork: https://www.upwork.com/freelancers/rameshdas

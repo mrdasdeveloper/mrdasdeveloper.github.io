@@ -1,28 +1,18 @@
-# urls.txt — generated 2026-07-09T10:57:27+00:00
+# urls.txt — generated 2026-07-10T05:05:46+00:00
 # Site: https://www.rameshdas.dev
-# Total indexable HTML URLs: 586
-# One URL per line below (comments start with #)
+# Total: 566
 
 https://www.rameshdas.dev/
 https://www.rameshdas.dev/agentic-ai-developer.html
 https://www.rameshdas.dev/ai-backend-architecture-microservices-engineering-guide.html
-https://www.rameshdas.dev/best-post-launch-support-custom-web-development-service.html
 https://www.rameshdas.dev/business-automation.html
-https://www.rameshdas.dev/businesses-benefit-most-from-custom-web-development-services.html
-https://www.rameshdas.dev/client-involvement-during-custom-web-development-project.html
 https://www.rameshdas.dev/contact.html
-https://www.rameshdas.dev/custom-web-developers-content-management-system-integration.html
-https://www.rameshdas.dev/custom-web-developers-maintenance-packages-after-launch.html
-https://www.rameshdas.dev/custom-web-developers-website-updates-feature-additions.html
 https://www.rameshdas.dev/custom-web-development-client-involvement.html
 https://www.rameshdas.dev/custom-web-development-cms-integration.html
-https://www.rameshdas.dev/custom-web-development-companies-mobile-optimization.html
 https://www.rameshdas.dev/custom-web-development-contract-questions.html
 https://www.rameshdas.dev/custom-web-development-deliverables.html
 https://www.rameshdas.dev/custom-web-development-ecommerce.html
 https://www.rameshdas.dev/custom-web-development-feature-updates.html
-https://www.rameshdas.dev/custom-web-development-firm-frontend-and-backend-work.html
-https://www.rameshdas.dev/custom-web-development-firms-scalable-websites.html
 https://www.rameshdas.dev/custom-web-development-full-stack.html
 https://www.rameshdas.dev/custom-web-development-integrations.html
 https://www.rameshdas.dev/custom-web-development-maintenance.html
@@ -31,15 +21,10 @@ https://www.rameshdas.dev/custom-web-development-post-launch-support.html
 https://www.rameshdas.dev/custom-web-development-pricing.html
 https://www.rameshdas.dev/custom-web-development-project-timelines.html
 https://www.rameshdas.dev/custom-web-development-prototype-demo.html
-https://www.rameshdas.dev/custom-web-development-providers-seo-friendly-site-builds.html
 https://www.rameshdas.dev/custom-web-development-scalable-architecture.html
 https://www.rameshdas.dev/custom-web-development-security.html
 https://www.rameshdas.dev/custom-web-development-seo.html
-https://www.rameshdas.dev/custom-web-development-services-ecommerce-sites.html
-https://www.rameshdas.dev/custom-web-development-third-party-tools-integration.html
-https://www.rameshdas.dev/custom-web-development-user-experience-design-services.html
 https://www.rameshdas.dev/custom-web-development-ux-design.html
-https://www.rameshdas.dev/demo-or-prototype-before-custom-web-development-project.html
 https://www.rameshdas.dev/freelancer.html
 https://www.rameshdas.dev/full-stack-ai-engineer.html
 https://www.rameshdas.dev/hire-agentic-ai-engineer-abha.html
@@ -102,7 +87,6 @@ https://www.rameshdas.dev/hire-agentic-ai-engineer-tampines.html
 https://www.rameshdas.dev/hire-agentic-ai-engineer-tokyo.html
 https://www.rameshdas.dev/hire-agentic-ai-engineer-toronto.html
 https://www.rameshdas.dev/hire-agentic-ai-engineer-umm-al-quwain.html
-
 https://www.rameshdas.dev/hire-agentic-ai-engineer-umm-salal.html
 https://www.rameshdas.dev/hire-agentic-ai-engineer-vancouver.html
 https://www.rameshdas.dev/hire-agentic-ai-engineer-yanbu.html
@@ -202,7 +186,6 @@ https://www.rameshdas.dev/hire-backend-architect-khobar.html
 https://www.rameshdas.dev/hire-backend-architect-khor-fakkan.html
 https://www.rameshdas.dev/hire-backend-architect-kobe.html
 https://www.rameshdas.dev/hire-backend-architect-kyoto.html
-
 https://www.rameshdas.dev/hire-backend-architect-london.html
 https://www.rameshdas.dev/hire-backend-architect-lusail.html
 https://www.rameshdas.dev/hire-backend-architect-madinat-ash-shamal.html
@@ -302,7 +285,6 @@ https://www.rameshdas.dev/hire-backend-engineer-vancouver.html
 https://www.rameshdas.dev/hire-backend-engineer-yanbu.html
 https://www.rameshdas.dev/hire-backend-engineer-yokohama.html
 https://www.rameshdas.dev/hire-backend-engineer.html
-
 https://www.rameshdas.dev/hire-custom-web-development-company.html
 https://www.rameshdas.dev/hire-developers-australia.html
 https://www.rameshdas.dev/hire-developers-canada.html
@@ -402,7 +384,6 @@ https://www.rameshdas.dev/hire-full-stack-developer-fukuoka.html
 https://www.rameshdas.dev/hire-full-stack-developer-hamburg.html
 https://www.rameshdas.dev/hire-full-stack-developer-hiroshima.html
 https://www.rameshdas.dev/hire-full-stack-developer-jeddah.html
-
 https://www.rameshdas.dev/hire-full-stack-developer-jurong-east.html
 https://www.rameshdas.dev/hire-full-stack-developer-khobar.html
 https://www.rameshdas.dev/hire-full-stack-developer-khor-fakkan.html
@@ -502,7 +483,6 @@ https://www.rameshdas.dev/hire-llm-engineer-tabuk.html
 https://www.rameshdas.dev/hire-llm-engineer-tampines.html
 https://www.rameshdas.dev/hire-llm-engineer-tokyo.html
 https://www.rameshdas.dev/hire-llm-engineer-toronto.html
-
 https://www.rameshdas.dev/hire-llm-engineer-umm-al-quwain.html
 https://www.rameshdas.dev/hire-llm-engineer-umm-salal.html
 https://www.rameshdas.dev/hire-llm-engineer-vancouver.html
@@ -572,7 +552,6 @@ https://www.rameshdas.dev/hire-rag-developer-umm-salal.html
 https://www.rameshdas.dev/hire-rag-developer-vancouver.html
 https://www.rameshdas.dev/hire-rag-developer-yanbu.html
 https://www.rameshdas.dev/hire-rag-developer-yokohama.html
-https://www.rameshdas.dev/how-custom-web-development-agencies-price-projects.html
 https://www.rameshdas.dev/pages/ai-automation-engineer/
 https://www.rameshdas.dev/pages/best-custom-website-developer/
 https://www.rameshdas.dev/pages/chatbot-developer/
@@ -585,12 +564,7 @@ https://www.rameshdas.dev/pages/software-developer-to-hire/
 https://www.rameshdas.dev/pages/website-developer/
 https://www.rameshdas.dev/presentation.html
 https://www.rameshdas.dev/privacy.html
-https://www.rameshdas.dev/questions-to-ask-before-signing-web-development-agency-contract.html
-https://www.rameshdas.dev/security-features-custom-web-development-provider.html
 https://www.rameshdas.dev/services.html
 https://www.rameshdas.dev/sitemap.html
 https://www.rameshdas.dev/terms.html
-https://www.rameshdas.dev/timelines-for-custom-web-development-project.html
-https://www.rameshdas.dev/typical-deliverables-custom-web-development-project.html
-https://www.rameshdas.dev/what-to-look-for-hiring-custom-web-development-company.html
 https://www.rameshdas.dev/who-needs-custom-web-development.html

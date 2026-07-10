@@ -2,10 +2,9 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@context": "https://schema.org",
       "@type": "WebPage",
-      "name": "Hire a Remote Software Engineer | Senior Full-Stack & AI Engineer | Ramesh Das",
-      "description": "Hire Ramesh Das — a senior remote software engineer with 6+ years building production web apps, APIs, and AI systems. Async-first. Available globally. $29/hr or $1,999/mo retainer.",
+      "name": "Hire Remote Software Engineer | Full-Stack & AI | Ramesh Das",
+      "description": "Hire Ramesh Das — a senior remote software engineer with 6+ years building production web apps, APIs, and AI systems. Async-first. Available globally.",
       "url": "https://www.rameshdas.dev/pages/hire-remote-software-engineer/",
       "author": {
         "@type": "Person",
@@ -19,8 +18,7 @@
           "https://www.youtube.com/@mrdasdeveloper",
           "https://www.instagram.com/mrdasdeveloper",
           "https://www.facebook.com/mrdasdeveloper",
-          "https://medium.com/@mrdasdeveloper",
-          "https://stackoverflow.com/users/mrdasdeveloper",
+          "https://mrdasdeveloper.medium.com",
           "https://www.tiktok.com/@mrdasdeveloper",
           "https://www.upwork.com/freelancers/rameshdas"
         ]
@@ -37,8 +35,7 @@
           "https://www.youtube.com/@mrdasdeveloper",
           "https://www.instagram.com/mrdasdeveloper",
           "https://www.facebook.com/mrdasdeveloper",
-          "https://medium.com/@mrdasdeveloper",
-          "https://stackoverflow.com/users/mrdasdeveloper",
+          "https://mrdasdeveloper.medium.com",
           "https://www.tiktok.com/@mrdasdeveloper",
           "https://www.upwork.com/freelancers/rameshdas"
         ]
@@ -49,11 +46,14 @@
       "isPartOf": {
         "@type": "WebSite",
         "url": "https://www.rameshdas.dev"
+      },
+      "mainEntity": {
+        "@id": "https://www.rameshdas.dev/pages/hire-remote-software-engineer/#faq"
       }
     },
     {
-      "@context": "https://schema.org",
       "@type": "FAQPage",
+      "@id": "https://www.rameshdas.dev/pages/hire-remote-software-engineer/#faq",
       "mainEntity": [
         {
           "@type": "Question",
@@ -218,10 +218,9 @@
       ]
     },
     {
-      "@context": "https://schema.org",
       "@type": "Service",
       "name": "Hire a Senior Remote Software Engineer",
-      "description": "Hire Ramesh Das — a senior remote software engineer with 6+ years building production web apps, APIs, and AI systems. Async-first. Available globally. $29/hr or $1,999/mo retainer.",
+      "description": "Hire Ramesh Das — a senior remote software engineer with 6+ years building production web apps, APIs, and AI systems. Async-first. Available globally.",
       "provider": {
         "@type": "Person",
         "name": "Ramesh Kumar Das",
@@ -234,8 +233,7 @@
           "https://www.youtube.com/@mrdasdeveloper",
           "https://www.instagram.com/mrdasdeveloper",
           "https://www.facebook.com/mrdasdeveloper",
-          "https://medium.com/@mrdasdeveloper",
-          "https://stackoverflow.com/users/mrdasdeveloper",
+          "https://mrdasdeveloper.medium.com",
           "https://www.tiktok.com/@mrdasdeveloper",
           "https://www.upwork.com/freelancers/rameshdas"
         ]
@@ -244,7 +242,6 @@
       "areaServed": "Worldwide"
     },
     {
-      "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
         {

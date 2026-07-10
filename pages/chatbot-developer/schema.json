@@ -2,10 +2,9 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@context": "https://schema.org",
       "@type": "WebPage",
-      "name": "Hire a Chatbot Developer | LLM-Powered, RAG, Multi-Platform | Ramesh Das",
-      "description": "Hire Ramesh Das — a senior chatbot developer specializing in LLM-powered conversational AI, RAG knowledge base chatbots, customer support automation, and multi-platform chatbot integration. $29/hr.",
+      "name": "Hire a Chatbot Developer | LLM & RAG | Ramesh Das",
+      "description": "Hire Ramesh Das — a senior chatbot developer specializing in LLM-powered conversational AI, RAG knowledge base chatbots, customer support automation",
       "url": "https://www.rameshdas.dev/pages/chatbot-developer/",
       "author": {
         "@type": "Person",
@@ -19,8 +18,7 @@
           "https://www.youtube.com/@mrdasdeveloper",
           "https://www.instagram.com/mrdasdeveloper",
           "https://www.facebook.com/mrdasdeveloper",
-          "https://medium.com/@mrdasdeveloper",
-          "https://stackoverflow.com/users/mrdasdeveloper",
+          "https://mrdasdeveloper.medium.com",
           "https://www.tiktok.com/@mrdasdeveloper",
           "https://www.upwork.com/freelancers/rameshdas"
         ]
@@ -37,8 +35,7 @@
           "https://www.youtube.com/@mrdasdeveloper",
           "https://www.instagram.com/mrdasdeveloper",
           "https://www.facebook.com/mrdasdeveloper",
-          "https://medium.com/@mrdasdeveloper",
-          "https://stackoverflow.com/users/mrdasdeveloper",
+          "https://mrdasdeveloper.medium.com",
           "https://www.tiktok.com/@mrdasdeveloper",
           "https://www.upwork.com/freelancers/rameshdas"
         ]
@@ -49,11 +46,14 @@
       "isPartOf": {
         "@type": "WebSite",
         "url": "https://www.rameshdas.dev"
+      },
+      "mainEntity": {
+        "@id": "https://www.rameshdas.dev/pages/chatbot-developer/#faq"
       }
     },
     {
-      "@context": "https://schema.org",
       "@type": "FAQPage",
+      "@id": "https://www.rameshdas.dev/pages/chatbot-developer/#faq",
       "mainEntity": [
         {
           "@type": "Question",
@@ -218,10 +218,9 @@
       ]
     },
     {
-      "@context": "https://schema.org",
       "@type": "Service",
       "name": "Hire a Senior Chatbot Developer",
-      "description": "Hire Ramesh Das — a senior chatbot developer specializing in LLM-powered conversational AI, RAG knowledge base chatbots, customer support automation, and multi-platform chatbot integration. $29/hr.",
+      "description": "Hire Ramesh Das — a senior chatbot developer specializing in LLM-powered conversational AI, RAG knowledge base chatbots, customer support automation",
       "provider": {
         "@type": "Person",
         "name": "Ramesh Kumar Das",
@@ -234,8 +233,7 @@
           "https://www.youtube.com/@mrdasdeveloper",
           "https://www.instagram.com/mrdasdeveloper",
           "https://www.facebook.com/mrdasdeveloper",
-          "https://medium.com/@mrdasdeveloper",
-          "https://stackoverflow.com/users/mrdasdeveloper",
+          "https://mrdasdeveloper.medium.com",
           "https://www.tiktok.com/@mrdasdeveloper",
           "https://www.upwork.com/freelancers/rameshdas"
         ]
@@ -244,7 +242,6 @@
       "areaServed": "Worldwide"
     },
     {
-      "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
         {

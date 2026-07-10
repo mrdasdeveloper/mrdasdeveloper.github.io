@@ -3,62 +3,68 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
+    <loc>https://www.rameshdas.dev/pages/</loc>
+    <lastmod>2026-07-10T05:05:46+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.88</priority>
+  </url>
+  <url>
     <loc>https://www.rameshdas.dev/pages/ai-automation-engineer/</loc>
-    <lastmod>2026-07-09T10:56:09+00:00</lastmod>
+    <lastmod>2026-07-10T05:05:46+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
     <loc>https://www.rameshdas.dev/pages/best-custom-website-developer/</loc>
-    <lastmod>2026-07-09T10:56:09+00:00</lastmod>
+    <lastmod>2026-07-10T05:05:46+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.93</priority>
   </url>
   <url>
     <loc>https://www.rameshdas.dev/pages/chatbot-developer/</loc>
-    <lastmod>2026-07-09T10:56:09+00:00</lastmod>
+    <lastmod>2026-07-10T05:05:46+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.94</priority>
   </url>
   <url>
     <loc>https://www.rameshdas.dev/pages/hire-full-stack-developer/</loc>
-    <lastmod>2026-07-09T10:56:09+00:00</lastmod>
+    <lastmod>2026-07-10T05:05:46+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
     <loc>https://www.rameshdas.dev/pages/hire-nodejs-developer/</loc>
-    <lastmod>2026-07-09T10:56:09+00:00</lastmod>
+    <lastmod>2026-07-10T05:05:46+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.93</priority>
   </url>
   <url>
     <loc>https://www.rameshdas.dev/pages/hire-python-developer/</loc>
-    <lastmod>2026-07-09T10:56:09+00:00</lastmod>
+    <lastmod>2026-07-10T05:05:46+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.94</priority>
   </url>
   <url>
     <loc>https://www.rameshdas.dev/pages/hire-remote-software-engineer/</loc>
-    <lastmod>2026-07-09T10:56:09+00:00</lastmod>
+    <lastmod>2026-07-10T05:05:46+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.93</priority>
   </url>
   <url>
     <loc>https://www.rameshdas.dev/pages/hire-saas-developer/</loc>
-    <lastmod>2026-07-09T10:56:09+00:00</lastmod>
+    <lastmod>2026-07-10T05:05:46+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.94</priority>
   </url>
   <url>
     <loc>https://www.rameshdas.dev/pages/software-developer-to-hire/</loc>
-    <lastmod>2026-07-09T10:56:09+00:00</lastmod>
+    <lastmod>2026-07-10T05:05:46+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.94</priority>
   </url>
   <url>
     <loc>https://www.rameshdas.dev/pages/website-developer/</loc>
-    <lastmod>2026-07-09T10:56:09+00:00</lastmod>
+    <lastmod>2026-07-10T05:05:46+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.93</priority>
   </url>

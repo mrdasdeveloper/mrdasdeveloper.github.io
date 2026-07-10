@@ -1,0 +1,24 @@
+{
+  "default_provider": "openai",
+  "target_words_per_page": 2000,
+  "batch_size": 5,
+  "batch_delay_seconds": 1.5,
+  "temperature": 0.4,
+  "max_tokens": 16000,
+  "providers": {
+    "openai": {
+      "api_key_env": "OPENAI_API_KEY",
+      "base_url": "https://api.openai.com/v1",
+      "model": "gpt-4o-mini"
+    },
+    "anthropic": {
+      "api_key_env": "ANTHROPIC_API_KEY",
+      "model": "claude-sonnet-4-20250514"
+    },
+    "deepseek": {
+      "api_key_env": "DEEPSEEK_API_KEY",
+      "base_url": "https://api.deepseek.com/v1",
+      "model": "deepseek-chat"
+    }
+  }
+}

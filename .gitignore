@@ -86,9 +86,8 @@ indexing_runs.log
 indexing_runs_history.jsonl
 *_sitemap_output.txt
 
-# ============================================================
-# Python
-# ============================================================
+ai_config.json
+ai_cache/
 *.py
 __pycache__/
 *.py[cod]
