@@ -1,6 +1,6 @@
-# urls.txt — generated 2026-07-10T05:05:46+00:00
+# urls.txt — generated 2026-07-10T05:33:32+00:00
 # Site: https://www.rameshdas.dev
-# Total: 566
+# Total: 567
 
 https://www.rameshdas.dev/
 https://www.rameshdas.dev/agentic-ai-developer.html
@@ -552,6 +552,7 @@ https://www.rameshdas.dev/hire-rag-developer-umm-salal.html
 https://www.rameshdas.dev/hire-rag-developer-vancouver.html
 https://www.rameshdas.dev/hire-rag-developer-yanbu.html
 https://www.rameshdas.dev/hire-rag-developer-yokohama.html
+https://www.rameshdas.dev/pages/
 https://www.rameshdas.dev/pages/ai-automation-engineer/
 https://www.rameshdas.dev/pages/best-custom-website-developer/
 https://www.rameshdas.dev/pages/chatbot-developer/

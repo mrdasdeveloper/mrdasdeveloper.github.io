@@ -88,6 +88,7 @@ indexing_runs_history.jsonl
 
 ai_config.json
 ai_cache/
+ahrefs_*
 *.py
 __pycache__/
 *.py[cod]
