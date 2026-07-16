@@ -1,6 +1,6 @@
 # Ramesh Das — https://www.rameshdas.dev/
 # Portfolio: open to all search engines, AI assistants, and research crawlers.
-# Updated: 2026-07-08
+# Updated: 2026-07-16
 
 # ── Default: allow all crawlers ──────────────────────────────────
 User-agent: *
@@ -46,6 +46,7 @@ Disallow: /security-features-custom-web-development-provider.html
 Disallow: /timelines-for-custom-web-development-project.html
 Disallow: /typical-deliverables-custom-web-development-project.html
 Disallow: /what-to-look-for-hiring-custom-web-development-company.html
+Disallow: /ai-backend-architecture-microservices-engineering-guide.html
 
 
 

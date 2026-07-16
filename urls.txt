@@ -4,7 +4,7 @@
 
 https://www.rameshdas.dev/
 https://www.rameshdas.dev/agentic-ai-developer.html
-https://www.rameshdas.dev/ai-backend-architecture-microservices-engineering-guide.html
+https://www.rameshdas.dev/microservices-architecture.html
 https://www.rameshdas.dev/business-automation.html
 https://www.rameshdas.dev/contact.html
 https://www.rameshdas.dev/custom-web-development-client-involvement.html
@@ -102,6 +102,8 @@ https://www.rameshdas.dev/hire-ai-full-stack-engineer-al-wakrah.html
 https://www.rameshdas.dev/hire-ai-full-stack-engineer-austin.html
 https://www.rameshdas.dev/hire-ai-full-stack-engineer-berlin.html
 https://www.rameshdas.dev/hire-ai-full-stack-engineer-boston.html
+
+
 https://www.rameshdas.dev/hire-ai-full-stack-engineer-brisbane.html
 https://www.rameshdas.dev/hire-ai-full-stack-engineer-cambridge.html
 https://www.rameshdas.dev/hire-ai-full-stack-engineer-dammam.html

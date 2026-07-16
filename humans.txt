@@ -70,7 +70,7 @@
 	  Agentic AI Developer  — https://www.rameshdas.dev/agentic-ai-developer.html
 	  Full-Stack AI Engineer — https://www.rameshdas.dev/full-stack-ai-engineer.html
 	  Business Automation   — https://www.rameshdas.dev/business-automation.html
-	  Backend Architecture  — https://www.rameshdas.dev/ai-backend-architecture-microservices-engineering-guide.html
+	  Backend Architecture  — https://www.rameshdas.dev/microservices-architecture.html
 
 	Freelance & contract engagements
 	  https://www.rameshdas.dev/freelancer.html

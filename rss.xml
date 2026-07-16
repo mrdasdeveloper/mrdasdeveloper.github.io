@@ -65,8 +65,8 @@
     </item>
     <item>
       <title>AI Backend Architecture &amp; Microservices Guide | Ramesh Das</title>
-      <link>https://www.rameshdas.dev/ai-backend-architecture-microservices-engineering-guide.html</link>
-      <guid isPermaLink="true">https://www.rameshdas.dev/ai-backend-architecture-microservices-engineering-guide.html</guid>
+      <link>https://www.rameshdas.dev/microservices-architecture.html</link>
+      <guid isPermaLink="true">https://www.rameshdas.dev/microservices-architecture.html</guid>
       <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
       <description>AI backend architecture guide: delivery pipeline, FastAPI, Next.js, React, PostgreSQL, Redis, RBAC dashboards &amp; microservices — production-ready. By Ramesh Das.</description>
       <category>Core</category>
