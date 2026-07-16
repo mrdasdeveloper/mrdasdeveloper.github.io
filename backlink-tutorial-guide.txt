@@ -1,0 +1,193 @@
+BACKLINK TUTORIAL & GUIDE
+Generated 2026-07-16 · Ramesh Das backlink tracker
+========================================================================
+
+
+Priority 1 — Learn First (Highest ROI)
+------------------------------------------------
+1. What Are Backlinks?  ⭐⭐⭐⭐⭐
+   Backlinks are links from another website to yours. Search engines treat them as 'votes of trust' — the more quality sites that link to you, the stronger your authority. They also send referral traffic and help Google discover new pages.
+   Watch: What are Backlinks and Why are They Important? (Ahrefs)
+         https://www.youtube.com/watch?v=O5L9mBceJ7s
+   Read:  https://ahrefs.com/blog/what-are-backlinks/
+   Tracker: Start with Section A profiles + Section R high-DA sites; mark Status as you earn each link.
+
+2. How Google Evaluates Backlinks  ⭐⭐⭐⭐⭐
+   Google does not count all links equally. It weighs relevance, trust, anchor text, link placement (editorial vs footer), and whether the link is followed. Quality and context beat quantity — one link from a trusted niche site beats dozens of spam links.
+   Watch: Complete SEO Course — Google Ranking Factors (Ahrefs)
+         https://www.youtube.com/watch?v=xsVTqzratPs
+   Read:  https://developers.google.com/search/docs/fundamentals/seo-starter-guide
+   Tracker: Prioritize High-priority rows and country hubs (Link Targets sheet) for relevance.
+
+3. DoFollow vs NoFollow Links  ⭐⭐⭐⭐⭐
+   DoFollow links can pass ranking signals; nofollow/sponsored/UGC links usually do not pass PageRank but still appear in Search Console and can drive traffic. Aim for followed editorial links; nofollow from big platforms (LinkedIn, Medium) still help discovery.
+   Watch: Nofollow Links — Ask Google Webmasters (John Mueller)
+         https://www.youtube.com/watch?v=iZwv8R64x2E
+   Read:  https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links
+   Tracker: In Notes, record if a live link is dofollow; prefer directories that allow followed links.
+
+4. Anchor Text Optimization  ⭐⭐⭐⭐⭐
+   Anchor text is the clickable words in a link. Use natural variety: brand name (Ramesh Das), URL, and descriptive phrases — not the same exact keyword on every link. Over-optimized anchors can trigger spam filters.
+   Watch: 7 Attributes of High Quality Backlinks (Ahrefs)
+         https://www.youtube.com/watch?v=E3mDlVutW_o
+   Read:  https://ahrefs.com/blog/anchor-text/
+   Tracker: Use Link Target URL column for hire pages; vary anchor text per country hub.
+
+5. Editorial (Natural) Backlinks  ⭐⭐⭐⭐⭐
+   Editorial links are placed by a writer because your content genuinely helped — not because you paid or swapped links. They sit inside article body copy and are the highest-trust link type Google rewards.
+   Watch: 7 Attributes of High Quality Backlinks (Ahrefs)
+         https://www.youtube.com/watch?v=E3mDlVutW_o
+   Read:  https://ahrefs.com/blog/natural-links/
+   Tracker: Target Article Submission + Blog Creation rows; publish useful hire/dev content worth citing.
+
+6. Contextual Backlinks  ⭐⭐⭐⭐⭐
+   A contextual link appears inside relevant paragraph text (not a sidebar/footer list). The surrounding topic should match your page — e.g. a 'hire React developer' link inside a software outsourcing article.
+   Watch: How to Use Ahrefs — Content Link Type Filter
+         https://www.youtube.com/watch?v=_oU8lclN114
+   Read:  https://ahrefs.com/blog/contextual-backlinks/
+   Tracker: Guest posts and niche edits should place links in-body; note placement in Notes.
+
+7. Guest Posting  ⭐⭐⭐⭐⭐
+   Write original articles for other sites in your niche with one natural link back to your hire hub or portfolio. Find prospects via Content Explorer, pitch unique angles, and avoid mass low-quality guest post farms.
+   Watch: Guest Posting at Scale — High Quality Backlinks (Ahrefs)
+         https://www.youtube.com/watch?v=aQK1Vbgb-RY
+   Read:  https://ahrefs.com/blog/guest-blogging/
+   Tracker: Filter Tracker by Action = Article Submission; work country blogs in Q/R sections.
+
+8. Competitor Backlink Analysis  ⭐⭐⭐⭐⭐
+   Enter a competitor domain in Ahrefs/Semrush Site Explorer → Backlinks. See who links to them, which pages earn links, and anchor patterns. Export prospects you can also pitch.
+   Watch: Official Ahrefs Tutorial — Competitor Backlinks (Ahrefs)
+         https://www.youtube.com/watch?v=x5hH_lt8Guw
+   Read:  https://ahrefs.com/blog/competitor-backlinks/
+   Tracker: Add missing competitor-linked domains to backlink-sites.txt Section R, then rebuild.
+
+9. Broken Link Building  ⭐⭐⭐⭐⭐
+   Find 404 pages that still have backlinks, recreate (or improve) that topic on your site, then email linking sites offering your page as a replacement. High conversion when done with personalized outreach.
+   Watch: Broken Link Building in Action — 28% Conversion (Ahrefs)
+         https://www.youtube.com/watch?v=IOSrx95e4lo
+   Read:  https://ahrefs.com/blog/broken-link-building/
+   Tracker: Use hire guides as replacement content; log outreach in Notes + In Progress status.
+
+10. Resource Page Link Building  ⭐⭐⭐⭐⭐
+   Resource pages list useful links on a topic ('best developer portfolios', 'hire remote devs'). Find them with Google operators + Ahrefs referring URL filters (resources.html, links.php), then pitch your page as a worthy addition.
+   Watch: Ahrefs Tutorial — Resource Page Prospecting
+         https://www.youtube.com/watch?v=x5hH_lt8Guw
+   Read:  https://ahrefs.com/blog/resource-page-link-building/
+   Tracker: Pitch country hire hub URLs from Link Targets sheet to local resource lists.
+
+11. Digital PR & HARO-style Link Building  ⭐⭐⭐⭐⭐
+   Earn editorial links by giving journalists something newsworthy: original data, expert quotes, or timely commentary. HARO/Qwoted connect you to reporter requests; digital PR uses surveys and research that news sites want to cite.
+   Watch: Digital PR — Original Research Backlinks at Scale
+         https://www.youtube.com/watch?v=VH9rg96gz20
+   Read:  https://ahrefs.com/blog/digital-pr/
+   Tracker: Pitch hire-market stats (rates, remote hiring trends) to tech/business press.
+
+12. Link Outreach Strategy  ⭐⭐⭐⭐⭐
+   Segment prospects, personalize the first line, explain the benefit to their readers, and keep emails short. Hybrid templates work when each segment shares traits. Follow up once — never sound like mass spam.
+   Watch: Outreach Templates That Don't Sound Templated (Ahrefs)
+         https://www.youtube.com/watch?v=DmvSgEjs7Cg
+   Read:  https://ahrefs.com/blog/link-building-outreach/
+   Tracker: Track each outreach site in Tracker; use Submitted / Pending → Live — Link Verified.
+
+13. Backlink Audit  ⭐⭐⭐⭐⭐
+   Review all links pointing to your domain: new, lost, broken, and suspicious. Fix broken targets with redirects, reclaim lost links, and disavow only clear spam after manual review.
+   Watch: Manage Backlink Profiles with Ahrefs — Full Guide
+         https://www.youtube.com/watch?v=i1M8HqW3VHM
+   Read:  https://ahrefs.com/blog/backlink-audit/
+   Tracker: Monthly: compare GSC links vs Tracker Live rows; fix 404s on linked hire pages.
+
+14. Toxic Links & Google Penalties  ⭐⭐⭐⭐⭐
+   Toxic links come from spam networks, irrelevant foreign sites, or paid link schemes. A manual action means Google flagged unnatural links. Clean up first, then disavow only what you cannot remove.
+   Watch: Unnatural Links — Google Search Central
+         https://www.youtube.com/watch?v=6UFHCw4Q_FQ
+   Read:  https://ahrefs.com/blog/toxic-backlinks/
+   Tracker: Skip spam directories in Tracker; mark Skip / Not Relevant for toxic prospects.
+
+15. Google Search Console Backlinks  ⭐⭐⭐⭐⭐
+   GSC → Links shows top linking sites, top linked pages, and anchor text Google sees. Free but limited — use it to verify live links and find pages that need more internal links.
+   Watch: How to Use Google Search Console for SEO (Ahrefs)
+         https://www.youtube.com/watch?v=FXVEb_eklhk
+   Read:  https://support.google.com/webmasters/answer/9049606
+   Tracker: Cross-check Live — Link Verified rows against GSC External links report.
+
+16. Ahrefs Backlink Tutorial  ⭐⭐⭐⭐⭐
+   Ahrefs Site Explorer is the core tool: Backlinks report, Best by Links, Broken links, Content Explorer, and Internal Link Opportunities. Covers competitor research and broken link building in one workflow.
+   Watch: Official Ahrefs Tutorial — Full SEO & Link Building
+         https://www.youtube.com/watch?v=x5hH_lt8Guw
+   Read:  https://ahrefs.com/academy
+   Tracker: Use DR/UR filters to vet Section R sites before submitting profiles.
+
+17. Semrush Backlink Tutorial  ⭐⭐⭐⭐⭐
+   Semrush Backlink Analytics shows referring domains, anchors, and toxicity. Backlink Gap finds sites linking to competitors but not you. Link Building Tool manages outreach lists.
+   Watch: Semrush Backlink Analytics & Audit Tutorial
+         https://www.youtube.com/watch?v=oh5aFrCosgg
+   Read:  https://www.semrush.com/blog/backlink-analytics/
+   Tracker: Run Backlink Gap on competitor dev portfolios; add gap domains to tracker.
+
+
+Priority 2 — Very Useful
+------------------------------------------------
+18. Internal Linking Strategy  ⭐⭐⭐⭐
+   Link related pages on your own site to pass authority and help Google understand structure. Every hire hub should link to portfolio, blog posts, and related country pages.
+   Watch: GSC + Internal Links — Ahrefs GSC Guide
+         https://www.youtube.com/watch?v=FXVEb_eklhk
+   Read:  https://ahrefs.com/blog/internal-links-for-seo/
+   Tracker: Use Link Targets sheet URLs; add internal links from blog → country hire pages.
+
+19. Skyscraper Technique  ⭐⭐⭐⭐
+   Find popular content with many backlinks, publish something clearly better (deeper, fresher, better design), then outreach to everyone who linked to the original.
+   Watch: Skyscraper Technique — 59% More Traffic (Backlinko/Ahrefs)
+         https://www.youtube.com/watch?v=263xIymvLl4
+   Read:  https://ahrefs.com/blog/skyscraper-technique/
+   Tracker: Upgrade top hire guides, then outreach using competitor backlink lists.
+
+20. Link Reclamation  ⭐⭐⭐⭐
+   Recover value from links pointing to deleted/broken pages on your site (redirect or restore), or ask sites to update old URLs to your new hire hub links.
+   Watch: Ahrefs — Restore Lost Link Equity from 404s
+         https://www.youtube.com/watch?v=x5hH_lt8Guw
+   Read:  https://ahrefs.com/blog/link-reclamation/
+   Tracker: Redirect old URLs to matching country hub; email sites linking to dead pages.
+
+21. Brand Mentions  ⭐⭐⭐⭐
+   When sites mention 'Ramesh Das' or your brand without linking, ask politely for a link to your homepage or relevant hire page. Easier conversion than cold outreach.
+   Watch: Find Unlinked Brand Mentions in Minutes (Ahrefs)
+         https://www.youtube.com/watch?v=S0ZZ8T_AkyA
+   Read:  https://ahrefs.com/blog/unlinked-mentions/
+   Tracker: Search Content Explorer for brand mentions; convert to Profile/Live links.
+
+22. Link Velocity  ⭐⭐⭐⭐
+   Link velocity is how fast you gain (or lose) backlinks over time. Sudden spikes of spammy links look unnatural; steady growth from diverse sites is safer. Quality beats speed.
+   Watch: SEO Course — Backlinks & Sustainable Growth (Ahrefs)
+         https://www.youtube.com/watch?v=xsVTqzratPs
+   Read:  https://ahrefs.com/blog/link-velocity/
+   Tracker: Spread submissions across weeks; don't blast 100 directories in one day.
+
+23. Domain Authority (DA) vs Domain Rating (DR)  ⭐⭐⭐⭐
+   DA (Moz) and DR (Ahrefs) estimate site strength from backlinks — different scales, same idea. Use them to compare prospects, not as Google ranking scores. Section R filters DA≥70, PA≥55.
+   Watch: DR & Link Quality — Ahrefs Attributes Video
+         https://www.youtube.com/watch?v=E3mDlVutW_o
+   Read:  https://ahrefs.com/blog/domain-rating/
+   Tracker: Prioritize Section R + High priority rows; ignore fake DA inflation sites.
+
+24. Topical Authority  ⭐⭐⭐⭐
+   Sites that consistently publish and earn links on one topic (e.g. software development hiring) build topical authority. Your links matter more when the linking page is niche-relevant.
+   Watch: Topical Relevance in Backlinks (Ahrefs)
+         https://www.youtube.com/watch?v=E3mDlVutW_o
+   Read:  https://ahrefs.com/blog/topical-authority/
+   Tracker: Focus country tabs (US, UK, DE…) on locally relevant dev/tech directories.
+
+25. High Authority Backlinks  ⭐⭐⭐⭐
+   High-authority links come from trusted sites with strong backlink profiles and real traffic. Seven checks: relevance, authority, traffic, editorial placement, follow status, anchor naturalness, and low outbound links on the page.
+   Watch: 7 Attributes of High Quality Backlinks (Ahrefs)
+         https://www.youtube.com/watch?v=E3mDlVutW_o
+   Read:  https://ahrefs.com/blog/high-quality-backlinks/
+   Tracker: Section R is pre-filtered for high DA/PA; verify manually before investing time.
+
+26. Niche Edit (Link Insertions)  ⭐⭐⭐⭐
+   Ask a site owner to add your link into an existing published article where it fits naturally. Faster than guest posts but must add real value to readers — not random insertions.
+   Watch: Advanced Link Building Course Overview (Ahrefs)
+         https://www.youtube.com/watch?v=1sCaEIIwMQ4
+   Read:  https://ahrefs.com/blog/niche-edits/
+   Tracker: Pitch insertions into existing dev/hiring articles; note URL in Link Target column.
+
+Rebuild: python3 build_backlink_dashboard.py

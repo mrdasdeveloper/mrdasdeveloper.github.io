@@ -11,6 +11,8 @@ Allow: /manifest.json
 Allow: /robots.txt
 Allow: /llms.txt
 Allow: /llms-full.txt
+Allow: /ads.txt
+Allow: /app-ads.txt
 Allow: /mrdasdeveloper-profile-image.png
 Allow: /og-image.jpg
 Allow: /og-image-square.jpg

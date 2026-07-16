@@ -84,6 +84,15 @@ indexing_runs.log
 indexing_runs_history.jsonl
 *_sitemap_output.txt
 
+# ============================================================
+# Backlink outreach — private working lists & trackers
+# ============================================================
+backlink-sites.txt
+backlink-status-tracker.xlsx
+backlink-dashboard.html
+backlink-data.json
+build_backlink_dashboard.py
+
 ai_config.json
 ai_cache/
 ahrefs_*
