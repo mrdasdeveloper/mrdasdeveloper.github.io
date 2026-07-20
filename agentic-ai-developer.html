@@ -512,6 +512,25 @@ gtag('js',new Date());gtag('config','G-6WJ5FBZGV6');</script>
 
   <hr />
 
+  <section class="section" id="use-cases">
+    <div class="section-header">
+      <h2>Agentic AI Production Use Cases</h2>
+      <p>Real-world examples of multi-agent systems and tool-calling LLMs delivering business value.</p>
+    </div>
+    <div class="prose">
+      <h3>1. Autonomous Data Research & Reporting</h3>
+      <p>Instead of manual data aggregation, an agentic AI system can be given a high-level goal, such as "Compile a competitive analysis of three main competitors." The agent uses search tools to find recent news, scrapes pricing pages, processes financial documents using OCR and RAG, and synthesizes the findings into a cohesive report. By using LangGraph, the system can implement a review loop where a "Critique Agent" checks the draft for missing data and prompts the "Research Agent" to find more.</p>
+      
+      <h3>2. Intelligent Customer Support Escalation</h3>
+      <p>Standard chatbots fail when faced with complex customer issues. An agentic customer support system uses tool-calling to check order statuses via API, queries internal knowledge bases for policy details, and processes refunds idempotently if the policy allows. If the issue requires human judgment (e.g., a high-value dispute), the agent prepares a concise summary of all steps taken and escalates to a human, ensuring no context is lost and reducing handle time by up to 80%.</p>
+      
+      <h3>3. Multi-Agent Code Generation & Review</h3>
+      <p>In software development pipelines, agentic workflows can automate repetitive tasks. A "Coder Agent" writes the initial implementation based on a Jira ticket, while a "Testing Agent" writes unit tests and runs them. If tests fail, the error trace is fed back to the Coder Agent for a fix. This continuous loop, orchestrated via FastAPI and message queues, significantly accelerates development cycles while maintaining strict code quality guardrails.</p>
+    </div>
+  </section>
+
+  <hr />
+
   <section class="section" id="faq">
     <div class="section-header">
       <h2>FAQ — hiring an agentic AI developer</h2>
